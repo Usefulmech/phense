@@ -196,11 +196,14 @@
             <p class="font-bold text-[#1e1b18]" id="primary-driver-text">Elevation (Low Topography Basin)</p>
           </div>
 
-          <!-- Feature Meters -->
-          <div class="space-y-2.5 text-xs font-bold">
-            <div class="space-y-0.5">
-              <div class="flex justify-between text-[#51443c]">
-                <span>Rainfall Intensity</span>
+          <!-- Feature Meters with Physical Unit Badges -->
+          <div class="space-y-3 text-xs font-bold">
+            <div class="space-y-1">
+              <div class="flex justify-between items-center text-[#51443c]">
+                <span class="flex items-center gap-1">
+                  <span>Rainfall Intensity</span>
+                  <span id="unit-rainfall" class="text-[9px] font-normal text-[#805533] bg-[#f5ece7] px-1.5 py-0.5 rounded border border-[#d5c3b8]">--</span>
+                </span>
                 <span id="score-rainfall">85%</span>
               </div>
               <div class="w-full bg-[#e9e1dc] h-2 rounded-full overflow-hidden">
@@ -208,9 +211,12 @@
               </div>
             </div>
 
-            <div class="space-y-0.5">
-              <div class="flex justify-between text-[#51443c]">
-                <span>Elevation Vulnerability</span>
+            <div class="space-y-1">
+              <div class="flex justify-between items-center text-[#51443c]">
+                <span class="flex items-center gap-1">
+                  <span>Elevation Vulnerability</span>
+                  <span id="unit-elevation" class="text-[9px] font-normal text-[#805533] bg-[#f5ece7] px-1.5 py-0.5 rounded border border-[#d5c3b8]">--</span>
+                </span>
                 <span id="score-elevation">90%</span>
               </div>
               <div class="w-full bg-[#e9e1dc] h-2 rounded-full overflow-hidden">
@@ -218,9 +224,12 @@
               </div>
             </div>
 
-            <div class="space-y-0.5">
-              <div class="flex justify-between text-[#51443c]">
-                <span>River Distance Exposure</span>
+            <div class="space-y-1">
+              <div class="flex justify-between items-center text-[#51443c]">
+                <span class="flex items-center gap-1">
+                  <span>River Proximity Exposure</span>
+                  <span id="unit-river" class="text-[9px] font-normal text-[#805533] bg-[#f5ece7] px-1.5 py-0.5 rounded border border-[#d5c3b8]">--</span>
+                </span>
                 <span id="score-river">75%</span>
               </div>
               <div class="w-full bg-[#e9e1dc] h-2 rounded-full overflow-hidden">
@@ -228,9 +237,12 @@
               </div>
             </div>
 
-            <div class="space-y-0.5">
-              <div class="flex justify-between text-[#51443c]">
-                <span>Soil Saturation</span>
+            <div class="space-y-1">
+              <div class="flex justify-between items-center text-[#51443c]">
+                <span class="flex items-center gap-1">
+                  <span>Soil Saturation</span>
+                  <span id="unit-soil" class="text-[9px] font-normal text-[#805533] bg-[#f5ece7] px-1.5 py-0.5 rounded border border-[#d5c3b8]">--</span>
+                </span>
                 <span id="score-soil">80%</span>
               </div>
               <div class="w-full bg-[#e9e1dc] h-2 rounded-full overflow-hidden">
@@ -238,9 +250,12 @@
               </div>
             </div>
 
-            <div class="space-y-0.5">
-              <div class="flex justify-between text-[#51443c]">
-                <span>Drainage Inefficiency</span>
+            <div class="space-y-1">
+              <div class="flex justify-between items-center text-[#51443c]">
+                <span class="flex items-center gap-1">
+                  <span>Drainage Inefficiency</span>
+                  <span id="unit-drainage" class="text-[9px] font-normal text-[#805533] bg-[#f5ece7] px-1.5 py-0.5 rounded border border-[#d5c3b8]">--</span>
+                </span>
                 <span id="score-drainage">70%</span>
               </div>
               <div class="w-full bg-[#e9e1dc] h-2 rounded-full overflow-hidden">
@@ -355,6 +370,13 @@
       } else {
         tag.className = "text-[10px] font-black uppercase tracking-wider px-3 py-1 rounded-full bg-emerald-100 text-emerald-800 border border-emerald-300";
       }
+
+      // Populate physical unit badges
+      document.getElementById('unit-rainfall').innerText = `${params.rainfall_mm} mm`;
+      document.getElementById('unit-elevation').innerText = `${params.elevation_m}m ASL`;
+      document.getElementById('unit-river').innerText = `${params.river_distance_km} km`;
+      document.getElementById('unit-soil').innerText = (params.soil_type || '').toUpperCase();
+      document.getElementById('unit-drainage').innerText = (params.drainage || '').toUpperCase();
 
       if (data.feature_scores) {
         const fs = data.feature_scores;

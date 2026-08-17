@@ -63,11 +63,11 @@ The model's decisions correlate directly with established physical hydrological 
 
 | Rank | Feature | Importance | Physical Role |
 | :---: | :--- | :---: | :--- |
-| **1** | **Elevation (`elevation_m`)** | **33.90%** | **Top Driver**: Low-lying floodplains retain water longest |
-| **2** | **River Proximity (`river_distance_km`)** | **23.64%** | Direct exposure to riverbank overflow and backflow |
-| **3** | **Monthly Rainfall (`rainfall_mm`)** | **22.06%** | The primary precipitation trigger |
-| **4** | **Soil Type (`soil_type_enc`)** | **12.77%** | Infiltration capacity (Clay retains vs. Sandy drains) |
-| **5** | **Drainage Infrastructure (`drainage_enc`)** | **7.64%** | Egress capacity of culverts and gutters |
+| **1** | **Elevation (`elevation_m`)** | **34.37%** | **Top Driver**: Low-lying floodplains retain water longest |
+| **2** | **River Proximity (`river_distance_km`)** | **22.70%** | Direct exposure to riverbank overflow and backflow |
+| **3** | **Monthly Rainfall (`rainfall_mm`)** | **21.12%** | The primary precipitation trigger |
+| **4** | **Soil Type (`soil_type_enc`)** | **13.50%** | Infiltration capacity (Clay retains vs. Sandy drains) |
+| **5** | **Drainage Infrastructure (`drainage_enc`)** | **8.32%** | Egress capacity of culverts and gutters |
 
 ---
 
