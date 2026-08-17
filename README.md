@@ -135,14 +135,14 @@ phense/
 
 ---
 
-##  Quick Start Guide
+## Quick Start Guide
 
 ### 1. Prerequisites & Installation
 
 Clone the repository and install requirements:
 
 ```bash
-git clone https://github.com/your-username/phense.git
+git clone https://github.com/Usefulmech/phense.git
 cd phense
 pip install -r requirements.txt
 ```
