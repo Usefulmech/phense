@@ -360,7 +360,7 @@
         const fs = data.feature_scores;
         setBar('rainfall', fs.rainfall || 0.8);
         setBar('elevation', fs.elevation || 0.7);
-        setBar('river', fs.river_distance || 0.65);
+        setBar('river', fs.river !== undefined ? fs.river : (fs.river_distance || 0.65));
         setBar('soil', fs.soil || 0.75);
         setBar('drainage', fs.drainage || 0.6);
       }

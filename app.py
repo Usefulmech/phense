@@ -19,6 +19,20 @@ app = FastAPI(
     version="1.0.0",
 )
 
+@app.on_event("startup")
+def startup_event():
+    """Verify trained model binary exists on server startup; train automatically if missing."""
+    model_path = os.path.join(os.path.dirname(__file__), "models", "phense_model.pkl")
+    if not os.path.exists(model_path):
+        print("\n[BOOT WARNING] Model file models/phense_model.pkl not found. Training model now...")
+        try:
+            import train
+            train.main()
+        except Exception as e:
+            print(f"[BOOT ERROR] Automatic training failed: {e}")
+    else:
+        print("\n[BOOT OK] Phense Random Forest Classifier binary verified and ready.")
+
 # ── CORS ──────────────────────────────────────────────────────────────────────
 origins = os.getenv("ALLOWED_ORIGINS", "*").split(",")
 app.add_middleware(

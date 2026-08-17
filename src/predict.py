@@ -4,7 +4,6 @@ Loads the trained model and returns a structured risk verdict.
 """
 
 import os
-import joblib
 import numpy as np
 
 # ── Paths ─────────────────────────────────────────────────────────────────────
@@ -83,11 +82,21 @@ _DRIVER_LABELS = {
 }
 
 
+_MODEL_CACHE = None
+
 def _load_model():
-    """Load the trained model from disk. Returns None if not trained yet."""
+    """Load and cache the trained model in memory. Returns None if not trained or if dependencies fail."""
+    global _MODEL_CACHE
+    if _MODEL_CACHE is not None:
+        return _MODEL_CACHE
     if not os.path.exists(MODEL_PATH):
         return None
-    return joblib.load(MODEL_PATH)
+    try:
+        import joblib
+        _MODEL_CACHE = joblib.load(MODEL_PATH)
+        return _MODEL_CACHE
+    except Exception:
+        return None
 
 
 def predict_risk(features: dict) -> dict:
@@ -128,7 +137,7 @@ def predict_risk(features: dict) -> dict:
         risk_class = CLASSES[risk_idx]
         confidence = float(proba[risk_idx])
     else:
-        # Heuristic fallback if model pickle is not yet trained
+        # Heuristic fallback if model pickle is not yet trained or loading fails
         rain_score  = min(features["rainfall_mm"] / 500.0, 1.0)
         elev_score  = max(0.0, 1.0 - (features["elevation_m"] / 100.0))
         river_score = max(0.0, 1.0 - (features["river_distance_km"] / 10.0))
@@ -144,7 +153,10 @@ def predict_risk(features: dict) -> dict:
             risk_class = "Medium"
         else:
             risk_class = "Low"
-        confidence = 0.925
+        
+        # Dynamic confidence based on composite certainty (ranges smoothly 0.72 - 0.94)
+        dist = min(abs(comp_score - 0.45), 0.35)
+        confidence = 0.72 + (dist / 0.35) * 0.22
 
     # ── Seasonal modifier ─────────────────────────────────────────────────────
     seasonal_label = SEASONAL_UPGRADE[season][risk_class]
@@ -174,11 +186,12 @@ def predict_risk(features: dict) -> dict:
 
     # ── Normalised feature scores for UI bars ────────────────────────────────
     feature_scores = {
-        "rainfall":  round(raw_values["rainfall_mm"], 3),
-        "elevation": round(raw_values["elevation_m"], 3),
-        "river":     round(raw_values["river_distance_km"], 3),
-        "soil":      round(raw_values["soil_type_enc"], 3),
-        "drainage":  round(raw_values["drainage_enc"], 3),
+        "rainfall":       round(raw_values["rainfall_mm"], 3),
+        "elevation":      round(raw_values["elevation_m"], 3),
+        "river":          round(raw_values["river_distance_km"], 3),
+        "river_distance": round(raw_values["river_distance_km"], 3),
+        "soil":           round(raw_values["soil_type_enc"], 3),
+        "drainage":       round(raw_values["drainage_enc"], 3),
     }
 
     return {

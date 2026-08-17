@@ -23,10 +23,9 @@ ENV/
 .ipynb_checkpoints/
 *.ipynb_checkpoints/
 
-# Trained model artefacts (large binaries — commit only via Git LFS or DVC)
-models/*.pkl
-models/*.joblib
-# Keep metrics.json (small, human-readable)
+# Trained model artefacts
+!models/*.pkl
+!models/*.joblib
 !models/metrics.json
 
 # Raw data (too large for Git — document source in README instead)
