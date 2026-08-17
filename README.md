@@ -4,7 +4,7 @@
 
 [![3MTT Cohort](https://img.shields.io/badge/3MTT-NextGen%20Cohort-blue.svg)](https://3mtt.nitda.gov.ng/)
 [![Track](https://img.shields.io/badge/Track-AI%20%26%20Machine%20Learning-orange.svg)]()
-[![Model Accuracy](https://img.shields.io/badge/Model%20Accuracy-81.25%25-brightgreen.svg)]()
+[![Model Accuracy](https://img.shields.io/badge/Model%20Accuracy-82.35%25-brightgreen.svg)]()
 [![Backend](https://img.shields.io/badge/Backend-FastAPI-009688.svg)](https://fastapi.tiangolo.com/)
 
 **Fellow:** Adeniji Yusuf | `FE/24/5369659950`  
@@ -26,7 +26,7 @@ Designed for non-technical users across all 36 Nigerian states and the FCT, Phen
 Phense delivers a complete production-grade machine learning application:
 
 - **4-Pillar Real-World Data Pipeline**: Anchored strictly to real spatial coordinates, NASA SRTM 30m Digital Elevation Models, a vector database of 12 major Nigerian rivers (`data/reference/nigeria_rivers.json`), 774 LGA centroids (`data/reference/nigeria_lgas.json`), and NiMet climatological station records.
-- **Optimized Machine Learning Engine**: Built with `scikit-learn` using a tuned `RandomForestClassifier` with 5-fold Stratified K-Fold CV & GridSearchCV, achieving **81.25% Test Accuracy** and **81.20% Weighted F1-Score**.
+- **Optimized Machine Learning Engine**: Built with `scikit-learn` using a tuned `RandomForestClassifier` with 5-fold Stratified K-Fold CV & GridSearchCV, achieving **82.35% Test Accuracy** and **82.16% Weighted F1-Score**.
 - **Model Explainability & Risk Attribution**: Computes normalized feature contribution scores for every prediction, identifying the single primary risk driver (e.g., low elevation vs. river proximity) to provide targeted advisories.
 - **Production FastAPI Service**: High-performance asynchronous REST backend serving prediction models, live SRTM elevation lookups, spatial river proximity calculations, reverse-geocoding, and seasonal rainfall baselines.
 - **Modern Multi-Page Web Interface**: Responsive, glassmorphic UI across 5 dedicated views (`/`, `/assess`, `/results`, `/methodology`, `/about`) featuring 1-tap GPS auto-fill and real-time risk gauges.
@@ -42,9 +42,9 @@ Evaluated on a held-out 20% test dataset (272 real-grounded samples), Phense ach
 
 | Metric | Score |
 | :--- | :--- |
-| **Overall Test Accuracy** | **81.25%** |
-| **Weighted F1-Score** | **81.20%** |
-| **Best CV Accuracy (GridSearch)** | **81.23%** |
+| **Overall Test Accuracy** | **82.35%** |
+| **Weighted F1-Score** | **82.16%** |
+| **Best CV Accuracy (GridSearch)** | **81.62%** |
 | **Training Samples** | 1,088 |
 | **Testing Samples** | 272 |
 
@@ -52,10 +52,10 @@ Evaluated on a held-out 20% test dataset (272 real-grounded samples), Phense ach
 
 | Risk Class | Precision | Recall | F1-Score | Support |
 | :--- | :---: | :---: | :---: | :---: |
-| **Low** | 75.51% | 80.43% | **77.89%** | 46 |
-| **Medium** | 81.52% | 75.76% | **78.53%** | 99 |
-| **High** | 84.26% | 87.50% | **85.85%** | 104 |
-| **Critical** | 78.26% | 78.26% | **78.26%** | 23 |
+| **Low** | 78.26% | 78.26% | **78.26%** | 46 |
+| **Medium** | 80.61% | 79.80% | **80.20%** | 99 |
+| **High** | 85.32% | 89.42% | **87.32%** | 104 |
+| **Critical** | 88.89% | 69.57% | **78.05%** | 23 |
 
 ### Quantified Feature Importance
 
