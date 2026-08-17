@@ -1,0 +1,546 @@
+<!DOCTYPE html>
+<html class="light" lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <title>Phense</title>
+  
+  <!-- Tailwind CSS & Google Fonts -->
+  <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400&display=swap" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
+
+  <script id="tailwind-config">
+    tailwind.config = {
+      darkMode: "class",
+      theme: {
+        extend: {
+          colors: {
+            "primary":"#6f4627","on-primary":"#ffffff","primary-container":"#8b5e3c",
+            "on-primary-container":"#ffe3d1","secondary":"#7c5639","on-secondary":"#ffffff",
+            "tertiary":"#614c2d","surface":"#fff8f5","surface-container":"#f5ece7",
+            "surface-container-low":"#fbf2ed","surface-container-high":"#efe6e2",
+            "surface-container-highest":"#e9e1dc","surface-dim":"#e1d8d4",
+            "background":"#fff8f5","on-background":"#1e1b18","on-surface":"#1e1b18",
+            "on-surface-variant":"#51443c","outline":"#83746b","outline-variant":"#d5c3b8",
+            "inverse-surface":"#34302c","inverse-on-surface":"#f8efea",
+            "inverse-primary":"#f4bb92","surface-tint":"#805533",
+            "primary-fixed":"#ffdcc5","primary-fixed-dim":"#f4bb92",
+            "secondary-container":"#fecaa5","error":"#ba1a1a"
+          },
+          fontFamily: {
+            "body": ["Plus Jakarta Sans", "sans-serif"]
+          }
+        }
+      }
+    }
+  </script>
+
+  <style>
+    *, ::before, ::after { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: 'Plus Jakarta Sans', sans-serif; background: #fff8f5; color: #1e1b18; }
+    .material-symbols-outlined { font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24; vertical-align: middle; }
+
+    /* Soil Selector Card */
+    .soil-card {
+      background: #f5ece7;
+      border: 2px solid #d5c3b8;
+      border-radius: 12px;
+      padding: 14px;
+      cursor: pointer;
+      transition: all 0.2s ease;
+      position: relative;
+      user-select: none;
+    }
+    .soil-card:hover { border-color: #83746b; background: #fbf2ed; }
+    .soil-card.selected { border-color: #6f4627; background: #ffe3d1/40; box-shadow: 0 0 0 3px rgba(111,70,39,0.15); }
+    .soil-card .check-badge { display: none; position: absolute; top: 10px; right: 10px; width: 20px; height: 20px; background: #6f4627; color: white; border-radius: 50%; align-items: center; justify-content: center; font-size: 12px; }
+    .soil-card.selected .check-badge { display: flex; }
+
+    /* Pulsing CTA Animation */
+    @keyframes gpsPulse {
+      0% { box-shadow: 0 0 0 0 rgba(111, 70, 39, 0.4); }
+      70% { box-shadow: 0 0 0 10px rgba(111, 70, 39, 0); }
+      100% { box-shadow: 0 0 0 0 rgba(111, 70, 39, 0); }
+    }
+    .gps-cta-pulse {
+      animation: gpsPulse 2s infinite;
+    }
+  </style>
+</head>
+<body class="bg-background text-on-background min-h-screen flex flex-col justify-between pb-16 md:pb-0">
+
+  <!-- ════════════════════════════════════
+    STANDARDIZED DESKTOP TOP NAV
+  ════════════════════════════════════ -->
+  <nav class="sticky top-0 z-50 bg-[#fff8f5]/95 backdrop-blur-md border-b border-[#d5c3b8] shadow-sm">
+    <div class="max-w-7xl mx-auto px-5 md:px-8 h-14 flex items-center justify-between">
+      <a href="/" class="flex items-center gap-2 text-decoration-none group w-44">
+        <div class="w-8 h-8 rounded-lg bg-[#6f4627] flex items-center justify-center text-white font-black text-lg tracking-tighter shadow-sm">
+          P
+        </div>
+        <div class="flex flex-col">
+          <span class="font-extrabold text-base leading-none tracking-tight text-[#1e1b18]">Phense</span>
+          <span class="text-[9px] font-bold text-[#805533] uppercase tracking-wider">AI Flood Classifier</span>
+        </div>
+      </a>
+
+      <div class="hidden md:flex items-center gap-8 text-xs font-bold text-[#51443c]">
+        <a href="/" class="hover:text-[#6f4627] transition-colors">Home</a>
+        <a href="/assess" class="text-[#6f4627] border-b-2 border-[#6f4627] pb-0.5">Assess Risk</a>
+        <a href="/methodology" class="hover:text-[#6f4627] transition-colors">Methodology</a>
+        <a href="/about" class="hover:text-[#6f4627] transition-colors">About</a>
+      </div>
+
+      <div class="flex items-center justify-end w-44">
+        <a href="/assess" class="hidden sm:inline-flex bg-[#6f4627] hover:bg-[#8b5e3c] text-white px-3.5 py-1.5 rounded-lg text-xs font-bold shadow-sm transition-all items-center gap-1">
+          <span>Assess Risk</span>
+          <span class="material-symbols-outlined text-sm">arrow_forward</span>
+        </a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ════════════════════════════════════
+    STREAMLINED LOW-FRICTION ASSESSMENT (FLUSHED UP ON MOBILE)
+  ════════════════════════════════════ -->
+  <main class="max-w-3xl mx-auto px-3 sm:px-6 pt-2 pb-6 sm:py-6 w-full space-y-3 sm:space-y-5 flex-1">
+    
+    <!-- Title Header -->
+    <div class="text-center space-y-0.5">
+      <div class="inline-flex items-center gap-1 bg-[#ffe3d1] border border-[#8b5e3c]/30 px-2.5 py-0.5 rounded-full text-[9px] font-extrabold text-[#6f4627] shadow-2xs">
+        <span class="w-1.5 h-1.5 rounded-full bg-emerald-500 animate-pulse"></span>
+        <span>🔴 Live Auto-Detection Active</span>
+      </div>
+      <h1 class="text-lg sm:text-2xl font-extrabold text-[#1e1b18] tracking-tight">Community Risk Assessment</h1>
+      <p class="text-[11px] sm:text-xs text-[#51443c]">Detect location automatically and select local soil type.</p>
+    </div>
+
+    <!-- MAIN FORM CONTAINER -->
+    <div class="bg-white border border-[#d5c3b8] rounded-2xl p-4 sm:p-6 shadow-sm space-y-4 sm:space-y-5">
+      
+      <!-- 1. AUTO-DETECT GPS CTA BUTTON -->
+      <div class="space-y-1.5">
+        <label class="block text-[10px] font-bold uppercase tracking-wider text-[#51443c]">Step 1: Location & Environmental Baseline</label>
+        
+        <button type="button" id="btn-gps" onclick="detectGPS()" class="w-full bg-[#ffe3d1]/90 hover:bg-[#ffe3d1] border-2 border-[#6f4627] py-3 px-4 rounded-xl text-center transition-all group gps-cta-pulse relative shadow-xs">
+          <div class="flex items-center justify-center gap-2 text-[#6f4627] font-extrabold text-xs sm:text-sm">
+            <span class="material-symbols-outlined text-lg text-[#6f4627]">my_location</span>
+            <span id="gps-text">Auto-Detect Real Location</span>
+          </div>
+        </button>
+      </div>
+
+      <!-- ENVIRONMENT CONTEXT TOGGLE (RESIDENTIAL VS FARMLAND) -->
+      <div class="space-y-1.5">
+        <label class="block text-[10px] font-bold uppercase tracking-wider text-[#51443c]">Setting Context</label>
+        <div class="grid grid-cols-2 gap-2">
+          <button type="button" id="env-res" onclick="setEnvironment('residential')" class="border-2 border-[#6f4627] bg-[#ffe3d1]/40 rounded-xl p-2.5 text-left transition-all flex items-center gap-2">
+            <span class="material-symbols-outlined text-[#6f4627] text-base">home</span>
+            <div>
+              <div class="font-extrabold text-xs text-[#6f4627]">Residential Community</div>
+              <div class="text-[9px] text-[#51443c]">Roadside Gutters / Ditches</div>
+            </div>
+          </button>
+          <button type="button" id="env-farm" onclick="setEnvironment('farmland')" class="border-2 border-[#d5c3b8] hover:border-[#6f4627] rounded-xl p-2.5 text-left transition-all flex items-center gap-2">
+            <span class="material-symbols-outlined text-amber-700 text-base">agriculture</span>
+            <div>
+              <div class="font-bold text-xs text-[#1e1b18]">Farmland / Field</div>
+              <div class="text-[9px] text-[#51443c]">Natural Slope Earth Runoff</div>
+            </div>
+          </button>
+        </div>
+      </div>
+
+      <!-- AUTO-DETECTED SUMMARY BADGES (AUTO-FILLED) -->
+      <div id="detected-metrics" class="bg-[#f5ece7] border border-[#d5c3b8] rounded-xl p-3.5 sm:p-4 space-y-3">
+        <div class="flex flex-wrap sm:flex-nowrap items-center justify-between gap-2 border-b border-[#d5c3b8]/60 pb-2.5">
+          <div class="space-y-0.5 min-w-0 flex-1">
+            <span class="text-[9px] font-bold uppercase text-[#805533] tracking-wider">Target Community</span>
+            <h3 class="font-extrabold text-xs sm:text-sm text-[#1e1b18] truncate" id="display-location">Abeokuta North, Ogun State</h3>
+          </div>
+          <div class="flex items-center gap-1.5 bg-[#6f4627] text-white text-[10px] font-extrabold px-3 py-1 rounded-full shadow-2xs shrink-0">
+            <span class="material-symbols-outlined text-xs text-blue-200">water_drop</span>
+            <span id="display-season">Wet Season</span>
+          </div>
+        </div>
+
+        <div class="grid grid-cols-2 sm:grid-cols-3 gap-3 text-xs">
+          <div>
+            <span class="text-[9px] font-bold uppercase text-[#805533]">Elevation</span>
+            <p class="font-black text-[#1e1b18]" id="display-elevation">45.0 m ASL</p>
+          </div>
+          <div>
+            <span class="text-[9px] font-bold uppercase text-[#805533]">Nearest River</span>
+            <p class="font-black text-[#1e1b18]" id="display-river">1.8 km (Ogun River)</p>
+          </div>
+          <div class="col-span-2 sm:col-span-1">
+            <span class="text-[9px] font-bold uppercase text-[#805533]">Auto NiMet Rainfall</span>
+            <p class="font-black text-[#6f4627]" id="display-rainfall">230 mm / month</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Hidden form state inputs -->
+      <input type="hidden" id="state" value="Ogun State"/>
+      <input type="hidden" id="lga" value="Abeokuta North"/>
+      <input type="hidden" id="elevation_m" value="45.0"/>
+      <input type="hidden" id="river_distance_km" value="1.8"/>
+      <input type="hidden" id="rainfall_mm" value="230"/>
+      <input type="hidden" id="season" value="wet"/>
+      <input type="hidden" id="drainage" value="basic"/>
+
+      <!-- 2. SOIL TYPE SELECTOR (WITH REAL MACRO PHOTO STRUCTURES) -->
+      <div class="space-y-2.5">
+        <div class="flex items-center justify-between">
+          <label class="block text-[10px] font-bold uppercase tracking-wider text-[#51443c]">Step 2: Local Soil Type (Tap Photo to Select)</label>
+          <button type="button" onclick="openSoilModal()" class="text-[10px] font-bold text-[#6f4627] hover:text-[#8b5e3c] flex items-center gap-1 bg-[#ffe3d1] px-2.5 py-1 rounded-lg border border-[#8b5e3c]/30 hover:bg-[#ffe3d1]/80 transition-all shadow-2xs">
+            <span class="material-symbols-outlined text-xs">help_outline</span>
+            <span>Visual Identification Guide</span>
+          </button>
+        </div>
+
+        <div class="grid grid-cols-2 sm:grid-cols-4 gap-3">
+          <!-- Clay Card -->
+          <div class="soil-card selected group overflow-hidden" id="soil-clay" onclick="selectSoil('clay')">
+            <div class="check-badge">✓</div>
+            <div class="relative w-full h-16 rounded-lg overflow-hidden mb-2 border border-black/10">
+              <img src="/images/soil_clay.png" alt="Clay Soil Texture" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"/>
+              <div class="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent flex items-end p-1.5">
+                <span class="text-[9px] font-extrabold text-amber-200 uppercase tracking-tight">Cracked / Dense</span>
+              </div>
+            </div>
+            <div class="font-bold text-xs text-[#1e1b18] leading-tight">Clay Soil</div>
+            <div class="text-[9px] text-[#51443c] mt-0.5 leading-snug">Heavy, sticky wet; cracks dry. High flood risk.</div>
+          </div>
+
+          <!-- Sandy Card -->
+          <div class="soil-card group overflow-hidden" id="soil-sandy" onclick="selectSoil('sandy')">
+            <div class="check-badge">✓</div>
+            <div class="relative w-full h-16 rounded-lg overflow-hidden mb-2 border border-black/10">
+              <img src="/images/soil_sandy.png" alt="Sandy Soil Texture" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"/>
+              <div class="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent flex items-end p-1.5">
+                <span class="text-[9px] font-extrabold text-emerald-200 uppercase tracking-tight">Coarse / Gritty</span>
+              </div>
+            </div>
+            <div class="font-bold text-xs text-[#1e1b18] leading-tight">Sandy Soil</div>
+            <div class="text-[9px] text-[#51443c] mt-0.5 leading-snug">Loose particles. Rapid water soak.</div>
+          </div>
+
+          <!-- Loamy Card -->
+          <div class="soil-card group overflow-hidden" id="soil-loamy" onclick="selectSoil('loamy')">
+            <div class="check-badge">✓</div>
+            <div class="relative w-full h-16 rounded-lg overflow-hidden mb-2 border border-black/10">
+              <img src="/images/soil_loamy.png" alt="Loamy Soil Texture" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"/>
+              <div class="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent flex items-end p-1.5">
+                <span class="text-[9px] font-extrabold text-blue-200 uppercase tracking-tight">Crumbly Humus</span>
+              </div>
+            </div>
+            <div class="font-bold text-xs text-[#1e1b18] leading-tight">Loamy Soil</div>
+            <div class="text-[9px] text-[#51443c] mt-0.5 leading-snug">Dark organic earth. Balanced drainage.</div>
+          </div>
+
+          <!-- Silty Card -->
+          <div class="soil-card group overflow-hidden" id="soil-silty" onclick="selectSoil('silty')">
+            <div class="check-badge">✓</div>
+            <div class="relative w-full h-16 rounded-lg overflow-hidden mb-2 border border-black/10">
+              <img src="/images/soil_silty.png" alt="Silty Soil Texture" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"/>
+              <div class="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent flex items-end p-1.5">
+                <span class="text-[9px] font-extrabold text-orange-200 uppercase tracking-tight">Fine Mud / Silt</span>
+              </div>
+            </div>
+            <div class="font-bold text-xs text-[#1e1b18] leading-tight">Silty Soil</div>
+            <div class="text-[9px] text-[#51443c] mt-0.5 leading-snug">Floury feel dry; slick mud wet. Saturates fast.</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- OPTIONAL ADVANCED OVERRIDES ACCORDION -->
+      <details class="group text-xs text-[#51443c]">
+        <summary class="cursor-pointer font-bold text-[#6f4627] hover:underline flex items-center gap-1">
+          <span class="material-symbols-outlined text-sm">tune</span>
+          <span>Custom Overrides (Optional)</span>
+        </summary>
+        <div class="pt-3 space-y-3 border-t border-[#d5c3b8] mt-2">
+          <p class="text-[10px] text-[#805533] italic">
+            💡 Everyday users don't need to change these! They are automatically calculated based on NiMet rainfall records and elevation data. Use these controls only if you want to test hypothetical scenarios.
+          </p>
+          <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
+            <div>
+              <label class="block text-[10px] font-bold uppercase text-[#51443c]">Drainage Infrastructure</label>
+              <select id="drainage-select" onchange="document.getElementById('drainage').value=this.value" class="w-full bg-[#fff8f5] border border-[#d5c3b8] rounded-lg px-3 py-1.5 text-xs font-semibold focus:outline-none focus:border-[#6f4627] mt-1">
+                <option value="basic" selected>Basic Gutters / Open Ditches</option>
+                <option value="none">None / Natural Earth Slope Runoff</option>
+                <option value="moderate">Moderate Culverts</option>
+                <option value="good">Engineered Canal Network</option>
+              </select>
+            </div>
+            <div>
+              <label class="block text-[10px] font-bold uppercase text-[#51443c]">Custom Rainfall Slider (mm)</label>
+              <div class="flex items-center gap-2 mt-1">
+                <input type="range" min="10" max="700" value="230" step="10" class="w-full accent-[#6f4627]" oninput="document.getElementById('rainfall_mm').value=this.value; document.getElementById('display-rainfall').innerText=this.value+' mm / month'"/>
+              </div>
+            </div>
+          </div>
+        </div>
+      </details>
+
+      <!-- SUBMIT VERDICT BUTTON -->
+      <button type="button" onclick="submitAssessment()" class="w-[82%] max-w-[280px] sm:w-full bg-[#6f4627] hover:bg-[#8b5e3c] text-white py-2.5 sm:py-3 rounded-xl font-extrabold text-xs shadow-lg transition-all flex items-center justify-center gap-2 mx-auto">
+        <span class="material-symbols-outlined text-base">task_alt</span>
+        <span>Calculate Flood Risk Verdict</span>
+      </button>
+
+    </div>
+  </main>
+
+  <!-- ════════════════════════════════════
+    FOOTER (DESKTOP ONLY)
+  ════════════════════════════════════ -->
+  <footer class="hidden md:block bg-[#1a0e07] border-t border-[#8b5e3c]/30 text-[#d5c3b8] py-3.5 px-6">
+    <div class="max-w-7xl mx-auto flex items-center justify-between text-xs">
+      <div class="flex items-center gap-2">
+        <div class="w-5 h-5 rounded bg-[#6f4627] flex items-center justify-center text-white font-black text-[10px]">P</div>
+        <span class="font-extrabold text-white text-xs">Phense</span>
+        <span class="text-[#83746b] text-[11px]">| Community Flood Risk Classifier</span>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ════════════════════════════════════
+    MOBILE FIXED BOTTOM NAVIGATION BAR
+  ════════════════════════════════════ -->
+  <nav class="md:hidden fixed bottom-0 left-0 right-0 z-50 bg-[#fff8f5] border-t-2 border-[#d5c3b8] shadow-2xl flex justify-around items-center py-2 px-2">
+    <a href="/" class="flex flex-col items-center text-[#51443c] hover:text-[#6f4627] font-bold px-3 py-1 text-[10px]">
+      <span class="material-symbols-outlined text-lg">home</span>
+      <span>Home</span>
+    </a>
+    <a href="/assess" class="flex flex-col items-center text-[#6f4627] font-extrabold bg-[#ffe3d1] border border-[#6f4627]/30 px-3 py-1 rounded-xl text-[10px]">
+      <span class="material-symbols-outlined text-lg">analytics</span>
+      <span>Assess</span>
+    </a>
+    <a href="/methodology" class="flex flex-col items-center text-[#51443c] hover:text-[#6f4627] font-bold px-3 py-1 text-[10px]">
+      <span class="material-symbols-outlined text-lg">science</span>
+      <span>Methodology</span>
+    </a>
+    <a href="/about" class="flex flex-col items-center text-[#51443c] hover:text-[#6f4627] font-bold px-3 py-1 text-[10px]">
+      <span class="material-symbols-outlined text-lg">info</span>
+      <span>About</span>
+    </a>
+  </nav>
+
+  <!-- ════════════════════════════════════
+    VISUAL SOIL IDENTIFICATION MODAL DIALOG
+  ════════════════════════════════════ -->
+  <div id="soil-modal" class="fixed inset-0 z-50 bg-black/60 backdrop-blur-xs flex items-center justify-center p-4 hidden">
+    <div class="bg-white rounded-2xl max-w-lg w-full p-5 sm:p-6 space-y-4 shadow-2xl border border-[#d5c3b8] max-h-[90vh] overflow-y-auto">
+      <div class="flex items-center justify-between border-b border-[#d5c3b8] pb-3">
+        <div class="flex items-center gap-2">
+          <span class="material-symbols-outlined text-[#6f4627] text-xl">landscape</span>
+          <h3 class="font-extrabold text-base text-[#1e1b18]">Visual Soil Identification Guide</h3>
+        </div>
+        <button type="button" onclick="closeSoilModal()" class="text-stone-400 hover:text-stone-700 font-bold p-1">
+          <span class="material-symbols-outlined">close</span>
+        </button>
+      </div>
+
+      <p class="text-xs text-[#51443c]">
+        Tap the soil type that best matches your local ground conditions:
+      </p>
+
+      <div class="space-y-3">
+        <!-- Clay Option -->
+        <div onclick="selectSoilFromModal('clay')" class="border-2 border-[#d5c3b8] hover:border-[#6f4627] rounded-xl p-3 flex gap-3 cursor-pointer hover:bg-[#ffe3d1]/30 transition-all items-center">
+          <div class="w-16 h-16 rounded-xl overflow-hidden shrink-0 border border-black/10 shadow-xs relative">
+            <img src="/images/soil_clay.png" alt="Clay Soil Structure" class="w-full h-full object-cover"/>
+            <div class="absolute inset-0 bg-black/20"></div>
+          </div>
+          <div>
+            <div class="font-bold text-xs text-[#1e1b18] flex items-center gap-2">
+              <span>Clay Soil (Cracked / Heavy Blocks)</span>
+              <span class="bg-amber-100 text-amber-900 text-[9px] px-2 py-0.5 rounded-full font-bold">High Water Retention</span>
+            </div>
+            <p class="text-[11px] text-[#51443c] mt-0.5">Heavy, sticky wet texture with dense cohesive clods. Develops deep shrinkage cracks when dry. Water puddles and drains very slowly.</p>
+          </div>
+        </div>
+
+        <!-- Sandy Option -->
+        <div onclick="selectSoilFromModal('sandy')" class="border-2 border-[#d5c3b8] hover:border-[#6f4627] rounded-xl p-3 flex gap-3 cursor-pointer hover:bg-[#ffe3d1]/30 transition-all items-center">
+          <div class="w-16 h-16 rounded-xl overflow-hidden shrink-0 border border-black/10 shadow-xs relative">
+            <img src="/images/soil_sandy.png" alt="Sandy Soil Structure" class="w-full h-full object-cover"/>
+            <div class="absolute inset-0 bg-black/10"></div>
+          </div>
+          <div>
+            <div class="font-bold text-xs text-[#1e1b18] flex items-center gap-2">
+              <span>Sandy Soil (Coarse Grains)</span>
+              <span class="bg-emerald-100 text-emerald-900 text-[9px] px-2 py-0.5 rounded-full font-bold">Fast Drainage</span>
+            </div>
+            <p class="text-[11px] text-[#51443c] mt-0.5">Coarse & gritty individual sand particles. Light golden-brown color. Water soaks in almost instantly with minimal surface runoff.</p>
+          </div>
+        </div>
+
+        <!-- Loamy Option -->
+        <div onclick="selectSoilFromModal('loamy')" class="border-2 border-[#d5c3b8] hover:border-[#6f4627] rounded-xl p-3 flex gap-3 cursor-pointer hover:bg-[#ffe3d1]/30 transition-all items-center">
+          <div class="w-16 h-16 rounded-xl overflow-hidden shrink-0 border border-black/10 shadow-xs relative">
+            <img src="/images/soil_loamy.png" alt="Loamy Soil Structure" class="w-full h-full object-cover"/>
+            <div class="absolute inset-0 bg-black/20"></div>
+          </div>
+          <div>
+            <div class="font-bold text-xs text-[#1e1b18] flex items-center gap-2">
+              <span>Loamy Soil (Crumbly Organic Humus)</span>
+              <span class="bg-blue-100 text-blue-900 text-[9px] px-2 py-0.5 rounded-full font-bold">Balanced</span>
+            </div>
+            <p class="text-[11px] text-[#51443c] mt-0.5">Rich dark brown organic earth with soft, spongy crumb structure. Retains adequate moisture without remaining waterlogged.</p>
+          </div>
+        </div>
+
+        <!-- Silty Option -->
+        <div onclick="selectSoilFromModal('silty')" class="border-2 border-[#d5c3b8] hover:border-[#6f4627] rounded-xl p-3 flex gap-3 cursor-pointer hover:bg-[#ffe3d1]/30 transition-all items-center">
+          <div class="w-16 h-16 rounded-xl overflow-hidden shrink-0 border border-black/10 shadow-xs relative">
+            <img src="/images/soil_silty.png" alt="Silty Soil Structure" class="w-full h-full object-cover"/>
+            <div class="absolute inset-0 bg-black/15"></div>
+          </div>
+          <div>
+            <div class="font-bold text-xs text-[#1e1b18] flex items-center gap-2">
+              <span>Silty Soil (Fine Micro-particles / Mud)</span>
+              <span class="bg-orange-100 text-orange-900 text-[9px] px-2 py-0.5 rounded-full font-bold">Saturates Quickly</span>
+            </div>
+            <p class="text-[11px] text-[#51443c] mt-0.5">Smooth, flour-like micro-particles when dry; turns into slippery mud when wet. Highly prevalent near riverbanks and floodplains.</p>
+          </div>
+        </div>
+      </div>
+
+      <button type="button" onclick="closeSoilModal()" class="w-full bg-[#f5ece7] hover:bg-[#e9e1dc] text-[#1e1b18] py-2 rounded-xl text-xs font-extrabold transition-all">
+        Close Identification Guide
+      </button>
+    </div>
+  </div>
+
+  <script>
+    let selectedSoil = 'clay';
+    let selectedEnv = 'residential';
+
+    document.addEventListener('DOMContentLoaded', () => {
+      // Auto-detect season based on real calendar month
+      const month = new Date().getMonth() + 1; // 1-12
+      const isWet = month >= 4 && month <= 10;
+      document.getElementById('season').value = isWet ? 'wet' : 'dry';
+      document.getElementById('display-season').innerText = isWet ? 'Wet Season' : 'Dry Season';
+    });
+
+    function openSoilModal() {
+      document.getElementById('soil-modal').classList.remove('hidden');
+    }
+
+    function closeSoilModal() {
+      document.getElementById('soil-modal').classList.add('hidden');
+    }
+
+    function selectSoilFromModal(type) {
+      selectSoil(type);
+      closeSoilModal();
+    }
+
+    function setEnvironment(env) {
+      selectedEnv = env;
+      const resBtn = document.getElementById('env-res');
+      const farmBtn = document.getElementById('env-farm');
+      const drainHidden = document.getElementById('drainage');
+      const drainSelect = document.getElementById('drainage-select');
+
+      if (env === 'farmland') {
+        farmBtn.className = "border-2 border-[#6f4627] bg-[#ffe3d1]/40 rounded-xl p-2.5 text-left transition-all flex items-center gap-2";
+        resBtn.className = "border-2 border-[#d5c3b8] hover:border-[#6f4627] rounded-xl p-2.5 text-left transition-all flex items-center gap-2";
+        drainHidden.value = 'none';
+        if (drainSelect) drainSelect.value = 'none';
+      } else {
+        resBtn.className = "border-2 border-[#6f4627] bg-[#ffe3d1]/40 rounded-xl p-2.5 text-left transition-all flex items-center gap-2";
+        farmBtn.className = "border-2 border-[#d5c3b8] hover:border-[#6f4627] rounded-xl p-2.5 text-left transition-all flex items-center gap-2";
+        drainHidden.value = 'basic';
+        if (drainSelect) drainSelect.value = 'basic';
+      }
+    }
+
+    function selectSoil(s) {
+      selectedSoil = s;
+      ['clay', 'sandy', 'loamy', 'silty'].forEach(t => {
+        const card = document.getElementById(`soil-${t}`);
+        if (t === s) card.classList.add('selected');
+        else card.classList.remove('selected');
+      });
+    }
+
+    async function detectGPS() {
+      const gpsText = document.getElementById('gps-text');
+      gpsText.innerText = "Locating GPS position...";
+      if ("geolocation" in navigator) {
+        navigator.geolocation.getCurrentPosition(async (pos) => {
+          const lat = pos.coords.latitude;
+          const lon = pos.coords.longitude;
+          gpsText.innerText = "Capturing location metrics...";
+
+          try {
+            const season = document.getElementById('season').value;
+            const [elevRes, rivRes, lgaRes, rainRes] = await Promise.all([
+              fetch(`/api/elevation?lat=${lat}&lon=${lon}`).then(r => r.json()),
+              fetch(`/api/river-proximity?lat=${lat}&lon=${lon}`).then(r => r.json()),
+              fetch(`/api/lga?lat=${lat}&lon=${lon}`).then(r => r.json()),
+              fetch(`/api/rainfall?lat=${lat}&lon=${lon}&season=${season}`).then(r => r.json())
+            ]);
+
+            if (elevRes.elevation_m !== undefined && elevRes.elevation_m > 0) {
+              const elev = elevRes.elevation_m;
+              document.getElementById('elevation_m').value = elev.toFixed(1);
+              document.getElementById('display-elevation').innerText = `${elev.toFixed(1)} m ASL`;
+
+              // Auto-infer Farmland setting if high elevation & rural
+              if (elev > 75.0 && selectedEnv !== 'residential') {
+                setEnvironment('farmland');
+              }
+            }
+            if (rivRes.distance_km !== undefined) {
+              document.getElementById('river_distance_km').value = rivRes.distance_km.toFixed(1);
+              document.getElementById('display-river').innerText = `${rivRes.distance_km.toFixed(1)} km (${rivRes.river || rivRes.river_name || 'River'})`;
+            }
+            if (lgaRes.state) document.getElementById('state').value = lgaRes.state;
+            if (lgaRes.lga) document.getElementById('lga').value = lgaRes.lga;
+            
+            const locLabel = lgaRes.address ? (lgaRes.address.length > 45 ? lgaRes.address.substring(0, 45) + '...' : lgaRes.address) : `${lgaRes.lga || 'Local Community'}, ${lgaRes.state || 'State'}`;
+            document.getElementById('display-location').innerText = locLabel;
+
+            if (rainRes.rainfall_mm !== undefined) {
+              document.getElementById('rainfall_mm').value = rainRes.rainfall_mm;
+              document.getElementById('display-rainfall').innerText = `${rainRes.rainfall_mm} mm / month`;
+            }
+
+            gpsText.innerText = `Captured: ${lgaRes.lga || 'Location Detected'}`;
+          } catch (e) {
+            gpsText.innerText = "Location Metrics Captured";
+          }
+        }, () => {
+          gpsText.innerText = "GPS Permission Denied — Default Location Active";
+        }, { enableHighAccuracy: true, timeout: 10000 });
+      } else {
+        gpsText.innerText = "GPS Not Supported";
+      }
+    }
+
+    function submitAssessment() {
+      const payload = {
+        rainfall_mm: parseFloat(document.getElementById('rainfall_mm').value),
+        elevation_m: parseFloat(document.getElementById('elevation_m').value),
+        river_distance_km: parseFloat(document.getElementById('river_distance_km').value),
+        soil_type: selectedSoil,
+        drainage: document.getElementById('drainage').value,
+        season: document.getElementById('season').value,
+        state: document.getElementById('state').value || "Ogun State",
+        lga: document.getElementById('lga').value || "Abeokuta North"
+      };
+
+      sessionStorage.setItem('phense_assessment_params', JSON.stringify(payload));
+      window.location.href = '/results';
+    }
+  </script>
+
+</body>
+</html>

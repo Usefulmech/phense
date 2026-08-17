@@ -1,0 +1,50 @@
+{
+  "accuracy": 0.8125,
+  "feature_importances": {
+    "rainfall_mm": 0.220634,
+    "elevation_m": 0.338952,
+    "river_distance_km": 0.236382,
+    "soil_type_enc": 0.127668,
+    "drainage_enc": 0.076364
+  },
+  "top_feature": "elevation_m",
+  "classification_report": {
+    "Low": {
+      "precision": 0.7551020408163265,
+      "recall": 0.8043478260869565,
+      "f1-score": 0.7789473684210526,
+      "support": 46.0
+    },
+    "Medium": {
+      "precision": 0.8152173913043478,
+      "recall": 0.7575757575757576,
+      "f1-score": 0.7853403141361257,
+      "support": 99.0
+    },
+    "High": {
+      "precision": 0.8425925925925926,
+      "recall": 0.875,
+      "f1-score": 0.8584905660377359,
+      "support": 104.0
+    },
+    "Critical": {
+      "precision": 0.782608695652174,
+      "recall": 0.782608695652174,
+      "f1-score": 0.782608695652174,
+      "support": 23.0
+    },
+    "accuracy": 0.8125,
+    "macro avg": {
+      "precision": 0.7988801800913602,
+      "recall": 0.8048830698287219,
+      "f1-score": 0.801346736061772,
+      "support": 272.0
+    },
+    "weighted avg": {
+      "precision": 0.812760460464379,
+      "recall": 0.8125,
+      "f1-score": 0.811997385716064,
+      "support": 272.0
+    }
+  }
+}

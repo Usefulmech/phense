@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html class="light" lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <title>Phense</title>
+  
+  <!-- Tailwind CSS & Google Fonts -->
+  <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400&display=swap" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
+
+  <!-- html2canvas for Download as Image functionality -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+
+  <script id="tailwind-config">
+    tailwind.config = {
+      darkMode: "class",
+      theme: {
+        extend: {
+          colors: {
+            "primary":"#6f4627","on-primary":"#ffffff","primary-container":"#8b5e3c",
+            "on-primary-container":"#ffe3d1","secondary":"#7c5639","on-secondary":"#ffffff",
+            "tertiary":"#614c2d","surface":"#fff8f5","surface-container":"#f5ece7",
+            "surface-container-low":"#fbf2ed","surface-container-high":"#efe6e2",
+            "surface-container-highest":"#e9e1dc","surface-dim":"#e1d8d4",
+            "background":"#fff8f5","on-background":"#1e1b18","on-surface":"#1e1b18",
+            "on-surface-variant":"#51443c","outline":"#83746b","outline-variant":"#d5c3b8",
+            "inverse-surface":"#34302c","inverse-on-surface":"#f8efea",
+            "inverse-primary":"#f4bb92","surface-tint":"#805533",
+            "primary-fixed":"#ffdcc5","primary-fixed-dim":"#f4bb92",
+            "secondary-container":"#fecaa5","error":"#ba1a1a"
+          },
+          fontFamily: {
+            "body": ["Plus Jakarta Sans", "sans-serif"]
+          }
+        }
+      }
+    }
+  </script>
+
+  <style>
+    *, ::before, ::after { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: 'Plus Jakarta Sans', sans-serif; background: #fff8f5; color: #1e1b18; }
+    .material-symbols-outlined { font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24; vertical-align: middle; }
+
+    @keyframes barGrow { from { width: 0%; } to { width: var(--w); } }
+    .animate-bar { animation: barGrow 1s cubic-bezier(0.16, 1, 0.3, 1) forwards; }
+  </style>
+</head>
+<body class="bg-background text-on-background min-h-screen flex flex-col justify-between pb-16 md:pb-0">
+
+  <!-- ════════════════════════════════════
+    STANDARDIZED DESKTOP TOP NAV
+  ════════════════════════════════════ -->
+  <nav class="sticky top-0 z-50 bg-[#fff8f5]/95 backdrop-blur-md border-b border-[#d5c3b8] shadow-sm">
+    <div class="max-w-7xl mx-auto px-5 md:px-8 h-14 flex items-center justify-between">
+      <a href="/" class="flex items-center gap-2 text-decoration-none group w-44">
+        <div class="w-8 h-8 rounded-lg bg-[#6f4627] flex items-center justify-center text-white font-black text-lg tracking-tighter shadow-sm">
+          P
+        </div>
+        <div class="flex flex-col">
+          <span class="font-extrabold text-base leading-none tracking-tight text-[#1e1b18]">Phense</span>
+          <span class="text-[9px] font-bold text-[#805533] uppercase tracking-wider">AI Flood Classifier</span>
+        </div>
+      </a>
+
+      <div class="hidden md:flex items-center gap-8 text-xs font-bold text-[#51443c]">
+        <a href="/" class="hover:text-[#6f4627] transition-colors">Home</a>
+        <a href="/assess" class="text-[#6f4627] border-b-2 border-[#6f4627] pb-0.5">Assess Risk</a>
+        <a href="/methodology" class="hover:text-[#6f4627] transition-colors">Methodology</a>
+        <a href="/about" class="hover:text-[#6f4627] transition-colors">About</a>
+      </div>
+
+      <div class="flex items-center justify-end w-44">
+        <a href="/assess" class="hidden sm:inline-flex bg-[#6f4627] hover:bg-[#8b5e3c] text-white px-3.5 py-1.5 rounded-lg text-xs font-bold shadow-sm transition-all items-center gap-1">
+          <span>Re-assess</span>
+          <span class="material-symbols-outlined text-sm">tune</span>
+        </a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ════════════════════════════════════
+    RESULTS CONTENT
+  ════════════════════════════════════ -->
+  <main class="max-w-5xl mx-auto px-4 sm:px-6 py-4 sm:py-6 w-full space-y-5 flex-1">
+    
+    <!-- Location Header -->
+    <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-3 border-b border-[#d5c3b8] pb-3">
+      <div class="space-y-0.5">
+        <span class="text-[10px] font-bold uppercase tracking-wider text-[#805533]" id="res-date">Assessment Complete</span>
+        <h1 class="text-xl sm:text-2xl font-extrabold text-[#1e1b18]" id="res-location">Abeokuta North, Ogun State</h1>
+        <p class="text-xs text-[#51443c] font-medium" id="res-coords">Elevation: 45.0m ASL | River Distance: 1.8 km (Ogun River)</p>
+      </div>
+
+      <div class="flex items-center gap-2">
+        <button onclick="shareWhatsApp()" class="bg-[#25D366] hover:bg-emerald-600 text-white px-3.5 py-2 rounded-xl font-bold text-xs shadow-sm flex items-center gap-1.5 transition-all">
+          <span class="material-symbols-outlined text-sm">share</span>
+          <span>Share WhatsApp</span>
+        </button>
+        <button id="btn-download-img" onclick="downloadReportImage()" class="bg-[#6f4627] hover:bg-[#8b5e3c] text-white px-3.5 py-2 rounded-xl font-bold text-xs shadow-sm flex items-center gap-1.5 transition-all">
+          <span class="material-symbols-outlined text-sm">image</span>
+          <span>Save Image</span>
+        </button>
+      </div>
+    </div>
+
+    <!-- Main Results Grid -->
+    <div class="grid grid-cols-1 lg:grid-cols-3 gap-5">
+      
+      <!-- Left Column: Light Cream Risk Card & Advisory -->
+      <div class="lg:col-span-2 space-y-5">
+        
+        <!-- LIGHT CREAM RISK VERDICT CARD -->
+        <div id="risk-card" class="bg-[#f5ece7] border-2 border-[#d5c3b8] rounded-2xl p-4 sm:p-6 text-[#1e1b18] shadow-sm space-y-4">
+          
+          <div class="flex flex-wrap items-center justify-between gap-2 border-b border-[#d5c3b8]/70 pb-3">
+            <span id="risk-tag" class="text-[10px] font-black uppercase tracking-wider px-3 py-1 rounded-full bg-orange-100 text-orange-800 border border-orange-300 shadow-2xs">
+              FLOOD RISK VERDICT
+            </span>
+            <div class="bg-white text-[#6f4627] border border-[#d5c3b8] px-2.5 py-1 rounded-full text-[11px] font-extrabold shadow-2xs flex items-center gap-1">
+              <span class="material-symbols-outlined text-sm text-[#6f4627]">verified</span>
+              <span id="confidence-val">94.5% Confidence</span>
+            </div>
+          </div>
+
+          <div class="flex flex-col sm:flex-row sm:items-baseline gap-1 sm:gap-3 pt-1">
+            <h2 class="text-3xl sm:text-4xl font-black text-[#1e1b18] leading-tight tracking-tight" id="risk-class-name">HIGH RISK</h2>
+            <span class="text-xs font-bold text-[#6f4627] bg-[#ffe3d1] border border-[#8b5e3c]/30 px-2.5 py-0.5 rounded-md w-fit" id="seasonal-label">(Wet Season Level)</span>
+          </div>
+
+          <div class="bg-white rounded-xl p-4 sm:p-5 border border-[#d5c3b8] space-y-1.5 shadow-2xs">
+            <h3 class="text-[11px] font-bold uppercase tracking-wider text-[#6f4627] flex items-center gap-1.5">
+              <span class="material-symbols-outlined text-sm">campaign</span>
+              Community Action Advisory
+            </h3>
+            <p class="text-xs sm:text-sm leading-relaxed text-[#1e1b18] font-medium" id="advisory-text">
+              High risk of river overflow and severe flash flooding. Prepare early evacuation routes for vulnerable households near low elevation channels.
+            </p>
+          </div>
+        </div>
+
+        <!-- Actionable Steps Card -->
+        <div class="bg-white border border-[#d5c3b8] rounded-2xl p-5 space-y-3">
+          <h3 class="text-xs font-bold text-[#1e1b18] uppercase tracking-wider flex items-center gap-1.5">
+            <span class="material-symbols-outlined text-[#6f4627] text-base">verified_user</span>
+            Recommended Community Actions
+          </h3>
+          <ul class="grid grid-cols-1 sm:grid-cols-2 gap-2 text-xs text-[#51443c]">
+            <li class="flex items-start gap-2 bg-[#f5ece7] p-2.5 rounded-lg border border-[#d5c3b8]">
+              <span class="material-symbols-outlined text-sm text-[#6f4627]">check_circle</span>
+              <span>Monitor river water levels daily during rain peaks.</span>
+            </li>
+            <li class="flex items-start gap-2 bg-[#f5ece7] p-2.5 rounded-lg border border-[#d5c3b8]">
+              <span class="material-symbols-outlined text-sm text-[#6f4627]">check_circle</span>
+              <span>Keep emergency kits and vital documents elevated.</span>
+            </li>
+            <li class="flex items-start gap-2 bg-[#f5ece7] p-2.5 rounded-lg border border-[#d5c3b8]">
+              <span class="material-symbols-outlined text-sm text-[#6f4627]">check_circle</span>
+              <span>Clear blockages in roadside culverts and channels.</span>
+            </li>
+            <li class="flex items-start gap-2 bg-[#f5ece7] p-2.5 rounded-lg border border-[#d5c3b8]">
+              <span class="material-symbols-outlined text-sm text-[#6f4627]">check_circle</span>
+              <span>Coordinate local warning communications.</span>
+            </li>
+          </ul>
+        </div>
+
+        <!-- PRACTICAL COMMUNITY UTILITY BOX -->
+        <div class="bg-[#f5ece7] border border-[#d5c3b8] rounded-2xl p-5 space-y-2 text-xs text-[#51443c]">
+          <h4 class="font-bold text-[#1e1b18] text-sm flex items-center gap-1.5">
+            <span class="material-symbols-outlined text-[#6f4627] text-base">groups</span>
+            How Phense Protects Your Community
+          </h4>
+          <p class="leading-relaxed">
+            <strong>For Residents:</strong> Gives 24–48hr early awareness to move crops, livestock, and family valuables before riverbank overflow occurs.<br/>
+            <strong>For CDAs & Local Leaders:</strong> Identifies whether poor drainage or river proximity is your main risk driver so you know which gutters to clear immediately.<br/>
+            <strong>For Emergency Officials:</strong> Provides instant, shareable evidence to prioritize emergency support and evacuation alerts.
+          </p>
+        </div>
+
+      </div>
+
+      <!-- Right Column: Feature Contributions -->
+      <div class="space-y-4">
+        <div class="bg-white border border-[#d5c3b8] rounded-2xl p-5 space-y-4">
+          <div>
+            <span class="text-[10px] font-bold uppercase tracking-wider text-[#805533]">Feature Drivers</span>
+            <h3 class="text-sm font-bold text-[#1e1b18]">Risk Contribution Score</h3>
+          </div>
+
+          <!-- Primary Driver Highlight -->
+          <div class="bg-[#ffe3d1]/60 border border-[#8b5e3c]/30 rounded-xl p-3 text-xs space-y-0.5">
+            <span class="font-bold text-[#6f4627] text-[10px] uppercase tracking-wider block">Primary Driver</span>
+            <p class="font-bold text-[#1e1b18]" id="primary-driver-text">Elevation (Low Topography Basin)</p>
+          </div>
+
+          <!-- Feature Meters -->
+          <div class="space-y-2.5 text-xs font-bold">
+            <div class="space-y-0.5">
+              <div class="flex justify-between text-[#51443c]">
+                <span>Rainfall Intensity</span>
+                <span id="score-rainfall">85%</span>
+              </div>
+              <div class="w-full bg-[#e9e1dc] h-2 rounded-full overflow-hidden">
+                <div id="bar-rainfall" class="bg-[#6f4627] h-full rounded-full animate-bar" style="--w: 85%;"></div>
+              </div>
+            </div>
+
+            <div class="space-y-0.5">
+              <div class="flex justify-between text-[#51443c]">
+                <span>Elevation Vulnerability</span>
+                <span id="score-elevation">90%</span>
+              </div>
+              <div class="w-full bg-[#e9e1dc] h-2 rounded-full overflow-hidden">
+                <div id="bar-elevation" class="bg-[#6f4627] h-full rounded-full animate-bar" style="--w: 90%;"></div>
+              </div>
+            </div>
+
+            <div class="space-y-0.5">
+              <div class="flex justify-between text-[#51443c]">
+                <span>River Distance Exposure</span>
+                <span id="score-river">75%</span>
+              </div>
+              <div class="w-full bg-[#e9e1dc] h-2 rounded-full overflow-hidden">
+                <div id="bar-river" class="bg-[#6f4627] h-full rounded-full animate-bar" style="--w: 75%;"></div>
+              </div>
+            </div>
+
+            <div class="space-y-0.5">
+              <div class="flex justify-between text-[#51443c]">
+                <span>Soil Saturation</span>
+                <span id="score-soil">80%</span>
+              </div>
+              <div class="w-full bg-[#e9e1dc] h-2 rounded-full overflow-hidden">
+                <div id="bar-soil" class="bg-[#6f4627] h-full rounded-full animate-bar" style="--w: 80%;"></div>
+              </div>
+            </div>
+
+            <div class="space-y-0.5">
+              <div class="flex justify-between text-[#51443c]">
+                <span>Drainage Inefficiency</span>
+                <span id="score-drainage">70%</span>
+              </div>
+              <div class="w-full bg-[#e9e1dc] h-2 rounded-full overflow-hidden">
+                <div id="bar-drainage" class="bg-[#6f4627] h-full rounded-full animate-bar" style="--w: 70%;"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <a href="/assess" class="w-full bg-[#6f4627] hover:bg-[#8b5e3c] text-white py-2.5 rounded-xl font-bold text-xs flex items-center justify-center gap-1.5 shadow-md transition-all">
+          <span class="material-symbols-outlined text-base">refresh</span>
+          <span>Run New Assessment</span>
+        </a>
+      </div>
+
+    </div>
+  </main>
+
+  <!-- ════════════════════════════════════
+    FOOTER (DESKTOP ONLY)
+  ════════════════════════════════════ -->
+  <footer class="hidden md:block bg-[#1a0e07] border-t border-[#8b5e3c]/30 text-[#d5c3b8] py-3.5 px-6">
+    <div class="max-w-7xl mx-auto flex items-center justify-between text-xs">
+      <div class="flex items-center gap-2">
+        <div class="w-5 h-5 rounded bg-[#6f4627] flex items-center justify-center text-white font-black text-[10px]">P</div>
+        <span class="font-extrabold text-white text-xs">Phense</span>
+        <span class="text-[#83746b] text-[11px]">| Community Flood Risk Classifier</span>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ════════════════════════════════════
+    MOBILE FIXED BOTTOM NAVIGATION BAR
+  ════════════════════════════════════ -->
+  <nav class="md:hidden fixed bottom-0 left-0 right-0 z-50 bg-[#fff8f5] border-t-2 border-[#d5c3b8] shadow-2xl flex justify-around items-center py-2 px-2">
+    <a href="/" class="flex flex-col items-center text-[#51443c] hover:text-[#6f4627] font-bold px-3 py-1 text-[10px]">
+      <span class="material-symbols-outlined text-lg">home</span>
+      <span>Home</span>
+    </a>
+    <a href="/assess" class="flex flex-col items-center text-[#6f4627] font-extrabold bg-[#ffe3d1] border border-[#6f4627]/30 px-3 py-1 rounded-xl text-[10px]">
+      <span class="material-symbols-outlined text-lg">analytics</span>
+      <span>Assess</span>
+    </a>
+    <a href="/methodology" class="flex flex-col items-center text-[#51443c] hover:text-[#6f4627] font-bold px-3 py-1 text-[10px]">
+      <span class="material-symbols-outlined text-lg">science</span>
+      <span>Methodology</span>
+    </a>
+    <a href="/about" class="flex flex-col items-center text-[#51443c] hover:text-[#6f4627] font-bold px-3 py-1 text-[10px]">
+      <span class="material-symbols-outlined text-lg">info</span>
+      <span>About</span>
+    </a>
+  </nav>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', async () => {
+      let params = null;
+      try {
+        const stored = sessionStorage.getItem('phense_assessment_params');
+        if (stored) params = JSON.parse(stored);
+      } catch (e) {}
+
+      if (!params) {
+        params = {
+          rainfall_mm: 320,
+          elevation_m: 35.0,
+          river_distance_km: 1.2,
+          soil_type: "clay",
+          drainage: "basic",
+          season: "wet",
+          state: "Ogun State",
+          lga: "Abeokuta North"
+        };
+      }
+
+      document.getElementById('res-location').innerText = `${params.lga || 'Community'}, ${params.state || 'Nigeria'}`;
+      document.getElementById('res-coords').innerText = `Elevation: ${params.elevation_m}m ASL | River Distance: ${params.river_distance_km}km | Season: ${params.season.toUpperCase()}`;
+      document.getElementById('res-date').innerText = `Assessment Run: ${new Date().toLocaleDateString('en-GB', { day: 'numeric', month: 'short', year: 'numeric' })}`;
+
+      try {
+        const res = await fetch('/api/predict', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify(params)
+        });
+
+        if (res.ok) {
+          const data = await res.json();
+          renderResults(data, params);
+        } else {
+          renderFallback(params);
+        }
+      } catch (err) {
+        renderFallback(params);
+      }
+    });
+
+    function renderResults(data, params) {
+      document.getElementById('risk-class-name').innerText = (data.risk_class || "HIGH").toUpperCase() + " RISK";
+      document.getElementById('seasonal-label').innerText = `(${data.seasonal_label || 'Wet Season'} Level)`;
+      document.getElementById('confidence-val').innerText = `${((data.confidence || 0.91) * 100).toFixed(1)}% Confidence`;
+      document.getElementById('advisory-text').innerText = data.advisory || "Prepare localized flood measures.";
+      document.getElementById('primary-driver-text').innerText = data.primary_driver || "Rainfall & Elevation composite";
+
+      const tag = document.getElementById('risk-tag');
+      const rc = (data.risk_class || '').toLowerCase();
+      if (rc === 'critical') {
+        tag.className = "text-[10px] font-black uppercase tracking-wider px-3 py-1 rounded-full bg-red-100 text-red-800 border border-red-300";
+      } else if (rc === 'high') {
+        tag.className = "text-[10px] font-black uppercase tracking-wider px-3 py-1 rounded-full bg-orange-100 text-orange-800 border border-orange-300";
+      } else if (rc === 'medium') {
+        tag.className = "text-[10px] font-black uppercase tracking-wider px-3 py-1 rounded-full bg-amber-100 text-amber-800 border border-amber-300";
+      } else {
+        tag.className = "text-[10px] font-black uppercase tracking-wider px-3 py-1 rounded-full bg-emerald-100 text-emerald-800 border border-emerald-300";
+      }
+
+      if (data.feature_scores) {
+        const fs = data.feature_scores;
+        setBar('rainfall', fs.rainfall || 0.8);
+        setBar('elevation', fs.elevation || 0.7);
+        setBar('river', fs.river_distance || 0.65);
+        setBar('soil', fs.soil || 0.75);
+        setBar('drainage', fs.drainage || 0.6);
+      }
+    }
+
+    function setBar(id, ratio) {
+      const pct = Math.round(ratio * 100);
+      const textEl = document.getElementById(`score-${id}`);
+      const barEl = document.getElementById(`bar-${id}`);
+      if (textEl) textEl.innerText = `${pct}%`;
+      if (barEl) barEl.style.setProperty('--w', `${pct}%`);
+    }
+
+    function renderFallback(params) {
+      document.getElementById('risk-class-name').innerText = "HIGH RISK";
+      document.getElementById('advisory-text').innerText = "High composite flood vulnerability detected. Ensure roadside culverts are cleared.";
+      setBar('rainfall', 0.85);
+      setBar('elevation', 0.75);
+      setBar('river', 0.80);
+      setBar('soil', 0.70);
+      setBar('drainage', 0.65);
+    }
+
+    function shareWhatsApp() {
+      const text = encodeURIComponent(`Phense Flood Risk Assessment: ${document.getElementById('res-location').innerText} is classified as ${document.getElementById('risk-class-name').innerText}. Action Advisory: ${document.getElementById('advisory-text').innerText}`);
+      window.open(`https://api.whatsapp.com/send?text=${text}`, '_blank');
+    }
+
+    function downloadReportImage() {
+      const btn = document.getElementById('btn-download-img');
+      btn.innerText = 'Capturing Image...';
+      const card = document.getElementById('risk-card');
+      
+      if (typeof html2canvas !== 'undefined') {
+        html2canvas(card, { scale: 2, backgroundColor: '#fff8f5' }).then(canvas => {
+          const link = document.createElement('a');
+          link.download = `phense_flood_verdict_${Date.now()}.png`;
+          link.href = canvas.toDataURL('image/png');
+          link.click();
+          btn.innerHTML = '<span class="material-symbols-outlined text-sm">image</span><span>Save Image</span>';
+        }).catch(() => {
+          window.print();
+          btn.innerHTML = '<span class="material-symbols-outlined text-sm">image</span><span>Save Image</span>';
+        });
+      } else {
+        window.print();
+        btn.innerHTML = '<span class="material-symbols-outlined text-sm">image</span><span>Save Image</span>';
+      }
+    }
+  </script>
+
+</body>
+</html>

@@ -1,0 +1,141 @@
+[
+  {
+    "name": "Niger River",
+    "states": ["Kebbi", "Niger", "Kogi", "Anambra", "Delta", "Bayelsa", "Rivers"],
+    "points": [
+      {"lat": 11.85, "lon": 4.58},
+      {"lat": 11.10, "lon": 4.20},
+      {"lat": 10.40, "lon": 4.55},
+      {"lat": 9.85,  "lon": 4.40},
+      {"lat": 9.05,  "lon": 4.58},
+      {"lat": 8.60,  "lon": 4.70},
+      {"lat": 7.80,  "lon": 6.75},
+      {"lat": 7.40,  "lon": 6.50},
+      {"lat": 6.55,  "lon": 6.75},
+      {"lat": 5.70,  "lon": 5.75},
+      {"lat": 5.35,  "lon": 6.18},
+      {"lat": 4.85,  "lon": 6.05}
+    ]
+  },
+  {
+    "name": "Benue River",
+    "states": ["Adamawa", "Taraba", "Benue", "Kogi"],
+    "points": [
+      {"lat": 9.12, "lon": 12.45},
+      {"lat": 8.80, "lon": 11.80},
+      {"lat": 8.40, "lon": 10.50},
+      {"lat": 8.10, "lon": 9.75},
+      {"lat": 7.85, "lon": 8.90},
+      {"lat": 7.60, "lon": 8.10},
+      {"lat": 7.55, "lon": 7.50},
+      {"lat": 7.72, "lon": 6.88}
+    ]
+  },
+  {
+    "name": "Ogun River",
+    "states": ["Oyo", "Osun", "Ogun"],
+    "points": [
+      {"lat": 8.45, "lon": 3.40},
+      {"lat": 8.00, "lon": 3.35},
+      {"lat": 7.50, "lon": 3.30},
+      {"lat": 7.20, "lon": 3.28},
+      {"lat": 7.00, "lon": 3.34},
+      {"lat": 6.90, "lon": 3.35},
+      {"lat": 6.70, "lon": 3.38},
+      {"lat": 6.50, "lon": 3.40}
+    ]
+  },
+  {
+    "name": "Yewa River",
+    "states": ["Ogun"],
+    "points": [
+      {"lat": 7.50, "lon": 3.00},
+      {"lat": 7.10, "lon": 2.98},
+      {"lat": 6.80, "lon": 2.95},
+      {"lat": 6.50, "lon": 3.00}
+    ]
+  },
+  {
+    "name": "Osun River",
+    "states": ["Osun", "Ogun"],
+    "points": [
+      {"lat": 7.85, "lon": 4.60},
+      {"lat": 7.45, "lon": 4.55},
+      {"lat": 7.10, "lon": 4.45},
+      {"lat": 6.80, "lon": 4.20},
+      {"lat": 6.60, "lon": 4.00},
+      {"lat": 6.45, "lon": 3.90}
+    ]
+  },
+  {
+    "name": "Sokoto River",
+    "states": ["Sokoto", "Kebbi"],
+    "points": [
+      {"lat": 13.05, "lon": 5.25},
+      {"lat": 12.80, "lon": 4.90},
+      {"lat": 12.50, "lon": 4.50},
+      {"lat": 12.00, "lon": 4.25}
+    ]
+  },
+  {
+    "name": "Kaduna River",
+    "states": ["Kaduna", "Niger"],
+    "points": [
+      {"lat": 10.80, "lon": 7.45},
+      {"lat": 10.50, "lon": 7.20},
+      {"lat": 10.00, "lon": 6.95},
+      {"lat": 9.65,  "lon": 6.60},
+      {"lat": 9.00,  "lon": 6.40}
+    ]
+  },
+  {
+    "name": "Cross River",
+    "states": ["Cross River", "Akwa Ibom"],
+    "points": [
+      {"lat": 6.80, "lon": 8.55},
+      {"lat": 6.35, "lon": 8.35},
+      {"lat": 5.85, "lon": 8.20},
+      {"lat": 5.40, "lon": 8.12},
+      {"lat": 4.92, "lon": 8.30}
+    ]
+  },
+  {
+    "name": "Imo River",
+    "states": ["Imo", "Abia", "Rivers"],
+    "points": [
+      {"lat": 7.00, "lon": 7.35},
+      {"lat": 6.60, "lon": 7.10},
+      {"lat": 6.20, "lon": 7.00},
+      {"lat": 5.75, "lon": 7.05},
+      {"lat": 5.40, "lon": 6.95}
+    ]
+  },
+  {
+    "name": "Hadejia River",
+    "states": ["Jigawa", "Kano"],
+    "points": [
+      {"lat": 12.80, "lon": 9.75},
+      {"lat": 12.70, "lon": 10.20},
+      {"lat": 12.65, "lon": 10.80},
+      {"lat": 12.55, "lon": 11.35}
+    ]
+  },
+  {
+    "name": "Moshi (Mosbi) River",
+    "states": ["Borno"],
+    "points": [
+      {"lat": 11.85, "lon": 14.10},
+      {"lat": 11.65, "lon": 13.55},
+      {"lat": 11.40, "lon": 13.20}
+    ]
+  },
+  {
+    "name": "Anambra River",
+    "states": ["Anambra"],
+    "points": [
+      {"lat": 6.90, "lon": 7.10},
+      {"lat": 6.65, "lon": 6.95},
+      {"lat": 6.40, "lon": 6.80}
+    ]
+  }
+]

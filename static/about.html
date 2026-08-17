@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html class="light" lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <title>Phense</title>
+  
+  <!-- Tailwind CSS & Google Fonts -->
+  <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400&display=swap" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
+
+  <script id="tailwind-config">
+    tailwind.config = {
+      darkMode: "class",
+      theme: {
+        extend: {
+          colors: {
+            "primary":"#6f4627","on-primary":"#ffffff","primary-container":"#8b5e3c",
+            "on-primary-container":"#ffe3d1","secondary":"#7c5639","on-secondary":"#ffffff",
+            "tertiary":"#614c2d","surface":"#fff8f5","surface-container":"#f5ece7",
+            "surface-container-low":"#fbf2ed","surface-container-high":"#efe6e2",
+            "surface-container-highest":"#e9e1dc","surface-dim":"#e1d8d4",
+            "background":"#fff8f5","on-background":"#1e1b18","on-surface":"#1e1b18",
+            "on-surface-variant":"#51443c","outline":"#83746b","outline-variant":"#d5c3b8",
+            "inverse-surface":"#34302c","inverse-on-surface":"#f8efea",
+            "inverse-primary":"#f4bb92","surface-tint":"#805533",
+            "primary-fixed":"#ffdcc5","primary-fixed-dim":"#f4bb92",
+            "secondary-container":"#fecaa5","error":"#ba1a1a"
+          },
+          fontFamily: {
+            "body": ["Plus Jakarta Sans", "sans-serif"]
+          }
+        }
+      }
+    }
+  </script>
+
+  <style>
+    *, ::before, ::after { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: 'Plus Jakarta Sans', sans-serif; background: #fff8f5; color: #1e1b18; }
+    .material-symbols-outlined { font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24; vertical-align: middle; }
+  </style>
+</head>
+<body class="bg-background text-on-background min-h-screen flex flex-col justify-between pb-16 md:pb-0">
+
+  <!-- ════════════════════════════════════
+    STANDARDIZED DESKTOP TOP NAV
+  ════════════════════════════════════ -->
+  <nav class="sticky top-0 z-50 bg-[#fff8f5]/95 backdrop-blur-md border-b border-[#d5c3b8] shadow-sm">
+    <div class="max-w-7xl mx-auto px-5 md:px-8 h-14 flex items-center justify-between">
+      <a href="/" class="flex items-center gap-2 text-decoration-none group w-44">
+        <div class="w-8 h-8 rounded-lg bg-[#6f4627] flex items-center justify-center text-white font-black text-lg tracking-tighter shadow-sm">
+          P
+        </div>
+        <div class="flex flex-col">
+          <span class="font-extrabold text-base leading-none tracking-tight text-[#1e1b18]">Phense</span>
+          <span class="text-[9px] font-bold text-[#805533] uppercase tracking-wider">AI Flood Classifier</span>
+        </div>
+      </a>
+
+      <div class="hidden md:flex items-center gap-8 text-xs font-bold text-[#51443c]">
+        <a href="/" class="hover:text-[#6f4627] transition-colors">Home</a>
+        <a href="/assess" class="hover:text-[#6f4627] transition-colors">Assess Risk</a>
+        <a href="/methodology" class="hover:text-[#6f4627] transition-colors">Methodology</a>
+        <a href="/about" class="text-[#6f4627] border-b-2 border-[#6f4627] pb-0.5">About</a>
+      </div>
+
+      <div class="flex items-center justify-end w-44">
+        <a href="/assess" class="hidden sm:inline-flex bg-[#6f4627] hover:bg-[#8b5e3c] text-white px-3.5 py-1.5 rounded-lg text-xs font-bold shadow-sm transition-all items-center gap-1">
+          <span>Assess Risk</span>
+          <span class="material-symbols-outlined text-sm">arrow_forward</span>
+        </a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ════════════════════════════════════
+    MAIN CONTENT (FLUSHED HEADINGS)
+  ════════════════════════════════════ -->
+  <main class="max-w-5xl mx-auto px-5 md:px-8 py-5 sm:py-8 w-full space-y-8 flex-1">
+    
+    <!-- Flushed Title Header -->
+    <div class="space-y-1 text-center max-w-2xl mx-auto">
+      <span class="text-[10px] font-bold uppercase tracking-widest text-[#805533]">3MTT NextGen Capstone</span>
+      <h1 class="text-xl sm:text-3xl font-extrabold text-[#1e1b18]">Project Identity</h1>
+      <p class="text-xs text-[#51443c] leading-relaxed">
+        Phense fulfills the 3MTT AI & Machine Learning Capstone Brief (AI-19 Flood Risk Classifier).
+      </p>
+    </div>
+
+    <!-- Official 3MTT Identity Card -->
+    <div class="bg-white border border-[#d5c3b8] rounded-2xl p-5 sm:p-7 shadow-sm space-y-5">
+      <div class="flex items-center justify-between border-b border-[#d5c3b8] pb-3">
+        <h2 class="text-base font-bold text-[#1e1b18] flex items-center gap-2">
+          <span class="material-symbols-outlined text-[#6f4627]">badge</span>
+          Fellow Metadata
+        </h2>
+        <span class="bg-[#ffe3d1] text-[#6f4627] text-xs font-bold px-3 py-1 rounded-full border border-[#8b5e3c]/30">
+          Verified
+        </span>
+      </div>
+
+      <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 text-xs">
+        <div class="bg-[#f5ece7] p-3.5 rounded-xl space-y-0.5 border border-[#d5c3b8]">
+          <span class="text-[10px] font-bold text-[#805533] uppercase tracking-wider">Fellow Name</span>
+          <p class="font-extrabold text-[#1e1b18] text-xs">Adeniji Yusuf</p>
+        </div>
+
+        <div class="bg-[#f5ece7] p-3.5 rounded-xl space-y-0.5 border border-[#d5c3b8]">
+          <span class="text-[10px] font-bold text-[#805533] uppercase tracking-wider">Fellow ID</span>
+          <p class="font-extrabold text-[#6f4627] text-xs">FE/24/5369659950</p>
+        </div>
+
+        <div class="bg-[#f5ece7] p-3.5 rounded-xl space-y-0.5 border border-[#d5c3b8]">
+          <span class="text-[10px] font-bold text-[#805533] uppercase tracking-wider">Track</span>
+          <p class="font-bold text-[#1e1b18]">AI & Machine Learning NextGen Cohort</p>
+        </div>
+
+        <div class="bg-[#f5ece7] p-3.5 rounded-xl space-y-0.5 border border-[#d5c3b8]">
+          <span class="text-[10px] font-bold text-[#805533] uppercase tracking-wider">Provider & State</span>
+          <p class="font-bold text-[#1e1b18]">Grazac Technologies Limited (Ogun State)</p>
+        </div>
+
+        <div class="bg-[#f5ece7] p-3.5 rounded-xl space-y-0.5 border border-[#d5c3b8]">
+          <span class="text-[10px] font-bold text-[#805533] uppercase tracking-wider">Project Brief</span>
+          <p class="font-extrabold text-[#6f4627]">AI-19 (Flood Risk Classifier)</p>
+        </div>
+
+        <div class="bg-[#f5ece7] p-3.5 rounded-xl space-y-0.5 border border-[#d5c3b8]">
+          <span class="text-[10px] font-bold text-[#805533] uppercase tracking-wider">Target Domain</span>
+          <p class="font-bold text-[#1e1b18]">Nigerian Riverine & Coastal Communities</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Nigerian Problem Context & Philosophy -->
+    <div class="grid grid-cols-1 sm:grid-cols-2 gap-5">
+      <div class="bg-white border border-[#d5c3b8] rounded-2xl p-5 space-y-2 shadow-sm">
+        <h3 class="text-sm font-bold text-[#1e1b18]">Nigerian Problem Context</h3>
+        <p class="text-xs text-[#51443c] leading-relaxed">
+          Riverine communities across Ogun State, Niger, Benue, and Kogi experience annual seasonal flooding. Phense provides an accessible AI tool to assess localized flood risks before disasters occur.
+        </p>
+      </div>
+
+      <div class="bg-white border border-[#d5c3b8] rounded-2xl p-5 space-y-2 shadow-sm">
+        <h3 class="text-sm font-bold text-[#1e1b18]">Deliverable Requirements</h3>
+        <ul class="text-xs text-[#51443c] space-y-1.5">
+          <li class="flex items-center gap-2">
+            <span class="material-symbols-outlined text-emerald-700 text-base">check_circle</span>
+            <span>Verified Fellow ID: FE/24/5369659950</span>
+          </li>
+          <li class="flex items-center gap-2">
+            <span class="material-symbols-outlined text-emerald-700 text-base">check_circle</span>
+            <span>Brief Alignment: AI-19 Flood Risk Classifier</span>
+          </li>
+          <li class="flex items-center gap-2">
+            <span class="material-symbols-outlined text-emerald-700 text-base">check_circle</span>
+            <span>FastAPI Backend & ML Prediction Engine</span>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+  </main>
+
+  <!-- ════════════════════════════════════
+    FOOTER (DESKTOP ONLY)
+  ════════════════════════════════════ -->
+  <footer class="hidden md:block bg-[#1a0e07] border-t border-[#8b5e3c]/30 text-[#d5c3b8] py-3.5 px-6">
+    <div class="max-w-7xl mx-auto flex items-center justify-between text-xs">
+      <div class="flex items-center gap-2">
+        <div class="w-5 h-5 rounded bg-[#6f4627] flex items-center justify-center text-white font-black text-[10px]">P</div>
+        <span class="font-extrabold text-white text-xs">Phense</span>
+        <span class="text-[#83746b] text-[11px]">| 3MTT Capstone Brief</span>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ════════════════════════════════════
+    MOBILE FIXED BOTTOM NAVIGATION BAR
+  ════════════════════════════════════ -->
+  <nav class="md:hidden fixed bottom-0 left-0 right-0 z-50 bg-[#fff8f5] border-t-2 border-[#d5c3b8] shadow-2xl flex justify-around items-center py-2 px-2">
+    <a href="/" class="flex flex-col items-center text-[#51443c] hover:text-[#6f4627] font-bold px-3 py-1 text-[10px]">
+      <span class="material-symbols-outlined text-lg">home</span>
+      <span>Home</span>
+    </a>
+    <a href="/assess" class="flex flex-col items-center text-[#51443c] hover:text-[#6f4627] font-bold px-3 py-1 text-[10px]">
+      <span class="material-symbols-outlined text-lg">analytics</span>
+      <span>Assess</span>
+    </a>
+    <a href="/methodology" class="flex flex-col items-center text-[#51443c] hover:text-[#6f4627] font-bold px-3 py-1 text-[10px]">
+      <span class="material-symbols-outlined text-lg">science</span>
+      <span>Methodology</span>
+    </a>
+    <a href="/about" class="flex flex-col items-center text-[#6f4627] font-extrabold bg-[#ffe3d1] border border-[#6f4627]/30 px-3 py-1 rounded-xl text-[10px]">
+      <span class="material-symbols-outlined text-lg">info</span>
+      <span>About</span>
+    </a>
+  </nav>
+
+</body>
+</html>

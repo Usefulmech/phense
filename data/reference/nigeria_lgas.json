@@ -1,0 +1,4646 @@
+[
+  {
+    "state": "Abia",
+    "lga": "Aba North",
+    "lat": 5.109747,
+    "lon": 7.358327
+  },
+  {
+    "state": "Abia",
+    "lga": "Aba South",
+    "lat": 5.08122,
+    "lon": 7.353399
+  },
+  {
+    "state": "Abia",
+    "lga": "Arochukwu",
+    "lat": 5.472938,
+    "lon": 7.832342
+  },
+  {
+    "state": "Abia",
+    "lga": "Bende",
+    "lat": 5.673783,
+    "lon": 7.60927
+  },
+  {
+    "state": "Abia",
+    "lga": "Ikwuano",
+    "lat": 5.39802,
+    "lon": 7.575469
+  },
+  {
+    "state": "Abia",
+    "lga": "Isiala Ngwa North",
+    "lat": 5.37985,
+    "lon": 7.400525
+  },
+  {
+    "state": "Abia",
+    "lga": "Isiala Ngwa South",
+    "lat": 5.27372,
+    "lon": 7.38057
+  },
+  {
+    "state": "Abia",
+    "lga": "Isuikwuato",
+    "lat": 5.770563,
+    "lon": 7.462631
+  },
+  {
+    "state": "Abia",
+    "lga": "Oboma Ngwa",
+    "lat": 5.132431,
+    "lon": 7.453797
+  },
+  {
+    "state": "Abia",
+    "lga": "Ohafia",
+    "lat": 5.683577,
+    "lon": 7.781011
+  },
+  {
+    "state": "Abia",
+    "lga": "Osisioma",
+    "lat": 5.174515,
+    "lon": 7.322083
+  },
+  {
+    "state": "Abia",
+    "lga": "Ugwunagbo",
+    "lat": 5.012956,
+    "lon": 7.340972
+  },
+  {
+    "state": "Abia",
+    "lga": "Ukwa East",
+    "lat": 4.929001,
+    "lon": 7.402226
+  },
+  {
+    "state": "Abia",
+    "lga": "Ukwa West",
+    "lat": 4.957906,
+    "lon": 7.247952
+  },
+  {
+    "state": "Abia",
+    "lga": "Umu-Nneochi",
+    "lat": 5.956012,
+    "lon": 7.38171
+  },
+  {
+    "state": "Abia",
+    "lga": "Umuahia North",
+    "lat": 5.553779,
+    "lon": 7.47807
+  },
+  {
+    "state": "Abia",
+    "lga": "Umuahia South",
+    "lat": 5.462832,
+    "lon": 7.447485
+  },
+  {
+    "state": "Adamawa",
+    "lga": "Demsa",
+    "lat": 9.401246,
+    "lon": 12.172809
+  },
+  {
+    "state": "Adamawa",
+    "lga": "Fufore",
+    "lat": 9.205497,
+    "lon": 12.675123
+  },
+  {
+    "state": "Adamawa",
+    "lga": "Ganye",
+    "lat": 8.379921,
+    "lon": 12.058629
+  },
+  {
+    "state": "Adamawa",
+    "lga": "Girie",
+    "lat": 9.411594,
+    "lon": 12.599288
+  },
+  {
+    "state": "Adamawa",
+    "lga": "Gombi",
+    "lat": 10.187868,
+    "lon": 12.598443
+  },
+  {
+    "state": "Adamawa",
+    "lga": "Guyuk",
+    "lat": 9.843211,
+    "lon": 11.990386
+  },
+  {
+    "state": "Adamawa",
+    "lga": "Hong",
+    "lat": 10.284717,
+    "lon": 13.025209
+  },
+  {
+    "state": "Adamawa",
+    "lga": "Jada",
+    "lat": 8.703182,
+    "lon": 12.435304
+  },
+  {
+    "state": "Adamawa",
+    "lga": "Lamurde",
+    "lat": 9.569811,
+    "lon": 11.792695
+  },
+  {
+    "state": "Adamawa",
+    "lga": "Madagali",
+    "lat": 10.838188,
+    "lon": 13.548499
+  },
+  {
+    "state": "Adamawa",
+    "lga": "Maiha",
+    "lat": 9.918591,
+    "lon": 13.227055
+  },
+  {
+    "state": "Adamawa",
+    "lga": "Mayo-Belwa",
+    "lat": 8.939629,
+    "lon": 12.035538
+  },
+  {
+    "state": "Adamawa",
+    "lga": "Michika",
+    "lat": 10.588593,
+    "lon": 13.412712
+  },
+  {
+    "state": "Adamawa",
+    "lga": "Mubi North",
+    "lat": 10.320178,
+    "lon": 13.350202
+  },
+  {
+    "state": "Adamawa",
+    "lga": "Mubi South",
+    "lat": 10.179868,
+    "lon": 13.37694
+  },
+  {
+    "state": "Adamawa",
+    "lga": "Numan",
+    "lat": 9.458859,
+    "lon": 12.006906
+  },
+  {
+    "state": "Adamawa",
+    "lga": "Shelleng",
+    "lat": 9.835243,
+    "lon": 12.171773
+  },
+  {
+    "state": "Adamawa",
+    "lga": "Song",
+    "lat": 9.803144,
+    "lon": 12.585461
+  },
+  {
+    "state": "Adamawa",
+    "lga": "Teungo",
+    "lat": 8.067771,
+    "lon": 11.873938
+  },
+  {
+    "state": "Adamawa",
+    "lga": "Yola North",
+    "lat": 9.26035,
+    "lon": 12.501085
+  },
+  {
+    "state": "Adamawa",
+    "lga": "Yola South",
+    "lat": 9.1719,
+    "lon": 12.606145
+  },
+  {
+    "state": "Akwa Ibom",
+    "lga": "Abak",
+    "lat": 5.007618,
+    "lon": 7.761763
+  },
+  {
+    "state": "Akwa Ibom",
+    "lga": "Eastern Obolo",
+    "lat": 4.518866,
+    "lon": 7.702897
+  },
+  {
+    "state": "Akwa Ibom",
+    "lga": "Eket",
+    "lat": 4.636456,
+    "lon": 7.926337
+  },
+  {
+    "state": "Akwa Ibom",
+    "lga": "Esit Eket",
+    "lat": 4.647728,
+    "lon": 8.06581
+  },
+  {
+    "state": "Akwa Ibom",
+    "lga": "Essien Udim",
+    "lat": 5.102421,
+    "lon": 7.658303
+  },
+  {
+    "state": "Akwa Ibom",
+    "lga": "Etim Ekpo",
+    "lat": 4.962901,
+    "lon": 7.592952
+  },
+  {
+    "state": "Akwa Ibom",
+    "lga": "Etinan",
+    "lat": 4.831513,
+    "lon": 7.834583
+  },
+  {
+    "state": "Akwa Ibom",
+    "lga": "Ibeno",
+    "lat": 4.553623,
+    "lon": 7.992893
+  },
+  {
+    "state": "Akwa Ibom",
+    "lga": "Ibesikpo Asutan",
+    "lat": 4.905142,
+    "lon": 7.951801
+  },
+  {
+    "state": "Akwa Ibom",
+    "lga": "Ibiono Ibom",
+    "lat": 5.189649,
+    "lon": 7.878654
+  },
+  {
+    "state": "Akwa Ibom",
+    "lga": "Ika",
+    "lat": 5.011716,
+    "lon": 7.536935
+  },
+  {
+    "state": "Akwa Ibom",
+    "lga": "Ikono",
+    "lat": 5.224916,
+    "lon": 7.773128
+  },
+  {
+    "state": "Akwa Ibom",
+    "lga": "Ikot Abasi",
+    "lat": 4.614428,
+    "lon": 7.627256
+  },
+  {
+    "state": "Akwa Ibom",
+    "lga": "Ikot Ekpene",
+    "lat": 5.184387,
+    "lon": 7.693791
+  },
+  {
+    "state": "Akwa Ibom",
+    "lga": "Ini",
+    "lat": 5.36381,
+    "lon": 7.742673
+  },
+  {
+    "state": "Akwa Ibom",
+    "lga": "Itu",
+    "lat": 5.125189,
+    "lon": 7.95508
+  },
+  {
+    "state": "Akwa Ibom",
+    "lga": "Mbo",
+    "lat": 4.653151,
+    "lon": 8.259287
+  },
+  {
+    "state": "Akwa Ibom",
+    "lga": "Mkpat Enin",
+    "lat": 4.71532,
+    "lon": 7.761107
+  },
+  {
+    "state": "Akwa Ibom",
+    "lga": "Nsit Atai",
+    "lat": 4.825014,
+    "lon": 8.028099
+  },
+  {
+    "state": "Akwa Ibom",
+    "lga": "Nsit Ibom",
+    "lat": 4.882473,
+    "lon": 7.878047
+  },
+  {
+    "state": "Akwa Ibom",
+    "lga": "Nsit Ubium",
+    "lat": 4.744493,
+    "lon": 7.961219
+  },
+  {
+    "state": "Akwa Ibom",
+    "lga": "Obot Akara",
+    "lat": 5.249047,
+    "lon": 7.602327
+  },
+  {
+    "state": "Akwa Ibom",
+    "lga": "Okobo",
+    "lat": 4.814002,
+    "lon": 8.119349
+  },
+  {
+    "state": "Akwa Ibom",
+    "lga": "Onna",
+    "lat": 4.633842,
+    "lon": 7.846904
+  },
+  {
+    "state": "Akwa Ibom",
+    "lga": "Oron",
+    "lat": 4.801981,
+    "lon": 8.236896
+  },
+  {
+    "state": "Akwa Ibom",
+    "lga": "Oruk Anam",
+    "lat": 4.780396,
+    "lon": 7.639617
+  },
+  {
+    "state": "Akwa Ibom",
+    "lga": "Udung Uko",
+    "lat": 4.742842,
+    "lon": 8.237026
+  },
+  {
+    "state": "Akwa Ibom",
+    "lga": "Ukanafun",
+    "lat": 4.889839,
+    "lon": 7.609169
+  },
+  {
+    "state": "Akwa Ibom",
+    "lga": "Uruan",
+    "lat": 4.968547,
+    "lon": 8.043918
+  },
+  {
+    "state": "Akwa Ibom",
+    "lga": "Urue Offong|Oruko",
+    "lat": 4.728294,
+    "lon": 8.166236
+  },
+  {
+    "state": "Akwa Ibom",
+    "lga": "Uyo",
+    "lat": 5.013557,
+    "lon": 7.908306
+  },
+  {
+    "state": "Anambra",
+    "lga": "Aguata",
+    "lat": 5.976164,
+    "lon": 7.06684
+  },
+  {
+    "state": "Anambra",
+    "lga": "Anambra East",
+    "lat": 6.333876,
+    "lon": 6.881965
+  },
+  {
+    "state": "Anambra",
+    "lga": "Anambra West",
+    "lat": 6.402172,
+    "lon": 6.772605
+  },
+  {
+    "state": "Anambra",
+    "lga": "Anaocha",
+    "lat": 6.065445,
+    "lon": 6.992137
+  },
+  {
+    "state": "Anambra",
+    "lga": "Awka North",
+    "lat": 6.324404,
+    "lon": 7.052919
+  },
+  {
+    "state": "Anambra",
+    "lga": "Awka South",
+    "lat": 6.193791,
+    "lon": 7.066138
+  },
+  {
+    "state": "Anambra",
+    "lga": "Ayamelum",
+    "lat": 6.548431,
+    "lon": 6.958928
+  },
+  {
+    "state": "Anambra",
+    "lga": "Dunukofia",
+    "lat": 6.204582,
+    "lon": 6.931529
+  },
+  {
+    "state": "Anambra",
+    "lga": "Ekwusigo",
+    "lat": 5.973656,
+    "lon": 6.828853
+  },
+  {
+    "state": "Anambra",
+    "lga": "Idemili North",
+    "lat": 6.108807,
+    "lon": 6.900559
+  },
+  {
+    "state": "Anambra",
+    "lga": "Idemili South",
+    "lat": 6.059366,
+    "lon": 6.898506
+  },
+  {
+    "state": "Anambra",
+    "lga": "Ihiala",
+    "lat": 5.835985,
+    "lon": 6.854393
+  },
+  {
+    "state": "Anambra",
+    "lga": "Njikoka",
+    "lat": 6.180387,
+    "lon": 6.972792
+  },
+  {
+    "state": "Anambra",
+    "lga": "Nnewi North",
+    "lat": 5.999286,
+    "lon": 6.89372
+  },
+  {
+    "state": "Anambra",
+    "lga": "Nnewi South",
+    "lat": 5.933792,
+    "lon": 6.926542
+  },
+  {
+    "state": "Anambra",
+    "lga": "Ogbaru",
+    "lat": 5.918558,
+    "lon": 6.732129
+  },
+  {
+    "state": "Anambra",
+    "lga": "Onitsha North",
+    "lat": 6.109366,
+    "lon": 6.781705
+  },
+  {
+    "state": "Anambra",
+    "lga": "Onitsha South",
+    "lat": 6.071131,
+    "lon": 6.752004
+  },
+  {
+    "state": "Anambra",
+    "lga": "Orumba North",
+    "lat": 6.077242,
+    "lon": 7.143012
+  },
+  {
+    "state": "Anambra",
+    "lga": "Orumba South",
+    "lat": 5.993713,
+    "lon": 7.232025
+  },
+  {
+    "state": "Anambra",
+    "lga": "Oyi",
+    "lat": 6.224828,
+    "lon": 6.896495
+  },
+  {
+    "state": "Bauchi",
+    "lga": "Alkaleri",
+    "lat": 9.931036,
+    "lon": 10.481645
+  },
+  {
+    "state": "Bauchi",
+    "lga": "Bauchi",
+    "lat": 10.244056,
+    "lon": 9.872459
+  },
+  {
+    "state": "Bauchi",
+    "lga": "Bogoro",
+    "lat": 9.628377,
+    "lon": 9.593595
+  },
+  {
+    "state": "Bauchi",
+    "lga": "Damban",
+    "lat": 11.629627,
+    "lon": 10.800935
+  },
+  {
+    "state": "Bauchi",
+    "lga": "Darazo",
+    "lat": 11.143871,
+    "lon": 10.584585
+  },
+  {
+    "state": "Bauchi",
+    "lga": "Dass",
+    "lat": 10.004376,
+    "lon": 9.478406
+  },
+  {
+    "state": "Bauchi",
+    "lga": "Gamawa",
+    "lat": 12.059089,
+    "lon": 10.606969
+  },
+  {
+    "state": "Bauchi",
+    "lga": "Gamjuwa",
+    "lat": 10.74761,
+    "lon": 10.067885
+  },
+  {
+    "state": "Bauchi",
+    "lga": "Giade",
+    "lat": 11.448864,
+    "lon": 10.253504
+  },
+  {
+    "state": "Bauchi",
+    "lga": "Itas/Gadau",
+    "lat": 11.832978,
+    "lon": 9.945434
+  },
+  {
+    "state": "Bauchi",
+    "lga": "Jama'are",
+    "lat": 11.678895,
+    "lon": 9.930386
+  },
+  {
+    "state": "Bauchi",
+    "lga": "Katagum",
+    "lat": 11.637809,
+    "lon": 10.322604
+  },
+  {
+    "state": "Bauchi",
+    "lga": "Kirfi",
+    "lat": 10.437674,
+    "lon": 10.48966
+  },
+  {
+    "state": "Bauchi",
+    "lga": "Misau",
+    "lat": 11.393297,
+    "lon": 10.483105
+  },
+  {
+    "state": "Bauchi",
+    "lga": "Ningi",
+    "lat": 11.056849,
+    "lon": 9.327175
+  },
+  {
+    "state": "Bauchi",
+    "lga": "Shira",
+    "lat": 11.43248,
+    "lon": 10.087938
+  },
+  {
+    "state": "Bauchi",
+    "lga": "Tafawa-Balewa",
+    "lat": 9.788449,
+    "lon": 9.519449
+  },
+  {
+    "state": "Bauchi",
+    "lga": "Toro",
+    "lat": 10.324259,
+    "lon": 9.137957
+  },
+  {
+    "state": "Bauchi",
+    "lga": "Warji",
+    "lat": 11.150148,
+    "lon": 9.734556
+  },
+  {
+    "state": "Bauchi",
+    "lga": "Zaki",
+    "lat": 12.192748,
+    "lon": 10.347159
+  },
+  {
+    "state": "Bayelsa",
+    "lga": "Brass",
+    "lat": 4.415858,
+    "lon": 6.294667
+  },
+  {
+    "state": "Bayelsa",
+    "lga": "Ekeremor",
+    "lat": 5.006517,
+    "lon": 5.74321
+  },
+  {
+    "state": "Bayelsa",
+    "lga": "Kolokuma-Opokuma",
+    "lat": 5.081214,
+    "lon": 6.262244
+  },
+  {
+    "state": "Bayelsa",
+    "lga": "Nembe",
+    "lat": 4.528787,
+    "lon": 6.356799
+  },
+  {
+    "state": "Bayelsa",
+    "lga": "Ogbia",
+    "lat": 4.762689,
+    "lon": 6.315012
+  },
+  {
+    "state": "Bayelsa",
+    "lga": "Sagbama",
+    "lat": 5.146438,
+    "lon": 6.188738
+  },
+  {
+    "state": "Bayelsa",
+    "lga": "Southern Ijaw",
+    "lat": 4.762122,
+    "lon": 6.018096
+  },
+  {
+    "state": "Bayelsa",
+    "lga": "Yenagoa",
+    "lat": 5.024512,
+    "lon": 6.344443
+  },
+  {
+    "state": "Benue",
+    "lga": "Ado",
+    "lat": 6.80277,
+    "lon": 8.004887
+  },
+  {
+    "state": "Benue",
+    "lga": "Agatu",
+    "lat": 7.871412,
+    "lon": 7.903394
+  },
+  {
+    "state": "Benue",
+    "lga": "Apa",
+    "lat": 7.613707,
+    "lon": 7.894982
+  },
+  {
+    "state": "Benue",
+    "lga": "Buruku",
+    "lat": 7.305549,
+    "lon": 9.192679
+  },
+  {
+    "state": "Benue",
+    "lga": "Gboko",
+    "lat": 7.359504,
+    "lon": 8.928308
+  },
+  {
+    "state": "Benue",
+    "lga": "Guma",
+    "lat": 7.8929,
+    "lon": 8.736763
+  },
+  {
+    "state": "Benue",
+    "lga": "Gwer East",
+    "lat": 7.358098,
+    "lon": 8.466026
+  },
+  {
+    "state": "Benue",
+    "lga": "Gwer West",
+    "lat": 7.63278,
+    "lon": 8.217058
+  },
+  {
+    "state": "Benue",
+    "lga": "Katsina- Ala",
+    "lat": 7.318494,
+    "lon": 9.57065
+  },
+  {
+    "state": "Benue",
+    "lga": "Konshisha",
+    "lat": 7.000325,
+    "lon": 8.729479
+  },
+  {
+    "state": "Benue",
+    "lga": "Kwande",
+    "lat": 6.822671,
+    "lon": 9.508339
+  },
+  {
+    "state": "Benue",
+    "lga": "Logo",
+    "lat": 7.660797,
+    "lon": 9.296208
+  },
+  {
+    "state": "Benue",
+    "lga": "Makurdi",
+    "lat": 7.736291,
+    "lon": 8.529749
+  },
+  {
+    "state": "Benue",
+    "lga": "Obi",
+    "lat": 6.968981,
+    "lon": 8.29843
+  },
+  {
+    "state": "Benue",
+    "lga": "Ogbadibo",
+    "lat": 6.982581,
+    "lon": 7.668522
+  },
+  {
+    "state": "Benue",
+    "lga": "Ohimini",
+    "lat": 7.220443,
+    "lon": 7.936808
+  },
+  {
+    "state": "Benue",
+    "lga": "Oju",
+    "lat": 6.821182,
+    "lon": 8.380303
+  },
+  {
+    "state": "Benue",
+    "lga": "Okpokwu",
+    "lat": 7.033766,
+    "lon": 7.821741
+  },
+  {
+    "state": "Benue",
+    "lga": "Oturkpo",
+    "lat": 7.279678,
+    "lon": 8.063915
+  },
+  {
+    "state": "Benue",
+    "lga": "Tarka",
+    "lat": 7.600136,
+    "lon": 8.873089
+  },
+  {
+    "state": "Benue",
+    "lga": "Ukum",
+    "lat": 7.61762,
+    "lon": 9.616798
+  },
+  {
+    "state": "Benue",
+    "lga": "Ushongo",
+    "lat": 7.062047,
+    "lon": 9.081736
+  },
+  {
+    "state": "Benue",
+    "lga": "Vandeikya",
+    "lat": 6.817441,
+    "lon": 9.084139
+  },
+  {
+    "state": "Borno",
+    "lga": "Abadam",
+    "lat": 13.502646,
+    "lon": 13.257745
+  },
+  {
+    "state": "Borno",
+    "lga": "Askira/Uba",
+    "lat": 10.627528,
+    "lon": 13.073157
+  },
+  {
+    "state": "Borno",
+    "lga": "Bama",
+    "lat": 11.502202,
+    "lon": 14.012891
+  },
+  {
+    "state": "Borno",
+    "lga": "Bayo",
+    "lat": 10.442743,
+    "lon": 11.774149
+  },
+  {
+    "state": "Borno",
+    "lga": "Biu",
+    "lat": 10.719613,
+    "lon": 12.185165
+  },
+  {
+    "state": "Borno",
+    "lga": "Chibok",
+    "lat": 10.835321,
+    "lon": 12.859612
+  },
+  {
+    "state": "Borno",
+    "lga": "Damboa",
+    "lat": 11.134973,
+    "lon": 12.68216
+  },
+  {
+    "state": "Borno",
+    "lga": "Dikwa",
+    "lat": 11.967307,
+    "lon": 14.037474
+  },
+  {
+    "state": "Borno",
+    "lga": "Gubio",
+    "lat": 12.613539,
+    "lon": 12.743358
+  },
+  {
+    "state": "Borno",
+    "lga": "Guzamala",
+    "lat": 12.795838,
+    "lon": 13.293123
+  },
+  {
+    "state": "Borno",
+    "lga": "Gwoza",
+    "lat": 11.133515,
+    "lon": 13.733956
+  },
+  {
+    "state": "Borno",
+    "lga": "Hawul",
+    "lat": 10.47854,
+    "lon": 12.25584
+  },
+  {
+    "state": "Borno",
+    "lga": "Jere",
+    "lat": 11.8314,
+    "lon": 13.269948
+  },
+  {
+    "state": "Borno",
+    "lga": "Kaga",
+    "lat": 11.652133,
+    "lon": 12.502217
+  },
+  {
+    "state": "Borno",
+    "lga": "Kala/Balge",
+    "lat": 12.071565,
+    "lon": 14.502471
+  },
+  {
+    "state": "Borno",
+    "lga": "Konduga",
+    "lat": 11.63075,
+    "lon": 13.249159
+  },
+  {
+    "state": "Borno",
+    "lga": "Kukawa",
+    "lat": 12.920322,
+    "lon": 13.607114
+  },
+  {
+    "state": "Borno",
+    "lga": "Kwaya Kusar",
+    "lat": 10.441745,
+    "lon": 11.984707
+  },
+  {
+    "state": "Borno",
+    "lga": "Mafa",
+    "lat": 11.997615,
+    "lon": 13.631381
+  },
+  {
+    "state": "Borno",
+    "lga": "Magumeri",
+    "lat": 12.226445,
+    "lon": 12.704515
+  },
+  {
+    "state": "Borno",
+    "lga": "Maiduguri",
+    "lat": 11.84859,
+    "lon": 13.215578
+  },
+  {
+    "state": "Borno",
+    "lga": "Marte",
+    "lat": 12.316096,
+    "lon": 13.848454
+  },
+  {
+    "state": "Borno",
+    "lga": "Mobbar",
+    "lat": 13.134038,
+    "lon": 12.671813
+  },
+  {
+    "state": "Borno",
+    "lga": "Monguno",
+    "lat": 12.502767,
+    "lon": 13.535443
+  },
+  {
+    "state": "Borno",
+    "lga": "Ngala",
+    "lat": 12.227343,
+    "lon": 14.241817
+  },
+  {
+    "state": "Borno",
+    "lga": "Nganzai",
+    "lat": 12.468416,
+    "lon": 13.188092
+  },
+  {
+    "state": "Borno",
+    "lga": "Shani",
+    "lat": 10.16117,
+    "lon": 12.06462
+  },
+  {
+    "state": "Cross River",
+    "lga": "Abi",
+    "lat": 5.90264,
+    "lon": 8.032059
+  },
+  {
+    "state": "Cross River",
+    "lga": "Akamkpa",
+    "lat": 5.350578,
+    "lon": 8.483596
+  },
+  {
+    "state": "Cross River",
+    "lga": "Akpabuyo",
+    "lat": 4.895381,
+    "lon": 8.463322
+  },
+  {
+    "state": "Cross River",
+    "lga": "Bakassi",
+    "lat": 4.752441,
+    "lon": 8.524678
+  },
+  {
+    "state": "Cross River",
+    "lga": "Bekwarra",
+    "lat": 6.683367,
+    "lon": 8.905799
+  },
+  {
+    "state": "Cross River",
+    "lga": "Biase",
+    "lat": 5.603988,
+    "lon": 8.016166
+  },
+  {
+    "state": "Cross River",
+    "lga": "Boki",
+    "lat": 6.372631,
+    "lon": 8.958421
+  },
+  {
+    "state": "Cross River",
+    "lga": "Calabar Municipality",
+    "lat": 4.987004,
+    "lon": 8.315296
+  },
+  {
+    "state": "Cross River",
+    "lga": "Calabar South",
+    "lat": 4.902225,
+    "lon": 8.257492
+  },
+  {
+    "state": "Cross River",
+    "lga": "Etung",
+    "lat": 5.863534,
+    "lon": 8.785308
+  },
+  {
+    "state": "Cross River",
+    "lga": "Ikom",
+    "lat": 6.048808,
+    "lon": 8.633481
+  },
+  {
+    "state": "Cross River",
+    "lga": "Obanliku",
+    "lat": 6.566463,
+    "lon": 9.250969
+  },
+  {
+    "state": "Cross River",
+    "lga": "Obubra",
+    "lat": 6.004442,
+    "lon": 8.31796
+  },
+  {
+    "state": "Cross River",
+    "lga": "Obudu",
+    "lat": 6.600649,
+    "lon": 9.052311
+  },
+  {
+    "state": "Cross River",
+    "lga": "Odukpani",
+    "lat": 5.161542,
+    "lon": 8.145085
+  },
+  {
+    "state": "Cross River",
+    "lga": "Ogoja",
+    "lat": 6.540947,
+    "lon": 8.783565
+  },
+  {
+    "state": "Cross River",
+    "lga": "Yakurr",
+    "lat": 5.84464,
+    "lon": 8.128189
+  },
+  {
+    "state": "Cross River",
+    "lga": "Yala",
+    "lat": 6.627753,
+    "lon": 8.591072
+  },
+  {
+    "state": "Delta",
+    "lga": "AniochaN",
+    "lat": 6.349497,
+    "lon": 6.483863
+  },
+  {
+    "state": "Delta",
+    "lga": "AniochaS",
+    "lat": 6.150348,
+    "lon": 6.477487
+  },
+  {
+    "state": "Delta",
+    "lga": "Bomadi",
+    "lat": 5.22111,
+    "lon": 5.84095
+  },
+  {
+    "state": "Delta",
+    "lga": "Burutu",
+    "lat": 5.228087,
+    "lon": 5.591282
+  },
+  {
+    "state": "Delta",
+    "lga": "Ethiope West",
+    "lat": 5.911354,
+    "lon": 5.739796
+  },
+  {
+    "state": "Delta",
+    "lga": "EthiopeE",
+    "lat": 5.696527,
+    "lon": 6.005449
+  },
+  {
+    "state": "Delta",
+    "lga": "IkaNorth",
+    "lat": 6.228928,
+    "lon": 6.263347
+  },
+  {
+    "state": "Delta",
+    "lga": "IkaSouth",
+    "lat": 6.208151,
+    "lon": 6.17263
+  },
+  {
+    "state": "Delta",
+    "lga": "IsokoNor",
+    "lat": 5.526855,
+    "lon": 6.216939
+  },
+  {
+    "state": "Delta",
+    "lga": "IsokoSou",
+    "lat": 5.397074,
+    "lon": 6.207171
+  },
+  {
+    "state": "Delta",
+    "lga": "Ndokwa East",
+    "lat": 5.622018,
+    "lon": 6.462387
+  },
+  {
+    "state": "Delta",
+    "lga": "Ndokwa West",
+    "lat": 5.788929,
+    "lon": 6.324079
+  },
+  {
+    "state": "Delta",
+    "lga": "Okpe",
+    "lat": 5.685474,
+    "lon": 5.800526
+  },
+  {
+    "state": "Delta",
+    "lga": "Oshimili North",
+    "lat": 6.274974,
+    "lon": 6.638346
+  },
+  {
+    "state": "Delta",
+    "lga": "Oshimili South",
+    "lat": 6.165757,
+    "lon": 6.717369
+  },
+  {
+    "state": "Delta",
+    "lga": "Patani",
+    "lat": 5.199269,
+    "lon": 6.154523
+  },
+  {
+    "state": "Delta",
+    "lga": "Sapele",
+    "lat": 5.873217,
+    "lon": 5.660009
+  },
+  {
+    "state": "Delta",
+    "lga": "Udu",
+    "lat": 5.476186,
+    "lon": 5.816402
+  },
+  {
+    "state": "Delta",
+    "lga": "Ughelli North",
+    "lat": 5.520258,
+    "lon": 6.017713
+  },
+  {
+    "state": "Delta",
+    "lga": "Ughelli South",
+    "lat": 5.38081,
+    "lon": 5.902579
+  },
+  {
+    "state": "Delta",
+    "lga": "Ukwuani",
+    "lat": 5.830492,
+    "lon": 6.210467
+  },
+  {
+    "state": "Delta",
+    "lga": "Uvwie",
+    "lat": 5.554211,
+    "lon": 5.770369
+  },
+  {
+    "state": "Delta",
+    "lga": "Warri North",
+    "lat": 5.851781,
+    "lon": 5.226273
+  },
+  {
+    "state": "Delta",
+    "lga": "Warri South",
+    "lat": 5.574678,
+    "lon": 5.663813
+  },
+  {
+    "state": "Delta",
+    "lga": "Warri South-West",
+    "lat": 5.551648,
+    "lon": 5.415061
+  },
+  {
+    "state": "Ebonyi",
+    "lga": "Abakalik",
+    "lat": 6.278768,
+    "lon": 8.172423
+  },
+  {
+    "state": "Ebonyi",
+    "lga": "Afikpo North",
+    "lat": 5.884802,
+    "lon": 7.922449
+  },
+  {
+    "state": "Ebonyi",
+    "lga": "Afikpo South",
+    "lat": 5.797638,
+    "lon": 7.835148
+  },
+  {
+    "state": "Ebonyi",
+    "lga": "Ebonyi",
+    "lat": 6.463095,
+    "lon": 8.110834
+  },
+  {
+    "state": "Ebonyi",
+    "lga": "Ezza North",
+    "lat": 6.252984,
+    "lon": 7.963844
+  },
+  {
+    "state": "Ebonyi",
+    "lga": "Ezza South",
+    "lat": 6.135271,
+    "lon": 8.015168
+  },
+  {
+    "state": "Ebonyi",
+    "lga": "Ikwo",
+    "lat": 6.07606,
+    "lon": 8.157538
+  },
+  {
+    "state": "Ebonyi",
+    "lga": "Ishielu",
+    "lat": 6.414587,
+    "lon": 7.797774
+  },
+  {
+    "state": "Ebonyi",
+    "lga": "Ivo",
+    "lat": 5.908413,
+    "lon": 7.61163
+  },
+  {
+    "state": "Ebonyi",
+    "lga": "Izzi",
+    "lat": 6.509119,
+    "lon": 8.261359
+  },
+  {
+    "state": "Ebonyi",
+    "lga": "Ohaozara",
+    "lat": 5.990196,
+    "lon": 7.79757
+  },
+  {
+    "state": "Ebonyi",
+    "lga": "Ohaukwu",
+    "lat": 6.536066,
+    "lon": 7.994566
+  },
+  {
+    "state": "Ebonyi",
+    "lga": "Onicha",
+    "lat": 6.105534,
+    "lon": 7.856631
+  },
+  {
+    "state": "Edo",
+    "lga": "Akoko Edo",
+    "lat": 7.352091,
+    "lon": 6.123644
+  },
+  {
+    "state": "Edo",
+    "lga": "Egor",
+    "lat": 6.3636,
+    "lon": 5.578263
+  },
+  {
+    "state": "Edo",
+    "lga": "Esan Centtral",
+    "lat": 6.744842,
+    "lon": 6.249598
+  },
+  {
+    "state": "Edo",
+    "lga": "Esan North East",
+    "lat": 6.723456,
+    "lon": 6.327358
+  },
+  {
+    "state": "Edo",
+    "lga": "Esan South East",
+    "lat": 6.593418,
+    "lon": 6.431339
+  },
+  {
+    "state": "Edo",
+    "lga": "Esan West",
+    "lat": 6.686506,
+    "lon": 6.116748
+  },
+  {
+    "state": "Edo",
+    "lga": "Etsako Central",
+    "lat": 7.017571,
+    "lon": 6.497825
+  },
+  {
+    "state": "Edo",
+    "lga": "Etsako East",
+    "lat": 7.183839,
+    "lon": 6.48226
+  },
+  {
+    "state": "Edo",
+    "lga": "Etsako West",
+    "lat": 7.028563,
+    "lon": 6.287813
+  },
+  {
+    "state": "Edo",
+    "lga": "Igueben",
+    "lat": 6.528777,
+    "lon": 6.239407
+  },
+  {
+    "state": "Edo",
+    "lga": "Ikpoba-Okha",
+    "lat": 6.280521,
+    "lon": 5.648628
+  },
+  {
+    "state": "Edo",
+    "lga": "Oredo",
+    "lat": 6.279283,
+    "lon": 5.569446
+  },
+  {
+    "state": "Edo",
+    "lga": "Orhionmw",
+    "lat": 6.15232,
+    "lon": 6.057614
+  },
+  {
+    "state": "Edo",
+    "lga": "Ovia North East",
+    "lat": 6.517351,
+    "lon": 5.520919
+  },
+  {
+    "state": "Edo",
+    "lga": "Ovia South West",
+    "lat": 6.492843,
+    "lon": 5.277637
+  },
+  {
+    "state": "Edo",
+    "lga": "Owan East",
+    "lat": 7.066274,
+    "lon": 6.048044
+  },
+  {
+    "state": "Edo",
+    "lga": "Owan West",
+    "lat": 6.936752,
+    "lon": 5.89675
+  },
+  {
+    "state": "Edo",
+    "lga": "Uhunmwonde",
+    "lat": 6.489881,
+    "lon": 5.907708
+  },
+  {
+    "state": "Ekiti",
+    "lga": "Ado-Ekiti",
+    "lat": 7.596562,
+    "lon": 5.248511
+  },
+  {
+    "state": "Ekiti",
+    "lga": "Efon",
+    "lat": 7.659327,
+    "lon": 4.955568
+  },
+  {
+    "state": "Ekiti",
+    "lga": "Ekiti East",
+    "lat": 7.737297,
+    "lon": 5.67648
+  },
+  {
+    "state": "Ekiti",
+    "lga": "Ekiti South West",
+    "lat": 7.522858,
+    "lon": 5.06591
+  },
+  {
+    "state": "Ekiti",
+    "lga": "Ekiti West",
+    "lat": 7.702895,
+    "lon": 4.99181
+  },
+  {
+    "state": "Ekiti",
+    "lga": "Emure",
+    "lat": 7.419872,
+    "lon": 5.496322
+  },
+  {
+    "state": "Ekiti",
+    "lga": "Gboyin",
+    "lat": 7.621517,
+    "lon": 5.503197
+  },
+  {
+    "state": "Ekiti",
+    "lga": "Ido-Osi",
+    "lat": 7.832017,
+    "lon": 5.176992
+  },
+  {
+    "state": "Ekiti",
+    "lga": "Ijero",
+    "lat": 7.815063,
+    "lon": 5.053902
+  },
+  {
+    "state": "Ekiti",
+    "lga": "Ikere",
+    "lat": 7.48634,
+    "lon": 5.220131
+  },
+  {
+    "state": "Ekiti",
+    "lga": "Ikole",
+    "lat": 7.855514,
+    "lon": 5.490917
+  },
+  {
+    "state": "Ekiti",
+    "lga": "Ilejemeje",
+    "lat": 7.935177,
+    "lon": 5.220273
+  },
+  {
+    "state": "Ekiti",
+    "lga": "Irepodun-Ifelodun",
+    "lat": 7.691294,
+    "lon": 5.218749
+  },
+  {
+    "state": "Ekiti",
+    "lga": "Ise-Orun",
+    "lat": 7.420369,
+    "lon": 5.397424
+  },
+  {
+    "state": "Ekiti",
+    "lga": "Moba",
+    "lat": 7.978526,
+    "lon": 5.124776
+  },
+  {
+    "state": "Ekiti",
+    "lga": "Oye",
+    "lat": 7.832571,
+    "lon": 5.340638
+  },
+  {
+    "state": "Enugu",
+    "lga": "Aninri",
+    "lat": 6.065522,
+    "lon": 7.593313
+  },
+  {
+    "state": "Enugu",
+    "lga": "Awgu",
+    "lat": 6.150154,
+    "lon": 7.45545
+  },
+  {
+    "state": "Enugu",
+    "lga": "Enugu East",
+    "lat": 6.524831,
+    "lon": 7.528771
+  },
+  {
+    "state": "Enugu",
+    "lga": "Enugu North",
+    "lat": 6.443469,
+    "lon": 7.505856
+  },
+  {
+    "state": "Enugu",
+    "lga": "EnuguSou",
+    "lat": 6.398904,
+    "lon": 7.508272
+  },
+  {
+    "state": "Enugu",
+    "lga": "Ezeagu",
+    "lat": 6.392657,
+    "lon": 7.247629
+  },
+  {
+    "state": "Enugu",
+    "lga": "Igbo-Eti",
+    "lat": 6.689726,
+    "lon": 7.391643
+  },
+  {
+    "state": "Enugu",
+    "lga": "Igbo-eze North",
+    "lat": 7.010616,
+    "lon": 7.457851
+  },
+  {
+    "state": "Enugu",
+    "lga": "Igbo-eze South",
+    "lat": 6.929014,
+    "lon": 7.382815
+  },
+  {
+    "state": "Enugu",
+    "lga": "Isi-Uzo",
+    "lat": 6.731769,
+    "lon": 7.699603
+  },
+  {
+    "state": "Enugu",
+    "lga": "Nkanu East",
+    "lat": 6.286892,
+    "lon": 7.651979
+  },
+  {
+    "state": "Enugu",
+    "lga": "Nkanu West",
+    "lat": 6.310232,
+    "lon": 7.514289
+  },
+  {
+    "state": "Enugu",
+    "lga": "Nsukka",
+    "lat": 6.830224,
+    "lon": 7.390833
+  },
+  {
+    "state": "Enugu",
+    "lga": "Oji-River",
+    "lat": 6.171065,
+    "lon": 7.280608
+  },
+  {
+    "state": "Enugu",
+    "lga": "Udenu",
+    "lat": 6.87178,
+    "lon": 7.549003
+  },
+  {
+    "state": "Enugu",
+    "lga": "Udi",
+    "lat": 6.426187,
+    "lon": 7.367628
+  },
+  {
+    "state": "Enugu",
+    "lga": "Uzo-Uwani",
+    "lat": 6.743693,
+    "lon": 7.132773
+  },
+  {
+    "state": "Federal Capital Territory",
+    "lga": "Abaji",
+    "lat": 8.597284,
+    "lon": 6.868475
+  },
+  {
+    "state": "Federal Capital Territory",
+    "lga": "Bwari",
+    "lat": 9.212654,
+    "lon": 7.412354
+  },
+  {
+    "state": "Federal Capital Territory",
+    "lga": "Gwagwalada",
+    "lat": 9.042774,
+    "lon": 7.037096
+  },
+  {
+    "state": "Federal Capital Territory",
+    "lga": "Kuje",
+    "lat": 8.663308,
+    "lon": 7.197748
+  },
+  {
+    "state": "Federal Capital Territory",
+    "lga": "Kwali",
+    "lat": 8.74885,
+    "lon": 6.97461
+  },
+  {
+    "state": "Federal Capital Territory",
+    "lga": "Municipal",
+    "lat": 8.993005,
+    "lon": 7.424822
+  },
+  {
+    "state": "Gombe",
+    "lga": "Akko",
+    "lat": 10.105402,
+    "lon": 11.114669
+  },
+  {
+    "state": "Gombe",
+    "lga": "Balanga",
+    "lat": 9.827464,
+    "lon": 11.692172
+  },
+  {
+    "state": "Gombe",
+    "lga": "Billiri",
+    "lat": 9.866762,
+    "lon": 11.149837
+  },
+  {
+    "state": "Gombe",
+    "lga": "Dukku",
+    "lat": 10.879656,
+    "lon": 10.785166
+  },
+  {
+    "state": "Gombe",
+    "lga": "Funakaye",
+    "lat": 10.795172,
+    "lon": 11.402824
+  },
+  {
+    "state": "Gombe",
+    "lga": "Gombe",
+    "lat": 10.311674,
+    "lon": 11.242099
+  },
+  {
+    "state": "Gombe",
+    "lga": "Kaltungo",
+    "lat": 9.872468,
+    "lon": 11.499447
+  },
+  {
+    "state": "Gombe",
+    "lga": "Kwami",
+    "lat": 10.524909,
+    "lon": 11.319232
+  },
+  {
+    "state": "Gombe",
+    "lga": "Nafada",
+    "lat": 11.142769,
+    "lon": 11.206601
+  },
+  {
+    "state": "Gombe",
+    "lga": "Shomgom",
+    "lat": 9.683628,
+    "lon": 11.247369
+  },
+  {
+    "state": "Gombe",
+    "lga": "Yalmatu / Deba",
+    "lat": 10.283681,
+    "lon": 11.507395
+  },
+  {
+    "state": "Imo",
+    "lga": "Aboh-Mbaise",
+    "lat": 5.433646,
+    "lon": 7.243425
+  },
+  {
+    "state": "Imo",
+    "lga": "Ahiazu-Mbaise",
+    "lat": 5.547747,
+    "lon": 7.27096
+  },
+  {
+    "state": "Imo",
+    "lga": "Ehime-Mbano",
+    "lat": 5.650291,
+    "lon": 7.293488
+  },
+  {
+    "state": "Imo",
+    "lga": "Ezinihitte Mbaise",
+    "lat": 5.473054,
+    "lon": 7.328448
+  },
+  {
+    "state": "Imo",
+    "lga": "Ideato North",
+    "lat": 5.859015,
+    "lon": 7.145127
+  },
+  {
+    "state": "Imo",
+    "lga": "Ideato South",
+    "lat": 5.789647,
+    "lon": 7.150351
+  },
+  {
+    "state": "Imo",
+    "lga": "Ihitte-Uboma Isinweke",
+    "lat": 5.623295,
+    "lon": 7.361208
+  },
+  {
+    "state": "Imo",
+    "lga": "Ikeduru",
+    "lat": 5.551136,
+    "lon": 7.151648
+  },
+  {
+    "state": "Imo",
+    "lga": "Isiala Mbano",
+    "lat": 5.659133,
+    "lon": 7.181346
+  },
+  {
+    "state": "Imo",
+    "lga": "Isu",
+    "lat": 5.672258,
+    "lon": 7.0713
+  },
+  {
+    "state": "Imo",
+    "lga": "Mbaitoli",
+    "lat": 5.590433,
+    "lon": 7.018739
+  },
+  {
+    "state": "Imo",
+    "lga": "Ngor-Okpala",
+    "lat": 5.309958,
+    "lon": 7.151286
+  },
+  {
+    "state": "Imo",
+    "lga": "Njaba",
+    "lat": 5.701068,
+    "lon": 7.017823
+  },
+  {
+    "state": "Imo",
+    "lga": "Nkwerre",
+    "lat": 5.72826,
+    "lon": 7.114308
+  },
+  {
+    "state": "Imo",
+    "lga": "Nwangele",
+    "lat": 5.693546,
+    "lon": 7.128828
+  },
+  {
+    "state": "Imo",
+    "lga": "Obowo",
+    "lat": 5.545318,
+    "lon": 7.364326
+  },
+  {
+    "state": "Imo",
+    "lga": "Oguta",
+    "lat": 5.636191,
+    "lon": 6.849754
+  },
+  {
+    "state": "Imo",
+    "lga": "Ohaji-Egbema",
+    "lat": 5.397152,
+    "lon": 6.823231
+  },
+  {
+    "state": "Imo",
+    "lga": "Okigwe",
+    "lat": 5.800199,
+    "lon": 7.331944
+  },
+  {
+    "state": "Imo",
+    "lga": "Orlu",
+    "lat": 5.785462,
+    "lon": 7.053484
+  },
+  {
+    "state": "Imo",
+    "lga": "Orsu",
+    "lat": 5.847737,
+    "lon": 6.990399
+  },
+  {
+    "state": "Imo",
+    "lga": "Oru-East",
+    "lat": 5.703759,
+    "lon": 6.957687
+  },
+  {
+    "state": "Imo",
+    "lga": "Oru-West",
+    "lat": 5.761067,
+    "lon": 6.916488
+  },
+  {
+    "state": "Imo",
+    "lga": "Owerri Municipal",
+    "lat": 5.480942,
+    "lon": 7.033134
+  },
+  {
+    "state": "Imo",
+    "lga": "Owerri North",
+    "lat": 5.457566,
+    "lon": 7.082619
+  },
+  {
+    "state": "Imo",
+    "lga": "Owerri West",
+    "lat": 5.413934,
+    "lon": 6.983782
+  },
+  {
+    "state": "Imo",
+    "lga": "Unuimo",
+    "lat": 5.775942,
+    "lon": 7.242026
+  },
+  {
+    "state": "Jigawa",
+    "lga": "Auyo",
+    "lat": 12.336471,
+    "lon": 9.987096
+  },
+  {
+    "state": "Jigawa",
+    "lga": "Babura",
+    "lat": 12.594492,
+    "lon": 8.829581
+  },
+  {
+    "state": "Jigawa",
+    "lga": "Biriniwa",
+    "lat": 12.782058,
+    "lon": 10.058241
+  },
+  {
+    "state": "Jigawa",
+    "lga": "Birnin Kudu",
+    "lat": 11.4377,
+    "lon": 9.468087
+  },
+  {
+    "state": "Jigawa",
+    "lga": "Buji",
+    "lat": 11.5685,
+    "lon": 9.732315
+  },
+  {
+    "state": "Jigawa",
+    "lga": "Dutse",
+    "lat": 11.777216,
+    "lon": 9.302454
+  },
+  {
+    "state": "Jigawa",
+    "lga": "Gagarawa",
+    "lat": 12.452732,
+    "lon": 9.527143
+  },
+  {
+    "state": "Jigawa",
+    "lga": "Garki",
+    "lat": 12.380647,
+    "lon": 9.084268
+  },
+  {
+    "state": "Jigawa",
+    "lga": "Gumel",
+    "lat": 12.620737,
+    "lon": 9.385544
+  },
+  {
+    "state": "Jigawa",
+    "lga": "Guri",
+    "lat": 12.678385,
+    "lon": 10.440037
+  },
+  {
+    "state": "Jigawa",
+    "lga": "Gwaram",
+    "lat": 11.239333,
+    "lon": 9.938104
+  },
+  {
+    "state": "Jigawa",
+    "lga": "Gwiwa",
+    "lat": 12.758026,
+    "lon": 8.274413
+  },
+  {
+    "state": "Jigawa",
+    "lga": "Hadejia",
+    "lat": 12.442211,
+    "lon": 10.041449
+  },
+  {
+    "state": "Jigawa",
+    "lga": "Jahun",
+    "lat": 12.052525,
+    "lon": 9.540929
+  },
+  {
+    "state": "Jigawa",
+    "lga": "Kafin Hausa",
+    "lat": 12.146008,
+    "lon": 9.999204
+  },
+  {
+    "state": "Jigawa",
+    "lga": "Kaugama",
+    "lat": 12.433315,
+    "lon": 9.756655
+  },
+  {
+    "state": "Jigawa",
+    "lga": "Kazaure",
+    "lat": 12.633097,
+    "lon": 8.471616
+  },
+  {
+    "state": "Jigawa",
+    "lga": "Kirika Samma",
+    "lat": 12.584988,
+    "lon": 10.226048
+  },
+  {
+    "state": "Jigawa",
+    "lga": "Kiyawa",
+    "lat": 11.815919,
+    "lon": 9.569933
+  },
+  {
+    "state": "Jigawa",
+    "lga": "Maigatari",
+    "lat": 12.715649,
+    "lon": 9.526272
+  },
+  {
+    "state": "Jigawa",
+    "lga": "Malam Mado",
+    "lat": 12.518777,
+    "lon": 9.961532
+  },
+  {
+    "state": "Jigawa",
+    "lga": "Miga",
+    "lat": 12.198451,
+    "lon": 9.700787
+  },
+  {
+    "state": "Jigawa",
+    "lga": "Ringim",
+    "lat": 12.15312,
+    "lon": 9.079916
+  },
+  {
+    "state": "Jigawa",
+    "lga": "Roni",
+    "lat": 12.588582,
+    "lon": 8.297492
+  },
+  {
+    "state": "Jigawa",
+    "lga": "Sule Tankarkar",
+    "lat": 12.613322,
+    "lon": 9.186577
+  },
+  {
+    "state": "Jigawa",
+    "lga": "Taura",
+    "lat": 12.249968,
+    "lon": 9.393051
+  },
+  {
+    "state": "Jigawa",
+    "lga": "Yankwashi",
+    "lat": 12.743307,
+    "lon": 8.498052
+  },
+  {
+    "state": "Kaduna",
+    "lga": "Birnin Gwari",
+    "lat": 10.917381,
+    "lon": 6.7116
+  },
+  {
+    "state": "Kaduna",
+    "lga": "Chikun",
+    "lat": 10.407396,
+    "lon": 7.359764
+  },
+  {
+    "state": "Kaduna",
+    "lga": "Giwa",
+    "lat": 11.164229,
+    "lon": 7.434703
+  },
+  {
+    "state": "Kaduna",
+    "lga": "Igabi",
+    "lat": 10.75389,
+    "lon": 7.570836
+  },
+  {
+    "state": "Kaduna",
+    "lga": "Ikara",
+    "lat": 11.295317,
+    "lon": 8.18586
+  },
+  {
+    "state": "Kaduna",
+    "lga": "Jaba",
+    "lat": 9.458623,
+    "lon": 8.029093
+  },
+  {
+    "state": "Kaduna",
+    "lga": "Jema'a",
+    "lat": 9.427321,
+    "lon": 8.267616
+  },
+  {
+    "state": "Kaduna",
+    "lga": "Kachia",
+    "lat": 9.751457,
+    "lon": 7.806795
+  },
+  {
+    "state": "Kaduna",
+    "lga": "Kaduna North",
+    "lat": 10.547515,
+    "lon": 7.458913
+  },
+  {
+    "state": "Kaduna",
+    "lga": "Kaduna South",
+    "lat": 10.491409,
+    "lon": 7.421828
+  },
+  {
+    "state": "Kaduna",
+    "lga": "Kagarko",
+    "lat": 9.443577,
+    "lon": 7.630023
+  },
+  {
+    "state": "Kaduna",
+    "lga": "Kajuru",
+    "lat": 10.270594,
+    "lon": 7.809281
+  },
+  {
+    "state": "Kaduna",
+    "lga": "Kaura",
+    "lat": 9.604877,
+    "lon": 8.449849
+  },
+  {
+    "state": "Kaduna",
+    "lga": "Kauru",
+    "lat": 10.21595,
+    "lon": 8.328621
+  },
+  {
+    "state": "Kaduna",
+    "lga": "Kubau",
+    "lat": 10.856034,
+    "lon": 8.297043
+  },
+  {
+    "state": "Kaduna",
+    "lga": "Kudan",
+    "lat": 11.270008,
+    "lon": 7.764991
+  },
+  {
+    "state": "Kaduna",
+    "lga": "Lere",
+    "lat": 10.341111,
+    "lon": 8.590355
+  },
+  {
+    "state": "Kaduna",
+    "lga": "Makarfi",
+    "lat": 11.317561,
+    "lon": 7.94863
+  },
+  {
+    "state": "Kaduna",
+    "lga": "Sabon Gari",
+    "lat": 11.148097,
+    "lon": 7.700446
+  },
+  {
+    "state": "Kaduna",
+    "lga": "Sanga",
+    "lat": 9.229008,
+    "lon": 8.486184
+  },
+  {
+    "state": "Kaduna",
+    "lga": "Soba",
+    "lat": 10.978515,
+    "lon": 7.991687
+  },
+  {
+    "state": "Kaduna",
+    "lga": "Zangon Kataf",
+    "lat": 9.789606,
+    "lon": 8.291321
+  },
+  {
+    "state": "Kaduna",
+    "lga": "Zaria",
+    "lat": 11.036349,
+    "lon": 7.70977
+  },
+  {
+    "state": "Kano",
+    "lga": "Ajingi",
+    "lat": 11.972886,
+    "lon": 9.019194
+  },
+  {
+    "state": "Kano",
+    "lga": "Albasu",
+    "lat": 11.633099,
+    "lon": 9.087633
+  },
+  {
+    "state": "Kano",
+    "lga": "Bagwai",
+    "lat": 12.097692,
+    "lon": 8.125387
+  },
+  {
+    "state": "Kano",
+    "lga": "Bebeji",
+    "lat": 11.554308,
+    "lon": 8.293858
+  },
+  {
+    "state": "Kano",
+    "lga": "Bichi",
+    "lat": 12.234499,
+    "lon": 8.271755
+  },
+  {
+    "state": "Kano",
+    "lga": "Bunkure",
+    "lat": 11.673792,
+    "lon": 8.589525
+  },
+  {
+    "state": "Kano",
+    "lga": "Dala",
+    "lat": 12.000107,
+    "lon": 8.463564
+  },
+  {
+    "state": "Kano",
+    "lga": "Dambatta",
+    "lat": 12.423101,
+    "lon": 8.603414
+  },
+  {
+    "state": "Kano",
+    "lga": "Dawakin Kudu",
+    "lat": 11.830174,
+    "lon": 8.635666
+  },
+  {
+    "state": "Kano",
+    "lga": "Dawakin Tofa",
+    "lat": 12.13628,
+    "lon": 8.385472
+  },
+  {
+    "state": "Kano",
+    "lga": "Doguwa",
+    "lat": 10.805003,
+    "lon": 8.645219
+  },
+  {
+    "state": "Kano",
+    "lga": "Fagge",
+    "lat": 11.983284,
+    "lon": 8.556156
+  },
+  {
+    "state": "Kano",
+    "lga": "Gabasawa",
+    "lat": 12.147401,
+    "lon": 8.839573
+  },
+  {
+    "state": "Kano",
+    "lga": "Garko",
+    "lat": 11.572723,
+    "lon": 8.824408
+  },
+  {
+    "state": "Kano",
+    "lga": "Garum Mallam",
+    "lat": 11.653883,
+    "lon": 8.365276
+  },
+  {
+    "state": "Kano",
+    "lga": "Gaya",
+    "lat": 11.774815,
+    "lon": 9.002323
+  },
+  {
+    "state": "Kano",
+    "lga": "Gezawa",
+    "lat": 12.046042,
+    "lon": 8.722069
+  },
+  {
+    "state": "Kano",
+    "lga": "Gwale",
+    "lat": 11.973519,
+    "lon": 8.488109
+  },
+  {
+    "state": "Kano",
+    "lga": "Gwarzo",
+    "lat": 11.890729,
+    "lon": 7.946427
+  },
+  {
+    "state": "Kano",
+    "lga": "Kabo",
+    "lat": 11.873366,
+    "lon": 8.174711
+  },
+  {
+    "state": "Kano",
+    "lga": "Kano Municipal",
+    "lat": 11.943123,
+    "lon": 8.482404
+  },
+  {
+    "state": "Kano",
+    "lga": "Karaye",
+    "lat": 11.760502,
+    "lon": 7.995327
+  },
+  {
+    "state": "Kano",
+    "lga": "Kibiya",
+    "lat": 11.50508,
+    "lon": 8.655466
+  },
+  {
+    "state": "Kano",
+    "lga": "Kiru",
+    "lat": 11.622615,
+    "lon": 8.153192
+  },
+  {
+    "state": "Kano",
+    "lga": "Kumbotso",
+    "lat": 11.902918,
+    "lon": 8.495032
+  },
+  {
+    "state": "Kano",
+    "lga": "Kunchi",
+    "lat": 12.43147,
+    "lon": 8.263127
+  },
+  {
+    "state": "Kano",
+    "lga": "Kura",
+    "lat": 11.776744,
+    "lon": 8.467046
+  },
+  {
+    "state": "Kano",
+    "lga": "Madobi",
+    "lat": 11.817497,
+    "lon": 8.365482
+  },
+  {
+    "state": "Kano",
+    "lga": "Makoda",
+    "lat": 12.376505,
+    "lon": 8.475154
+  },
+  {
+    "state": "Kano",
+    "lga": "Minjibir",
+    "lat": 12.168708,
+    "lon": 8.600666
+  },
+  {
+    "state": "Kano",
+    "lga": "Nasarawa",
+    "lat": 12.006069,
+    "lon": 8.505654
+  },
+  {
+    "state": "Kano",
+    "lga": "Rano",
+    "lat": 11.488088,
+    "lon": 8.516829
+  },
+  {
+    "state": "Kano",
+    "lga": "Rimin Gado",
+    "lat": 11.927869,
+    "lon": 8.277941
+  },
+  {
+    "state": "Kano",
+    "lga": "Rogo",
+    "lat": 11.495656,
+    "lon": 7.823292
+  },
+  {
+    "state": "Kano",
+    "lga": "Shanono",
+    "lat": 12.068921,
+    "lon": 7.963775
+  },
+  {
+    "state": "Kano",
+    "lga": "Sumaila",
+    "lat": 11.350141,
+    "lon": 8.885659
+  },
+  {
+    "state": "Kano",
+    "lga": "Takai",
+    "lat": 11.482877,
+    "lon": 9.142636
+  },
+  {
+    "state": "Kano",
+    "lga": "Tarauni",
+    "lat": 11.95871,
+    "lon": 8.522926
+  },
+  {
+    "state": "Kano",
+    "lga": "Tofa",
+    "lat": 12.012687,
+    "lon": 8.292936
+  },
+  {
+    "state": "Kano",
+    "lga": "Tsanyawa",
+    "lat": 12.246193,
+    "lon": 8.000397
+  },
+  {
+    "state": "Kano",
+    "lga": "Tundun Wada",
+    "lat": 11.273031,
+    "lon": 8.495706
+  },
+  {
+    "state": "Kano",
+    "lga": "Ungogo",
+    "lat": 12.045086,
+    "lon": 8.507992
+  },
+  {
+    "state": "Kano",
+    "lga": "Warawa",
+    "lat": 11.890735,
+    "lon": 8.750159
+  },
+  {
+    "state": "Kano",
+    "lga": "Wudil",
+    "lat": 11.755649,
+    "lon": 8.845952
+  },
+  {
+    "state": "Katsina",
+    "lga": "Bakori",
+    "lat": 11.615475,
+    "lon": 7.433383
+  },
+  {
+    "state": "Katsina",
+    "lga": "Batagarawa",
+    "lat": 12.881783,
+    "lon": 7.581133
+  },
+  {
+    "state": "Katsina",
+    "lga": "Batsari",
+    "lat": 12.812351,
+    "lon": 7.253164
+  },
+  {
+    "state": "Katsina",
+    "lga": "Baure",
+    "lat": 12.796485,
+    "lon": 8.774316
+  },
+  {
+    "state": "Katsina",
+    "lga": "Bindawa",
+    "lat": 12.714094,
+    "lon": 7.86968
+  },
+  {
+    "state": "Katsina",
+    "lga": "Charanchi",
+    "lat": 12.612164,
+    "lon": 7.681563
+  },
+  {
+    "state": "Katsina",
+    "lga": "Dandume",
+    "lat": 11.410121,
+    "lon": 7.202443
+  },
+  {
+    "state": "Katsina",
+    "lga": "Danja",
+    "lat": 11.382812,
+    "lon": 7.572509
+  },
+  {
+    "state": "Katsina",
+    "lga": "Danmusa",
+    "lat": 12.22581,
+    "lon": 7.336429
+  },
+  {
+    "state": "Katsina",
+    "lga": "Daura",
+    "lat": 12.997873,
+    "lon": 8.27409
+  },
+  {
+    "state": "Katsina",
+    "lga": "Dutsi",
+    "lat": 12.908741,
+    "lon": 8.142996
+  },
+  {
+    "state": "Katsina",
+    "lga": "Dutsin-M",
+    "lat": 12.438602,
+    "lon": 7.53239
+  },
+  {
+    "state": "Katsina",
+    "lga": "Faskari",
+    "lat": 11.690114,
+    "lon": 7.136479
+  },
+  {
+    "state": "Katsina",
+    "lga": "Funtua",
+    "lat": 11.480176,
+    "lon": 7.311449
+  },
+  {
+    "state": "Katsina",
+    "lga": "Ingawa",
+    "lat": 12.64585,
+    "lon": 8.077667
+  },
+  {
+    "state": "Katsina",
+    "lga": "Jibia",
+    "lat": 13.037173,
+    "lon": 7.32134
+  },
+  {
+    "state": "Katsina",
+    "lga": "Kafur",
+    "lat": 11.633469,
+    "lon": 7.695062
+  },
+  {
+    "state": "Katsina",
+    "lga": "Kaita",
+    "lat": 13.163328,
+    "lon": 7.756978
+  },
+  {
+    "state": "Katsina",
+    "lga": "Kankara",
+    "lat": 11.941871,
+    "lon": 7.419788
+  },
+  {
+    "state": "Katsina",
+    "lga": "Kankiya",
+    "lat": 12.465454,
+    "lon": 7.812683
+  },
+  {
+    "state": "Katsina",
+    "lga": "Katsina (K)",
+    "lat": 12.998643,
+    "lon": 7.607302
+  },
+  {
+    "state": "Katsina",
+    "lga": "Kurfi",
+    "lat": 12.652938,
+    "lon": 7.493367
+  },
+  {
+    "state": "Katsina",
+    "lga": "Kusada",
+    "lat": 12.450379,
+    "lon": 7.973061
+  },
+  {
+    "state": "Katsina",
+    "lga": "Mai'Adua",
+    "lat": 13.145807,
+    "lon": 8.214152
+  },
+  {
+    "state": "Katsina",
+    "lga": "Malumfashi",
+    "lat": 11.839798,
+    "lon": 7.652305
+  },
+  {
+    "state": "Katsina",
+    "lga": "Mani",
+    "lat": 12.882073,
+    "lon": 7.897272
+  },
+  {
+    "state": "Katsina",
+    "lga": "Mashi",
+    "lat": 13.131576,
+    "lon": 7.990517
+  },
+  {
+    "state": "Katsina",
+    "lga": "Matazu",
+    "lat": 12.236041,
+    "lon": 7.644618
+  },
+  {
+    "state": "Katsina",
+    "lga": "Musawa",
+    "lat": 12.107393,
+    "lon": 7.725726
+  },
+  {
+    "state": "Katsina",
+    "lga": "Rimi",
+    "lat": 12.854018,
+    "lon": 7.713213
+  },
+  {
+    "state": "Katsina",
+    "lga": "Sabuwa",
+    "lat": 11.295066,
+    "lon": 7.091296
+  },
+  {
+    "state": "Katsina",
+    "lga": "Safana",
+    "lat": 12.529324,
+    "lon": 7.267465
+  },
+  {
+    "state": "Katsina",
+    "lga": "Sandamu",
+    "lat": 12.908506,
+    "lon": 8.362101
+  },
+  {
+    "state": "Katsina",
+    "lga": "Zango",
+    "lat": 12.952681,
+    "lon": 8.548959
+  },
+  {
+    "state": "Kebbi",
+    "lga": "Aleiro",
+    "lat": 12.283274,
+    "lon": 4.465157
+  },
+  {
+    "state": "Kebbi",
+    "lga": "Arewa",
+    "lat": 12.699306,
+    "lon": 4.043636
+  },
+  {
+    "state": "Kebbi",
+    "lga": "Argungu",
+    "lat": 12.69797,
+    "lon": 4.461845
+  },
+  {
+    "state": "Kebbi",
+    "lga": "Augie",
+    "lat": 12.864915,
+    "lon": 4.641084
+  },
+  {
+    "state": "Kebbi",
+    "lga": "Bagudo",
+    "lat": 11.433127,
+    "lon": 4.056704
+  },
+  {
+    "state": "Kebbi",
+    "lga": "Birnin Kebbi",
+    "lat": 12.456123,
+    "lon": 4.256136
+  },
+  {
+    "state": "Kebbi",
+    "lga": "Bunza",
+    "lat": 12.091636,
+    "lon": 3.997875
+  },
+  {
+    "state": "Kebbi",
+    "lga": "Dandi",
+    "lat": 11.785529,
+    "lon": 3.788276
+  },
+  {
+    "state": "Kebbi",
+    "lga": "Danko Wasagu",
+    "lat": 11.454167,
+    "lon": 5.579748
+  },
+  {
+    "state": "Kebbi",
+    "lga": "Fakai",
+    "lat": 11.514615,
+    "lon": 4.885174
+  },
+  {
+    "state": "Kebbi",
+    "lga": "Gwandu",
+    "lat": 12.466369,
+    "lon": 4.656251
+  },
+  {
+    "state": "Kebbi",
+    "lga": "Jega",
+    "lat": 12.101362,
+    "lon": 4.452995
+  },
+  {
+    "state": "Kebbi",
+    "lga": "Kalgo",
+    "lat": 12.263688,
+    "lon": 4.081786
+  },
+  {
+    "state": "Kebbi",
+    "lga": "Koko/Bes",
+    "lat": 11.393919,
+    "lon": 4.433782
+  },
+  {
+    "state": "Kebbi",
+    "lga": "Maiyama",
+    "lat": 12.024045,
+    "lon": 4.310929
+  },
+  {
+    "state": "Kebbi",
+    "lga": "Ngaski",
+    "lat": 10.480725,
+    "lon": 4.720419
+  },
+  {
+    "state": "Kebbi",
+    "lga": "Sakaba",
+    "lat": 11.168687,
+    "lon": 5.519808
+  },
+  {
+    "state": "Kebbi",
+    "lga": "Shanga",
+    "lat": 11.22248,
+    "lon": 4.710938
+  },
+  {
+    "state": "Kebbi",
+    "lga": "Suru",
+    "lat": 11.786431,
+    "lon": 4.117532
+  },
+  {
+    "state": "Kebbi",
+    "lga": "Yauri",
+    "lat": 10.903605,
+    "lon": 4.729821
+  },
+  {
+    "state": "Kebbi",
+    "lga": "Zuru",
+    "lat": 11.461417,
+    "lon": 5.280221
+  },
+  {
+    "state": "Kogi",
+    "lga": "Adavi",
+    "lat": 7.61446,
+    "lon": 6.363586
+  },
+  {
+    "state": "Kogi",
+    "lga": "Ajaokuta",
+    "lat": 7.529187,
+    "lon": 6.581263
+  },
+  {
+    "state": "Kogi",
+    "lga": "Ankpa",
+    "lat": 7.446665,
+    "lon": 7.651774
+  },
+  {
+    "state": "Kogi",
+    "lga": "Bassa",
+    "lat": 7.781902,
+    "lon": 7.030732
+  },
+  {
+    "state": "Kogi",
+    "lga": "Dekina",
+    "lat": 7.534055,
+    "lon": 7.138471
+  },
+  {
+    "state": "Kogi",
+    "lga": "Ibaji",
+    "lat": 6.78813,
+    "lon": 6.750606
+  },
+  {
+    "state": "Kogi",
+    "lga": "Idah",
+    "lat": 7.060696,
+    "lon": 6.710073
+  },
+  {
+    "state": "Kogi",
+    "lga": "Igalamela-Odolu",
+    "lat": 7.055484,
+    "lon": 7.003062
+  },
+  {
+    "state": "Kogi",
+    "lga": "Ijumu",
+    "lat": 7.846621,
+    "lon": 5.957643
+  },
+  {
+    "state": "Kogi",
+    "lga": "Kabba-Bunu",
+    "lat": 7.94109,
+    "lon": 6.161798
+  },
+  {
+    "state": "Kogi",
+    "lga": "Koton-Karfe",
+    "lat": 8.11673,
+    "lon": 6.862567
+  },
+  {
+    "state": "Kogi",
+    "lga": "Lokoja",
+    "lat": 8.077283,
+    "lon": 6.495309
+  },
+  {
+    "state": "Kogi",
+    "lga": "Mopa-Muro",
+    "lat": 8.087417,
+    "lon": 5.881849
+  },
+  {
+    "state": "Kogi",
+    "lga": "Ofu",
+    "lat": 7.307011,
+    "lon": 7.021988
+  },
+  {
+    "state": "Kogi",
+    "lga": "Ogori Magongo",
+    "lat": 7.457996,
+    "lon": 6.156134
+  },
+  {
+    "state": "Kogi",
+    "lga": "Okehi",
+    "lat": 7.638809,
+    "lon": 6.213457
+  },
+  {
+    "state": "Kogi",
+    "lga": "Okene",
+    "lat": 7.478458,
+    "lon": 6.248656
+  },
+  {
+    "state": "Kogi",
+    "lga": "Olamaboro",
+    "lat": 7.193348,
+    "lon": 7.54236
+  },
+  {
+    "state": "Kogi",
+    "lga": "Omala",
+    "lat": 7.742678,
+    "lon": 7.526524
+  },
+  {
+    "state": "Kogi",
+    "lga": "Yagba East",
+    "lat": 8.090376,
+    "lon": 5.747753
+  },
+  {
+    "state": "Kogi",
+    "lga": "Yagba West",
+    "lat": 8.280651,
+    "lon": 5.528985
+  },
+  {
+    "state": "Kwara",
+    "lga": "Asa",
+    "lat": 8.412549,
+    "lon": 4.456139
+  },
+  {
+    "state": "Kwara",
+    "lga": "Baruten",
+    "lat": 9.115134,
+    "lon": 3.23406
+  },
+  {
+    "state": "Kwara",
+    "lga": "Edu",
+    "lat": 8.901805,
+    "lon": 5.180928
+  },
+  {
+    "state": "Kwara",
+    "lga": "Ekiti",
+    "lat": 8.076849,
+    "lon": 5.329195
+  },
+  {
+    "state": "Kwara",
+    "lga": "Ifelodun",
+    "lat": 8.547437,
+    "lon": 4.964205
+  },
+  {
+    "state": "Kwara",
+    "lga": "Ilorin East",
+    "lat": 8.537684,
+    "lon": 4.686214
+  },
+  {
+    "state": "Kwara",
+    "lga": "Ilorin South",
+    "lat": 8.435457,
+    "lon": 4.687303
+  },
+  {
+    "state": "Kwara",
+    "lga": "Ilorin West",
+    "lat": 8.488929,
+    "lon": 4.545515
+  },
+  {
+    "state": "Kwara",
+    "lga": "Irepodun",
+    "lat": 8.167374,
+    "lon": 4.978189
+  },
+  {
+    "state": "Kwara",
+    "lga": "Isin",
+    "lat": 8.255794,
+    "lon": 5.047298
+  },
+  {
+    "state": "Kwara",
+    "lga": "Kaiama",
+    "lat": 9.539048,
+    "lon": 4.132654
+  },
+  {
+    "state": "Kwara",
+    "lga": "Moro",
+    "lat": 8.774501,
+    "lon": 4.579659
+  },
+  {
+    "state": "Kwara",
+    "lga": "Offa",
+    "lat": 8.139202,
+    "lon": 4.705102
+  },
+  {
+    "state": "Kwara",
+    "lga": "Oke-Ero",
+    "lat": 8.135389,
+    "lon": 5.229755
+  },
+  {
+    "state": "Kwara",
+    "lga": "Oyun",
+    "lat": 8.141048,
+    "lon": 4.670668
+  },
+  {
+    "state": "Kwara",
+    "lga": "Pategi",
+    "lat": 8.672607,
+    "lon": 5.75627
+  },
+  {
+    "state": "Lagos",
+    "lga": "Agege",
+    "lat": 6.638222,
+    "lon": 3.306133
+  },
+  {
+    "state": "Lagos",
+    "lga": "Ajeromi/Ifelodun",
+    "lat": 6.465065,
+    "lon": 3.325298
+  },
+  {
+    "state": "Lagos",
+    "lga": "Alimosho",
+    "lat": 6.593126,
+    "lon": 3.255566
+  },
+  {
+    "state": "Lagos",
+    "lga": "Amuwo Odofin",
+    "lat": 6.455025,
+    "lon": 3.273731
+  },
+  {
+    "state": "Lagos",
+    "lga": "Apapa",
+    "lat": 6.45567,
+    "lon": 3.357008
+  },
+  {
+    "state": "Lagos",
+    "lga": "Badagary",
+    "lat": 6.446533,
+    "lon": 2.920989
+  },
+  {
+    "state": "Lagos",
+    "lga": "Epe",
+    "lat": 6.598074,
+    "lon": 3.933202
+  },
+  {
+    "state": "Lagos",
+    "lga": "Eti-Osa",
+    "lat": 6.450417,
+    "lon": 3.493976
+  },
+  {
+    "state": "Lagos",
+    "lga": "Ibeju/Lekki",
+    "lat": 6.471544,
+    "lon": 3.814701
+  },
+  {
+    "state": "Lagos",
+    "lga": "Ifako/Ijaye",
+    "lat": 6.678578,
+    "lon": 3.303498
+  },
+  {
+    "state": "Lagos",
+    "lga": "Ikeja",
+    "lat": 6.615877,
+    "lon": 3.333519
+  },
+  {
+    "state": "Lagos",
+    "lga": "Ikorodu",
+    "lat": 6.62019,
+    "lon": 3.549954
+  },
+  {
+    "state": "Lagos",
+    "lga": "Kosofe",
+    "lat": 6.605359,
+    "lon": 3.404737
+  },
+  {
+    "state": "Lagos",
+    "lga": "Lagos Island",
+    "lat": 6.458498,
+    "lon": 3.394049
+  },
+  {
+    "state": "Lagos",
+    "lga": "Lagos Mainland",
+    "lat": 6.495578,
+    "lon": 3.374829
+  },
+  {
+    "state": "Lagos",
+    "lga": "Mushin",
+    "lat": 6.550652,
+    "lon": 3.345829
+  },
+  {
+    "state": "Lagos",
+    "lga": "Ojo",
+    "lat": 6.463001,
+    "lon": 3.158348
+  },
+  {
+    "state": "Lagos",
+    "lga": "Oshodi/Isolo",
+    "lat": 6.561361,
+    "lon": 3.317307
+  },
+  {
+    "state": "Lagos",
+    "lga": "Shomolu",
+    "lat": 6.550515,
+    "lon": 3.376805
+  },
+  {
+    "state": "Lagos",
+    "lga": "Surulere",
+    "lat": 6.508816,
+    "lon": 3.338601
+  },
+  {
+    "state": "Nassarawa",
+    "lga": "Akwanga",
+    "lat": 9.004157,
+    "lon": 8.353913
+  },
+  {
+    "state": "Nassarawa",
+    "lga": "Awe",
+    "lat": 8.225322,
+    "lon": 9.210537
+  },
+  {
+    "state": "Nassarawa",
+    "lga": "Doma",
+    "lat": 8.258661,
+    "lon": 8.309503
+  },
+  {
+    "state": "Nassarawa",
+    "lga": "Karu",
+    "lat": 9.000959,
+    "lon": 7.742501
+  },
+  {
+    "state": "Nassarawa",
+    "lga": "Keana",
+    "lat": 8.19601,
+    "lon": 8.731168
+  },
+  {
+    "state": "Nassarawa",
+    "lga": "Keffi",
+    "lat": 8.844892,
+    "lon": 7.867462
+  },
+  {
+    "state": "Nassarawa",
+    "lga": "Kokona",
+    "lat": 8.742624,
+    "lon": 8.074495
+  },
+  {
+    "state": "Nassarawa",
+    "lga": "Lafia",
+    "lat": 8.556631,
+    "lon": 8.597906
+  },
+  {
+    "state": "Nassarawa",
+    "lga": "Nasarawa",
+    "lat": 8.39374,
+    "lon": 7.750242
+  },
+  {
+    "state": "Nassarawa",
+    "lga": "Nassarawa Egon",
+    "lat": 8.754324,
+    "lon": 8.402539
+  },
+  {
+    "state": "Nassarawa",
+    "lga": "Obi",
+    "lat": 8.365026,
+    "lon": 8.703953
+  },
+  {
+    "state": "Nassarawa",
+    "lga": "Toto",
+    "lat": 8.297739,
+    "lon": 7.211522
+  },
+  {
+    "state": "Nassarawa",
+    "lga": "Wamba",
+    "lat": 8.979092,
+    "lon": 8.647877
+  },
+  {
+    "state": "Niger",
+    "lga": "Agaie",
+    "lat": 8.978599,
+    "lon": 6.371763
+  },
+  {
+    "state": "Niger",
+    "lga": "Agwara",
+    "lat": 10.722205,
+    "lon": 4.550672
+  },
+  {
+    "state": "Niger",
+    "lga": "Bida",
+    "lat": 9.083864,
+    "lon": 6.003055
+  },
+  {
+    "state": "Niger",
+    "lga": "Borgu",
+    "lat": 10.23696,
+    "lon": 4.304421
+  },
+  {
+    "state": "Niger",
+    "lga": "Bosso",
+    "lat": 9.627893,
+    "lon": 6.456805
+  },
+  {
+    "state": "Niger",
+    "lga": "Chanchaga",
+    "lat": 9.605908,
+    "lon": 6.522232
+  },
+  {
+    "state": "Niger",
+    "lga": "Edati",
+    "lat": 9.04421,
+    "lon": 5.632468
+  },
+  {
+    "state": "Niger",
+    "lga": "Gbako",
+    "lat": 9.268605,
+    "lon": 6.007194
+  },
+  {
+    "state": "Niger",
+    "lga": "Gurara",
+    "lat": 9.312611,
+    "lon": 7.028728
+  },
+  {
+    "state": "Niger",
+    "lga": "Katcha",
+    "lat": 9.026214,
+    "lon": 6.217035
+  },
+  {
+    "state": "Niger",
+    "lga": "Kontogur",
+    "lat": 10.382771,
+    "lon": 5.470828
+  },
+  {
+    "state": "Niger",
+    "lga": "Lapai",
+    "lat": 8.746503,
+    "lon": 6.62423
+  },
+  {
+    "state": "Niger",
+    "lga": "Lavun",
+    "lat": 9.136339,
+    "lon": 5.805767
+  },
+  {
+    "state": "Niger",
+    "lga": "Magama",
+    "lat": 10.333749,
+    "lon": 4.959438
+  },
+  {
+    "state": "Niger",
+    "lga": "Mariga",
+    "lat": 10.646749,
+    "lon": 5.784
+  },
+  {
+    "state": "Niger",
+    "lga": "Mashegu",
+    "lat": 9.895955,
+    "lon": 5.230603
+  },
+  {
+    "state": "Niger",
+    "lga": "Mokwa",
+    "lat": 9.193668,
+    "lon": 5.251449
+  },
+  {
+    "state": "Niger",
+    "lga": "Muya",
+    "lat": 9.771765,
+    "lon": 7.016431
+  },
+  {
+    "state": "Niger",
+    "lga": "Paikoro",
+    "lat": 9.47832,
+    "lon": 6.891046
+  },
+  {
+    "state": "Niger",
+    "lga": "Rafi",
+    "lat": 10.185254,
+    "lon": 6.245516
+  },
+  {
+    "state": "Niger",
+    "lga": "Rijau",
+    "lat": 11.081425,
+    "lon": 5.196538
+  },
+  {
+    "state": "Niger",
+    "lga": "Shiroro",
+    "lat": 10.00139,
+    "lon": 6.686979
+  },
+  {
+    "state": "Niger",
+    "lga": "Suleja",
+    "lat": 9.181058,
+    "lon": 7.148246
+  },
+  {
+    "state": "Niger",
+    "lga": "Tafa",
+    "lat": 9.257974,
+    "lon": 7.244636
+  },
+  {
+    "state": "Niger",
+    "lga": "Wushishi",
+    "lat": 9.680855,
+    "lon": 6.026467
+  },
+  {
+    "state": "Ogun",
+    "lga": "Abeokuta North",
+    "lat": 7.212251,
+    "lon": 3.222213
+  },
+  {
+    "state": "Ogun",
+    "lga": "Abeokuta South",
+    "lat": 7.162634,
+    "lon": 3.351694
+  },
+  {
+    "state": "Ogun",
+    "lga": "Ado Odo-Ota",
+    "lat": 6.622505,
+    "lon": 3.040495
+  },
+  {
+    "state": "Ogun",
+    "lga": "Egbado North",
+    "lat": 7.130181,
+    "lon": 2.889278
+  },
+  {
+    "state": "Ogun",
+    "lga": "Egbado South",
+    "lat": 6.779529,
+    "lon": 2.926684
+  },
+  {
+    "state": "Ogun",
+    "lga": "Ewekoro",
+    "lat": 6.931638,
+    "lon": 3.204604
+  },
+  {
+    "state": "Ogun",
+    "lga": "Ifo",
+    "lat": 6.764308,
+    "lon": 3.256767
+  },
+  {
+    "state": "Ogun",
+    "lga": "Ijebu East",
+    "lat": 6.796562,
+    "lon": 4.208214
+  },
+  {
+    "state": "Ogun",
+    "lga": "Ijebu North",
+    "lat": 6.983109,
+    "lon": 3.94584
+  },
+  {
+    "state": "Ogun",
+    "lga": "Ijebu North-East",
+    "lat": 6.885009,
+    "lon": 4.002288
+  },
+  {
+    "state": "Ogun",
+    "lga": "Ijebu-Ode",
+    "lat": 6.794884,
+    "lon": 3.935556
+  },
+  {
+    "state": "Ogun",
+    "lga": "Ikenne",
+    "lat": 6.903551,
+    "lon": 3.676578
+  },
+  {
+    "state": "Ogun",
+    "lga": "Imeko-Afon",
+    "lat": 7.60518,
+    "lon": 2.880451
+  },
+  {
+    "state": "Ogun",
+    "lga": "Ipokia",
+    "lat": 6.640414,
+    "lon": 2.782197
+  },
+  {
+    "state": "Ogun",
+    "lga": "Obafemi-Owode",
+    "lat": 6.943785,
+    "lon": 3.427884
+  },
+  {
+    "state": "Ogun",
+    "lga": "Odeda",
+    "lat": 7.292327,
+    "lon": 3.49796
+  },
+  {
+    "state": "Ogun",
+    "lga": "Odogbolu",
+    "lat": 6.767357,
+    "lon": 3.824534
+  },
+  {
+    "state": "Ogun",
+    "lga": "Ogun Waterside",
+    "lat": 6.48974,
+    "lon": 4.372363
+  },
+  {
+    "state": "Ogun",
+    "lga": "Remo North",
+    "lat": 6.983443,
+    "lon": 3.716737
+  },
+  {
+    "state": "Ogun",
+    "lga": "Shagamu",
+    "lat": 6.782508,
+    "lon": 3.546797
+  },
+  {
+    "state": "Ondo",
+    "lga": "Akoko North-East",
+    "lat": 7.525216,
+    "lon": 5.756742
+  },
+  {
+    "state": "Ondo",
+    "lga": "Akoko South-East",
+    "lat": 7.428949,
+    "lon": 5.887415
+  },
+  {
+    "state": "Ondo",
+    "lga": "Akoko South-West",
+    "lat": 7.437811,
+    "lon": 5.747654
+  },
+  {
+    "state": "Ondo",
+    "lga": "AkokoNorthWest",
+    "lat": 7.618158,
+    "lon": 5.751697
+  },
+  {
+    "state": "Ondo",
+    "lga": "Akure North",
+    "lat": 7.315141,
+    "lon": 5.284729
+  },
+  {
+    "state": "Ondo",
+    "lga": "Akure South",
+    "lat": 7.234316,
+    "lon": 5.175153
+  },
+  {
+    "state": "Ondo",
+    "lga": "Ese-Odo",
+    "lat": 6.235021,
+    "lon": 4.970516
+  },
+  {
+    "state": "Ondo",
+    "lga": "Idanre",
+    "lat": 7.06083,
+    "lon": 5.13549
+  },
+  {
+    "state": "Ondo",
+    "lga": "Ifedore",
+    "lat": 7.379638,
+    "lon": 5.099715
+  },
+  {
+    "state": "Ondo",
+    "lga": "Ilaje",
+    "lat": 6.189414,
+    "lon": 4.78081
+  },
+  {
+    "state": "Ondo",
+    "lga": "IleOluji/Okeigbo",
+    "lat": 7.266023,
+    "lon": 4.947385
+  },
+  {
+    "state": "Ondo",
+    "lga": "Irele",
+    "lat": 6.490308,
+    "lon": 4.989009
+  },
+  {
+    "state": "Ondo",
+    "lga": "Odigbo",
+    "lat": 6.721978,
+    "lon": 4.767416
+  },
+  {
+    "state": "Ondo",
+    "lga": "Okitipupa",
+    "lat": 6.542984,
+    "lon": 4.691281
+  },
+  {
+    "state": "Ondo",
+    "lga": "Ondo East",
+    "lat": 7.116157,
+    "lon": 4.957887
+  },
+  {
+    "state": "Ondo",
+    "lga": "Ondo West",
+    "lat": 7.025134,
+    "lon": 4.792102
+  },
+  {
+    "state": "Ondo",
+    "lga": "Ose",
+    "lat": 7.071026,
+    "lon": 5.75844
+  },
+  {
+    "state": "Ondo",
+    "lga": "Owo",
+    "lat": 7.187146,
+    "lon": 5.581026
+  },
+  {
+    "state": "Osun",
+    "lga": "Atakumosa East",
+    "lat": 7.395922,
+    "lon": 4.795615
+  },
+  {
+    "state": "Osun",
+    "lga": "Atakumosa West",
+    "lat": 7.566811,
+    "lon": 4.651568
+  },
+  {
+    "state": "Osun",
+    "lga": "Ayedaade",
+    "lat": 7.417401,
+    "lon": 4.360788
+  },
+  {
+    "state": "Osun",
+    "lga": "Ayedire",
+    "lat": 7.580135,
+    "lon": 4.246798
+  },
+  {
+    "state": "Osun",
+    "lga": "Boluwaduro",
+    "lat": 7.929242,
+    "lon": 4.804579
+  },
+  {
+    "state": "Osun",
+    "lga": "Boripe",
+    "lat": 7.87415,
+    "lon": 4.709447
+  },
+  {
+    "state": "Osun",
+    "lga": "Ede North",
+    "lat": 7.708131,
+    "lon": 4.474786
+  },
+  {
+    "state": "Osun",
+    "lga": "Ede South",
+    "lat": 7.65052,
+    "lon": 4.459485
+  },
+  {
+    "state": "Osun",
+    "lga": "Egbedore",
+    "lat": 7.790229,
+    "lon": 4.418928
+  },
+  {
+    "state": "Osun",
+    "lga": "Ejigbo",
+    "lat": 7.870987,
+    "lon": 4.278291
+  },
+  {
+    "state": "Osun",
+    "lga": "Ife East",
+    "lat": 7.372418,
+    "lon": 4.607841
+  },
+  {
+    "state": "Osun",
+    "lga": "Ife North",
+    "lat": 7.344296,
+    "lon": 4.461511
+  },
+  {
+    "state": "Osun",
+    "lga": "Ife South",
+    "lat": 7.219697,
+    "lon": 4.622198
+  },
+  {
+    "state": "Osun",
+    "lga": "IfeCentral",
+    "lat": 7.44354,
+    "lon": 4.60686
+  },
+  {
+    "state": "Osun",
+    "lga": "Ifedayo",
+    "lat": 7.966806,
+    "lon": 5.007632
+  },
+  {
+    "state": "Osun",
+    "lga": "Ifelodun",
+    "lat": 7.918298,
+    "lon": 4.666457
+  },
+  {
+    "state": "Osun",
+    "lga": "Ila",
+    "lat": 8.009783,
+    "lon": 4.901615
+  },
+  {
+    "state": "Osun",
+    "lga": "Ilesha East",
+    "lat": 7.59049,
+    "lon": 4.764005
+  },
+  {
+    "state": "Osun",
+    "lga": "Ilesha West",
+    "lat": 7.63025,
+    "lon": 4.735463
+  },
+  {
+    "state": "Osun",
+    "lga": "Irepodun",
+    "lat": 7.828107,
+    "lon": 4.498311
+  },
+  {
+    "state": "Osun",
+    "lga": "Irewole",
+    "lat": 7.371861,
+    "lon": 4.192194
+  },
+  {
+    "state": "Osun",
+    "lga": "Isokan",
+    "lat": 7.289017,
+    "lon": 4.189956
+  },
+  {
+    "state": "Osun",
+    "lga": "Iwo",
+    "lat": 7.631773,
+    "lon": 4.16914
+  },
+  {
+    "state": "Osun",
+    "lga": "Obokun",
+    "lat": 7.774908,
+    "lon": 4.776885
+  },
+  {
+    "state": "Osun",
+    "lga": "Odo Otin",
+    "lat": 8.006395,
+    "lon": 4.673222
+  },
+  {
+    "state": "Osun",
+    "lga": "Ola-Oluwa",
+    "lat": 7.728174,
+    "lon": 4.225744
+  },
+  {
+    "state": "Osun",
+    "lga": "Olorunda",
+    "lat": 7.81877,
+    "lon": 4.564424
+  },
+  {
+    "state": "Osun",
+    "lga": "Oriade",
+    "lat": 7.535832,
+    "lon": 4.886392
+  },
+  {
+    "state": "Osun",
+    "lga": "Orolu",
+    "lat": 7.868494,
+    "lon": 4.481725
+  },
+  {
+    "state": "Osun",
+    "lga": "Osogbo",
+    "lat": 7.743412,
+    "lon": 4.581725
+  },
+  {
+    "state": "Oyo",
+    "lga": "Afijio",
+    "lat": 7.749485,
+    "lon": 3.916212
+  },
+  {
+    "state": "Oyo",
+    "lga": "Akinyele",
+    "lat": 7.585517,
+    "lon": 3.918588
+  },
+  {
+    "state": "Oyo",
+    "lga": "Atiba",
+    "lat": 7.957326,
+    "lon": 3.952477
+  },
+  {
+    "state": "Oyo",
+    "lga": "Atisbo",
+    "lat": 8.421754,
+    "lon": 3.381585
+  },
+  {
+    "state": "Oyo",
+    "lga": "Egbeda",
+    "lat": 7.40389,
+    "lon": 4.031606
+  },
+  {
+    "state": "Oyo",
+    "lga": "Ibadan North",
+    "lat": 7.40986,
+    "lon": 3.902676
+  },
+  {
+    "state": "Oyo",
+    "lga": "Ibadan North East",
+    "lat": 7.367957,
+    "lon": 3.919019
+  },
+  {
+    "state": "Oyo",
+    "lga": "Ibadan North West",
+    "lat": 7.389863,
+    "lon": 3.886772
+  },
+  {
+    "state": "Oyo",
+    "lga": "Ibadan South East",
+    "lat": 7.347561,
+    "lon": 3.912165
+  },
+  {
+    "state": "Oyo",
+    "lga": "Ibadan South West",
+    "lat": 7.368326,
+    "lon": 3.880107
+  },
+  {
+    "state": "Oyo",
+    "lga": "Ibarapa Central",
+    "lat": 7.447332,
+    "lon": 3.25285
+  },
+  {
+    "state": "Oyo",
+    "lga": "Ibarapa East",
+    "lat": 7.570478,
+    "lon": 3.463651
+  },
+  {
+    "state": "Oyo",
+    "lga": "Ibarapa North",
+    "lat": 7.621007,
+    "lon": 3.199719
+  },
+  {
+    "state": "Oyo",
+    "lga": "Ido",
+    "lat": 7.478923,
+    "lon": 3.746918
+  },
+  {
+    "state": "Oyo",
+    "lga": "Irepo",
+    "lat": 9.067385,
+    "lon": 3.86903
+  },
+  {
+    "state": "Oyo",
+    "lga": "Iseyin",
+    "lat": 7.933112,
+    "lon": 3.571689
+  },
+  {
+    "state": "Oyo",
+    "lga": "Itesiwaju",
+    "lat": 8.193949,
+    "lon": 3.417893
+  },
+  {
+    "state": "Oyo",
+    "lga": "Iwajowa",
+    "lat": 7.968138,
+    "lon": 3.136658
+  },
+  {
+    "state": "Oyo",
+    "lga": "Kajola",
+    "lat": 8.055108,
+    "lon": 3.353904
+  },
+  {
+    "state": "Oyo",
+    "lga": "Lagelu",
+    "lat": 7.508181,
+    "lon": 4.050075
+  },
+  {
+    "state": "Oyo",
+    "lga": "Ogbomosho North",
+    "lat": 8.135963,
+    "lon": 4.257113
+  },
+  {
+    "state": "Oyo",
+    "lga": "Ogbomosho South",
+    "lat": 8.090958,
+    "lon": 4.235653
+  },
+  {
+    "state": "Oyo",
+    "lga": "Ogo-Oluwa",
+    "lat": 7.952749,
+    "lon": 4.177243
+  },
+  {
+    "state": "Oyo",
+    "lga": "Olorunsogo",
+    "lat": 8.745303,
+    "lon": 4.117541
+  },
+  {
+    "state": "Oyo",
+    "lga": "Oluyole",
+    "lat": 7.23597,
+    "lon": 3.895042
+  },
+  {
+    "state": "Oyo",
+    "lga": "Ona-Ara",
+    "lat": 7.299078,
+    "lon": 4.015832
+  },
+  {
+    "state": "Oyo",
+    "lga": "Orelope",
+    "lat": 8.830154,
+    "lon": 3.779021
+  },
+  {
+    "state": "Oyo",
+    "lga": "Ori-Ire",
+    "lat": 8.274087,
+    "lon": 4.14314
+  },
+  {
+    "state": "Oyo",
+    "lga": "Oyo East",
+    "lat": 7.861766,
+    "lon": 3.983402
+  },
+  {
+    "state": "Oyo",
+    "lga": "Oyo West",
+    "lat": 7.862354,
+    "lon": 3.897167
+  },
+  {
+    "state": "Oyo",
+    "lga": "Saki East",
+    "lat": 8.646404,
+    "lon": 3.611358
+  },
+  {
+    "state": "Oyo",
+    "lga": "Saki West",
+    "lat": 8.545171,
+    "lon": 3.223445
+  },
+  {
+    "state": "Oyo",
+    "lga": "Surulere",
+    "lat": 8.066331,
+    "lon": 4.404517
+  },
+  {
+    "state": "Plateau",
+    "lga": "Barkin Ladi",
+    "lat": 9.564025,
+    "lon": 8.918469
+  },
+  {
+    "state": "Plateau",
+    "lga": "Bassa",
+    "lat": 10.019265,
+    "lon": 8.765065
+  },
+  {
+    "state": "Plateau",
+    "lga": "Bokkos",
+    "lat": 9.21354,
+    "lon": 8.904685
+  },
+  {
+    "state": "Plateau",
+    "lga": "Jos East",
+    "lat": 9.887419,
+    "lon": 9.079308
+  },
+  {
+    "state": "Plateau",
+    "lga": "Jos North",
+    "lat": 9.920738,
+    "lon": 8.889032
+  },
+  {
+    "state": "Plateau",
+    "lga": "Jos South",
+    "lat": 9.726672,
+    "lon": 8.797734
+  },
+  {
+    "state": "Plateau",
+    "lga": "Kanam",
+    "lat": 9.460195,
+    "lon": 10.023082
+  },
+  {
+    "state": "Plateau",
+    "lga": "Kanke",
+    "lat": 9.37449,
+    "lon": 9.600597
+  },
+  {
+    "state": "Plateau",
+    "lga": "Langtang North",
+    "lat": 9.141339,
+    "lon": 9.798591
+  },
+  {
+    "state": "Plateau",
+    "lga": "Langtang South",
+    "lat": 8.641277,
+    "lon": 9.809031
+  },
+  {
+    "state": "Plateau",
+    "lga": "Mangu",
+    "lat": 9.458792,
+    "lon": 9.175553
+  },
+  {
+    "state": "Plateau",
+    "lga": "Mikang",
+    "lat": 9.004435,
+    "lon": 9.58602
+  },
+  {
+    "state": "Plateau",
+    "lga": "Pankshin",
+    "lat": 9.304662,
+    "lon": 9.387384
+  },
+  {
+    "state": "Plateau",
+    "lga": "Qua'anpa",
+    "lat": 8.886642,
+    "lon": 9.213814
+  },
+  {
+    "state": "Plateau",
+    "lga": "Riyom",
+    "lat": 9.579157,
+    "lon": 8.696632
+  },
+  {
+    "state": "Plateau",
+    "lga": "Shendam",
+    "lat": 8.765535,
+    "lon": 9.554228
+  },
+  {
+    "state": "Plateau",
+    "lga": "Wase",
+    "lat": 9.114057,
+    "lon": 10.069871
+  },
+  {
+    "state": "Rivers",
+    "lga": "Abua/Odu",
+    "lat": 4.833803,
+    "lon": 6.57333
+  },
+  {
+    "state": "Rivers",
+    "lga": "Ahoada East",
+    "lat": 5.053148,
+    "lon": 6.638265
+  },
+  {
+    "state": "Rivers",
+    "lga": "Ahoada West",
+    "lat": 5.093284,
+    "lon": 6.507936
+  },
+  {
+    "state": "Rivers",
+    "lga": "Akukutor",
+    "lat": 4.670511,
+    "lon": 6.736935
+  },
+  {
+    "state": "Rivers",
+    "lga": "Andoni/Odual",
+    "lat": 4.514478,
+    "lon": 7.396821
+  },
+  {
+    "state": "Rivers",
+    "lga": "Asari-Toru",
+    "lat": 4.733845,
+    "lon": 6.854634
+  },
+  {
+    "state": "Rivers",
+    "lga": "Bonny",
+    "lat": 4.461327,
+    "lon": 7.193721
+  },
+  {
+    "state": "Rivers",
+    "lga": "Degema",
+    "lat": 4.640446,
+    "lon": 6.900734
+  },
+  {
+    "state": "Rivers",
+    "lga": "Eleme",
+    "lat": 4.775022,
+    "lon": 7.14646
+  },
+  {
+    "state": "Rivers",
+    "lga": "Emuoha",
+    "lat": 4.970823,
+    "lon": 6.779756
+  },
+  {
+    "state": "Rivers",
+    "lga": "Etche",
+    "lat": 5.070089,
+    "lon": 7.0424
+  },
+  {
+    "state": "Rivers",
+    "lga": "Gokana",
+    "lat": 4.657583,
+    "lon": 7.292824
+  },
+  {
+    "state": "Rivers",
+    "lga": "Ikwerre",
+    "lat": 5.050616,
+    "lon": 6.890376
+  },
+  {
+    "state": "Rivers",
+    "lga": "Khana",
+    "lat": 4.681521,
+    "lon": 7.421035
+  },
+  {
+    "state": "Rivers",
+    "lga": "Obio/Akpor",
+    "lat": 4.847275,
+    "lon": 7.00076
+  },
+  {
+    "state": "Rivers",
+    "lga": "Ogba/Egbema/Andoni",
+    "lat": 5.358196,
+    "lon": 6.648259
+  },
+  {
+    "state": "Rivers",
+    "lga": "Ogu/Bolo",
+    "lat": 4.672475,
+    "lon": 7.207068
+  },
+  {
+    "state": "Rivers",
+    "lga": "Okrika",
+    "lat": 4.691775,
+    "lon": 7.115586
+  },
+  {
+    "state": "Rivers",
+    "lga": "Omumma",
+    "lat": 5.09025,
+    "lon": 7.197159
+  },
+  {
+    "state": "Rivers",
+    "lga": "Opobo/Nkoro",
+    "lat": 4.52164,
+    "lon": 7.510778
+  },
+  {
+    "state": "Rivers",
+    "lga": "Oyigbo",
+    "lat": 4.840803,
+    "lon": 7.274523
+  },
+  {
+    "state": "Rivers",
+    "lga": "Port Harcourt",
+    "lat": 4.771105,
+    "lon": 7.012536
+  },
+  {
+    "state": "Rivers",
+    "lga": "Tai",
+    "lat": 4.739104,
+    "lon": 7.259288
+  },
+  {
+    "state": "Sokoto",
+    "lga": "Binji",
+    "lat": 13.185599,
+    "lon": 4.902385
+  },
+  {
+    "state": "Sokoto",
+    "lga": "Bodinga",
+    "lat": 12.831739,
+    "lon": 5.217267
+  },
+  {
+    "state": "Sokoto",
+    "lga": "Dange-Shuni",
+    "lat": 12.853293,
+    "lon": 5.413207
+  },
+  {
+    "state": "Sokoto",
+    "lga": "Gada",
+    "lat": 13.683526,
+    "lon": 5.691118
+  },
+  {
+    "state": "Sokoto",
+    "lga": "Goronyo",
+    "lat": 13.421317,
+    "lon": 5.720334
+  },
+  {
+    "state": "Sokoto",
+    "lga": "Gudu",
+    "lat": 13.42258,
+    "lon": 4.451893
+  },
+  {
+    "state": "Sokoto",
+    "lga": "Gwadabaw",
+    "lat": 13.406115,
+    "lon": 5.344545
+  },
+  {
+    "state": "Sokoto",
+    "lga": "Illela",
+    "lat": 13.660983,
+    "lon": 5.372841
+  },
+  {
+    "state": "Sokoto",
+    "lga": "Isa",
+    "lat": 13.221537,
+    "lon": 6.422562
+  },
+  {
+    "state": "Sokoto",
+    "lga": "Kebbe",
+    "lat": 11.950351,
+    "lon": 4.821329
+  },
+  {
+    "state": "Sokoto",
+    "lga": "Kware",
+    "lat": 13.126882,
+    "lon": 5.323784
+  },
+  {
+    "state": "Sokoto",
+    "lga": "Rabah",
+    "lat": 13.032431,
+    "lon": 5.66518
+  },
+  {
+    "state": "Sokoto",
+    "lga": "Sabon Birni",
+    "lat": 13.505054,
+    "lon": 6.268771
+  },
+  {
+    "state": "Sokoto",
+    "lga": "Shagari",
+    "lat": 12.562825,
+    "lon": 5.110661
+  },
+  {
+    "state": "Sokoto",
+    "lga": "Silame",
+    "lat": 12.97022,
+    "lon": 4.873422
+  },
+  {
+    "state": "Sokoto",
+    "lga": "Sokoto North",
+    "lat": 13.063929,
+    "lon": 5.276123
+  },
+  {
+    "state": "Sokoto",
+    "lga": "Sokoto South",
+    "lat": 13.01444,
+    "lon": 5.267895
+  },
+  {
+    "state": "Sokoto",
+    "lga": "Tambawal",
+    "lat": 12.347556,
+    "lon": 4.81581
+  },
+  {
+    "state": "Sokoto",
+    "lga": "Tangazar",
+    "lat": 13.433928,
+    "lon": 4.999195
+  },
+  {
+    "state": "Sokoto",
+    "lga": "Tureta",
+    "lat": 12.562654,
+    "lon": 5.48456
+  },
+  {
+    "state": "Sokoto",
+    "lga": "Wamakko",
+    "lat": 13.03407,
+    "lon": 5.151481
+  },
+  {
+    "state": "Sokoto",
+    "lga": "Wurno",
+    "lat": 13.239425,
+    "lon": 5.449635
+  },
+  {
+    "state": "Sokoto",
+    "lga": "Yabo",
+    "lat": 12.745852,
+    "lon": 4.989047
+  },
+  {
+    "state": "Taraba",
+    "lga": "Ardo-Kola",
+    "lat": 8.836767,
+    "lon": 11.200278
+  },
+  {
+    "state": "Taraba",
+    "lga": "Bali",
+    "lat": 8.180372,
+    "lon": 11.11916
+  },
+  {
+    "state": "Taraba",
+    "lga": "Donga",
+    "lat": 7.662314,
+    "lon": 10.235001
+  },
+  {
+    "state": "Taraba",
+    "lga": "Gashaka",
+    "lat": 7.556291,
+    "lon": 11.370685
+  },
+  {
+    "state": "Taraba",
+    "lga": "Gassol",
+    "lat": 8.506917,
+    "lon": 10.626865
+  },
+  {
+    "state": "Taraba",
+    "lga": "Ibi",
+    "lat": 8.303562,
+    "lon": 9.836309
+  },
+  {
+    "state": "Taraba",
+    "lga": "Jalingo",
+    "lat": 8.885187,
+    "lon": 11.423078
+  },
+  {
+    "state": "Taraba",
+    "lga": "Karim-Lamido",
+    "lat": 9.303854,
+    "lon": 11.100114
+  },
+  {
+    "state": "Taraba",
+    "lga": "Kurmi",
+    "lat": 7.162743,
+    "lon": 10.631346
+  },
+  {
+    "state": "Taraba",
+    "lga": "Lau",
+    "lat": 9.18583,
+    "lon": 11.47438
+  },
+  {
+    "state": "Taraba",
+    "lga": "Sardauna",
+    "lat": 6.784816,
+    "lon": 11.232416
+  },
+  {
+    "state": "Taraba",
+    "lga": "Takum",
+    "lat": 7.419656,
+    "lon": 10.054625
+  },
+  {
+    "state": "Taraba",
+    "lga": "Ussa",
+    "lat": 7.080824,
+    "lon": 9.987703
+  },
+  {
+    "state": "Taraba",
+    "lga": "Wukari",
+    "lat": 7.920889,
+    "lon": 9.769224
+  },
+  {
+    "state": "Taraba",
+    "lga": "Yorro",
+    "lat": 8.943995,
+    "lon": 11.569125
+  },
+  {
+    "state": "Taraba",
+    "lga": "Zing",
+    "lat": 8.910444,
+    "lon": 11.829016
+  },
+  {
+    "state": "Yobe",
+    "lga": "Bade",
+    "lat": 12.800214,
+    "lon": 10.943902
+  },
+  {
+    "state": "Yobe",
+    "lga": "Borsari",
+    "lat": 12.749441,
+    "lon": 11.448301
+  },
+  {
+    "state": "Yobe",
+    "lga": "Damaturu",
+    "lat": 11.767409,
+    "lon": 12.012001
+  },
+  {
+    "state": "Yobe",
+    "lga": "Fika",
+    "lat": 11.352039,
+    "lon": 11.283681
+  },
+  {
+    "state": "Yobe",
+    "lga": "Fune",
+    "lat": 11.8284,
+    "lon": 11.413015
+  },
+  {
+    "state": "Yobe",
+    "lga": "Geidam",
+    "lat": 12.763435,
+    "lon": 12.038865
+  },
+  {
+    "state": "Yobe",
+    "lga": "Gujba",
+    "lat": 11.410744,
+    "lon": 12.077831
+  },
+  {
+    "state": "Yobe",
+    "lga": "Gulani",
+    "lat": 10.886883,
+    "lon": 11.709131
+  },
+  {
+    "state": "Yobe",
+    "lga": "Jakusko",
+    "lat": 12.450264,
+    "lon": 10.892789
+  },
+  {
+    "state": "Yobe",
+    "lga": "Karasuwa",
+    "lat": 12.924615,
+    "lon": 10.769112
+  },
+  {
+    "state": "Yobe",
+    "lga": "Machina",
+    "lat": 12.991941,
+    "lon": 9.941424
+  },
+  {
+    "state": "Yobe",
+    "lga": "Nangere",
+    "lat": 11.789772,
+    "lon": 11.001744
+  },
+  {
+    "state": "Yobe",
+    "lga": "Nguru",
+    "lat": 12.906159,
+    "lon": 10.424781
+  },
+  {
+    "state": "Yobe",
+    "lga": "Potiskum",
+    "lat": 11.676098,
+    "lon": 11.138733
+  },
+  {
+    "state": "Yobe",
+    "lga": "Tarmuwa",
+    "lat": 12.246847,
+    "lon": 11.782436
+  },
+  {
+    "state": "Yobe",
+    "lga": "Yunusari",
+    "lat": 13.06246,
+    "lon": 11.860274
+  },
+  {
+    "state": "Yobe",
+    "lga": "Yusufari",
+    "lat": 13.152103,
+    "lon": 10.878346
+  },
+  {
+    "state": "Zamfara",
+    "lga": "Anka",
+    "lat": 12.069231,
+    "lon": 5.995158
+  },
+  {
+    "state": "Zamfara",
+    "lga": "Bakura",
+    "lat": 12.601078,
+    "lon": 5.89331
+  },
+  {
+    "state": "Zamfara",
+    "lga": "Birnin Magaji",
+    "lat": 12.493013,
+    "lon": 6.841735
+  },
+  {
+    "state": "Zamfara",
+    "lga": "Bukkuyum",
+    "lat": 12.03762,
+    "lon": 5.717263
+  },
+  {
+    "state": "Zamfara",
+    "lga": "Bungudu",
+    "lat": 12.211278,
+    "lon": 6.623077
+  },
+  {
+    "state": "Zamfara",
+    "lga": "Gummi",
+    "lat": 12.075334,
+    "lon": 5.275691
+  },
+  {
+    "state": "Zamfara",
+    "lga": "Gusau",
+    "lat": 12.109042,
+    "lon": 6.7546
+  },
+  {
+    "state": "Zamfara",
+    "lga": "Kaura-Namoda",
+    "lat": 12.5204,
+    "lon": 6.615136
+  },
+  {
+    "state": "Zamfara",
+    "lga": "Maradun",
+    "lat": 12.672625,
+    "lon": 6.305847
+  },
+  {
+    "state": "Zamfara",
+    "lga": "Maru",
+    "lat": 11.823002,
+    "lon": 6.304127
+  },
+  {
+    "state": "Zamfara",
+    "lga": "Shinkafi",
+    "lat": 13.018558,
+    "lon": 6.509394
+  },
+  {
+    "state": "Zamfara",
+    "lga": "Talata-Mafara",
+    "lat": 12.378983,
+    "lon": 6.104486
+  },
+  {
+    "state": "Zamfara",
+    "lga": "Tsafe",
+    "lat": 11.929238,
+    "lon": 6.947792
+  },
+  {
+    "state": "Zamfara",
+    "lga": "Zurmi",
+    "lat": 12.829877,
+    "lon": 6.681739
+  }
+]

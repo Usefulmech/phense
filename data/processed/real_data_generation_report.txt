@@ -1,0 +1,41 @@
+PHENSE DATASET GEO-ENRICHMENT REPORT
+============================================================
+Generated At: 2026-08-12
+Total Records: 1360
+
+Spatial Distribution:
+state
+Bayelsa     80
+Benue       40
+Borno       40
+Delta       80
+Jigawa      40
+Kaduna      40
+Kano        40
+Kogi        80
+Lagos      120
+Niger       40
+Ogun       360
+Oyo        280
+Rivers      80
+Sokoto      40
+
+Feature Description ranges:
+       rainfall_mm  elevation_m  river_distance_km
+count  1360.000000  1360.000000        1360.000000
+mean    122.440882   138.059588          34.915892
+std      83.844954   148.380671          30.684958
+min       7.800000     1.000000           0.362000
+25%      57.000000    30.280000          14.983750
+50%      71.900000    71.245000          25.806000
+75%     208.800000   202.472500          53.739750
+max     285.000000   615.200000         165.044000
+
+Data Verification Standards:
+1. Coordinates: Centroid-anchored, spatial noise variations
+2. Elevation: SRTM 30m database via Open Topo Data API
+3. Rivers: Haversine distance lookup (nigeria_rivers.json)
+4. Rainfall: Latitude bands based on NiMet stations
+5. Soil: Nigeria soil profiles (clay, silt, loam, sand)
+6. Target variables: MCE standard hydrological weighting
+============================================================

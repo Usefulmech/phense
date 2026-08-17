@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: phense-flood-risk
+    env: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: uvicorn app:app --host 0.0.0.0 --port $PORT
+    envVars:
+      - key: APP_ENV
+        value: production
+      - key: OPEN_TOPO_BASE_URL
+        value: https://api.opentopodata.org/v1/srtm30m
+      - key: ALLOWED_ORIGINS
+        value: "*"

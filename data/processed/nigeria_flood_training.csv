@@ -1,0 +1,1361 @@
+state,lga,latitude,longitude,season,rainfall_mm,elevation_m,river_distance_km,soil_type,drainage,risk_score,risk_class
+Ogun,Abeokuta South,7.147839,3.347406,dry,54.8,67.04,9.431,clay,basic,0.5786,High
+Ogun,Abeokuta South,7.146787,3.347947,wet,195.8,67.46,9.55,clay,basic,0.6457,Critical
+Ogun,Abeokuta South,7.139833,3.34705,dry,61.9,67.08,9.974,clay,basic,0.5755,High
+Ogun,Abeokuta South,7.171073,3.38121,dry,57.4,68.57,11.62,clay,basic,0.5521,High
+Ogun,Abeokuta South,7.166021,3.354486,wet,211.6,68.92,9.044,clay,basic,0.6581,High
+Ogun,Abeokuta South,7.16271,3.334967,wet,203.7,68.38,7.346,sandy,basic,0.5761,High
+Ogun,Abeokuta South,7.137972,3.361277,dry,60.5,67.98,11.313,clay,basic,0.5579,High
+Ogun,Abeokuta South,7.169188,3.359237,wet,224.7,68.01,9.389,clay,basic,0.6612,Critical
+Ogun,Abeokuta South,7.138475,3.323544,wet,204.5,67.07,8.359,clay,basic,0.6646,High
+Ogun,Abeokuta South,7.178719,3.339233,dry,62.6,67.55,6.95,clay,basic,0.6117,High
+Ogun,Abeokuta South,7.150408,3.369253,dry,59.6,66.96,11.286,clay,basic,0.5587,High
+Ogun,Abeokuta South,7.161293,3.363363,wet,199.8,67.74,10.154,clay,basic,0.6401,High
+Ogun,Abeokuta South,7.134873,3.363376,dry,62.4,61.76,11.707,clay,basic,0.5599,High
+Ogun,Abeokuta South,7.138499,3.347279,dry,58.3,68.63,10.093,clay,basic,0.5708,High
+Ogun,Abeokuta South,7.148515,3.367614,wet,213.8,66.05,11.234,clay,basic,0.6356,High
+Ogun,Abeokuta South,7.15458,3.363775,wet,210.9,63.63,10.532,loamy,basic,0.5733,High
+Ogun,Abeokuta South,7.160869,3.359209,dry,59.5,67.1,9.762,silty,basic,0.5383,High
+Ogun,Abeokuta South,7.168326,3.347449,wet,211.5,68.57,8.232,clay,basic,0.6681,Critical
+Ogun,Abeokuta South,7.140835,3.354806,wet,215.2,66.53,10.554,clay,basic,0.644,High
+Ogun,Abeokuta South,7.139199,3.353398,wet,201.9,65.6,10.549,clay,none,0.6909,Critical
+Ogun,Abeokuta South,7.154298,3.382292,dry,60.5,68.33,12.377,clay,good,0.4623,High
+Ogun,Abeokuta South,7.150747,3.366961,dry,58.1,67.33,11.047,clay,basic,0.5605,High
+Ogun,Abeokuta South,7.147058,3.327755,wet,219.0,70.0,7.9,sandy,good,0.4929,High
+Ogun,Abeokuta South,7.15608,3.357366,dry,58.2,67.01,9.834,clay,basic,0.5754,Critical
+Ogun,Abeokuta South,7.204219,3.367839,wet,220.5,71.48,9.701,clay,basic,0.6522,High
+Ogun,Abeokuta South,7.15343,3.364795,wet,206.7,67.07,10.693,clay,basic,0.6376,High
+Ogun,Abeokuta South,7.144911,3.372601,dry,63.5,67.94,11.912,clay,basic,0.5522,High
+Ogun,Abeokuta South,7.149935,3.344854,dry,55.4,63.09,9.066,clay,basic,0.5869,High
+Ogun,Abeokuta South,7.155114,3.352349,wet,212.1,63.08,9.414,clay,none,0.7119,Critical
+Ogun,Abeokuta South,7.132645,3.359651,dry,61.0,68.24,11.546,clay,basic,0.5551,High
+Ogun,Abeokuta South,7.144015,3.338834,dry,53.9,71.23,8.994,clay,basic,0.5794,High
+Ogun,Abeokuta South,7.165074,3.360949,dry,54.5,68.25,9.738,clay,basic,0.5736,High
+Ogun,Abeokuta South,7.132621,3.357111,dry,60.3,62.49,11.336,loamy,basic,0.4911,Medium
+Ogun,Abeokuta South,7.174484,3.368646,dry,59.3,67.71,10.183,clay,basic,0.5711,High
+Ogun,Abeokuta South,7.147954,3.340087,dry,62.9,65.48,8.8,silty,basic,0.553,High
+Ogun,Abeokuta South,7.162998,3.353696,wet,217.2,65.98,9.112,clay,basic,0.6628,High
+Ogun,Abeokuta South,7.155922,3.35036,wet,212.5,63.36,9.18,sandy,moderate,0.5181,High
+Ogun,Abeokuta South,7.171541,3.334138,wet,202.5,68.11,6.759,silty,basic,0.6433,High
+Ogun,Abeokuta South,7.149888,3.315792,wet,219.3,70.61,6.829,clay,moderate,0.6419,High
+Ogun,Abeokuta South,7.153123,3.334867,wet,198.2,66.63,7.988,clay,basic,0.6664,Critical
+Ogun,Abeokuta North,7.204761,3.357213,dry,62.5,47.83,8.534,loamy,moderate,0.4945,High
+Ogun,Abeokuta North,7.190262,3.33722,wet,214.2,51.58,6.405,loamy,moderate,0.5907,High
+Ogun,Abeokuta North,7.165414,3.321991,wet,212.4,51.11,6.021,loamy,good,0.5574,High
+Ogun,Abeokuta North,7.185091,3.351735,dry,57.7,48.12,8.086,loamy,moderate,0.4973,Medium
+Ogun,Abeokuta North,7.199777,3.329156,wet,214.9,49.5,5.423,loamy,moderate,0.6048,High
+Ogun,Abeokuta North,7.213821,3.31047,dry,57.1,47.04,3.696,loamy,moderate,0.5507,High
+Ogun,Abeokuta North,7.207927,3.350717,dry,60.0,48.1,7.851,loamy,moderate,0.5012,Medium
+Ogun,Abeokuta North,7.212336,3.330031,dry,57.0,50.61,5.687,loamy,moderate,0.5234,Medium
+Ogun,Abeokuta North,7.173413,3.32813,wet,214.9,49.11,6.077,loamy,basic,0.6423,High
+Ogun,Abeokuta North,7.195011,3.320534,wet,224.5,50.37,4.506,loamy,moderate,0.6197,High
+Ogun,Abeokuta North,7.16995,3.338645,wet,207.0,49.61,7.282,clay,moderate,0.65,High
+Ogun,Abeokuta North,7.219971,3.305995,dry,60.8,50.7,3.627,loamy,moderate,0.5499,High
+Ogun,Abeokuta North,7.206627,3.326218,wet,224.6,50.94,5.152,loamy,moderate,0.6114,High
+Ogun,Abeokuta North,7.216035,3.316975,dry,62.8,51.22,4.452,loamy,moderate,0.5405,Medium
+Ogun,Abeokuta North,7.199347,3.341286,dry,60.1,50.24,6.761,loamy,moderate,0.5124,Medium
+Ogun,Abeokuta North,7.20132,3.343506,wet,215.8,50.94,7.007,loamy,good,0.5474,High
+Ogun,Abeokuta North,7.191825,3.344677,wet,222.1,50.56,7.193,loamy,moderate,0.5861,High
+Ogun,Abeokuta North,7.215879,3.309983,dry,56.8,45.27,3.749,loamy,moderate,0.5515,High
+Ogun,Abeokuta North,7.209565,3.313994,wet,209.6,48.41,3.898,loamy,moderate,0.6215,High
+Ogun,Abeokuta North,7.207172,3.307018,dry,59.1,54.92,3.085,loamy,moderate,0.5516,Medium
+Ogun,Abeokuta North,7.196735,3.324634,dry,54.3,51.46,4.937,loamy,moderate,0.5303,High
+Ogun,Abeokuta North,7.188213,3.352485,dry,58.0,49.13,8.103,loamy,moderate,0.4963,High
+Ogun,Abeokuta North,7.19997,3.325094,dry,63.4,50.12,4.975,clay,moderate,0.607,High
+Ogun,Abeokuta North,7.200952,3.332891,wet,198.4,50.16,5.836,loamy,moderate,0.5911,High
+Ogun,Abeokuta North,7.199436,3.344381,wet,204.3,50.21,7.103,loamy,moderate,0.5788,High
+Ogun,Abeokuta North,7.170877,3.314977,dry,54.6,47.48,5.037,loamy,moderate,0.5329,High
+Ogun,Abeokuta North,7.220699,3.34542,wet,196.2,50.74,7.575,loamy,moderate,0.5687,High
+Ogun,Abeokuta North,7.219661,3.339095,wet,198.2,52.18,6.876,loamy,moderate,0.5767,High
+Ogun,Abeokuta North,7.21116,3.309304,dry,60.3,51.09,3.463,loamy,moderate,0.5512,High
+Ogun,Abeokuta North,7.202587,3.313427,dry,63.1,49.34,3.699,loamy,moderate,0.5514,High
+Ogun,Abeokuta North,7.200058,3.310516,dry,57.1,48.79,3.366,loamy,moderate,0.553,High
+Ogun,Abeokuta North,7.199363,3.342133,dry,55.7,47.74,6.855,loamy,moderate,0.5114,Medium
+Ogun,Abeokuta North,7.18954,3.326221,dry,61.7,48.59,5.23,sandy,moderate,0.5056,Medium
+Ogun,Abeokuta North,7.200932,3.352133,dry,58.1,47.57,7.958,loamy,moderate,0.4995,High
+Ogun,Abeokuta North,7.196519,3.318595,dry,57.0,50.39,4.275,loamy,moderate,0.5405,High
+Ogun,Abeokuta North,7.196408,3.320902,dry,61.4,49.56,4.53,loamy,moderate,0.5404,High
+Ogun,Abeokuta North,7.206239,3.319083,dry,59.1,50.14,4.367,loamy,moderate,0.5407,High
+Ogun,Abeokuta North,7.178098,3.322369,wet,198.1,47.83,5.271,loamy,moderate,0.6,High
+Ogun,Abeokuta North,7.191086,3.333499,wet,198.4,49.94,5.985,silty,none,0.7201,Critical
+Ogun,Abeokuta North,7.215856,3.35233,dry,59.4,51.3,8.172,loamy,moderate,0.4941,High
+Ogun,Sagamu,6.820919,3.632435,dry,62.4,39.94,30.948,sandy,basic,0.3817,Medium
+Ogun,Sagamu,6.825093,3.635819,wet,201.3,43.29,31.487,sandy,basic,0.4465,Medium
+Ogun,Sagamu,6.83171,3.647191,dry,56.7,39.44,32.938,sandy,basic,0.3794,Medium
+Ogun,Sagamu,6.835196,3.634212,wet,213.8,45.13,31.842,sandy,basic,0.4509,Medium
+Ogun,Sagamu,6.82323,3.658526,wet,197.1,45.14,33.67,sandy,basic,0.4427,Medium
+Ogun,Sagamu,6.839873,3.630534,dry,56.8,39.91,31.683,sandy,basic,0.379,Medium
+Ogun,Sagamu,6.824408,3.645999,wet,213.1,44.5,32.467,sandy,basic,0.4511,Medium
+Ogun,Sagamu,6.850093,3.633166,wet,203.1,44.99,31.749,sandy,basic,0.4458,Medium
+Ogun,Sagamu,6.82063,3.622801,wet,219.4,44.14,29.979,sandy,basic,0.4546,Medium
+Ogun,Sagamu,6.828929,3.657188,wet,215.8,43.12,33.798,sandy,basic,0.4538,Medium
+Ogun,Sagamu,6.847372,3.632534,dry,55.0,43.3,31.735,sandy,basic,0.375,Medium
+Ogun,Sagamu,6.840327,3.649358,dry,57.4,40.9,33.587,sandy,basic,0.3784,Medium
+Ogun,Sagamu,6.840635,3.6399,wet,215.9,43.93,32.678,sandy,basic,0.4531,Medium
+Ogun,Sagamu,6.839073,3.65231,dry,62.9,47.2,33.812,sandy,basic,0.3752,Medium
+Ogun,Sagamu,6.816181,3.650243,dry,58.5,40.02,32.517,sandy,basic,0.3797,Medium
+Ogun,Sagamu,6.855761,3.641575,wet,218.7,43.06,32.562,sandy,basic,0.4552,Medium
+Ogun,Sagamu,6.812229,3.648649,dry,59.6,41.43,32.183,sandy,basic,0.379,Medium
+Ogun,Sagamu,6.823701,3.65569,dry,58.4,39.63,33.405,sandy,basic,0.3801,Medium
+Ogun,Sagamu,6.830154,3.64523,dry,60.9,45.18,32.668,sandy,basic,0.3761,Medium
+Ogun,Sagamu,6.825646,3.626178,wet,210.1,41.45,30.563,sandy,basic,0.4525,Medium
+Ogun,Sagamu,6.851369,3.638515,dry,62.5,43.11,32.306,sandy,moderate,0.3338,Medium
+Ogun,Sagamu,6.827829,3.669567,wet,220.8,44.33,34.991,sandy,basic,0.4551,Medium
+Ogun,Sagamu,6.835055,3.625168,wet,215.5,40.92,30.958,sandy,basic,0.4557,Medium
+Ogun,Sagamu,6.875009,3.672335,wet,222.1,39.11,35.692,clay,basic,0.5596,High
+Ogun,Sagamu,6.834056,3.655955,dry,55.5,38.75,33.922,silty,basic,0.44,Medium
+Ogun,Sagamu,6.841908,3.68308,wet,208.8,42.32,36.999,sandy,basic,0.4511,High
+Ogun,Sagamu,6.827939,3.652676,wet,224.6,46.31,33.301,sandy,basic,0.4551,High
+Ogun,Sagamu,6.83393,3.634579,dry,58.6,42.62,31.812,sandy,basic,0.3774,Medium
+Ogun,Sagamu,6.798055,3.62869,dry,57.8,45.73,29.547,clay,basic,0.4731,Medium
+Ogun,Sagamu,6.839139,3.621641,dry,61.8,42.23,30.742,sandy,moderate,0.3343,Medium
+Ogun,Sagamu,6.829493,3.628461,wet,214.4,39.01,30.984,sandy,basic,0.4569,Medium
+Ogun,Sagamu,6.818626,3.638324,wet,207.5,43.5,31.427,sandy,basic,0.4493,Medium
+Ogun,Sagamu,6.850216,3.63997,dry,62.0,42.75,32.486,sandy,basic,0.3789,Medium
+Ogun,Sagamu,6.839705,3.636361,wet,217.6,41.22,32.29,sandy,basic,0.4564,Medium
+Ogun,Sagamu,6.833096,3.636574,dry,56.4,43.69,31.964,loamy,basic,0.4028,Medium
+Ogun,Sagamu,6.830679,3.632438,dry,54.1,43.13,31.435,sandy,basic,0.3747,Medium
+Ogun,Sagamu,6.849142,3.644613,wet,216.0,40.53,33.012,sandy,none,0.5088,Medium
+Ogun,Sagamu,6.852058,3.645767,dry,59.2,43.09,33.084,sandy,basic,0.3772,Medium
+Ogun,Sagamu,6.862002,3.642756,dry,62.7,39.25,32.594,sandy,basic,0.3825,Medium
+Ogun,Sagamu,6.813481,3.626426,dry,58.2,43.88,29.994,sandy,basic,0.376,Medium
+Ogun,Obafemi-Owode,6.968517,3.513339,dry,63.5,110.49,19.449,clay,none,0.4745,High
+Ogun,Obafemi-Owode,6.958686,3.505641,wet,224.7,110.71,18.378,clay,none,0.566,High
+Ogun,Obafemi-Owode,6.959167,3.483281,wet,218.2,109.56,16.116,clay,none,0.591,High
+Ogun,Obafemi-Owode,6.942642,3.542514,wet,198.3,105.53,21.773,clay,moderate,0.4409,Medium
+Ogun,Obafemi-Owode,6.952749,3.489289,dry,55.1,110.56,16.456,clay,none,0.5063,High
+Ogun,Obafemi-Owode,6.924264,3.50387,wet,213.5,107.65,17.198,clay,none,0.5775,High
+Ogun,Obafemi-Owode,6.943116,3.489315,wet,207.0,111.12,16.108,clay,none,0.5842,High
+Ogun,Obafemi-Owode,6.954943,3.49685,wet,198.8,108.5,17.323,clay,none,0.568,High
+Ogun,Obafemi-Owode,6.94654,3.485724,dry,54.8,106.39,15.85,clay,none,0.5173,High
+Ogun,Obafemi-Owode,6.935027,3.47914,wet,207.4,105.21,14.778,clay,none,0.6059,High
+Ogun,Obafemi-Owode,6.948341,3.48712,dry,55.3,108.02,16.062,clay,none,0.5135,High
+Ogun,Obafemi-Owode,6.955633,3.503737,dry,59.7,109.96,18.062,clay,none,0.4898,Medium
+Ogun,Obafemi-Owode,6.960079,3.509734,dry,63.5,111.16,18.855,clay,none,0.481,Medium
+Ogun,Obafemi-Owode,6.940844,3.495121,dry,62.3,109.15,16.651,clay,none,0.5088,High
+Ogun,Obafemi-Owode,6.925679,3.487781,wet,215.8,106.73,15.475,loamy,none,0.5287,High
+Ogun,Obafemi-Owode,6.945049,3.512742,wet,214.7,109.46,18.649,clay,basic,0.5065,High
+Ogun,Obafemi-Owode,6.93825,3.511574,wet,218.3,106.81,18.336,clay,none,0.567,High
+Ogun,Obafemi-Owode,6.964053,3.520842,wet,214.9,108.27,20.158,clay,none,0.544,High
+Ogun,Obafemi-Owode,6.946351,3.52489,wet,215.3,108.45,19.981,clay,none,0.5443,High
+Ogun,Obafemi-Owode,6.9462,3.509883,wet,201.3,110.69,18.381,loamy,none,0.483,High
+Ogun,Obafemi-Owode,6.962827,3.512043,dry,60.8,109.88,19.203,clay,none,0.4767,High
+Ogun,Obafemi-Owode,6.952006,3.494556,wet,197.3,106.96,16.972,clay,none,0.573,High
+Ogun,Obafemi-Owode,6.932306,3.512119,dry,57.0,109.31,18.253,clay,none,0.4868,High
+Ogun,Obafemi-Owode,6.966607,3.470683,wet,208.1,108.13,14.894,clay,moderate,0.5046,High
+Ogun,Obafemi-Owode,6.94972,3.489387,wet,210.9,111.51,16.349,clay,none,0.5828,High
+Ogun,Obafemi-Owode,6.92757,3.530428,wet,200.9,109.1,20.151,clay,none,0.5364,High
+Ogun,Obafemi-Owode,6.94476,3.492236,dry,59.6,106.49,16.471,clay,none,0.5121,High
+Ogun,Obafemi-Owode,6.922579,3.465555,dry,55.3,110.85,13.001,silty,none,0.5091,Medium
+Ogun,Obafemi-Owode,6.95576,3.480775,dry,58.3,107.28,15.711,loamy,none,0.4483,Medium
+Ogun,Obafemi-Owode,6.936617,3.4882,dry,61.2,104.65,15.789,sandy,none,0.4238,Medium
+Ogun,Obafemi-Owode,6.941522,3.501308,wet,220.1,105.52,17.329,clay,basic,0.5287,High
+Ogun,Obafemi-Owode,6.972816,3.505727,dry,57.4,106.29,18.539,clay,none,0.4864,High
+Ogun,Obafemi-Owode,6.953462,3.477657,wet,197.0,109.7,15.294,silty,none,0.5519,High
+Ogun,Obafemi-Owode,6.946397,3.478368,wet,199.2,107.68,15.08,clay,none,0.5959,High
+Ogun,Obafemi-Owode,6.945241,3.485815,wet,218.7,108.29,15.813,clay,none,0.5961,High
+Ogun,Obafemi-Owode,6.961699,3.478385,wet,205.9,107.72,15.745,clay,basic,0.5387,High
+Ogun,Obafemi-Owode,6.936064,3.52144,wet,197.3,109.16,19.345,clay,none,0.5424,High
+Ogun,Obafemi-Owode,6.93388,3.473905,wet,200.4,108.05,14.187,clay,none,0.6069,High
+Ogun,Obafemi-Owode,6.969628,3.486234,wet,202.1,106.45,16.489,clay,none,0.5816,High
+Ogun,Obafemi-Owode,6.949849,3.483625,wet,209.1,107.67,15.757,clay,none,0.5926,High
+Ogun,Yewa North,7.190916,2.985885,dry,58.8,75.42,10.13,loamy,basic,0.4928,Medium
+Ogun,Yewa North,7.152592,2.992234,dry,57.5,77.17,6.002,loamy,none,0.5926,High
+Ogun,Yewa North,7.142298,2.999227,wet,222.2,75.13,5.16,silty,basic,0.6656,High
+Ogun,Yewa North,7.162686,2.971524,wet,206.2,73.27,7.033,loamy,basic,0.604,High
+Ogun,Yewa North,7.184128,3.006108,dry,56.7,75.28,9.788,loamy,none,0.5485,Medium
+Ogun,Yewa North,7.165088,3.017959,dry,54.0,71.74,8.362,loamy,good,0.4326,Medium
+Ogun,Yewa North,7.159469,3.007953,dry,60.2,76.06,7.297,loamy,good,0.4444,Medium
+Ogun,Yewa North,7.147758,2.99844,wet,195.0,74.67,5.687,loamy,none,0.6659,High
+Ogun,Yewa North,7.158551,3.020576,dry,58.9,77.23,7.901,loamy,none,0.5704,High
+Ogun,Yewa North,7.136943,3.010739,dry,54.0,76.52,5.327,loamy,none,0.5996,High
+Ogun,Yewa North,7.147743,2.979019,dry,57.2,76.25,5.31,loamy,none,0.6016,High
+Ogun,Yewa North,7.133171,2.961322,dry,54.4,72.53,4.225,loamy,none,0.6167,Medium
+Ogun,Yewa North,7.14879,3.004324,wet,204.3,76.31,6.053,loamy,none,0.6645,High
+Ogun,Yewa North,7.14596,3.000682,wet,196.4,74.1,5.597,loamy,none,0.6682,High
+Ogun,Yewa North,7.154905,2.984689,dry,57.7,74.82,6.127,loamy,none,0.5934,Medium
+Ogun,Yewa North,7.115923,3.00053,dry,54.6,76.02,2.875,loamy,none,0.6297,High
+Ogun,Yewa North,7.137331,2.996278,wet,208.4,74.21,4.523,loamy,good,0.5518,High
+Ogun,Yewa North,7.147371,3.003545,dry,60.2,73.4,5.873,loamy,good,0.4639,Medium
+Ogun,Yewa North,7.132388,3.020409,wet,213.2,76.06,5.731,loamy,none,0.673,High
+Ogun,Yewa North,7.151898,3.021509,dry,59.9,73.08,7.367,loamy,none,0.5812,High
+Ogun,Yewa North,7.132341,3.018335,wet,214.5,73.02,5.552,loamy,basic,0.6261,High
+Ogun,Yewa North,7.135161,3.000089,wet,208.4,74.89,4.494,loamy,none,0.6866,High
+Ogun,Yewa North,7.165091,2.991263,wet,200.2,75.52,7.344,loamy,none,0.6478,High
+Ogun,Yewa North,7.164577,2.963527,dry,59.3,73.45,7.407,loamy,none,0.5801,Medium
+Ogun,Yewa North,7.162949,3.019715,wet,198.6,75.65,8.258,loamy,good,0.5009,Medium
+Ogun,Yewa North,7.168803,3.003134,dry,55.1,69.41,8.065,loamy,good,0.4389,Medium
+Ogun,Yewa North,7.173896,2.999939,dry,54.5,75.45,8.506,loamy,none,0.5627,Medium
+Ogun,Yewa North,7.128462,3.007002,dry,59.3,77.6,4.347,loamy,none,0.6129,High
+Ogun,Yewa North,7.162218,3.012854,wet,204.1,76.18,7.81,loamy,none,0.6435,High
+Ogun,Yewa North,7.15559,3.035982,dry,60.2,75.86,8.739,loamy,moderate,0.4648,Medium
+Ogun,Yewa North,7.145001,2.995624,wet,200.1,72.79,5.293,loamy,none,0.6749,High
+Ogun,Yewa North,7.132188,3.029017,wet,196.4,75.22,6.486,loamy,none,0.6565,High
+Ogun,Yewa North,7.135099,2.979182,dry,62.7,74.63,3.904,loamy,none,0.6226,High
+Ogun,Yewa North,7.146385,3.010646,dry,54.4,74.77,6.167,loamy,none,0.5913,High
+Ogun,Yewa North,7.155838,3.019642,dry,63.7,76.13,7.595,loamy,none,0.5774,Medium
+Ogun,Yewa North,7.151208,2.981996,wet,203.0,74.06,5.698,loamy,moderate,0.5727,High
+Ogun,Yewa North,7.178225,2.989915,dry,55.4,75.04,8.767,loamy,none,0.5603,High
+Ogun,Yewa North,7.140226,3.023507,dry,62.6,77.24,6.561,loamy,good,0.4533,Medium
+Ogun,Yewa North,7.110897,2.998662,wet,203.4,74.45,2.389,loamy,none,0.7098,High
+Ogun,Yewa North,7.144243,2.989124,wet,221.5,76.22,5.022,loamy,none,0.6854,High
+Ogun,Yewa South,6.789897,3.001324,wet,206.6,54.93,5.777,clay,basic,0.7079,Critical
+Ogun,Yewa South,6.809552,2.971344,wet,206.2,56.62,2.585,clay,basic,0.7444,Critical
+Ogun,Yewa South,6.794439,2.99626,dry,55.2,55.39,5.145,clay,basic,0.641,High
+Ogun,Yewa South,6.780263,2.995468,wet,199.9,54.7,5.479,clay,basic,0.7084,Critical
+Ogun,Yewa South,6.795865,3.002939,dry,62.0,55.57,5.863,clay,basic,0.6356,High
+Ogun,Yewa South,6.8197,2.987498,wet,214.7,54.71,4.684,clay,basic,0.7252,High
+Ogun,Yewa South,6.800685,2.994822,dry,60.0,57.35,4.95,clay,basic,0.6439,High
+Ogun,Yewa South,6.835784,2.997193,wet,207.6,56.78,6.556,clay,basic,0.6973,Critical
+Ogun,Yewa South,6.779375,2.989764,dry,54.4,58.28,4.953,sandy,basic,0.5413,Medium
+Ogun,Yewa South,6.817112,2.989798,dry,62.9,55.52,4.788,clay,basic,0.649,High
+Ogun,Yewa South,6.803301,2.966263,dry,56.3,54.99,1.833,clay,basic,0.6817,High
+Ogun,Yewa South,6.812426,2.987864,dry,58.7,55.14,4.403,clay,basic,0.6519,High
+Ogun,Yewa South,6.821986,2.980401,dry,57.6,58.17,4.153,clay,basic,0.6515,High
+Ogun,Yewa South,6.826011,2.982374,dry,54.6,60.81,4.598,clay,basic,0.6423,High
+Ogun,Yewa South,6.799826,2.979592,dry,55.2,58.82,3.267,clay,basic,0.6604,High
+Ogun,Yewa South,6.801058,3.012306,wet,207.4,55.57,6.88,clay,basic,0.6945,High
+Ogun,Yewa South,6.818955,2.990617,wet,221.4,52.1,4.955,clay,moderate,0.6827,Critical
+Ogun,Yewa South,6.790654,3.009489,wet,217.2,55.16,6.65,clay,basic,0.7024,High
+Ogun,Yewa South,6.775123,3.00411,wet,209.9,58.01,6.584,clay,basic,0.697,High
+Ogun,Yewa South,6.827438,2.976245,wet,222.9,55.19,4.208,clay,basic,0.7345,Critical
+Ogun,Yewa South,6.788461,2.975815,wet,200.8,57.33,3.126,sandy,basic,0.6356,High
+Ogun,Yewa South,6.785752,2.970827,wet,212.0,55.7,2.793,clay,good,0.6631,High
+Ogun,Yewa South,6.808396,2.974019,wet,224.5,55.27,2.812,clay,basic,0.7519,Critical
+Ogun,Yewa South,6.814742,2.990633,dry,56.8,56.12,4.776,clay,moderate,0.6006,Medium
+Ogun,Yewa South,6.798109,2.984971,wet,215.6,54.85,3.867,clay,basic,0.7353,Critical
+Ogun,Yewa South,6.802856,2.967212,dry,63.4,55.05,1.927,clay,basic,0.684,High
+Ogun,Yewa South,6.814473,2.988983,dry,62.1,56.17,4.595,clay,basic,0.6503,High
+Ogun,Yewa South,6.778245,2.975052,dry,63.0,54.13,3.675,sandy,basic,0.5647,High
+Ogun,Yewa South,6.807873,3.000815,dry,59.6,57.01,5.678,silty,basic,0.5968,High
+Ogun,Yewa South,6.782765,2.995192,dry,60.5,53.65,5.345,clay,moderate,0.5979,High
+Ogun,Yewa South,6.810067,2.967307,wet,196.9,57.76,2.215,clay,basic,0.7433,Critical
+Ogun,Yewa South,6.831716,3.004687,wet,199.1,55.71,6.992,clay,basic,0.6889,High
+Ogun,Yewa South,6.814155,2.986722,dry,57.6,51.77,4.349,sandy,basic,0.5562,High
+Ogun,Yewa South,6.794579,2.997686,dry,56.0,52.83,5.3,clay,basic,0.642,High
+Ogun,Yewa South,6.776739,2.995507,dry,56.3,52.35,5.651,clay,basic,0.6383,High
+Ogun,Yewa South,6.822264,2.980763,wet,213.4,58.88,4.203,clay,basic,0.7264,Critical
+Ogun,Yewa South,6.800328,2.995589,wet,221.2,53.18,5.034,clay,good,0.6431,High
+Ogun,Yewa South,6.801031,3.000448,wet,202.0,60.04,5.571,clay,basic,0.7034,Critical
+Ogun,Yewa South,6.777185,2.977925,dry,63.7,56.34,3.993,clay,basic,0.6581,Critical
+Ogun,Yewa South,6.796989,3.008895,wet,209.9,54.52,6.511,clay,basic,0.7011,High
+Ogun,Ipokia,6.517509,2.826819,dry,56.8,19.32,19.232,silty,none,0.5205,High
+Ogun,Ipokia,6.530608,2.860702,wet,211.9,21.52,15.761,silty,none,0.6359,High
+Ogun,Ipokia,6.537447,2.858351,wet,208.5,19.61,16.193,silty,none,0.6308,Critical
+Ogun,Ipokia,6.532335,2.845715,dry,62.5,18.75,17.42,silty,none,0.5455,High
+Ogun,Ipokia,6.526915,2.831059,dry,56.8,21.11,18.903,silty,none,0.5227,High
+Ogun,Ipokia,6.539079,2.872941,dry,60.8,22.65,14.694,silty,none,0.5738,High
+Ogun,Ipokia,6.524678,2.861019,dry,56.4,18.15,15.598,silty,none,0.565,High
+Ogun,Ipokia,6.564455,2.874576,dry,55.8,20.13,15.6,silty,basic,0.5103,High
+Ogun,Ipokia,6.529851,2.847291,dry,56.1,19.63,17.194,silty,none,0.5443,High
+Ogun,Ipokia,6.495849,2.838751,dry,69.1,19.83,17.821,silty,none,0.5429,High
+Ogun,Ipokia,6.543123,2.873256,wet,200.5,21.6,14.8,silty,none,0.6418,Critical
+Ogun,Ipokia,6.54762,2.845148,wet,217.9,22.8,17.908,silty,none,0.6119,High
+Ogun,Ipokia,6.532736,2.873349,wet,196.8,20.43,14.458,silty,none,0.6452,Critical
+Ogun,Ipokia,6.548786,2.838529,wet,195.4,22.53,18.645,silty,none,0.5923,High
+Ogun,Ipokia,6.532762,2.849607,dry,54.9,21.52,17.01,sandy,none,0.4836,Medium
+Ogun,Ipokia,6.521649,2.842179,dry,57.5,19.78,17.601,silty,none,0.5399,High
+Ogun,Ipokia,6.540713,2.849342,wet,217.8,17.75,17.249,silty,none,0.6244,High
+Ogun,Ipokia,6.508895,2.853206,wet,214.3,23.35,16.248,silty,none,0.6295,Critical
+Ogun,Ipokia,6.561404,2.844791,wet,215.8,20.55,18.456,silty,none,0.6064,Critical
+Ogun,Ipokia,6.550244,2.83955,dry,54.1,22.08,18.585,silty,none,0.5243,High
+Ogun,Ipokia,6.549368,2.845217,dry,59.4,21.52,17.959,silty,none,0.5349,High
+Ogun,Ipokia,6.521721,2.833224,dry,63.7,20.04,18.583,silty,none,0.5309,High
+Ogun,Ipokia,6.534919,2.849199,dry,59.9,20.09,17.106,silty,none,0.5468,High
+Ogun,Ipokia,6.54308,2.847413,dry,56.1,20.46,17.525,silty,none,0.5395,High
+Ogun,Ipokia,6.537825,2.868316,dry,61.8,22.38,15.144,silty,basic,0.5166,High
+Ogun,Ipokia,6.51086,2.867974,wet,198.2,19.89,14.636,loamy,none,0.6112,High
+Ogun,Ipokia,6.530496,2.843051,wet,211.6,20.84,17.668,silty,moderate,0.516,High
+Ogun,Ipokia,6.510941,2.843244,dry,57.9,20.21,17.361,silty,none,0.5426,High
+Ogun,Ipokia,6.486183,2.832799,wet,226.4,18.9,18.536,loamy,none,0.5791,High
+Ogun,Ipokia,6.535519,2.857202,dry,54.6,17.98,16.263,silty,none,0.5563,High
+Ogun,Ipokia,6.515765,2.835759,wet,195.2,18.96,18.23,silty,none,0.6005,High
+Ogun,Ipokia,6.508244,2.870459,dry,62.4,18.13,14.341,silty,moderate,0.4855,High
+Ogun,Ipokia,6.511569,2.836033,dry,63.5,17.97,18.161,silty,none,0.5378,Critical
+Ogun,Ipokia,6.510385,2.851109,wet,218.6,19.26,16.49,silty,none,0.6325,Critical
+Ogun,Ipokia,6.545986,2.898991,wet,223.6,18.95,12.275,silty,none,0.6858,High
+Ogun,Ipokia,6.518471,2.854695,wet,207.3,21.5,16.184,silty,none,0.6286,High
+Ogun,Ipokia,6.531102,2.871966,dry,63.7,20.19,14.561,silty,none,0.5791,High
+Ogun,Ipokia,6.496283,2.848598,dry,63.0,16.59,16.732,silty,none,0.556,High
+Ogun,Ipokia,6.525915,2.845175,wet,214.4,18.97,17.346,silty,none,0.6205,High
+Ogun,Ipokia,6.516876,2.873315,wet,210.3,21.54,14.121,silty,none,0.6548,Critical
+Ogun,Ifo,6.79549,3.19258,dry,60.7,49.06,20.907,sandy,moderate,0.3274,Medium
+Ogun,Ifo,6.797521,3.201356,wet,199.3,55.54,19.979,sandy,moderate,0.3893,Medium
+Ogun,Ifo,6.814612,3.216599,dry,58.3,54.62,17.523,clay,moderate,0.4498,Medium
+Ogun,Ifo,6.831875,3.219306,wet,224.5,51.47,16.296,sandy,basic,0.4947,Medium
+Ogun,Ifo,6.802295,3.213811,dry,55.6,52.23,18.55,sandy,moderate,0.3393,Medium
+Ogun,Ifo,6.830353,3.203776,wet,195.1,49.99,17.904,sandy,moderate,0.4174,Medium
+Ogun,Ifo,6.802338,3.174375,wet,206.0,52.76,22.223,sandy,good,0.3575,Low
+Ogun,Ifo,6.788908,3.19629,dry,57.3,49.96,20.99,sandy,moderate,0.3249,Low
+Ogun,Ifo,6.81915,3.178387,dry,60.5,54.33,20.971,sandy,moderate,0.3224,Low
+Ogun,Ifo,6.820759,3.209722,wet,199.1,49.92,17.818,sandy,basic,0.4654,Medium
+Ogun,Ifo,6.793627,3.194116,wet,213.6,53.48,20.883,sandy,moderate,0.398,Medium
+Ogun,Ifo,6.800163,3.200954,dry,58.7,54.31,19.849,sandy,moderate,0.3233,Low
+Ogun,Ifo,6.8193,3.185324,wet,201.6,48.73,20.274,sandy,moderate,0.3966,Medium
+Ogun,Ifo,6.818153,3.214443,dry,54.9,51.07,17.515,sandy,moderate,0.3525,Medium
+Ogun,Ifo,6.791308,3.220709,wet,201.6,52.14,18.703,sandy,moderate,0.409,Medium
+Ogun,Ifo,6.803563,3.190697,wet,219.5,50.24,20.598,sandy,moderate,0.4039,Medium
+Ogun,Ifo,6.811769,3.189111,dry,58.1,53.76,20.291,sandy,moderate,0.3217,Low
+Ogun,Ifo,6.820549,3.174992,dry,55.5,49.36,21.245,sandy,moderate,0.3246,Low
+Ogun,Ifo,6.776783,3.183666,wet,207.3,54.19,22.912,loamy,moderate,0.4218,Medium
+Ogun,Ifo,6.831015,3.22152,wet,202.4,53.07,16.125,sandy,moderate,0.4394,Medium
+Ogun,Ifo,6.823303,3.216534,dry,61.7,51.44,17.025,sandy,moderate,0.3614,Medium
+Ogun,Ifo,6.809971,3.176893,dry,59.6,49.78,21.574,sandy,moderate,0.3262,Medium
+Ogun,Ifo,6.843462,3.222174,dry,57.8,54.1,15.449,sandy,moderate,0.3759,Low
+Ogun,Ifo,6.796762,3.20044,dry,59.5,50.62,20.11,sandy,moderate,0.3253,Medium
+Ogun,Ifo,6.808057,3.195693,wet,195.5,49.33,19.868,sandy,good,0.3571,Low
+Ogun,Ifo,6.847774,3.20016,wet,221.5,56.38,17.531,sandy,moderate,0.4288,Medium
+Ogun,Ifo,6.814742,3.195352,dry,62.8,52.0,19.529,sandy,moderate,0.3313,Medium
+Ogun,Ifo,6.802052,3.221858,wet,197.9,51.21,17.854,sandy,basic,0.4632,Medium
+Ogun,Ifo,6.793842,3.198016,wet,224.6,50.76,20.515,sandy,none,0.5034,Medium
+Ogun,Ifo,6.810856,3.206432,wet,204.0,53.53,18.694,sandy,moderate,0.4089,Medium
+Ogun,Ifo,6.825146,3.184758,wet,213.3,54.34,20.052,sandy,moderate,0.3971,Medium
+Ogun,Ifo,6.815732,3.224246,dry,56.0,50.39,16.749,sandy,none,0.4604,Medium
+Ogun,Ifo,6.797511,3.192121,dry,56.6,51.57,20.825,loamy,moderate,0.3505,Medium
+Ogun,Ifo,6.799365,3.172902,dry,55.7,52.76,22.528,sandy,moderate,0.3215,Medium
+Ogun,Ifo,6.815618,3.173944,wet,210.0,51.02,21.583,sandy,moderate,0.3985,Medium
+Ogun,Ifo,6.853728,3.193832,dry,59.5,54.68,17.992,sandy,moderate,0.3457,Medium
+Ogun,Ifo,6.812978,3.162836,wet,202.9,52.74,22.816,clay,moderate,0.4925,Medium
+Ogun,Ifo,6.800122,3.207371,dry,60.2,50.2,19.269,sandy,none,0.4324,Medium
+Ogun,Ifo,6.803402,3.216693,wet,204.8,53.15,18.22,sandy,moderate,0.4154,Medium
+Ogun,Ifo,6.797325,3.182592,dry,62.3,50.97,21.724,clay,moderate,0.4254,Medium
+Ogun,Ijebu-Ode,6.835404,3.933751,wet,217.2,74.8,27.179,sandy,moderate,0.3799,Medium
+Ogun,Ijebu-Ode,6.839117,3.95179,dry,61.6,76.52,27.116,loamy,moderate,0.3297,Medium
+Ogun,Ijebu-Ode,6.820492,3.916371,dry,60.9,75.9,26.199,loamy,good,0.2924,Low
+Ogun,Ijebu-Ode,6.814945,3.919657,wet,198.1,74.97,25.495,loamy,moderate,0.3979,Medium
+Ogun,Ijebu-Ode,6.82242,3.937722,wet,196.4,76.2,25.67,loamy,moderate,0.3959,Medium
+Ogun,Ijebu-Ode,6.836451,3.954376,wet,217.2,71.81,26.771,loamy,moderate,0.4102,Medium
+Ogun,Ijebu-Ode,6.799295,3.932025,dry,55.0,77.2,23.398,loamy,basic,0.3708,Low
+Ogun,Ijebu-Ode,6.834179,3.880096,dry,56.6,78.03,29.213,loamy,moderate,0.3258,Medium
+Ogun,Ijebu-Ode,6.818207,3.919379,wet,217.2,75.09,25.845,loamy,moderate,0.4071,Medium
+Ogun,Ijebu-Ode,6.871633,3.910774,wet,218.9,75.72,31.771,loamy,moderate,0.4073,Medium
+Ogun,Ijebu-Ode,6.838523,3.922804,wet,214.7,76.1,27.859,loamy,moderate,0.4049,Medium
+Ogun,Ijebu-Ode,6.834635,3.931198,wet,224.2,71.54,27.174,loamy,basic,0.4588,Medium
+Ogun,Ijebu-Ode,6.834514,3.909072,dry,59.6,72.79,27.943,loamy,moderate,0.3322,Medium
+Ogun,Ijebu-Ode,6.804182,3.932373,wet,202.1,71.26,23.901,loamy,moderate,0.4033,Medium
+Ogun,Ijebu-Ode,6.827314,3.897878,dry,54.5,75.34,27.678,loamy,moderate,0.3273,Medium
+Ogun,Ijebu-Ode,6.812488,3.915576,wet,198.6,74.35,25.401,loamy,moderate,0.3987,Medium
+Ogun,Ijebu-Ode,6.804022,3.92498,wet,204.1,79.06,24.152,loamy,moderate,0.397,Medium
+Ogun,Ijebu-Ode,6.826445,3.94885,wet,205.7,77.27,25.805,loamy,moderate,0.3994,Medium
+Ogun,Ijebu-Ode,6.817072,3.965774,wet,211.7,79.75,24.431,loamy,none,0.4976,Medium
+Ogun,Ijebu-Ode,6.822735,3.912236,wet,201.7,79.23,26.596,loamy,moderate,0.3957,Medium
+Ogun,Ijebu-Ode,6.806231,3.887464,wet,219.4,74.65,26.083,clay,good,0.4426,Medium
+Ogun,Ijebu-Ode,6.822399,3.913863,dry,54.3,79.43,26.496,loamy,moderate,0.3234,Medium
+Ogun,Ijebu-Ode,6.817191,3.902664,dry,55.9,75.5,26.435,loamy,moderate,0.3279,Low
+Ogun,Ijebu-Ode,6.822962,3.917336,wet,221.5,74.59,26.419,loamy,good,0.3722,Low
+Ogun,Ijebu-Ode,6.826511,3.927597,wet,218.8,73.55,26.425,loamy,moderate,0.4093,Medium
+Ogun,Ijebu-Ode,6.80809,3.934561,dry,57.0,74.56,24.241,loamy,basic,0.3743,Medium
+Ogun,Ijebu-Ode,6.846905,3.92501,dry,59.1,81.76,28.676,loamy,moderate,0.3236,Medium
+Ogun,Ijebu-Ode,6.826799,3.918878,wet,222.5,75.62,26.763,sandy,moderate,0.3817,Medium
+Ogun,Ijebu-Ode,6.834787,3.918383,wet,219.2,77.2,27.619,loamy,moderate,0.4061,Medium
+Ogun,Ijebu-Ode,6.84293,3.924107,wet,224.6,74.81,28.283,loamy,moderate,0.411,Medium
+Ogun,Ijebu-Ode,6.813684,3.936233,wet,195.6,78.55,24.782,loamy,moderate,0.3933,Medium
+Ogun,Ijebu-Ode,6.799511,3.902134,dry,62.2,75.08,24.677,loamy,basic,0.3763,Low
+Ogun,Ijebu-Ode,6.824429,3.891301,dry,63.2,77.88,27.692,loamy,moderate,0.3292,Low
+Ogun,Ijebu-Ode,6.801967,3.95675,dry,60.3,77.32,22.96,loamy,moderate,0.3283,Low
+Ogun,Ijebu-Ode,6.808025,3.88766,dry,55.6,76.45,26.248,loamy,moderate,0.3268,Medium
+Ogun,Ijebu-Ode,6.836881,3.937387,dry,59.5,78.03,27.232,loamy,moderate,0.3273,Low
+Ogun,Ijebu-Ode,6.827448,3.900769,wet,217.4,77.02,27.563,loamy,moderate,0.4054,Medium
+Ogun,Ijebu-Ode,6.835401,3.947154,wet,216.9,77.3,26.818,loamy,basic,0.4499,Medium
+Ogun,Ijebu-Ode,6.820016,3.925621,dry,54.3,76.74,25.807,loamy,moderate,0.3259,Low
+Ogun,Ijebu-Ode,6.827782,3.933415,dry,62.1,74.85,26.374,loamy,moderate,0.3315,Medium
+Oyo,Ibadan North,7.420555,3.889289,dry,56.7,205.46,65.569,loamy,moderate,0.207,Low
+Oyo,Ibadan North,7.428182,3.904117,dry,63.2,202.42,67.083,loamy,moderate,0.213,Low
+Oyo,Ibadan North,7.451592,3.897069,wet,213.2,199.35,66.046,loamy,moderate,0.2892,Medium
+Oyo,Ibadan North,7.422684,3.90936,dry,54.8,201.1,67.732,loamy,moderate,0.2101,Low
+Oyo,Ibadan North,7.414986,3.900285,wet,214.9,200.5,66.856,loamy,none,0.3864,Medium
+Oyo,Ibadan North,7.425715,3.920611,wet,218.5,201.02,68.713,loamy,moderate,0.2902,Medium
+Oyo,Ibadan North,7.417976,3.921401,dry,57.5,203.66,68.189,loamy,moderate,0.209,Medium
+Oyo,Ibadan North,7.409514,3.90234,dry,60.8,200.95,67.169,loamy,moderate,0.2132,Low
+Oyo,Ibadan North,7.398382,3.912971,wet,219.6,198.38,67.896,loamy,moderate,0.2932,Low
+Oyo,Ibadan North,7.431409,3.887365,wet,222.1,201.2,65.206,loamy,moderate,0.2918,Medium
+Oyo,Ibadan North,7.441833,3.884233,wet,200.2,204.45,64.736,loamy,moderate,0.2781,Medium
+Oyo,Ibadan North,7.422798,3.892729,dry,55.8,204.67,65.912,loamy,moderate,0.2073,Low
+Oyo,Ibadan North,7.409742,3.92189,wet,211.6,204.18,67.673,loamy,moderate,0.2839,Medium
+Oyo,Ibadan North,7.422053,3.898823,dry,59.5,202.87,66.589,loamy,moderate,0.2107,Low
+Oyo,Ibadan North,7.425729,3.904174,wet,221.4,202.9,67.122,loamy,moderate,0.2899,Low
+Oyo,Ibadan North,7.408994,3.883851,dry,55.2,203.56,65.163,loamy,moderate,0.208,Low
+Oyo,Ibadan North,7.450558,3.907597,dry,58.6,201.77,67.213,loamy,moderate,0.2113,Low
+Oyo,Ibadan North,7.406024,3.92269,dry,60.8,201.56,67.388,sandy,good,0.1476,Low
+Oyo,Ibadan North,7.421985,3.886955,dry,58.2,201.32,65.293,loamy,moderate,0.2116,Low
+Oyo,Ibadan North,7.402002,3.901763,dry,55.4,203.04,67.237,loamy,moderate,0.2086,Low
+Oyo,Ibadan North,7.439277,3.922046,wet,201.0,203.88,68.913,clay,moderate,0.3505,Medium
+Oyo,Ibadan North,7.440387,3.888461,dry,57.8,200.49,65.216,loamy,moderate,0.2121,Low
+Oyo,Ibadan North,7.42088,3.917354,dry,59.7,203.78,68.632,loamy,moderate,0.21,Medium
+Oyo,Ibadan North,7.41985,3.87708,dry,62.3,202.63,64.246,loamy,moderate,0.2123,Low
+Oyo,Ibadan North,7.421918,3.91054,wet,195.6,201.75,67.872,loamy,moderate,0.2783,Medium
+Oyo,Ibadan North,7.452982,3.901846,wet,202.6,201.79,66.559,loamy,moderate,0.2817,Low
+Oyo,Ibadan North,7.441061,3.895573,dry,58.4,205.09,65.989,loamy,moderate,0.2081,Low
+Oyo,Ibadan North,7.399207,3.897289,wet,224.0,209.72,66.802,loamy,moderate,0.2848,Medium
+Oyo,Ibadan North,7.409834,3.893206,wet,203.3,200.2,66.168,loamy,moderate,0.2835,Medium
+Oyo,Ibadan North,7.399425,3.869261,dry,56.2,202.91,63.753,silty,moderate,0.2421,Medium
+Oyo,Ibadan North,7.409894,3.878257,dry,58.0,203.55,64.538,loamy,basic,0.2544,Low
+Oyo,Ibadan North,7.406898,3.919765,dry,58.9,204.49,67.715,loamy,moderate,0.2089,Low
+Oyo,Ibadan North,7.426768,3.893358,wet,216.8,198.77,65.924,loamy,moderate,0.2915,Medium
+Oyo,Ibadan North,7.450389,3.889472,wet,221.1,202.25,65.223,loamy,moderate,0.2903,Medium
+Oyo,Ibadan North,7.406218,3.914368,dry,62.5,203.34,68.192,loamy,moderate,0.2118,Low
+Oyo,Ibadan North,7.44838,3.91362,wet,204.0,203.32,67.895,sandy,basic,0.2985,Low
+Oyo,Ibadan North,7.395648,3.936986,dry,55.6,204.48,65.445,loamy,moderate,0.2073,Medium
+Oyo,Ibadan North,7.429444,3.919072,wet,218.2,200.69,68.704,loamy,none,0.3879,Medium
+Oyo,Ibadan North,7.430994,3.91162,dry,57.6,197.74,67.868,sandy,moderate,0.1871,Low
+Oyo,Ibadan North,7.450103,3.890233,wet,217.0,202.18,65.309,loamy,moderate,0.2884,Medium
+Oyo,Ibadan North West,7.387344,3.886459,dry,56.8,190.86,65.864,loamy,basic,0.2656,Medium
+Oyo,Ibadan North West,7.378801,3.872248,wet,205.8,186.63,64.519,loamy,basic,0.3424,Medium
+Oyo,Ibadan North West,7.403276,3.872505,wet,201.3,189.93,64.032,sandy,none,0.3621,High
+Oyo,Ibadan North West,7.374814,3.89515,wet,198.2,188.48,67.081,loamy,none,0.3895,Medium
+Oyo,Ibadan North West,7.377288,3.887328,dry,60.8,187.86,66.18,loamy,basic,0.2704,Medium
+Oyo,Ibadan North West,7.37835,3.861211,dry,58.0,186.77,63.34,loamy,basic,0.27,Low
+Oyo,Ibadan North West,7.380966,3.871759,wet,218.3,186.26,64.416,loamy,basic,0.3489,Medium
+Oyo,Ibadan North West,7.380338,3.891995,wet,201.2,191.27,66.615,loamy,basic,0.3358,Medium
+Oyo,Ibadan North West,7.412383,3.880385,wet,199.5,190.52,64.728,clay,basic,0.4072,Medium
+Oyo,Ibadan North West,7.399275,3.886854,wet,202.9,183.7,65.667,sandy,basic,0.3162,Medium
+Oyo,Ibadan North West,7.398494,3.86865,dry,62.3,188.11,63.705,loamy,basic,0.2709,Medium
+Oyo,Ibadan North West,7.38525,3.872154,dry,56.5,192.93,64.362,loamy,basic,0.2636,Low
+Oyo,Ibadan North West,7.385943,3.886158,dry,57.7,190.55,65.861,loamy,basic,0.2664,Medium
+Oyo,Ibadan North West,7.374101,3.858446,wet,224.4,191.17,63.145,loamy,good,0.2648,Medium
+Oyo,Ibadan North West,7.397287,3.858613,wet,213.3,186.34,62.641,loamy,basic,0.3464,Medium
+Oyo,Ibadan North West,7.3855,3.84869,dry,57.9,189.86,61.823,loamy,basic,0.2671,Medium
+Oyo,Ibadan North West,7.420114,3.882343,wet,205.1,191.95,64.817,loamy,basic,0.3371,Medium
+Oyo,Ibadan North West,7.408247,3.892441,wet,214.2,186.07,66.112,clay,basic,0.4186,Medium
+Oyo,Ibadan North West,7.373126,3.879409,dry,58.7,189.54,65.425,loamy,basic,0.2678,Medium
+Oyo,Ibadan North West,7.400119,3.883313,dry,58.4,187.8,65.266,loamy,basic,0.2693,Medium
+Oyo,Ibadan North West,7.400136,3.867198,wet,195.5,192.28,63.515,loamy,none,0.3846,Medium
+Oyo,Ibadan North West,7.402199,3.856392,dry,60.3,190.98,62.302,loamy,basic,0.2672,Low
+Oyo,Ibadan North West,7.40259,3.855409,dry,59.8,187.32,62.188,loamy,basic,0.2704,Medium
+Oyo,Ibadan North West,7.383508,3.881996,wet,214.0,190.87,65.464,loamy,basic,0.3425,Medium
+Oyo,Ibadan North West,7.385006,3.885064,wet,217.3,185.29,65.763,loamy,basic,0.3493,Medium
+Oyo,Ibadan North West,7.392536,3.887175,dry,55.7,189.8,65.834,loamy,basic,0.2661,Medium
+Oyo,Ibadan North West,7.410345,3.886119,wet,214.8,189.3,65.387,loamy,good,0.2618,Low
+Oyo,Ibadan North West,7.414479,3.880667,dry,58.9,190.22,64.724,loamy,basic,0.2673,Low
+Oyo,Ibadan North West,7.389039,3.872196,dry,57.0,187.5,64.284,loamy,basic,0.2689,Low
+Oyo,Ibadan North West,7.372157,3.865428,wet,224.1,188.24,63.944,loamy,good,0.2674,Medium
+Oyo,Ibadan North West,7.364982,3.86121,dry,56.9,190.39,63.675,loamy,basic,0.2661,Low
+Oyo,Ibadan North West,7.392097,3.890075,dry,55.1,187.25,66.157,loamy,basic,0.2682,Low
+Oyo,Ibadan North West,7.398219,3.896862,dry,59.4,188.17,66.774,loamy,basic,0.2694,Low
+Oyo,Ibadan North West,7.38443,3.858235,dry,53.9,190.5,62.877,silty,none,0.35,Medium
+Oyo,Ibadan North West,7.397735,3.903756,wet,199.4,192.02,67.532,loamy,basic,0.3343,Medium
+Oyo,Ibadan North West,7.376332,3.876383,dry,61.2,192.22,65.022,loamy,basic,0.2665,Medium
+Oyo,Ibadan North West,7.37976,3.875851,dry,57.6,188.78,64.885,loamy,basic,0.268,Medium
+Oyo,Ibadan North West,7.374553,3.844212,wet,213.6,190.52,61.604,loamy,basic,0.3426,Medium
+Oyo,Ibadan North West,7.40591,3.851053,dry,59.8,189.08,61.651,loamy,basic,0.2688,Low
+Oyo,Ibadan North West,7.387431,3.889016,wet,210.4,189.48,66.139,loamy,basic,0.342,Medium
+Oyo,Ibadan North East,7.382577,3.927243,dry,63.2,220.24,65.669,loamy,basic,0.2413,Medium
+Oyo,Ibadan North East,7.393113,3.909212,dry,57.4,215.4,67.976,silty,basic,0.276,Medium
+Oyo,Ibadan North East,7.391794,3.939392,wet,211.3,218.27,65.001,silty,basic,0.3486,Medium
+Oyo,Ibadan North East,7.406454,3.915196,dry,61.3,217.1,68.126,silty,basic,0.2763,Medium
+Oyo,Ibadan North East,7.408879,3.892181,wet,202.2,219.38,66.073,silty,basic,0.3431,Medium
+Oyo,Ibadan North East,7.390166,3.934276,dry,54.9,215.38,65.401,silty,basic,0.2748,Medium
+Oyo,Ibadan North East,7.407876,3.932797,dry,58.7,215.63,66.533,silty,basic,0.2764,Medium
+Oyo,Ibadan North East,7.387341,3.935622,wet,211.1,220.48,65.117,clay,basic,0.3849,High
+Oyo,Ibadan North East,7.382867,3.92245,dry,62.1,218.7,66.149,silty,basic,0.2752,Medium
+Oyo,Ibadan North East,7.364623,3.940937,wet,208.8,217.98,63.397,silty,none,0.4001,Medium
+Oyo,Ibadan North East,7.394996,3.940278,wet,202.8,216.72,65.094,silty,basic,0.3459,Medium
+Oyo,Ibadan North East,7.387473,3.931131,wet,213.6,215.2,65.556,silty,basic,0.3526,Medium
+Oyo,Ibadan North East,7.388231,3.924452,wet,213.2,217.25,66.241,silty,basic,0.3505,Medium
+Oyo,Ibadan North East,7.369512,3.9489,wet,199.1,215.56,62.877,silty,basic,0.3451,Medium
+Oyo,Ibadan North East,7.353482,3.91921,wet,224.0,216.76,64.983,silty,basic,0.3562,Medium
+Oyo,Ibadan North East,7.392166,3.929406,wet,212.9,218.14,65.978,silty,basic,0.3495,Medium
+Oyo,Ibadan North East,7.381606,3.953459,dry,62.3,219.03,63.092,sandy,basic,0.2145,Medium
+Oyo,Ibadan North East,7.395006,3.921505,wet,196.6,216.77,66.892,silty,basic,0.3428,Medium
+Oyo,Ibadan North East,7.36943,3.92348,wet,197.9,217.81,65.352,silty,basic,0.3425,Medium
+Oyo,Ibadan North East,7.386178,3.936866,wet,222.0,220.25,64.934,silty,basic,0.352,Medium
+Oyo,Ibadan North East,7.380461,3.921446,wet,204.5,216.25,66.12,silty,basic,0.3471,Medium
+Oyo,Ibadan North East,7.39526,3.906918,dry,60.6,217.69,67.923,silty,basic,0.2755,Medium
+Oyo,Ibadan North East,7.365612,3.938718,dry,59.9,216.82,63.665,silty,basic,0.2759,Medium
+Oyo,Ibadan North East,7.401892,3.944376,dry,61.1,217.71,65.096,silty,basic,0.2757,Low
+Oyo,Ibadan North East,7.371413,3.909797,dry,54.2,218.17,66.796,silty,basic,0.2719,Low
+Oyo,Ibadan North East,7.368824,3.924609,wet,218.2,217.05,65.21,silty,basic,0.3531,Medium
+Oyo,Ibadan North East,7.372512,3.933944,dry,56.2,217.81,64.488,silty,basic,0.2732,Medium
+Oyo,Ibadan North East,7.379855,3.90689,wet,223.5,216.81,67.509,silty,basic,0.3559,Medium
+Oyo,Ibadan North East,7.388477,3.912825,dry,56.1,221.28,67.38,silty,basic,0.2699,Medium
+Oyo,Ibadan North East,7.38113,3.9142,dry,62.6,214.59,66.861,loamy,moderate,0.2013,Medium
+Oyo,Ibadan North East,7.395961,3.919901,wet,212.6,216.61,67.098,silty,moderate,0.3058,Medium
+Oyo,Ibadan North East,7.366678,3.952936,dry,58.7,215.58,62.336,silty,basic,0.2765,Medium
+Oyo,Ibadan North East,7.381795,3.929905,wet,203.4,218.3,65.37,silty,none,0.3972,Medium
+Oyo,Ibadan North East,7.381774,3.916836,dry,58.6,217.57,66.638,silty,good,0.1921,Low
+Oyo,Ibadan North East,7.394411,3.930626,wet,221.7,219.59,65.984,sandy,basic,0.2919,Medium
+Oyo,Ibadan North East,7.406088,3.964209,wet,219.6,220.33,63.481,silty,basic,0.3507,Medium
+Oyo,Ibadan North East,7.376716,3.919491,dry,59.8,219.8,66.116,silty,basic,0.2731,Medium
+Oyo,Ibadan North East,7.39914,3.950036,dry,63.0,219.5,64.404,silty,good,0.1924,Medium
+Oyo,Ibadan North East,7.384592,3.93474,wet,215.5,213.66,65.053,silty,basic,0.3549,Medium
+Oyo,Ibadan North East,7.404225,3.959002,wet,217.6,219.77,63.856,sandy,basic,0.2898,Medium
+Oyo,Ibadan South West,7.359287,3.85982,dry,54.2,162.09,63.679,clay,basic,0.3627,Medium
+Oyo,Ibadan South West,7.368547,3.834934,dry,62.9,161.87,60.766,clay,basic,0.3672,Medium
+Oyo,Ibadan South West,7.34974,3.865188,wet,212.9,164.71,64.52,clay,basic,0.4379,Medium
+Oyo,Ibadan South West,7.384735,3.86085,wet,195.2,163.12,63.153,clay,basic,0.4307,Medium
+Oyo,Ibadan South West,7.354276,3.873025,wet,202.8,161.63,65.228,clay,basic,0.4358,High
+Oyo,Ibadan South West,7.32453,3.829943,dry,61.6,164.06,61.606,clay,basic,0.3645,Medium
+Oyo,Ibadan South West,7.349199,3.856118,dry,57.8,160.95,63.57,clay,basic,0.3655,Medium
+Oyo,Ibadan South West,7.338043,3.867657,wet,218.6,165.93,65.131,clay,basic,0.4395,High
+Oyo,Ibadan South West,7.35804,3.855504,dry,54.7,164.2,63.252,silty,moderate,0.2775,Medium
+Oyo,Ibadan South West,7.361081,3.866031,wet,207.0,163.26,64.294,clay,basic,0.4363,Medium
+Oyo,Ibadan South West,7.365026,3.858828,wet,201.1,162.63,63.418,clay,basic,0.434,Medium
+Oyo,Ibadan South West,7.35912,3.863822,wet,205.8,161.76,64.111,clay,basic,0.4371,Medium
+Oyo,Ibadan South West,7.370303,3.866256,dry,59.7,162.79,64.079,clay,basic,0.3647,Medium
+Oyo,Ibadan South West,7.365924,3.862725,dry,59.6,163.62,63.812,clay,basic,0.3639,Medium
+Oyo,Ibadan South West,7.365717,3.8981,dry,56.4,166.37,67.616,clay,none,0.4123,Medium
+Oyo,Ibadan South West,7.346329,3.859728,wet,221.3,165.64,64.039,clay,basic,0.4411,Medium
+Oyo,Ibadan South West,7.346597,3.823357,dry,63.4,164.42,60.175,clay,basic,0.365,Medium
+Oyo,Ibadan South West,7.35698,3.858167,wet,218.7,163.9,63.566,clay,basic,0.4414,High
+Oyo,Ibadan South West,7.364795,3.845293,dry,62.1,163.72,61.976,clay,moderate,0.3201,Medium
+Oyo,Ibadan South West,7.390836,3.875964,dry,59.5,163.45,64.654,clay,basic,0.364,Medium
+Oyo,Ibadan South West,7.368822,3.855866,wet,203.0,164.14,63.002,clay,basic,0.4335,High
+Oyo,Ibadan South West,7.367265,3.847947,wet,223.7,164.59,62.194,clay,none,0.4957,High
+Oyo,Ibadan South West,7.368346,3.848205,dry,62.8,158.19,62.193,clay,basic,0.3706,Medium
+Oyo,Ibadan South West,7.393226,3.856732,dry,55.1,161.33,62.521,clay,basic,0.3639,Medium
+Oyo,Ibadan South West,7.363586,3.858571,dry,55.5,161.61,63.429,clay,basic,0.3638,Medium
+Oyo,Ibadan South West,7.337786,3.865693,wet,198.0,163.1,64.931,clay,basic,0.4321,Medium
+Oyo,Ibadan South West,7.364507,3.870813,dry,57.5,161.29,64.716,clay,basic,0.3651,Medium
+Oyo,Ibadan South West,7.355588,3.846212,dry,55.1,163.77,62.33,clay,basic,0.3616,Medium
+Oyo,Ibadan South West,7.369632,3.866986,wet,200.9,160.3,64.175,clay,basic,0.4361,Medium
+Oyo,Ibadan South West,7.357931,3.860355,dry,62.3,157.42,63.773,clay,basic,0.371,Medium
+Oyo,Ibadan South West,7.36279,3.847641,wet,196.8,161.54,62.281,clay,basic,0.4329,High
+Oyo,Ibadan South West,7.348764,3.848056,dry,59.4,163.88,62.726,clay,basic,0.3636,Medium
+Oyo,Ibadan South West,7.348139,3.867344,wet,211.2,161.43,64.796,clay,basic,0.4401,Medium
+Oyo,Ibadan South West,7.351852,3.875969,dry,56.7,165.51,65.609,clay,basic,0.3607,Medium
+Oyo,Ibadan South West,7.338131,3.833368,dry,62.3,162.23,61.504,sandy,basic,0.2675,Low
+Oyo,Ibadan South West,7.351524,3.880111,dry,62.7,162.42,66.061,clay,basic,0.3666,Medium
+Oyo,Ibadan South West,7.359759,3.841804,dry,54.0,162.91,61.742,clay,basic,0.3619,Medium
+Oyo,Ibadan South West,7.381686,3.851483,wet,197.9,164.49,62.213,clay,basic,0.4307,High
+Oyo,Ibadan South West,7.384294,3.868544,wet,197.5,166.2,63.993,clay,basic,0.4289,High
+Oyo,Ibadan South West,7.363174,3.88433,dry,62.2,163.26,66.201,loamy,basic,0.294,Medium
+Oyo,Ibadan South East,7.352237,3.935188,dry,63.3,216.97,63.338,clay,none,0.3684,Medium
+Oyo,Ibadan South East,7.335986,3.926725,dry,56.9,215.17,63.409,clay,none,0.367,Medium
+Oyo,Ibadan South East,7.365459,3.904748,dry,53.9,217.01,66.999,clay,none,0.3638,Medium
+Oyo,Ibadan South East,7.368079,3.929317,wet,217.7,217.11,64.711,clay,none,0.4438,Medium
+Oyo,Ibadan South East,7.366003,3.900688,wet,221.5,216.77,67.428,clay,none,0.446,High
+Oyo,Ibadan South East,7.355276,3.898905,dry,60.1,218.15,67.092,clay,none,0.3658,Medium
+Oyo,Ibadan South East,7.342516,3.904931,dry,61.9,217.29,65.898,clay,none,0.3675,High
+Oyo,Ibadan South East,7.365111,3.931302,dry,60.0,216.82,64.365,clay,none,0.367,Medium
+Oyo,Ibadan South East,7.363116,3.9194,wet,208.2,217.79,65.436,clay,good,0.3035,Medium
+Oyo,Ibadan South East,7.363206,3.935331,dry,61.7,220.23,63.873,clay,none,0.3646,Medium
+Oyo,Ibadan South East,7.364861,3.918476,dry,55.7,220.03,65.614,clay,none,0.3619,Medium
+Oyo,Ibadan South East,7.363612,3.913256,wet,202.4,213.93,66.067,clay,none,0.4393,High
+Oyo,Ibadan South East,7.317822,3.914365,dry,63.2,214.09,63.86,clay,none,0.3711,High
+Oyo,Ibadan South East,7.359372,3.901066,wet,201.0,217.94,67.071,clay,none,0.4349,High
+Oyo,Ibadan South East,7.361476,3.927193,dry,56.6,217.45,64.586,sandy,none,0.2657,Medium
+Oyo,Ibadan South East,7.339937,3.908793,wet,199.7,217.4,65.392,loamy,none,0.3632,Medium
+Oyo,Ibadan South East,7.381009,3.9196,wet,211.1,217.29,66.329,silty,none,0.4019,High
+Oyo,Ibadan South East,7.386268,3.916962,dry,55.7,218.73,66.861,clay,none,0.3631,Medium
+Oyo,Ibadan South East,7.381266,3.94404,dry,59.2,217.31,63.977,clay,none,0.3661,Medium
+Oyo,Ibadan South East,7.347229,3.916409,dry,62.9,217.4,64.965,clay,basic,0.3153,Medium
+Oyo,Ibadan South East,7.333639,3.928678,dry,58.9,214.68,63.105,clay,none,0.3684,Medium
+Oyo,Ibadan South East,7.34958,3.910247,wet,224.0,217.69,65.691,clay,good,0.3113,Medium
+Oyo,Ibadan South East,7.360857,3.911363,dry,54.9,216.74,66.119,clay,basic,0.3121,Medium
+Oyo,Ibadan South East,7.361639,3.923407,wet,212.1,217.09,64.967,clay,none,0.4411,High
+Oyo,Ibadan South East,7.336987,3.916233,dry,61.0,219.35,64.509,sandy,none,0.2661,Medium
+Oyo,Ibadan South East,7.385517,3.907679,dry,59.4,218.22,67.725,clay,none,0.3654,Medium
+Oyo,Ibadan South East,7.343979,3.937262,dry,62.1,214.8,62.731,sandy,none,0.2709,Medium
+Oyo,Ibadan South East,7.379758,3.933815,dry,56.3,218.91,64.883,clay,good,0.2282,Medium
+Oyo,Ibadan South East,7.359375,3.894431,dry,58.1,216.58,67.382,sandy,none,0.2673,Low
+Oyo,Ibadan South East,7.33805,3.919353,dry,59.3,221.94,64.244,clay,none,0.3618,Medium
+Oyo,Ibadan South East,7.341896,3.931119,dry,55.9,216.0,63.244,clay,none,0.3657,Medium
+Oyo,Ibadan South East,7.359016,3.958295,dry,54.1,218.04,61.413,clay,basic,0.3104,Medium
+Oyo,Ibadan South East,7.372705,3.919474,dry,56.9,219.38,65.911,clay,none,0.3631,Medium
+Oyo,Ibadan South East,7.374768,3.889776,wet,199.7,219.84,66.503,clay,none,0.4324,High
+Oyo,Ibadan South East,7.36001,3.931542,dry,63.0,219.69,64.084,clay,none,0.3658,Medium
+Oyo,Ibadan South East,7.362461,3.911091,wet,216.9,216.6,66.225,clay,none,0.4439,High
+Oyo,Ibadan South East,7.371936,3.91362,dry,62.5,214.52,66.447,clay,none,0.3703,High
+Oyo,Ibadan South East,7.358179,3.918636,dry,57.0,220.3,65.268,clay,none,0.3623,Medium
+Oyo,Ibadan South East,7.357212,3.911811,dry,59.6,221.29,65.898,silty,none,0.3241,Medium
+Oyo,Ibadan South East,7.353709,3.924922,wet,211.4,214.73,64.427,clay,none,0.4429,High
+Oyo,Ona-Ara,7.30873,4.029285,wet,206.9,178.68,51.892,clay,none,0.4744,High
+Oyo,Ona-Ara,7.34828,4.019664,wet,204.7,183.12,54.915,clay,good,0.3342,Medium
+Oyo,Ona-Ara,7.31769,4.026415,dry,61.5,178.37,52.626,clay,none,0.4036,High
+Oyo,Ona-Ara,7.341751,3.995659,wet,202.0,175.77,56.874,clay,none,0.4747,High
+Oyo,Ona-Ara,7.333823,4.023259,wet,195.4,182.51,53.778,clay,good,0.3302,Medium
+Oyo,Ona-Ara,7.316749,4.022425,wet,202.8,180.7,52.969,clay,none,0.4705,High
+Oyo,Ona-Ara,7.344659,4.038029,wet,210.8,176.89,52.966,clay,basic,0.4255,High
+Oyo,Ona-Ara,7.335072,3.999819,wet,197.0,175.3,56.12,clay,none,0.4727,High
+Oyo,Ona-Ara,7.342105,4.012621,wet,214.5,183.99,55.251,clay,none,0.4731,High
+Oyo,Ona-Ara,7.336797,4.018994,dry,54.7,177.32,54.35,clay,none,0.4012,Medium
+Oyo,Ona-Ara,7.308018,4.011187,wet,205.0,180.04,53.651,clay,moderate,0.3747,High
+Oyo,Ona-Ara,7.324362,4.007124,dry,58.8,180.48,54.857,clay,none,0.4003,High
+Oyo,Ona-Ara,7.352813,3.998217,wet,201.8,184.58,57.219,clay,none,0.4664,High
+Oyo,Ona-Ara,7.34579,4.038431,wet,207.8,177.74,52.993,clay,none,0.4757,High
+Oyo,Ona-Ara,7.322429,4.022504,wet,201.1,177.35,53.252,sandy,none,0.3738,Medium
+Oyo,Ona-Ara,7.351628,4.006083,wet,223.5,178.95,56.399,loamy,none,0.4107,High
+Oyo,Ona-Ara,7.33224,4.022907,dry,57.9,181.51,53.727,clay,none,0.3989,Medium
+Oyo,Ona-Ara,7.35746,3.998459,dry,55.1,180.75,57.451,loamy,none,0.3267,Medium
+Oyo,Ona-Ara,7.314624,4.006891,wet,215.6,179.28,54.397,clay,none,0.4781,High
+Oyo,Ona-Ara,7.311272,4.005527,dry,58.5,180.8,54.37,clay,none,0.3999,High
+Oyo,Ona-Ara,7.296835,4.041462,dry,60.5,181.35,50.103,clay,none,0.4003,Medium
+Oyo,Ona-Ara,7.346506,4.053467,dry,57.0,181.56,51.621,clay,none,0.3984,Medium
+Oyo,Ona-Ara,7.326375,4.022468,dry,63.2,179.63,53.46,clay,none,0.4032,Medium
+Oyo,Ona-Ara,7.315237,4.001833,wet,219.8,177.83,54.928,sandy,none,0.3825,Medium
+Oyo,Ona-Ara,7.310622,4.034912,dry,54.3,177.19,51.433,clay,none,0.4012,Medium
+Oyo,Ona-Ara,7.320546,4.046491,dry,63.0,180.84,50.822,clay,none,0.402,High
+Oyo,Ona-Ara,7.308943,4.024905,wet,218.4,179.83,52.335,clay,none,0.4789,High
+Oyo,Ona-Ara,7.340226,4.031644,dry,62.8,182.17,53.323,clay,none,0.4007,Medium
+Oyo,Ona-Ara,7.341201,4.027126,wet,198.4,179.8,53.809,clay,none,0.4692,High
+Oyo,Ona-Ara,7.315397,4.017798,wet,218.0,178.58,53.357,clay,none,0.4799,High
+Oyo,Ona-Ara,7.325395,4.012791,wet,207.6,181.36,54.354,clay,none,0.4722,High
+Oyo,Ona-Ara,7.310138,4.026974,wet,195.1,184.08,52.19,clay,good,0.3286,Medium
+Oyo,Ona-Ara,7.341552,4.005187,wet,201.5,178.18,55.939,clay,none,0.4722,High
+Oyo,Ona-Ara,7.311002,4.027264,wet,213.6,180.08,52.204,clay,none,0.4763,High
+Oyo,Ona-Ara,7.338099,4.022571,dry,60.5,183.82,54.076,clay,none,0.398,High
+Oyo,Ona-Ara,7.334174,4.017719,dry,56.6,181.19,54.333,clay,none,0.3986,Medium
+Oyo,Ona-Ara,7.312676,4.011542,dry,54.2,179.99,53.841,clay,none,0.3985,Medium
+Oyo,Ona-Ara,7.352227,4.003318,dry,58.5,180.41,56.697,loamy,none,0.3287,Medium
+Oyo,Ona-Ara,7.32118,4.02531,wet,216.9,179.27,52.913,clay,none,0.4787,High
+Oyo,Ona-Ara,7.307206,4.022348,dry,56.4,176.52,52.503,clay,none,0.4028,High
+Oyo,Oluyole,7.238571,3.860845,dry,58.7,136.19,61.475,sandy,basic,0.2901,Medium
+Oyo,Oluyole,7.209256,3.829644,wet,218.9,140.65,58.825,sandy,basic,0.3642,Medium
+Oyo,Oluyole,7.208375,3.859712,wet,214.1,137.71,58.927,sandy,basic,0.3646,Medium
+Oyo,Oluyole,7.219844,3.87562,dry,53.9,137.23,58.831,sandy,basic,0.2868,Medium
+Oyo,Oluyole,7.216676,3.849515,wet,220.0,139.65,60.356,sandy,basic,0.3657,Medium
+Oyo,Oluyole,7.216015,3.870644,wet,221.8,136.21,58.831,sandy,basic,0.3698,Medium
+Oyo,Oluyole,7.223287,3.854846,wet,216.7,139.86,60.55,sandy,basic,0.3639,Medium
+Oyo,Oluyole,7.225915,3.892035,dry,62.2,140.04,58.293,sandy,basic,0.2882,Medium
+Oyo,Oluyole,7.211172,3.868069,dry,61.6,139.38,58.586,sandy,basic,0.2885,Medium
+Oyo,Oluyole,7.217019,3.858439,wet,208.6,137.53,59.76,sandy,basic,0.3621,Medium
+Oyo,Oluyole,7.217637,3.876927,wet,208.3,139.77,58.548,silty,basic,0.4204,Medium
+Oyo,Oluyole,7.227753,3.881267,dry,61.6,138.73,59.158,clay,basic,0.3881,Medium
+Oyo,Oluyole,7.240855,3.861442,wet,206.6,139.15,61.637,sandy,moderate,0.3146,Medium
+Oyo,Oluyole,7.240829,3.86057,wet,198.1,136.9,61.693,sandy,basic,0.3576,Medium
+Oyo,Oluyole,7.245034,3.87356,wet,203.3,138.44,61.21,sandy,basic,0.3587,Medium
+Oyo,Oluyole,7.226304,3.875747,dry,59.4,142.79,59.394,loamy,basic,0.3118,Medium
+Oyo,Oluyole,7.215261,3.905621,dry,56.9,137.9,56.459,sandy,basic,0.2876,Low
+Oyo,Oluyole,7.223455,3.87114,wet,207.8,139.52,59.45,sandy,basic,0.3599,Medium
+Oyo,Oluyole,7.196179,3.854297,dry,62.0,137.71,58.279,sandy,basic,0.2903,Low
+Oyo,Oluyole,7.180434,3.861551,dry,61.8,138.2,56.434,sandy,moderate,0.2447,Low
+Oyo,Oluyole,7.210553,3.848364,dry,55.2,134.23,59.918,sandy,basic,0.2902,Medium
+Oyo,Oluyole,7.213756,3.877223,dry,58.3,140.0,58.187,silty,good,0.2643,Low
+Oyo,Oluyole,7.21109,3.872214,dry,54.8,138.17,58.294,sandy,basic,0.2863,Low
+Oyo,Oluyole,7.210034,3.889298,dry,57.9,137.02,57.049,sandy,basic,0.2889,Low
+Oyo,Oluyole,7.234563,3.867589,dry,58.1,139.8,60.669,sandy,basic,0.2864,Medium
+Oyo,Oluyole,7.20736,3.889321,wet,222.9,138.58,56.811,sandy,basic,0.3681,Medium
+Oyo,Oluyole,7.206002,3.860847,wet,223.7,139.54,58.644,clay,basic,0.4666,Medium
+Oyo,Oluyole,7.197168,3.854187,dry,54.7,136.06,58.37,sandy,basic,0.2882,Medium
+Oyo,Oluyole,7.237509,3.857819,wet,208.6,139.13,61.586,sandy,basic,0.3606,Medium
+Oyo,Oluyole,7.210377,3.873318,dry,60.6,137.91,58.156,sandy,basic,0.2894,Medium
+Oyo,Oluyole,7.213304,3.837364,wet,210.3,136.61,59.786,sandy,basic,0.3638,Medium
+Oyo,Oluyole,7.249816,3.882331,wet,224.4,141.56,61.08,loamy,basic,0.3936,Medium
+Oyo,Oluyole,7.222162,3.893248,dry,57.9,136.77,57.876,sandy,basic,0.2892,Low
+Oyo,Oluyole,7.2238,3.877276,dry,58.0,140.05,59.07,sandy,basic,0.2861,Low
+Oyo,Oluyole,7.221615,3.871626,wet,214.7,141.57,59.256,sandy,basic,0.3613,Medium
+Oyo,Oluyole,7.210255,3.857877,dry,63.1,141.42,59.218,sandy,basic,0.2874,Low
+Oyo,Oluyole,7.195316,3.882749,dry,59.8,138.21,56.198,sandy,basic,0.2887,Medium
+Oyo,Oluyole,7.221472,3.887644,dry,54.1,141.35,58.179,silty,basic,0.3435,Medium
+Oyo,Oluyole,7.233027,3.88122,wet,224.5,141.03,59.634,sandy,basic,0.3666,Medium
+Oyo,Oluyole,7.214092,3.871323,wet,214.9,139.08,58.617,sandy,basic,0.3637,Medium
+Rivers,Port Harcourt,4.800848,6.995185,wet,255.3,19.03,66.81,clay,basic,0.5945,High
+Rivers,Port Harcourt,4.807966,6.993966,dry,73.5,20.47,66.011,loamy,basic,0.4328,Medium
+Rivers,Port Harcourt,4.815081,6.997919,dry,77.2,14.7,65.256,clay,basic,0.5115,High
+Rivers,Port Harcourt,4.837021,7.002948,wet,263.3,13.1,62.874,loamy,basic,0.5325,High
+Rivers,Port Harcourt,4.818922,7.024648,wet,274.8,19.77,65.14,clay,basic,0.6034,High
+Rivers,Port Harcourt,4.793235,7.002544,wet,259.4,16.54,67.72,clay,good,0.5164,High
+Rivers,Port Harcourt,4.820269,6.98452,dry,77.0,17.16,64.576,clay,basic,0.5091,High
+Rivers,Port Harcourt,4.807902,7.017783,wet,269.3,19.11,66.265,clay,basic,0.6013,High
+Rivers,Port Harcourt,4.82967,6.994877,dry,79.3,15.89,63.612,silty,basic,0.4729,High
+Rivers,Port Harcourt,4.812604,7.016891,wet,265.6,19.02,65.734,clay,basic,0.5996,High
+Rivers,Port Harcourt,4.813092,6.990228,dry,77.1,16.9,65.413,clay,basic,0.5094,High
+Rivers,Port Harcourt,4.819861,6.975578,wet,284.8,14.01,64.571,clay,none,0.6662,Critical
+Rivers,Port Harcourt,4.821143,6.997973,wet,265.5,14.0,64.585,clay,basic,0.6042,High
+Rivers,Port Harcourt,4.840374,7.004426,wet,280.1,19.71,62.519,clay,basic,0.606,High
+Rivers,Port Harcourt,4.818025,6.992678,wet,274.4,14.58,64.885,clay,none,0.6605,Critical
+Rivers,Port Harcourt,4.81616,6.989196,dry,75.1,16.58,65.065,clay,basic,0.5087,High
+Rivers,Port Harcourt,4.812094,6.979189,dry,73.4,16.84,65.452,silty,basic,0.4692,High
+Rivers,Port Harcourt,4.854804,7.013795,dry,80.4,17.33,61.033,clay,basic,0.5106,High
+Rivers,Port Harcourt,4.815613,6.994308,dry,79.7,17.57,65.166,clay,none,0.5626,High
+Rivers,Port Harcourt,4.84186,7.010356,dry,77.1,19.33,62.421,clay,basic,0.5072,High
+Rivers,Port Harcourt,4.8176,7.023154,dry,80.0,14.85,65.265,clay,basic,0.5127,High
+Rivers,Port Harcourt,4.834563,6.978293,wet,283.6,16.84,62.952,clay,basic,0.6104,High
+Rivers,Port Harcourt,4.788009,6.985617,dry,71.2,16.15,68.165,clay,basic,0.5072,High
+Rivers,Port Harcourt,4.800514,7.022003,dry,78.3,18.94,67.135,clay,none,0.5606,High
+Rivers,Port Harcourt,4.841597,6.995529,dry,76.9,15.58,62.296,clay,good,0.4281,Medium
+Rivers,Port Harcourt,4.819242,6.991798,wet,262.2,23.62,64.743,clay,basic,0.5936,High
+Rivers,Port Harcourt,4.809041,6.98616,dry,74.0,17.36,65.834,clay,basic,0.5075,High
+Rivers,Port Harcourt,4.811425,7.005788,dry,76.0,20.76,65.738,clay,basic,0.5053,High
+Rivers,Port Harcourt,4.841999,7.010697,dry,79.8,15.72,62.41,sandy,none,0.4653,Medium
+Rivers,Port Harcourt,4.84297,6.984319,wet,272.7,15.82,62.055,clay,good,0.5236,High
+Rivers,Port Harcourt,4.802842,6.988343,wet,279.3,17.71,66.537,clay,basic,0.6075,High
+Rivers,Port Harcourt,4.801592,7.036562,wet,261.4,14.75,67.227,sandy,basic,0.5025,High
+Rivers,Port Harcourt,4.826007,7.005695,dry,72.3,17.95,64.122,clay,basic,0.5061,High
+Rivers,Port Harcourt,4.837756,7.01973,dry,75.5,17.06,62.994,sandy,basic,0.4095,Medium
+Rivers,Port Harcourt,4.814595,6.980606,dry,78.3,13.86,65.182,clay,basic,0.5128,High
+Rivers,Port Harcourt,4.808349,6.985948,dry,77.5,17.08,65.909,clay,basic,0.5094,High
+Rivers,Port Harcourt,4.815092,6.995832,dry,73.0,16.89,65.237,clay,basic,0.5074,High
+Rivers,Port Harcourt,4.848704,6.966491,wet,261.2,14.26,61.329,clay,basic,0.6019,High
+Rivers,Port Harcourt,4.804384,6.963762,dry,79.8,15.82,66.247,loamy,basic,0.4402,High
+Rivers,Port Harcourt,4.807592,7.0054,dry,79.8,20.16,66.158,clay,basic,0.5077,High
+Rivers,Ahoada East,5.072582,6.650698,wet,264.8,11.52,49.233,silty,none,0.6202,High
+Rivers,Ahoada East,5.068068,6.673171,dry,74.7,12.2,47.978,silty,none,0.5266,High
+Rivers,Ahoada East,5.09781,6.658869,wet,282.8,12.86,46.565,silty,none,0.6278,High
+Rivers,Ahoada East,5.095665,6.668088,dry,71.9,13.33,46.039,silty,basic,0.4717,High
+Rivers,Ahoada East,5.092862,6.660793,dry,79.5,12.87,46.818,silty,none,0.5284,High
+Rivers,Ahoada East,5.066653,6.634273,wet,261.9,9.76,50.953,silty,none,0.6204,High
+Rivers,Ahoada East,5.086789,6.642021,dry,77.9,12.84,48.743,silty,none,0.5276,High
+Rivers,Ahoada East,5.070784,6.66746,wet,267.5,15.66,48.155,silty,none,0.6177,High
+Rivers,Ahoada East,5.064208,6.649582,dry,78.8,8.45,50.008,silty,none,0.5321,High
+Rivers,Ahoada East,5.077787,6.649148,dry,73.6,13.01,48.923,silty,good,0.3903,Medium
+Rivers,Ahoada East,5.075659,6.642216,dry,70.8,14.08,49.621,silty,none,0.523,Medium
+Rivers,Ahoada East,5.09076,6.639131,dry,70.6,9.82,48.655,silty,none,0.5269,High
+Rivers,Ahoada East,5.073287,6.632808,dry,80.1,10.58,50.531,silty,none,0.5308,High
+Rivers,Ahoada East,5.081446,6.644008,dry,80.1,11.94,49.017,silty,none,0.5295,High
+Rivers,Ahoada East,5.09097,6.659188,wet,271.8,11.18,47.093,sandy,moderate,0.4659,High
+Rivers,Ahoada East,5.080526,6.657346,dry,79.3,11.74,48.084,silty,none,0.5293,Medium
+Rivers,Ahoada East,5.080901,6.636845,dry,71.1,9.9,49.612,silty,none,0.527,High
+Rivers,Ahoada East,5.051784,6.649743,dry,75.9,11.25,51.036,silty,none,0.5281,Medium
+Rivers,Ahoada East,5.091156,6.615595,wet,257.6,13.57,50.502,silty,none,0.6148,Critical
+Rivers,Ahoada East,5.089318,6.657646,wet,270.6,7.92,47.343,silty,none,0.6264,High
+Rivers,Ahoada East,5.09839,6.646441,wet,277.1,9.94,47.482,sandy,basic,0.5147,High
+Rivers,Ahoada East,5.089241,6.634362,dry,77.1,10.44,49.148,silty,none,0.5294,High
+Rivers,Ahoada East,5.070559,6.62278,dry,79.6,9.5,51.524,silty,none,0.5315,High
+Rivers,Ahoada East,5.082103,6.664313,dry,74.1,12.08,47.437,silty,basic,0.474,Medium
+Rivers,Ahoada East,5.077079,6.638059,wet,275.0,13.64,49.824,silty,none,0.6232,High
+Rivers,Ahoada East,5.092654,6.653347,wet,261.2,10.21,47.402,silty,none,0.6197,High
+Rivers,Ahoada East,5.088407,6.648832,dry,73.6,10.85,48.089,silty,none,0.5274,High
+Rivers,Ahoada East,5.071592,6.650031,dry,80.3,13.05,49.364,silty,none,0.5286,High
+Rivers,Ahoada East,5.072445,6.639971,dry,80.5,15.29,50.051,silty,none,0.5266,High
+Rivers,Ahoada East,5.075443,6.616401,dry,79.6,10.79,51.643,clay,none,0.5688,High
+Rivers,Ahoada East,5.056561,6.666666,dry,76.7,10.89,49.424,silty,none,0.5288,High
+Rivers,Ahoada East,5.085001,6.624886,wet,268.4,14.46,50.228,silty,good,0.4842,High
+Rivers,Ahoada East,5.084486,6.662327,wet,259.4,13.59,47.387,silty,none,0.6156,High
+Rivers,Ahoada East,5.071437,6.658799,dry,76.2,11.22,48.729,silty,none,0.5283,High
+Rivers,Ahoada East,5.079173,6.634474,dry,80.3,11.13,49.933,silty,none,0.5304,High
+Rivers,Ahoada East,5.09276,6.66534,wet,284.7,13.05,46.483,silty,none,0.6285,High
+Rivers,Ahoada East,5.098306,6.641825,dry,79.7,13.74,47.852,silty,none,0.5276,High
+Rivers,Ahoada East,5.073779,6.625614,wet,263.7,13.18,51.049,silty,none,0.6181,Critical
+Rivers,Ahoada East,5.073614,6.668847,dry,70.9,9.92,47.816,loamy,none,0.4939,High
+Rivers,Ahoada East,5.066454,6.633509,wet,267.5,9.6,51.027,silty,none,0.6233,High
+Delta,Asaba,6.200249,6.737559,dry,65.4,38.69,23.259,clay,basic,0.4834,High
+Delta,Asaba,6.189336,6.73453,dry,63.1,47.65,24.517,clay,moderate,0.4289,Medium
+Delta,Asaba,6.202712,6.734447,dry,63.0,41.02,23.103,loamy,basic,0.4085,Medium
+Delta,Asaba,6.21198,6.722618,dry,60.2,43.26,22.589,clay,basic,0.4766,High
+Delta,Asaba,6.201868,6.709815,wet,239.8,40.09,24.181,clay,basic,0.5673,High
+Delta,Asaba,6.190962,6.708954,wet,219.3,42.18,25.329,loamy,basic,0.4838,High
+Delta,Asaba,6.18638,6.731296,wet,221.6,44.93,24.938,clay,basic,0.5539,High
+Delta,Asaba,6.178585,6.711492,wet,218.5,40.14,26.492,clay,basic,0.5569,High
+Delta,Asaba,6.194629,6.743183,dry,67.0,46.08,23.684,clay,basic,0.4773,Medium
+Delta,Asaba,6.227089,6.734949,wet,235.6,46.13,20.527,clay,basic,0.5596,High
+Delta,Asaba,6.215665,6.728132,wet,237.7,47.05,21.982,clay,none,0.6123,High
+Delta,Asaba,6.16781,6.736333,wet,237.6,46.71,26.76,clay,basic,0.5601,High
+Delta,Asaba,6.208925,6.761013,wet,219.4,43.77,21.679,clay,basic,0.5539,High
+Delta,Asaba,6.187741,6.723285,wet,239.6,43.25,25.079,clay,basic,0.5643,High
+Delta,Asaba,6.191746,6.69217,wet,244.2,46.02,26.044,sandy,basic,0.4649,Medium
+Delta,Asaba,6.210117,6.716312,wet,220.4,39.33,23.051,clay,basic,0.5585,High
+Delta,Asaba,6.202399,6.740509,wet,229.0,44.12,22.935,clay,basic,0.5583,High
+Delta,Asaba,6.19204,6.739469,wet,226.5,46.03,24.072,clay,basic,0.5553,High
+Delta,Asaba,6.188914,6.703451,wet,240.7,42.44,25.784,clay,good,0.4831,High
+Delta,Asaba,6.213317,6.724638,wet,218.2,46.33,22.367,clay,basic,0.5509,High
+Delta,Asaba,6.207183,6.734248,dry,66.8,42.13,22.638,clay,moderate,0.4358,Medium
+Delta,Asaba,6.213475,6.727884,dry,66.7,46.74,22.219,clay,basic,0.4765,High
+Delta,Asaba,6.189575,6.724104,dry,68.9,42.17,24.856,clay,basic,0.4818,High
+Delta,Asaba,6.209928,6.743201,wet,233.9,43.99,22.048,clay,basic,0.5608,High
+Delta,Asaba,6.208516,6.714582,wet,235.4,45.93,23.291,clay,basic,0.5597,High
+Delta,Asaba,6.204922,6.733405,dry,66.0,44.36,22.906,clay,basic,0.4784,Medium
+Delta,Asaba,6.183505,6.754731,wet,227.9,44.48,24.588,clay,basic,0.5574,High
+Delta,Asaba,6.194248,6.743393,dry,66.0,45.22,23.719,clay,basic,0.4776,High
+Delta,Asaba,6.208178,6.74366,dry,60.5,43.51,22.22,clay,basic,0.4765,Medium
+Delta,Asaba,6.192279,6.712042,dry,60.0,42.92,25.06,clay,basic,0.4768,High
+Delta,Asaba,6.183788,6.745652,dry,59.9,43.8,24.781,clay,basic,0.4759,High
+Delta,Asaba,6.199825,6.726501,dry,69.3,42.45,23.694,clay,basic,0.4818,High
+Delta,Asaba,6.200325,6.751676,wet,224.1,44.62,22.836,clay,moderate,0.5104,High
+Delta,Asaba,6.221363,6.735112,dry,62.1,40.08,21.118,clay,basic,0.4804,Medium
+Delta,Asaba,6.214552,6.728695,dry,64.3,43.6,22.075,clay,basic,0.4782,High
+Delta,Asaba,6.172605,6.730563,dry,69.1,44.84,26.424,clay,basic,0.4794,High
+Delta,Asaba,6.205858,6.729038,wet,244.9,43.85,22.968,clay,basic,0.5663,High
+Delta,Asaba,6.199706,6.723418,wet,232.0,42.66,23.826,clay,basic,0.5611,High
+Delta,Asaba,6.196561,6.734905,dry,66.0,42.31,23.738,clay,basic,0.4803,High
+Delta,Asaba,6.199857,6.748054,wet,230.5,46.06,22.984,clay,basic,0.5572,High
+Delta,Patani,5.20514,6.16632,dry,78.7,11.68,16.179,clay,none,0.6134,Critical
+Delta,Patani,5.242149,6.180355,wet,259.4,10.11,11.993,clay,none,0.7535,Critical
+Delta,Patani,5.215017,6.205245,dry,76.9,14.81,15.267,clay,none,0.6206,High
+Delta,Patani,5.217953,6.198636,wet,260.8,11.18,14.827,clay,none,0.7191,Critical
+Delta,Patani,5.201269,6.194291,dry,72.6,8.17,16.614,clay,moderate,0.511,High
+Delta,Patani,5.214933,6.182162,wet,255.6,14.25,15.021,clay,moderate,0.6139,High
+Delta,Patani,5.241642,6.166117,dry,79.5,14.38,12.147,clay,none,0.6597,High
+Delta,Patani,5.226058,6.18081,wet,283.5,8.28,13.782,clay,none,0.7455,Critical
+Delta,Patani,5.228277,6.182662,wet,280.0,12.25,13.538,clay,none,0.743,Critical
+Delta,Patani,5.218667,6.154904,wet,284.1,12.77,14.866,clay,none,0.7286,Critical
+Delta,Patani,5.205265,6.180716,dry,76.1,11.7,16.094,clay,none,0.6132,High
+Delta,Patani,5.215445,6.215873,wet,279.6,9.93,15.48,clay,none,0.7217,Critical
+Delta,Patani,5.201309,6.159618,wet,274.2,11.96,16.687,clay,none,0.7026,Critical
+Delta,Patani,5.212655,6.172955,wet,282.3,13.24,15.292,clay,none,0.7222,Critical
+Delta,Patani,5.219773,6.19652,wet,259.8,10.84,14.596,clay,none,0.7218,Critical
+Delta,Patani,5.228223,6.170058,wet,278.4,11.88,13.586,clay,none,0.742,Critical
+Delta,Patani,5.232079,6.183988,dry,78.8,14.65,13.12,clay,none,0.6474,High
+Delta,Patani,5.207839,6.206335,dry,71.1,11.55,16.074,clay,none,0.6111,High
+Delta,Patani,5.222068,6.182154,dry,76.4,12.53,14.227,sandy,none,0.5359,High
+Delta,Patani,5.247755,6.184645,wet,278.8,13.74,11.381,clay,none,0.7669,Critical
+Delta,Patani,5.218915,6.178392,dry,74.7,12.41,14.577,clay,none,0.63,High
+Delta,Patani,5.249298,6.179402,wet,271.8,12.43,11.198,clay,none,0.7669,Critical
+Delta,Patani,5.234168,6.198864,dry,74.6,11.63,13.048,clay,none,0.649,High
+Delta,Patani,5.232176,6.197627,wet,278.2,14.43,13.246,clay,none,0.7436,Critical
+Delta,Patani,5.209311,6.190393,wet,278.5,13.45,15.686,clay,none,0.7154,Critical
+Delta,Patani,5.240201,6.211565,wet,275.3,13.63,12.7,clay,none,0.7495,Critical
+Delta,Patani,5.227554,6.199858,dry,73.1,12.2,13.792,clay,none,0.6389,Critical
+Delta,Patani,5.234485,6.198657,dry,72.7,13.99,13.01,clay,none,0.6464,High
+Delta,Patani,5.215213,6.18665,wet,269.1,16.38,15.006,clay,none,0.7162,Critical
+Delta,Patani,5.207108,6.16627,wet,266.4,14.37,15.961,clay,none,0.7053,Critical
+Delta,Patani,5.241347,6.213383,wet,270.1,10.64,12.634,clay,none,0.7505,Critical
+Delta,Patani,5.228856,6.199662,dry,71.0,12.63,13.645,loamy,none,0.5677,High
+Delta,Patani,5.230943,6.184531,dry,73.2,9.43,13.248,clay,none,0.648,High
+Delta,Patani,5.200609,6.234393,wet,274.1,7.75,17.67,clay,none,0.6947,Critical
+Delta,Patani,5.220512,6.194022,dry,71.8,13.16,14.482,clay,none,0.629,Critical
+Delta,Patani,5.178034,6.206154,dry,77.8,11.06,19.34,loamy,moderate,0.4066,Medium
+Delta,Patani,5.223843,6.198256,dry,72.7,9.28,14.173,clay,basic,0.5843,High
+Delta,Patani,5.21481,6.193007,dry,70.9,10.15,15.101,clay,none,0.624,High
+Delta,Patani,5.20423,6.202365,wet,257.4,12.6,16.397,clay,none,0.6973,Critical
+Delta,Patani,5.184164,6.200642,wet,273.7,11.71,18.581,clay,none,0.6799,Critical
+Bayelsa,Yenagoa,4.962684,6.259963,wet,274.3,16.15,26.421,clay,none,0.659,Critical
+Bayelsa,Yenagoa,4.910518,6.254053,wet,284.0,14.99,23.588,clay,basic,0.6124,High
+Bayelsa,Yenagoa,4.943567,6.282277,dry,72.1,13.01,27.757,clay,none,0.5631,High
+Bayelsa,Yenagoa,4.927002,6.226277,wet,266.0,15.43,21.324,clay,none,0.6556,Critical
+Bayelsa,Yenagoa,4.920952,6.26767,dry,74.3,17.77,25.374,clay,none,0.5597,High
+Bayelsa,Yenagoa,4.945019,6.269926,dry,77.7,14.71,26.558,clay,none,0.5643,High
+Bayelsa,Yenagoa,4.926219,6.254983,dry,75.4,11.97,24.24,sandy,none,0.4667,High
+Bayelsa,Yenagoa,4.926467,6.270778,dry,71.4,15.82,25.896,clay,none,0.5601,High
+Bayelsa,Yenagoa,4.915674,6.268715,dry,78.3,14.37,25.308,silty,basic,0.4739,High
+Bayelsa,Yenagoa,4.932516,6.256191,dry,76.5,17.2,24.618,clay,none,0.5613,High
+Bayelsa,Yenagoa,4.921614,6.251738,wet,284.5,16.2,23.727,clay,none,0.664,Critical
+Bayelsa,Yenagoa,4.927391,6.261152,dry,75.4,16.91,24.926,clay,none,0.5611,High
+Bayelsa,Yenagoa,4.94989,6.255659,dry,76.8,14.81,25.348,clay,none,0.5637,Critical
+Bayelsa,Yenagoa,4.917709,6.235839,wet,258.4,16.24,21.923,sandy,none,0.5522,High
+Bayelsa,Yenagoa,4.935497,6.280987,wet,278.7,13.42,27.3,clay,none,0.6637,Critical
+Bayelsa,Yenagoa,4.913444,6.263873,wet,277.2,19.21,24.723,clay,none,0.6576,Critical
+Bayelsa,Yenagoa,4.946265,6.262016,wet,280.0,16.78,25.813,clay,good,0.5262,High
+Bayelsa,Yenagoa,4.958906,6.256254,dry,75.7,17.97,25.861,clay,none,0.5602,High
+Bayelsa,Yenagoa,4.954957,6.243056,wet,267.7,15.45,24.365,clay,good,0.5215,High
+Bayelsa,Yenagoa,4.935738,6.2552,dry,72.2,13.97,24.652,clay,none,0.5623,High
+Bayelsa,Yenagoa,4.913477,6.26677,dry,77.8,19.46,25.032,clay,none,0.5599,High
+Bayelsa,Yenagoa,4.92748,6.245291,dry,77.9,17.49,23.289,clay,none,0.5618,High
+Bayelsa,Yenagoa,4.941707,6.242664,dry,75.4,15.69,23.656,clay,good,0.4272,Medium
+Bayelsa,Yenagoa,4.942534,6.269216,dry,71.1,15.55,26.376,loamy,none,0.4887,High
+Bayelsa,Yenagoa,4.945287,6.283628,wet,258.4,16.63,27.968,clay,none,0.6508,High
+Bayelsa,Yenagoa,4.882451,6.264083,dry,76.2,16.42,23.992,clay,none,0.5619,High
+Bayelsa,Yenagoa,4.944324,6.245439,wet,268.1,14.76,24.059,clay,none,0.6573,High
+Bayelsa,Yenagoa,4.935442,6.264556,wet,258.2,16.26,25.599,clay,none,0.6511,High
+Bayelsa,Yenagoa,4.937432,6.255348,dry,75.6,15.12,24.741,clay,moderate,0.4653,Medium
+Bayelsa,Yenagoa,4.92586,6.26704,wet,278.1,14.08,25.483,clay,none,0.6628,Critical
+Bayelsa,Yenagoa,4.920344,6.27494,wet,267.5,15.68,26.12,clay,none,0.6561,Critical
+Bayelsa,Yenagoa,4.930371,6.24158,wet,282.5,17.37,23.03,clay,none,0.6619,Critical
+Bayelsa,Yenagoa,4.907405,6.257699,wet,276.5,12.79,23.88,clay,moderate,0.5657,High
+Bayelsa,Yenagoa,4.913168,6.299027,wet,256.1,14.17,28.47,clay,none,0.652,Critical
+Bayelsa,Yenagoa,4.97156,6.254147,dry,77.6,12.36,26.348,clay,none,0.5664,High
+Bayelsa,Yenagoa,4.924632,6.272689,dry,72.1,18.22,26.03,clay,none,0.5582,High
+Bayelsa,Yenagoa,4.945968,6.246376,dry,78.4,14.64,24.232,clay,moderate,0.4672,Medium
+Bayelsa,Yenagoa,4.946075,6.269409,dry,71.9,15.49,26.552,clay,none,0.5607,High
+Bayelsa,Yenagoa,4.945862,6.270465,dry,70.9,16.05,26.65,clay,none,0.5597,High
+Bayelsa,Yenagoa,4.931407,6.285838,dry,71.2,16.96,27.652,clay,none,0.559,High
+Bayelsa,Ogbia,4.647137,6.323716,wet,255.2,1.0,37.8,clay,none,0.6638,Critical
+Bayelsa,Ogbia,4.649472,6.300206,wet,278.5,1.04,35.58,clay,none,0.6752,Critical
+Bayelsa,Ogbia,4.645965,6.302289,wet,260.8,3.9,36.004,clay,none,0.6639,Critical
+Bayelsa,Ogbia,4.65956,6.332576,dry,79.5,2.62,37.801,clay,none,0.5764,High
+Bayelsa,Ogbia,4.637508,6.333422,dry,77.0,3.84,39.303,clay,none,0.5741,High
+Bayelsa,Ogbia,4.673036,6.312165,dry,71.9,2.5,35.088,clay,none,0.5728,High
+Bayelsa,Ogbia,4.644346,6.304459,wet,266.1,1.89,36.305,clay,none,0.6683,High
+Bayelsa,Ogbia,4.643607,6.324135,dry,74.3,3.12,38.072,clay,none,0.5734,High
+Bayelsa,Ogbia,4.623554,6.322345,wet,283.1,2.44,39.304,clay,none,0.6761,High
+Bayelsa,Ogbia,4.660045,6.342465,wet,281.1,3.33,38.684,clay,none,0.6743,Critical
+Bayelsa,Ogbia,4.620501,6.307066,dry,76.7,1.0,38.246,clay,none,0.5766,High
+Bayelsa,Ogbia,4.634091,6.323985,dry,71.5,3.91,38.707,clay,none,0.5713,High
+Bayelsa,Ogbia,4.625545,6.340957,dry,79.5,1.0,40.774,clay,none,0.5779,High
+Bayelsa,Ogbia,4.665653,6.302458,dry,76.2,1.05,34.681,clay,none,0.5763,High
+Bayelsa,Ogbia,4.645621,6.317704,wet,255.6,2.01,37.37,clay,none,0.6631,High
+Bayelsa,Ogbia,4.661694,6.317183,wet,281.6,2.09,36.263,clay,none,0.6757,Critical
+Bayelsa,Ogbia,4.638094,6.310541,wet,265.2,1.0,37.266,clay,moderate,0.5712,High
+Bayelsa,Ogbia,4.645166,6.324425,wet,260.5,1.0,37.994,clay,good,0.5314,High
+Bayelsa,Ogbia,4.647733,6.31529,dry,73.6,3.32,37.014,sandy,none,0.4739,High
+Bayelsa,Ogbia,4.643456,6.333002,wet,272.9,3.4,38.871,clay,none,0.6702,Critical
+Bayelsa,Ogbia,4.613376,6.318982,dry,74.7,4.08,39.759,clay,none,0.5727,High
+Bayelsa,Ogbia,4.653189,6.351107,dry,71.6,1.0,39.903,clay,none,0.5741,High
+Bayelsa,Ogbia,4.663697,6.333796,dry,72.6,4.46,37.658,clay,none,0.5713,High
+Bayelsa,Ogbia,4.676071,6.317587,dry,71.0,4.47,35.401,clay,none,0.5705,High
+Bayelsa,Ogbia,4.634158,6.304986,wet,269.5,6.66,37.073,clay,none,0.6655,Critical
+Bayelsa,Ogbia,4.639816,6.329545,wet,256.4,1.0,38.805,clay,none,0.6644,High
+Bayelsa,Ogbia,4.645293,6.33429,wet,285.0,3.56,38.866,clay,none,0.676,High
+Bayelsa,Ogbia,4.623014,6.319182,dry,77.7,1.0,39.075,clay,none,0.5771,High
+Bayelsa,Ogbia,4.645512,6.329289,dry,77.1,5.05,38.404,silty,none,0.5345,High
+Bayelsa,Ogbia,4.642771,6.306304,dry,78.5,2.19,36.574,clay,none,0.5763,High
+Bayelsa,Ogbia,4.67155,6.302751,dry,78.7,1.12,34.324,clay,none,0.5774,High
+Bayelsa,Ogbia,4.661325,6.343003,wet,260.8,3.36,38.657,clay,none,0.6644,Critical
+Bayelsa,Ogbia,4.640036,6.298633,wet,264.1,4.33,36.114,clay,none,0.6651,Critical
+Bayelsa,Ogbia,4.635765,6.320554,dry,76.7,1.0,38.293,silty,moderate,0.4406,High
+Bayelsa,Ogbia,4.634116,6.312635,wet,275.5,1.0,37.726,clay,basic,0.6213,High
+Bayelsa,Ogbia,4.649802,6.31217,wet,263.2,4.37,36.6,clay,moderate,0.5671,High
+Bayelsa,Ogbia,4.636888,6.291823,wet,283.3,4.65,35.772,loamy,none,0.6027,High
+Bayelsa,Ogbia,4.661999,6.319631,dry,71.0,1.0,36.465,clay,good,0.4388,High
+Bayelsa,Ogbia,4.637191,6.317355,dry,76.3,2.28,37.917,sandy,none,0.4762,High
+Bayelsa,Ogbia,4.644763,6.322717,wet,256.9,2.59,37.87,clay,good,0.5282,High
+Lagos,Lagos Island,6.457171,3.381223,dry,64.1,6.81,5.195,sandy,moderate,0.5461,High
+Lagos,Lagos Island,6.457903,3.383644,wet,233.6,9.24,5.018,sandy,moderate,0.6289,High
+Lagos,Lagos Island,6.444421,3.396981,wet,241.7,7.69,6.189,sandy,moderate,0.6202,High
+Lagos,Lagos Island,6.474988,3.410259,wet,217.0,5.11,3.003,sandy,moderate,0.6488,Critical
+Lagos,Lagos Island,6.445905,3.414121,wet,240.9,4.48,6.214,sandy,moderate,0.6225,High
+Lagos,Lagos Island,6.433956,3.404836,dry,62.8,8.03,7.363,sandy,moderate,0.5184,High
+Lagos,Lagos Island,6.437174,3.403807,wet,236.4,6.24,6.999,sandy,moderate,0.6093,High
+Lagos,Lagos Island,6.456421,3.395599,dry,65.6,4.59,4.87,sandy,none,0.6503,Critical
+Lagos,Lagos Island,6.462039,3.40481,dry,63.0,3.11,4.254,sandy,moderate,0.5603,High
+Lagos,Lagos Island,6.4603,3.413387,dry,64.6,4.65,4.656,sandy,basic,0.5999,Critical
+Lagos,Lagos Island,6.421545,3.398728,wet,221.0,4.84,8.725,sandy,moderate,0.5823,High
+Lagos,Lagos Island,6.437884,3.418687,dry,65.2,4.55,7.209,sandy,moderate,0.5246,High
+Lagos,Lagos Island,6.442213,3.404364,dry,64.4,9.13,6.444,sandy,moderate,0.5291,Medium
+Lagos,Lagos Island,6.444127,3.384243,wet,243.6,6.22,6.452,sandy,moderate,0.6194,Critical
+Lagos,Lagos Island,6.452652,3.409198,wet,215.9,5.49,5.362,loamy,moderate,0.6471,High
+Lagos,Lagos Island,6.427527,3.375663,dry,61.4,6.47,8.495,sandy,moderate,0.5055,High
+Lagos,Lagos Island,6.44734,3.386592,wet,240.3,6.18,6.04,sandy,basic,0.6677,High
+Lagos,Lagos Island,6.43088,3.4182,wet,228.7,5.28,7.944,sandy,moderate,0.5951,High
+Lagos,Lagos Island,6.458704,3.416158,dry,60.8,6.53,4.927,sandy,moderate,0.548,High
+Lagos,Lagos Island,6.455239,3.413651,dry,65.8,5.12,5.201,sandy,moderate,0.5485,High
+Lagos,Lagos Island,6.424874,3.384641,dry,59.9,6.44,8.524,sandy,moderate,0.5045,High
+Lagos,Lagos Island,6.473474,3.368325,dry,64.1,6.21,4.577,sandy,good,0.5166,High
+Lagos,Lagos Island,6.450177,3.378411,dry,62.6,3.77,6.032,sandy,moderate,0.5382,High
+Lagos,Lagos Island,6.446246,3.382878,dry,67.3,3.51,6.269,sandy,moderate,0.5379,High
+Lagos,Lagos Island,6.462994,3.389906,wet,241.7,4.64,4.263,sandy,moderate,0.6462,High
+Lagos,Lagos Island,6.436661,3.413489,wet,230.6,6.02,7.199,sandy,moderate,0.6042,High
+Lagos,Lagos Island,6.434942,3.407542,dry,62.1,4.42,7.282,silty,moderate,0.5829,High
+Lagos,Lagos Island,6.441353,3.388801,wet,231.4,5.35,6.638,loamy,moderate,0.6395,Critical
+Lagos,Lagos Island,6.454703,3.403346,wet,235.3,4.27,5.05,sandy,moderate,0.6339,High
+Lagos,Lagos Island,6.453359,3.371208,wet,245.0,4.06,6.084,sandy,moderate,0.6265,Medium
+Lagos,Lagos Island,6.451674,3.398973,dry,69.4,5.63,5.375,sandy,moderate,0.5477,High
+Lagos,Lagos Island,6.450114,3.397683,wet,236.7,6.95,5.553,sandy,moderate,0.6261,High
+Lagos,Lagos Island,6.433748,3.39011,dry,67.3,5.62,7.448,sandy,good,0.4843,Medium
+Lagos,Lagos Island,6.45412,3.415875,wet,218.9,4.15,5.395,sandy,moderate,0.6219,High
+Lagos,Lagos Island,6.441637,3.413211,dry,62.4,6.25,6.652,sandy,moderate,0.5284,Medium
+Lagos,Lagos Island,6.458043,3.40165,dry,68.5,2.74,4.669,sandy,moderate,0.5584,High
+Lagos,Lagos Island,6.423144,3.424804,wet,218.3,4.74,8.975,sandy,moderate,0.5781,High
+Lagos,Lagos Island,6.455237,3.395924,wet,239.8,5.43,4.998,sandy,basic,0.6807,High
+Lagos,Lagos Island,6.484903,3.416288,dry,64.6,6.45,2.461,sandy,moderate,0.5795,High
+Lagos,Lagos Island,6.463311,3.400925,dry,60.7,1.32,4.081,sandy,moderate,0.563,High
+Lagos,Ikorodu,6.595133,3.520838,wet,208.0,42.93,17.032,sandy,basic,0.4857,High
+Lagos,Ikorodu,6.59178,3.478474,wet,203.3,38.96,13.39,sandy,basic,0.5308,High
+Lagos,Ikorodu,6.629232,3.481763,wet,221.4,37.67,13.72,sandy,basic,0.5369,High
+Lagos,Ikorodu,6.619014,3.487678,dry,61.7,39.8,14.917,sandy,basic,0.4425,High
+Lagos,Ikorodu,6.629118,3.487424,wet,208.7,44.63,14.244,sandy,none,0.5705,High
+Lagos,Ikorodu,6.591595,3.52245,wet,221.5,42.88,16.933,sandy,basic,0.4936,Medium
+Lagos,Ikorodu,6.642062,3.509835,wet,217.9,43.73,15.72,loamy,none,0.5856,High
+Lagos,Ikorodu,6.593926,3.49928,dry,58.9,40.55,15.145,sandy,good,0.3552,Medium
+Lagos,Ikorodu,6.601776,3.516867,wet,198.4,41.77,17.168,sandy,basic,0.4805,Medium
+Lagos,Ikorodu,6.619856,3.482726,wet,216.4,44.54,14.427,sandy,basic,0.5196,High
+Lagos,Ikorodu,6.61838,3.50875,wet,198.7,41.02,16.869,sandy,none,0.5374,High
+Lagos,Ikorodu,6.616185,3.492226,dry,62.7,43.39,15.508,sandy,basic,0.4326,High
+Lagos,Ikorodu,6.640339,3.506293,wet,196.6,40.67,15.445,silty,basic,0.5618,High
+Lagos,Ikorodu,6.633105,3.493714,wet,195.8,42.11,14.596,sandy,basic,0.5098,High
+Lagos,Ikorodu,6.654931,3.514642,wet,200.0,43.09,15.692,sandy,basic,0.4978,Medium
+Lagos,Ikorodu,6.630411,3.508361,wet,206.9,38.69,16.151,sandy,basic,0.4997,Medium
+Lagos,Ikorodu,6.630431,3.508184,wet,206.7,40.58,16.133,sandy,moderate,0.4531,Medium
+Lagos,Ikorodu,6.611535,3.488358,wet,218.0,43.55,15.492,sandy,basic,0.5085,Medium
+Lagos,Ikorodu,6.613807,3.474181,wet,204.7,41.99,14.144,sandy,basic,0.5197,High
+Lagos,Ikorodu,6.642929,3.488236,wet,221.5,40.6,13.534,sandy,basic,0.5365,High
+Lagos,Ikorodu,6.606533,3.501518,dry,56.1,39.89,16.312,sandy,basic,0.423,Medium
+Lagos,Ikorodu,6.622265,3.520639,wet,217.7,40.82,17.776,sandy,moderate,0.4385,High
+Lagos,Ikorodu,6.609923,3.500081,dry,63.0,42.16,16.481,sandy,basic,0.4222,Medium
+Lagos,Ikorodu,6.619097,3.486639,dry,54.2,40.55,14.82,sandy,basic,0.4393,High
+Lagos,Ikorodu,6.629596,3.476919,wet,202.3,43.03,13.261,sandy,basic,0.5281,Medium
+Lagos,Ikorodu,6.614231,3.490244,wet,204.6,40.47,15.466,sandy,good,0.4227,Medium
+Lagos,Ikorodu,6.628875,3.504175,wet,200.2,42.96,15.831,sandy,basic,0.4963,Medium
+Lagos,Ikorodu,6.625048,3.517122,dry,61.0,41.73,17.286,sandy,basic,0.4119,Medium
+Lagos,Ikorodu,6.613561,3.518577,wet,197.4,41.52,18.073,sandy,basic,0.4694,High
+Lagos,Ikorodu,6.627997,3.514074,dry,61.7,42.24,16.834,silty,basic,0.4777,Medium
+Lagos,Ikorodu,6.648288,3.516309,dry,61.1,41.05,16.115,sandy,basic,0.4267,Medium
+Lagos,Ikorodu,6.606067,3.504181,dry,58.5,42.98,16.479,sandy,none,0.4717,Medium
+Lagos,Ikorodu,6.635674,3.481449,dry,63.2,37.45,13.293,sandy,basic,0.4649,Medium
+Lagos,Ikorodu,6.598574,3.501409,wet,222.6,41.53,15.673,sandy,basic,0.5105,High
+Lagos,Ikorodu,6.625514,3.515085,dry,57.3,42.44,17.064,sandy,basic,0.4121,Medium
+Lagos,Ikorodu,6.616503,3.50381,dry,56.2,44.92,16.528,loamy,basic,0.4432,Medium
+Lagos,Ikorodu,6.609655,3.47924,wet,215.4,41.84,14.868,sandy,basic,0.5163,High
+Lagos,Ikorodu,6.64748,3.491409,wet,216.3,42.65,13.62,sandy,basic,0.531,High
+Lagos,Ikorodu,6.626059,3.499007,wet,207.8,42.86,15.503,sandy,basic,0.5041,Medium
+Lagos,Ikorodu,6.589377,3.493517,dry,63.0,41.66,14.335,sandy,moderate,0.4034,Medium
+Lagos,Badagry,6.424663,2.869079,wet,224.2,11.82,16.716,sandy,basic,0.5265,High
+Lagos,Badagry,6.425708,2.880057,dry,66.7,7.12,15.616,sandy,basic,0.4671,Medium
+Lagos,Badagry,6.417163,2.870447,wet,232.0,9.03,17.022,sandy,basic,0.5292,High
+Lagos,Badagry,6.419986,2.852698,wet,227.3,9.75,18.548,sandy,basic,0.5079,High
+Lagos,Badagry,6.426121,2.873346,dry,60.0,10.89,16.227,sandy,basic,0.453,High
+Lagos,Badagry,6.416776,2.873883,wet,235.0,9.5,16.728,sandy,basic,0.5338,High
+Lagos,Badagry,6.418207,2.879747,dry,62.8,12.06,16.101,sandy,basic,0.4547,Medium
+Lagos,Badagry,6.464789,2.84302,wet,226.4,12.76,17.78,loamy,basic,0.5414,High
+Lagos,Badagry,6.420408,2.878894,dry,60.8,9.35,16.043,sandy,basic,0.457,Medium
+Lagos,Badagry,6.415719,2.902855,wet,234.8,8.12,14.249,sandy,basic,0.5647,High
+Lagos,Badagry,6.436687,2.9206,dry,59.9,11.88,11.248,sandy,basic,0.5117,High
+Lagos,Badagry,6.400748,2.887026,dry,62.9,9.76,16.662,sandy,basic,0.4502,Medium
+Lagos,Badagry,6.398264,2.883286,wet,220.9,9.84,17.155,clay,none,0.673,High
+Lagos,Badagry,6.412888,2.901272,dry,60.6,11.07,14.588,sandy,basic,0.4727,High
+Lagos,Badagry,6.42599,2.904369,wet,215.9,14.99,13.393,sandy,basic,0.5593,High
+Lagos,Badagry,6.41095,2.888133,dry,66.1,7.52,15.837,sandy,basic,0.4637,Medium
+Lagos,Badagry,6.408337,2.867011,dry,67.1,13.21,17.883,sandy,basic,0.4344,Medium
+Lagos,Badagry,6.402925,2.896649,dry,69.1,8.01,15.714,sandy,basic,0.4662,Medium
+Lagos,Badagry,6.41929,2.892419,wet,243.1,12.78,14.894,sandy,moderate,0.5117,High
+Lagos,Badagry,6.429057,2.889336,dry,60.0,9.9,14.551,sandy,basic,0.474,High
+Lagos,Badagry,6.433059,2.878338,dry,60.7,11.37,15.365,sandy,basic,0.4632,Medium
+Lagos,Badagry,6.421598,2.881265,dry,62.4,8.52,15.751,sandy,basic,0.462,High
+Lagos,Badagry,6.427357,2.889789,wet,244.7,8.6,14.613,silty,basic,0.6253,High
+Lagos,Badagry,6.422663,2.892165,dry,60.9,13.4,14.694,sandy,basic,0.4694,High
+Lagos,Badagry,6.429816,2.875711,wet,240.7,13.06,15.795,sandy,basic,0.5444,High
+Lagos,Badagry,6.433148,2.849623,wet,225.1,12.52,18.202,sandy,basic,0.5084,High
+Lagos,Badagry,6.420724,2.865077,dry,66.4,9.09,17.319,sandy,moderate,0.3997,High
+Lagos,Badagry,6.420282,2.860234,wet,228.7,11.85,17.806,sandy,good,0.4331,Medium
+Lagos,Badagry,6.417858,2.888113,wet,234.5,10.44,15.371,sandy,basic,0.549,High
+Lagos,Badagry,6.441102,2.89573,wet,235.4,5.93,13.252,sandy,moderate,0.534,High
+Lagos,Badagry,6.429315,2.878474,wet,225.2,11.78,15.558,sandy,good,0.4584,High
+Lagos,Badagry,6.420237,2.88754,dry,68.9,6.96,15.266,sandy,basic,0.4725,High
+Lagos,Badagry,6.410445,2.855049,wet,234.5,10.69,18.859,sandy,basic,0.5069,Medium
+Lagos,Badagry,6.414902,2.885615,wet,242.3,12.06,15.788,sandy,basic,0.5462,High
+Lagos,Badagry,6.437087,2.878639,wet,229.5,10.35,15.124,sandy,basic,0.5496,High
+Lagos,Badagry,6.413814,2.877021,wet,231.1,9.1,16.627,sandy,basic,0.5335,Medium
+Lagos,Badagry,6.398269,2.897121,dry,64.8,13.51,16.037,sandy,basic,0.4551,High
+Lagos,Badagry,6.420225,2.869773,wet,220.4,11.14,16.903,sandy,basic,0.523,High
+Lagos,Badagry,6.425638,2.885501,wet,222.7,9.51,15.113,sandy,none,0.5996,High
+Lagos,Badagry,6.405751,2.879449,wet,215.0,5.73,16.948,sandy,basic,0.5249,High
+Kogi,Lokoja,7.773982,6.736806,dry,48.5,67.48,3.238,clay,basic,0.6494,Critical
+Kogi,Lokoja,7.785912,6.728905,wet,166.1,65.68,2.803,sandy,basic,0.6148,High
+Kogi,Lokoja,7.791617,6.733735,dry,49.6,65.45,2.02,clay,basic,0.6664,Critical
+Kogi,Lokoja,7.794724,6.732761,dry,49.7,67.33,1.988,clay,basic,0.6651,Critical
+Kogi,Lokoja,7.82201,6.750452,wet,184.4,65.43,2.448,clay,basic,0.7272,Critical
+Kogi,Lokoja,7.789304,6.764149,dry,46.2,68.68,1.961,clay,basic,0.6625,Critical
+Kogi,Lokoja,7.788827,6.747412,wet,173.2,64.83,1.275,clay,basic,0.7364,Critical
+Kogi,Lokoja,7.814568,6.740904,wet,192.8,65.32,1.905,clay,basic,0.7379,Critical
+Kogi,Lokoja,7.790315,6.7661,dry,51.1,67.53,2.075,clay,basic,0.6646,Critical
+Kogi,Lokoja,7.803821,6.742742,dry,48.9,67.88,0.905,clay,basic,0.6772,Critical
+Kogi,Lokoja,7.780241,6.736014,dry,45.5,64.97,2.684,clay,basic,0.6569,Critical
+Kogi,Lokoja,7.812128,6.755171,dry,55.1,69.04,1.464,clay,basic,0.6724,Critical
+Kogi,Lokoja,7.781774,6.725171,wet,179.1,64.27,3.404,clay,basic,0.7142,Critical
+Kogi,Lokoja,7.776317,6.736918,wet,193.4,64.66,3.002,clay,basic,0.7257,Critical
+Kogi,Lokoja,7.805151,6.743276,wet,166.7,67.13,0.936,clay,basic,0.7351,Critical
+Kogi,Lokoja,7.769479,6.741372,dry,46.8,63.95,3.524,clay,basic,0.6484,High
+Kogi,Lokoja,7.791788,6.723428,wet,192.3,63.71,3.066,clay,basic,0.7253,Critical
+Kogi,Lokoja,7.792673,6.716135,wet,192.6,68.94,3.819,clay,basic,0.7115,Critical
+Kogi,Lokoja,7.798224,6.73596,dry,54.2,68.92,1.559,clay,basic,0.671,Critical
+Kogi,Lokoja,7.825551,6.753044,dry,49.2,68.0,2.861,clay,basic,0.6538,High
+Kogi,Lokoja,7.814373,6.714515,wet,172.9,65.43,4.223,silty,basic,0.6618,Critical
+Kogi,Lokoja,7.78822,6.772838,wet,190.5,69.88,2.837,clay,basic,0.7214,Critical
+Kogi,Lokoja,7.793358,6.752347,wet,177.1,64.12,0.782,silty,basic,0.7063,Critical
+Kogi,Lokoja,7.815532,6.749152,wet,165.2,62.26,1.73,clay,basic,0.7294,Critical
+Kogi,Lokoja,7.785719,6.742659,dry,53.5,64.86,1.782,silty,basic,0.6332,Critical
+Kogi,Lokoja,7.792356,6.743062,dry,52.5,70.15,1.143,loamy,good,0.52,High
+Kogi,Lokoja,7.788167,6.746404,wet,179.4,66.71,1.374,clay,basic,0.7365,Critical
+Kogi,Lokoja,7.783323,6.749019,wet,191.5,64.46,1.857,clay,basic,0.7387,Critical
+Kogi,Lokoja,7.808217,6.727587,wet,168.8,69.42,2.633,clay,basic,0.7136,Critical
+Kogi,Lokoja,7.826735,6.749067,dry,49.7,69.23,2.975,clay,basic,0.6515,High
+Kogi,Lokoja,7.800775,6.728708,wet,173.4,65.83,2.347,loamy,basic,0.6512,High
+Kogi,Lokoja,7.800462,6.767802,wet,168.1,62.55,1.962,clay,basic,0.7278,Critical
+Kogi,Lokoja,7.811078,6.76731,wet,166.2,66.14,2.27,clay,basic,0.7198,Critical
+Kogi,Lokoja,7.78142,6.749276,wet,180.7,67.29,2.068,clay,basic,0.7282,Critical
+Kogi,Lokoja,7.802789,6.755559,wet,174.1,63.13,0.686,clay,basic,0.7455,Critical
+Kogi,Lokoja,7.790744,6.752568,dry,45.4,67.0,1.067,clay,basic,0.6744,Critical
+Kogi,Lokoja,7.797323,6.751864,wet,179.7,64.62,0.362,clay,none,0.8032,Critical
+Kogi,Lokoja,7.789478,6.716515,wet,175.8,64.39,3.87,clay,basic,0.7069,Critical
+Kogi,Lokoja,7.784958,6.7557,wet,168.2,65.26,1.787,clay,basic,0.7274,Critical
+Kogi,Lokoja,7.838112,6.750051,wet,168.0,66.76,4.238,clay,basic,0.6965,Critical
+Kogi,Ibaji,6.694594,6.716126,wet,198.8,28.87,16.508,silty,none,0.6137,High
+Kogi,Ibaji,6.719668,6.684057,dry,61.0,31.72,20.223,silty,good,0.3667,Medium
+Kogi,Ibaji,6.66339,6.694493,wet,224.0,30.8,14.02,silty,none,0.654,Critical
+Kogi,Ibaji,6.73731,6.714988,wet,215.5,29.88,21.184,silty,none,0.579,High
+Kogi,Ibaji,6.712657,6.721562,dry,59.9,28.16,18.357,silty,basic,0.4717,High
+Kogi,Ibaji,6.698325,6.698905,dry,56.4,26.81,17.432,silty,none,0.5349,High
+Kogi,Ibaji,6.699123,6.707503,wet,196.2,31.42,17.233,loamy,none,0.5683,High
+Kogi,Ibaji,6.696604,6.726308,wet,198.5,31.37,16.51,silty,none,0.6111,High
+Kogi,Ibaji,6.713086,6.697692,dry,59.9,29.64,19.032,silty,none,0.5147,High
+Kogi,Ibaji,6.704728,6.690564,dry,59.2,32.37,18.415,silty,none,0.5193,High
+Kogi,Ibaji,6.701356,6.693014,dry,60.1,31.45,17.969,silty,none,0.5259,High
+Kogi,Ibaji,6.687586,6.704719,wet,217.6,26.84,16.096,silty,none,0.6297,High
+Kogi,Ibaji,6.697864,6.685774,dry,55.7,31.05,17.907,silty,good,0.3899,Medium
+Kogi,Ibaji,6.708869,6.696703,dry,55.6,31.18,18.62,silty,none,0.5161,High
+Kogi,Ibaji,6.705257,6.702452,wet,207.1,27.24,18.045,silty,none,0.6008,High
+Kogi,Ibaji,6.688357,6.691167,wet,219.9,30.25,16.701,silty,none,0.6204,High
+Kogi,Ibaji,6.696077,6.735217,wet,218.7,30.07,16.325,silty,none,0.6245,High
+Kogi,Ibaji,6.703802,6.69495,wet,208.3,27.45,18.151,silty,none,0.5999,High
+Kogi,Ibaji,6.702872,6.704198,dry,62.0,29.29,17.735,loamy,good,0.3637,Medium
+Kogi,Ibaji,6.720793,6.725733,wet,205.6,30.29,19.18,silty,none,0.5836,High
+Kogi,Ibaji,6.690846,6.679058,wet,201.7,23.89,17.512,silty,none,0.6077,High
+Kogi,Ibaji,6.711994,6.706234,dry,62.8,33.98,18.65,silty,moderate,0.4192,Medium
+Kogi,Ibaji,6.681663,6.686745,wet,213.7,32.39,16.222,silty,none,0.6211,High
+Kogi,Ibaji,6.697669,6.717487,dry,60.9,33.33,16.808,clay,none,0.577,High
+Kogi,Ibaji,6.725769,6.696423,wet,216.6,29.15,20.421,silty,none,0.5802,High
+Kogi,Ibaji,6.717964,6.708086,dry,55.1,31.09,19.242,silty,none,0.5085,High
+Kogi,Ibaji,6.682825,6.700625,dry,55.2,27.72,15.744,silty,none,0.5537,High
+Kogi,Ibaji,6.685938,6.712685,dry,57.6,26.36,15.667,silty,none,0.557,High
+Kogi,Ibaji,6.679639,6.689158,wet,195.1,29.57,15.905,silty,good,0.4834,High
+Kogi,Ibaji,6.732598,6.691108,wet,220.5,31.61,21.32,silty,good,0.4448,Medium
+Kogi,Ibaji,6.718138,6.723125,dry,54.4,30.18,18.93,sandy,none,0.4523,High
+Kogi,Ibaji,6.738295,6.706398,dry,59.6,30.89,21.484,silty,none,0.5018,High
+Kogi,Ibaji,6.704612,6.707086,wet,212.1,30.7,17.834,silty,basic,0.55,High
+Kogi,Ibaji,6.691906,6.701556,dry,58.2,26.85,16.662,silty,none,0.5449,High
+Kogi,Ibaji,6.717259,6.725702,wet,199.8,29.02,18.791,silty,none,0.5866,High
+Kogi,Ibaji,6.715644,6.694725,dry,60.9,32.06,19.404,silty,none,0.5085,High
+Kogi,Ibaji,6.658953,6.694421,wet,196.7,29.91,13.582,silty,none,0.6468,High
+Kogi,Ibaji,6.720215,6.696927,wet,204.4,30.91,19.814,silty,none,0.5748,High
+Kogi,Ibaji,6.713796,6.72327,dry,54.6,30.33,18.451,silty,none,0.5185,High
+Kogi,Ibaji,6.712026,6.702142,wet,217.7,32.47,18.776,silty,none,0.5923,High
+Benue,Makurdi,7.727517,8.52706,dry,45.8,113.24,43.285,loamy,basic,0.3327,Medium
+Benue,Makurdi,7.736335,8.531973,dry,48.2,112.88,42.469,loamy,good,0.2517,Medium
+Benue,Makurdi,7.723838,8.489977,wet,180.1,108.92,45.129,loamy,basic,0.4024,High
+Benue,Makurdi,7.756453,8.533966,dry,48.3,107.65,41.644,loamy,basic,0.3391,Medium
+Benue,Makurdi,7.734985,8.525616,wet,184.6,113.71,43.182,loamy,moderate,0.3551,Medium
+Benue,Makurdi,7.722474,8.532578,dry,49.7,108.48,42.891,loamy,basic,0.339,Medium
+Benue,Makurdi,7.722188,8.536661,wet,194.8,113.5,42.477,clay,moderate,0.4318,Medium
+Benue,Makurdi,7.692193,8.518464,wet,170.1,108.8,45.551,loamy,moderate,0.3526,Medium
+Benue,Makurdi,7.726515,8.534589,dry,48.0,110.89,42.534,loamy,basic,0.336,Medium
+Benue,Makurdi,7.734903,8.53596,dry,49.4,114.84,42.098,loamy,basic,0.333,Medium
+Benue,Makurdi,7.739882,8.540389,dry,50.5,108.88,41.466,loamy,basic,0.3391,Medium
+Benue,Makurdi,7.721413,8.510963,wet,189.6,110.92,45.182,clay,basic,0.4767,Medium
+Benue,Makurdi,7.738258,8.542694,wet,185.1,111.69,41.278,loamy,basic,0.4023,High
+Benue,Makurdi,7.70297,8.523937,wet,192.5,113.78,44.541,loamy,basic,0.4039,Medium
+Benue,Makurdi,7.734181,8.542723,dry,47.5,109.51,41.414,loamy,good,0.2545,Medium
+Benue,Makurdi,7.738477,8.532079,dry,51.1,111.85,42.387,loamy,basic,0.3366,Medium
+Benue,Makurdi,7.755204,8.540422,dry,47.5,112.37,40.992,silty,basic,0.3673,Medium
+Benue,Makurdi,7.725876,8.525281,wet,191.2,110.88,43.529,loamy,basic,0.406,Medium
+Benue,Makurdi,7.737093,8.560915,wet,192.0,111.43,39.41,loamy,basic,0.4059,Medium
+Benue,Makurdi,7.737113,8.541948,dry,53.2,108.54,41.395,loamy,basic,0.3407,Medium
+Benue,Makurdi,7.74663,8.519823,wet,171.0,107.07,43.431,loamy,basic,0.3997,Medium
+Benue,Makurdi,7.743621,8.547474,dry,54.7,115.24,40.598,loamy,basic,0.3352,Medium
+Benue,Makurdi,7.73586,8.508321,dry,49.9,110.83,44.978,loamy,good,0.2545,Medium
+Benue,Makurdi,7.717331,8.514896,wet,177.6,112.09,44.919,loamy,good,0.3157,Medium
+Benue,Makurdi,7.732173,8.540061,wet,165.4,113.58,41.762,loamy,moderate,0.3459,Medium
+Benue,Makurdi,7.69983,8.529605,dry,49.5,109.69,44.092,loamy,basic,0.3378,Medium
+Benue,Makurdi,7.704739,8.526296,wet,176.2,112.98,44.227,loamy,good,0.3142,Medium
+Benue,Makurdi,7.708689,8.549622,dry,54.8,108.93,41.677,loamy,none,0.3936,Medium
+Benue,Makurdi,7.732418,8.523406,wet,179.9,109.47,43.5,loamy,basic,0.4018,Medium
+Benue,Makurdi,7.743169,8.53953,wet,171.4,109.07,41.451,loamy,basic,0.398,Medium
+Benue,Makurdi,7.752226,8.549472,wet,178.9,108.9,40.118,loamy,basic,0.4018,High
+Benue,Makurdi,7.733251,8.515297,dry,48.1,111.48,44.326,loamy,basic,0.3355,Medium
+Benue,Makurdi,7.756911,8.51113,wet,166.0,115.38,44.073,loamy,basic,0.3895,Medium
+Benue,Makurdi,7.70551,8.527068,dry,55.3,108.42,44.116,loamy,basic,0.3418,Medium
+Benue,Makurdi,7.737605,8.550186,wet,168.9,111.83,40.514,loamy,basic,0.3942,Medium
+Benue,Makurdi,7.744981,8.558825,wet,189.0,110.15,39.358,loamy,basic,0.4056,Medium
+Benue,Makurdi,7.73617,8.501801,dry,48.6,111.61,45.658,clay,basic,0.4071,Medium
+Benue,Makurdi,7.716125,8.515429,wet,194.2,109.15,44.908,loamy,basic,0.4091,Medium
+Benue,Makurdi,7.751165,8.527786,dry,47.6,112.13,42.452,loamy,basic,0.3346,Medium
+Benue,Makurdi,7.725965,8.503089,dry,48.1,111.37,45.851,loamy,basic,0.3356,Medium
+Niger,Shiroro,9.807263,6.814918,wet,98.7,404.51,26.043,loamy,none,0.2368,Medium
+Niger,Shiroro,9.834622,6.839641,dry,26.8,402.17,22.006,loamy,none,0.2016,Low
+Niger,Shiroro,9.799047,6.831779,wet,104.4,400.26,25.826,loamy,none,0.2395,Low
+Niger,Shiroro,9.820914,6.831937,wet,120.6,399.48,23.744,loamy,none,0.2475,Low
+Niger,Shiroro,9.799409,6.832089,wet,122.8,402.79,25.774,loamy,none,0.2485,Medium
+Niger,Shiroro,9.794785,6.827137,wet,101.5,401.66,26.492,loamy,none,0.2381,Low
+Niger,Shiroro,9.815043,6.794782,dry,26.7,400.8,26.684,loamy,none,0.2016,Low
+Niger,Shiroro,9.793288,6.835612,dry,27.7,398.99,26.179,loamy,none,0.202,Low
+Niger,Shiroro,9.829257,6.822075,dry,31.7,403.83,23.597,loamy,none,0.204,Low
+Niger,Shiroro,9.817207,6.814255,dry,34.0,398.06,25.184,loamy,none,0.2051,Low
+Niger,Shiroro,9.802472,6.838341,dry,30.3,403.96,25.14,loamy,none,0.2033,Low
+Niger,Shiroro,9.819703,6.845401,dry,33.9,400.21,23.091,loamy,basic,0.1526,Low
+Niger,Shiroro,9.839696,6.839671,dry,25.9,402.06,21.535,loamy,none,0.2012,Low
+Niger,Shiroro,9.824382,6.848919,dry,29.7,403.07,22.448,loamy,none,0.203,Low
+Niger,Shiroro,9.829664,6.837296,wet,115.5,398.42,22.608,loamy,none,0.245,Low
+Niger,Shiroro,9.821532,6.834536,dry,30.0,394.91,23.532,sandy,none,0.1757,Low
+Niger,Shiroro,9.810741,6.824028,wet,120.7,400.37,25.165,loamy,none,0.2475,Medium
+Niger,Shiroro,9.81383,6.858129,dry,31.1,403.4,23.018,loamy,good,0.0687,Low
+Niger,Shiroro,9.842334,6.845203,dry,29.8,400.48,20.955,loamy,none,0.2031,Medium
+Niger,Shiroro,9.808586,6.820273,dry,34.9,398.14,25.592,loamy,none,0.2056,Low
+Niger,Shiroro,9.828533,6.836427,wet,120.8,405.09,22.766,loamy,none,0.2476,Medium
+Niger,Shiroro,9.840484,6.842644,dry,25.8,402.0,21.281,loamy,none,0.2011,Low
+Niger,Shiroro,9.847909,6.853327,wet,118.7,400.74,19.953,loamy,none,0.2471,Medium
+Niger,Shiroro,9.83768,6.820972,wet,117.6,403.79,22.924,loamy,none,0.246,Medium
+Niger,Shiroro,9.806041,6.838459,wet,109.3,399.53,24.788,loamy,none,0.2419,Low
+Niger,Shiroro,9.822442,6.812952,wet,97.5,400.85,24.802,loamy,none,0.2362,Low
+Niger,Shiroro,9.806829,6.809394,wet,109.8,400.73,26.431,loamy,none,0.2422,Low
+Niger,Shiroro,9.805503,6.83294,dry,31.7,402.08,25.143,loamy,none,0.204,Low
+Niger,Shiroro,9.820854,6.81706,dry,26.9,398.82,24.675,loamy,none,0.2017,Low
+Niger,Shiroro,9.800046,6.836148,wet,103.3,401.24,25.493,loamy,none,0.239,Low
+Niger,Shiroro,9.834829,6.814175,wet,98.3,400.08,23.636,silty,none,0.2696,Low
+Niger,Shiroro,9.80175,6.832745,dry,26.6,400.55,25.513,loamy,good,0.0665,Low
+Niger,Shiroro,9.815048,6.829753,dry,29.6,400.57,24.422,loamy,basic,0.1505,Low
+Niger,Shiroro,9.803507,6.841562,dry,26.3,400.04,24.869,loamy,none,0.2014,Low
+Niger,Shiroro,9.823821,6.831325,dry,28.6,401.17,23.511,loamy,none,0.2025,Low
+Niger,Shiroro,9.807629,6.838457,wet,103.0,400.59,24.634,loamy,none,0.2389,Low
+Niger,Shiroro,9.812883,6.840109,dry,30.8,400.91,24.038,loamy,none,0.2036,Low
+Niger,Shiroro,9.808871,6.860714,wet,100.0,402.45,23.395,loamy,none,0.2374,Medium
+Niger,Shiroro,9.841593,6.824779,dry,28.4,400.37,22.324,clay,none,0.2739,Medium
+Niger,Shiroro,9.839481,6.826226,dry,26.3,402.58,22.414,loamy,none,0.2014,Low
+Kaduna,Kaduna North,10.511037,7.438565,wet,84.1,611.15,26.111,loamy,moderate,0.1321,Low
+Kaduna,Kaduna North,10.50885,7.45519,dry,24.3,610.95,27.918,loamy,moderate,0.1029,Low
+Kaduna,Kaduna North,10.497987,7.437523,dry,33.1,613.31,25.97,silty,moderate,0.1402,Low
+Kaduna,Kaduna North,10.51553,7.433018,dry,23.0,613.58,25.534,loamy,moderate,0.1022,Low
+Kaduna,Kaduna North,10.548593,7.457963,dry,24.8,607.66,27.969,loamy,moderate,0.1031,Low
+Kaduna,Kaduna North,10.484092,7.45185,wet,121.6,610.71,27.593,loamy,moderate,0.1504,Low
+Kaduna,Kaduna North,10.532896,7.439509,wet,85.0,608.27,26.439,silty,moderate,0.1656,Low
+Kaduna,Kaduna North,10.523656,7.426643,wet,80.6,613.31,24.918,loamy,moderate,0.1304,Low
+Kaduna,Kaduna North,10.50421,7.424447,dry,18.9,610.27,24.544,loamy,moderate,0.1002,Low
+Kaduna,Kaduna North,10.523516,7.43315,dry,22.6,610.27,25.624,loamy,moderate,0.102,Low
+Kaduna,Kaduna North,10.523892,7.422721,wet,64.3,614.03,24.494,loamy,moderate,0.1224,Low
+Kaduna,Kaduna North,10.530831,7.433891,wet,84.4,609.15,25.799,loamy,moderate,0.1323,Low
+Kaduna,Kaduna North,10.526671,7.438593,dry,17.7,613.36,26.253,loamy,moderate,0.0997,Low
+Kaduna,Kaduna North,10.522752,7.432263,wet,66.0,611.0,25.519,loamy,moderate,0.1233,Low
+Kaduna,Kaduna North,10.534962,7.432626,wet,73.1,608.09,25.728,silty,moderate,0.1597,Low
+Kaduna,Kaduna North,10.497202,7.439453,dry,30.0,608.93,26.182,loamy,none,0.2032,Low
+Kaduna,Kaduna North,10.535123,7.435862,wet,67.3,609.73,26.08,loamy,moderate,0.1239,Low
+Kaduna,Kaduna North,10.547346,7.449562,wet,84.2,610.82,27.787,loamy,moderate,0.1322,Low
+Kaduna,Kaduna North,10.52474,7.441685,wet,68.7,610.55,26.566,loamy,moderate,0.1246,Low
+Kaduna,Kaduna North,10.542858,7.449194,wet,76.9,610.28,27.657,loamy,basic,0.1736,Low
+Kaduna,Kaduna North,10.515931,7.452288,wet,66.0,611.96,27.64,sandy,moderate,0.0958,Low
+Kaduna,Kaduna North,10.524906,7.444667,wet,75.2,611.36,26.892,loamy,moderate,0.1278,Low
+Kaduna,Kaduna North,10.514678,7.456406,wet,76.4,612.64,28.08,loamy,moderate,0.1284,Low
+Kaduna,Kaduna North,10.53318,7.423927,dry,17.4,611.25,24.758,loamy,moderate,0.0995,Low
+Kaduna,Kaduna North,10.496796,7.438318,wet,115.0,609.36,26.059,loamy,moderate,0.1472,Low
+Kaduna,Kaduna North,10.512612,7.42701,wet,64.4,607.43,24.859,loamy,good,0.085,Low
+Kaduna,Kaduna North,10.532708,7.440881,dry,25.6,615.2,26.585,loamy,moderate,0.1035,Low
+Kaduna,Kaduna North,10.512859,7.481841,dry,18.1,607.03,30.847,loamy,moderate,0.0998,Low
+Kaduna,Kaduna North,10.510742,7.439239,wet,70.2,609.1,26.184,loamy,moderate,0.1253,Low
+Kaduna,Kaduna North,10.515494,7.465036,dry,24.4,611.67,29.028,loamy,moderate,0.1029,Low
+Kaduna,Kaduna North,10.512555,7.434162,dry,25.6,612.22,25.639,loamy,moderate,0.1035,Low
+Kaduna,Kaduna North,10.516258,7.442585,wet,75.0,611.34,26.583,loamy,moderate,0.1277,Low
+Kaduna,Kaduna North,10.522985,7.46561,wet,81.8,614.25,29.151,loamy,moderate,0.131,Low
+Kaduna,Kaduna North,10.524738,7.437487,dry,16.7,613.91,26.109,loamy,moderate,0.0992,Low
+Kaduna,Kaduna North,10.538348,7.411358,dry,17.3,612.7,23.497,loamy,moderate,0.0995,Low
+Kaduna,Kaduna North,10.525832,7.456431,dry,20.3,611.5,28.182,loamy,moderate,0.1009,Low
+Kaduna,Kaduna North,10.52285,7.44171,wet,86.8,612.05,26.548,loamy,moderate,0.1334,Low
+Kaduna,Kaduna North,10.514449,7.438327,wet,81.8,608.93,26.106,loamy,basic,0.176,Low
+Kaduna,Kaduna North,10.504638,7.432728,dry,24.5,608.34,25.45,loamy,moderate,0.103,Low
+Kaduna,Kaduna North,10.498476,7.418348,wet,98.0,612.68,23.873,loamy,moderate,0.1389,Low
+Kano,Kano Municipal,12.00756,8.52393,dry,14.6,480.34,159.665,sandy,moderate,0.0706,Low
+Kano,Kano Municipal,11.997505,8.528888,dry,14.6,478.45,159.84,silty,moderate,0.1311,Low
+Kano,Kano Municipal,12.001733,8.517936,wet,40.0,478.18,160.567,sandy,moderate,0.0831,Low
+Kano,Kano Municipal,11.999669,8.509849,wet,58.4,479.07,161.426,sandy,moderate,0.0921,Low
+Kano,Kano Municipal,11.980393,8.515994,wet,48.4,481.57,162.07,silty,moderate,0.1477,Low
+Kano,Kano Municipal,11.979437,8.524344,wet,40.5,477.57,161.381,sandy,moderate,0.0833,Low
+Kano,Kano Municipal,11.987695,8.512444,wet,35.9,482.44,161.933,sandy,moderate,0.0811,Low
+Kano,Kano Municipal,11.978838,8.517379,dry,14.6,482.23,162.043,sandy,moderate,0.0706,Low
+Kano,Kano Municipal,11.990437,8.532262,dry,16.8,477.91,159.979,sandy,none,0.1692,Low
+Kano,Kano Municipal,11.983564,8.544629,wet,51.6,479.35,159.306,sandy,basic,0.1337,Low
+Kano,Kano Municipal,11.968675,8.524603,dry,10.0,477.29,162.04,sandy,moderate,0.0684,Low
+Kano,Kano Municipal,11.972404,8.521023,wet,36.2,483.19,162.123,sandy,moderate,0.0812,Low
+Kano,Kano Municipal,12.003749,8.502202,dry,15.4,477.91,161.871,sandy,moderate,0.071,Low
+Kano,Kano Municipal,11.968331,8.518013,wet,51.2,483.05,162.65,sandy,moderate,0.0885,Low
+Kano,Kano Municipal,11.982344,8.527802,wet,33.7,478.14,160.888,sandy,moderate,0.08,Low
+Kano,Kano Municipal,11.990704,8.522454,dry,8.7,477.71,160.844,sandy,moderate,0.0678,Low
+Kano,Kano Municipal,11.96922,8.513325,wet,41.5,482.65,163.013,silty,moderate,0.1443,Low
+Kano,Kano Municipal,11.989787,8.522804,wet,49.8,477.68,160.869,loamy,moderate,0.1153,Low
+Kano,Kano Municipal,12.00123,8.506537,dry,15.7,482.86,161.631,sandy,moderate,0.0712,Low
+Kano,Kano Municipal,11.964747,8.543722,dry,16.9,481.32,160.592,sandy,moderate,0.0718,Low
+Kano,Kano Municipal,11.945031,8.507832,dry,12.2,481.97,165.044,sandy,moderate,0.0695,Low
+Kano,Kano Municipal,11.971128,8.518941,dry,10.0,472.87,162.39,sandy,moderate,0.0684,Low
+Kano,Kano Municipal,11.975063,8.509047,wet,47.1,479.22,163.028,loamy,moderate,0.114,Low
+Kano,Kano Municipal,11.965855,8.497948,wet,39.6,480.84,164.603,sandy,good,0.0454,Low
+Kano,Kano Municipal,11.981991,8.520217,wet,55.3,481.24,161.59,sandy,none,0.188,Low
+Kano,Kano Municipal,11.976594,8.54031,dry,10.2,481.06,160.135,sandy,moderate,0.0685,Low
+Kano,Kano Municipal,11.96923,8.520343,wet,31.5,480.67,162.385,clay,good,0.1404,Low
+Kano,Kano Municipal,11.97615,8.517887,wet,37.8,481.94,162.167,sandy,moderate,0.082,Low
+Kano,Kano Municipal,11.988756,8.509069,wet,32.3,477.5,162.171,sandy,moderate,0.0793,Low
+Kano,Kano Municipal,11.981088,8.533274,dry,8.3,480.44,160.477,sandy,moderate,0.0676,Low
+Kano,Kano Municipal,12.000253,8.523168,dry,14.1,477.96,160.185,sandy,moderate,0.0704,Low
+Kano,Kano Municipal,11.97361,8.513853,wet,47.7,478.71,162.688,sandy,moderate,0.0868,Low
+Kano,Kano Municipal,11.953923,8.518228,dry,13.4,480.81,163.55,sandy,none,0.1676,Low
+Kano,Kano Municipal,12.016367,8.509479,wet,48.9,472.58,160.441,sandy,moderate,0.0874,Low
+Kano,Kano Municipal,12.002285,8.541257,wet,45.6,476.71,158.428,sandy,moderate,0.0858,Low
+Kano,Kano Municipal,11.991355,8.512901,dry,17.3,479.21,161.664,sandy,moderate,0.072,Low
+Kano,Kano Municipal,11.994864,8.515945,wet,57.4,477.58,161.172,sandy,moderate,0.0916,Low
+Kano,Kano Municipal,11.965168,8.524926,wet,57.3,480.34,162.234,sandy,moderate,0.0915,Low
+Kano,Kano Municipal,11.958928,8.503539,dry,11.8,478.68,164.539,sandy,moderate,0.0693,Low
+Kano,Kano Municipal,11.96264,8.50089,wet,33.6,479.25,164.541,sandy,moderate,0.0799,Low
+Sokoto,Sokoto North,13.082377,5.229492,wet,30.7,297.58,4.23,sandy,good,0.2325,Low
+Sokoto,Sokoto North,13.071569,5.232059,dry,10.5,294.51,3.087,sandy,basic,0.3217,Medium
+Sokoto,Sokoto North,13.049358,5.257579,wet,52.2,295.61,0.824,sandy,basic,0.3682,Medium
+Sokoto,Sokoto North,13.046219,5.248883,dry,8.9,294.44,0.437,sandy,basic,0.3528,Medium
+Sokoto,Sokoto North,13.090477,5.222321,wet,47.8,295.14,5.408,sandy,basic,0.3115,Medium
+Sokoto,Sokoto North,13.055994,5.248453,dry,10.6,295.85,0.687,sandy,basic,0.3493,Medium
+Sokoto,Sokoto North,13.075782,5.22812,dry,15.2,294.57,3.72,sandy,basic,0.3164,Medium
+Sokoto,Sokoto North,13.049022,5.245121,dry,8.8,296.33,0.54,sandy,basic,0.3498,Medium
+Sokoto,Sokoto North,13.069301,5.231836,dry,16.8,298.34,2.912,sandy,basic,0.3233,Medium
+Sokoto,Sokoto North,13.043069,5.234243,wet,58.8,299.25,1.873,sandy,basic,0.3555,Medium
+Sokoto,Sokoto North,13.088331,5.241187,wet,58.4,293.89,4.368,sandy,basic,0.3303,Medium
+Sokoto,Sokoto North,13.071579,5.251752,wet,33.6,294.06,2.407,sandy,basic,0.3416,Low
+Sokoto,Sokoto North,13.066955,5.244224,dry,11.1,294.89,1.986,sandy,basic,0.3349,Medium
+Sokoto,Sokoto North,13.05169,5.255788,dry,14.3,291.88,0.654,loamy,basic,0.3827,Medium
+Sokoto,Sokoto North,13.066702,5.241647,dry,16.0,295.94,2.066,sandy,basic,0.3353,Medium
+Sokoto,Sokoto North,13.052146,5.231917,dry,9.6,295.98,1.973,sandy,basic,0.3333,Medium
+Sokoto,Sokoto North,13.066767,5.256223,wet,58.5,296.3,1.983,sandy,basic,0.3568,Medium
+Sokoto,Sokoto North,13.065597,5.240112,wet,50.6,294.86,2.038,sandy,basic,0.3536,Medium
+Sokoto,Sokoto North,13.061332,5.253827,wet,56.3,297.76,1.326,sandy,basic,0.3622,Medium
+Sokoto,Sokoto North,13.046143,5.225239,dry,17.2,294.6,2.716,sandy,basic,0.3293,Medium
+Sokoto,Sokoto North,13.045709,5.247904,wet,43.9,294.48,0.528,sandy,good,0.2863,Low
+Sokoto,Sokoto North,13.052758,5.215177,dry,13.6,297.14,3.785,sandy,moderate,0.2674,Low
+Sokoto,Sokoto North,13.028531,5.238518,dry,10.2,298.19,2.692,sandy,basic,0.3229,Medium
+Sokoto,Sokoto North,13.045866,5.245396,wet,40.2,294.63,0.678,sandy,basic,0.365,Medium
+Sokoto,Sokoto North,13.043501,5.250498,wet,33.3,291.61,0.725,sandy,basic,0.3639,Medium
+Sokoto,Sokoto North,13.072859,5.253559,wet,51.1,295.28,2.571,sandy,basic,0.347,Medium
+Sokoto,Sokoto North,13.039316,5.232861,wet,34.7,294.14,2.204,sandy,basic,0.3445,Medium
+Sokoto,Sokoto North,13.063492,5.266739,dry,14.9,294.32,2.353,sandy,none,0.3853,Medium
+Sokoto,Sokoto North,13.06059,5.221666,dry,10.4,295.15,3.287,sandy,none,0.3712,Medium
+Sokoto,Sokoto North,13.065634,5.226516,dry,10.3,297.23,3.081,clay,basic,0.4181,Medium
+Sokoto,Sokoto North,13.052981,5.216669,wet,48.1,298.75,3.626,sandy,basic,0.3297,Medium
+Sokoto,Sokoto North,13.062609,5.230492,dry,15.0,295.46,2.536,sandy,basic,0.3296,Low
+Sokoto,Sokoto North,13.092072,5.263203,dry,9.8,293.49,4.892,sandy,basic,0.3007,Medium
+Sokoto,Sokoto North,13.054985,5.262825,wet,51.8,290.33,1.496,sandy,basic,0.3649,Medium
+Sokoto,Sokoto North,13.056367,5.223947,wet,41.1,293.84,2.91,sandy,basic,0.3394,Medium
+Sokoto,Sokoto North,13.046472,5.26374,wet,55.9,296.01,1.539,sandy,basic,0.3611,Medium
+Sokoto,Sokoto North,13.073103,5.256111,dry,15.2,291.21,2.653,silty,basic,0.3928,Medium
+Sokoto,Sokoto North,13.05487,5.252618,wet,48.0,297.98,0.611,sandy,basic,0.3665,Medium
+Sokoto,Sokoto North,13.064887,5.258656,dry,14.1,293.34,1.902,sandy,basic,0.3388,Medium
+Sokoto,Sokoto North,13.03045,5.237313,wet,32.3,296.85,2.572,clay,none,0.4879,Medium
+Jigawa,Hadejia,12.458088,10.053913,wet,35.1,361.04,31.224,silty,none,0.2387,Medium
+Jigawa,Hadejia,12.449881,10.021121,dry,17.6,360.0,33.917,silty,none,0.2301,Medium
+Jigawa,Hadejia,12.44825,10.053117,dry,10.5,357.89,32.214,silty,none,0.2266,Medium
+Jigawa,Hadejia,12.463798,10.035707,dry,10.9,357.65,31.745,silty,none,0.2268,Medium
+Jigawa,Hadejia,12.458077,10.036064,dry,9.1,361.07,32.252,clay,none,0.2644,Medium
+Jigawa,Hadejia,12.458811,10.061338,dry,12.3,358.65,30.752,silty,none,0.2275,Medium
+Jigawa,Hadejia,12.439995,10.0361,wet,54.6,360.44,33.945,silty,none,0.2482,Medium
+Jigawa,Hadejia,12.442795,10.05972,dry,14.0,361.35,32.4,silty,none,0.2283,Medium
+Jigawa,Hadejia,12.458359,10.046315,wet,53.9,358.92,31.625,silty,none,0.2479,Medium
+Jigawa,Hadejia,12.437552,10.062589,dry,13.8,362.2,32.773,silty,none,0.2282,Medium
+Jigawa,Hadejia,12.460893,10.040183,wet,34.4,362.03,31.745,silty,none,0.2383,Medium
+Jigawa,Hadejia,12.43581,10.068583,wet,42.8,361.37,32.656,silty,none,0.2424,Medium
+Jigawa,Hadejia,12.4507,10.028889,dry,12.3,357.58,33.366,silty,none,0.2275,Medium
+Jigawa,Hadejia,12.419486,10.034043,wet,55.0,363.64,36.019,silty,none,0.2484,Medium
+Jigawa,Hadejia,12.433833,10.033542,dry,12.0,357.99,34.675,silty,moderate,0.1299,Low
+Jigawa,Hadejia,12.465827,10.019694,dry,13.2,358.81,32.572,silty,none,0.228,Low
+Jigawa,Hadejia,12.443034,10.046342,wet,35.8,359.63,33.084,silty,none,0.239,Medium
+Jigawa,Hadejia,12.478292,10.022304,wet,38.2,358.59,31.299,silty,moderate,0.1427,Low
+Jigawa,Hadejia,12.449221,10.04509,wet,59.9,361.99,32.561,silty,none,0.2508,Low
+Jigawa,Hadejia,12.419838,10.045079,wet,56.8,359.47,35.401,silty,none,0.2493,Medium
+Jigawa,Hadejia,12.455489,10.034222,dry,12.0,359.51,32.602,silty,none,0.2274,Medium
+Jigawa,Hadejia,12.457585,10.03058,wet,40.0,357.16,32.629,silty,none,0.2411,Low
+Jigawa,Hadejia,12.457312,10.034527,dry,11.6,354.27,32.415,silty,none,0.2272,Medium
+Jigawa,Hadejia,12.475708,10.051116,wet,43.3,358.89,29.716,silty,good,0.1077,Low
+Jigawa,Hadejia,12.461569,10.062007,wet,33.5,358.04,30.45,silty,none,0.2379,Medium
+Jigawa,Hadejia,12.479675,10.057827,wet,51.9,359.65,28.953,silty,none,0.2469,Medium
+Jigawa,Hadejia,12.475003,10.034537,wet,32.4,359.39,30.795,silty,none,0.2373,Medium
+Jigawa,Hadejia,12.461216,10.021647,wet,39.3,358.95,32.858,silty,none,0.2407,Low
+Jigawa,Hadejia,12.446497,10.059036,dry,16.4,359.19,32.072,silty,none,0.2295,Medium
+Jigawa,Hadejia,12.446195,10.028874,dry,15.3,357.83,33.784,silty,none,0.229,Medium
+Jigawa,Hadejia,12.446466,10.031537,dry,17.5,360.45,33.601,silty,none,0.2301,Medium
+Jigawa,Hadejia,12.444871,10.028731,dry,15.9,358.26,33.916,silty,basic,0.1768,Low
+Jigawa,Hadejia,12.449131,10.056822,wet,48.9,361.13,31.931,silty,none,0.2454,Medium
+Jigawa,Hadejia,12.441446,10.057325,wet,40.8,358.59,32.655,silty,good,0.1064,Low
+Jigawa,Hadejia,12.439001,10.058674,wet,34.9,359.72,32.826,silty,none,0.2386,Medium
+Jigawa,Hadejia,12.430736,10.047766,dry,10.0,358.73,34.197,silty,none,0.2264,Low
+Jigawa,Hadejia,12.434901,10.041661,wet,52.9,363.03,34.121,silty,none,0.2474,Medium
+Jigawa,Hadejia,12.427251,10.052324,dry,9.3,358.0,34.303,silty,none,0.226,Medium
+Jigawa,Hadejia,12.444093,10.022701,wet,58.8,360.23,34.351,silty,none,0.2502,Medium
+Jigawa,Hadejia,12.452677,10.013159,dry,14.2,357.24,34.168,silty,moderate,0.1309,Low
+Borno,Maiduguri,11.839636,13.155327,wet,34.6,322.04,47.862,sandy,basic,0.1254,Low
+Borno,Maiduguri,11.838833,13.150275,wet,51.0,322.0,48.318,sandy,basic,0.1334,Low
+Borno,Maiduguri,11.841484,13.129522,wet,58.1,323.67,49.687,sandy,basic,0.1369,Low
+Borno,Maiduguri,11.825345,13.171994,dry,11.1,322.97,45.538,sandy,basic,0.1139,Low
+Borno,Maiduguri,11.860789,13.155253,wet,40.2,325.21,48.95,sandy,basic,0.1282,Low
+Borno,Maiduguri,11.830352,13.116729,wet,36.3,325.83,48.705,sandy,basic,0.1262,Low
+Borno,Maiduguri,11.821042,13.136987,dry,12.4,323.88,47.318,sandy,basic,0.1146,Low
+Borno,Maiduguri,11.836478,13.163659,wet,50.6,324.19,46.893,silty,basic,0.1937,Low
+Borno,Maiduguri,11.843111,13.151009,dry,14.1,324.88,48.454,sandy,basic,0.1154,Low
+Borno,Maiduguri,11.844863,13.1553,wet,43.5,322.14,48.123,sandy,basic,0.1298,Low
+Borno,Maiduguri,11.820544,13.165974,dry,11.8,325.96,45.909,sandy,basic,0.1143,Low
+Borno,Maiduguri,11.831553,13.150854,dry,14.9,326.18,47.915,sandy,moderate,0.0708,Low
+Borno,Maiduguri,11.85924,13.157477,dry,14.5,322.18,48.655,sandy,basic,0.1156,Low
+Borno,Maiduguri,11.822069,13.176584,dry,7.8,325.81,44.931,sandy,basic,0.1123,Low
+Borno,Maiduguri,11.818375,13.142016,wet,35.3,323.03,46.948,sandy,basic,0.1258,Low
+Borno,Maiduguri,11.819309,13.138188,dry,13.8,323.75,47.109,sandy,basic,0.1152,Low
+Borno,Maiduguri,11.855321,13.138522,dry,8.0,326.72,50.278,sandy,basic,0.1124,Low
+Borno,Maiduguri,11.83265,13.143601,wet,39.1,323.51,48.499,sandy,moderate,0.0826,Low
+Borno,Maiduguri,11.825612,13.125677,wet,33.5,326.11,48.013,sandy,basic,0.1249,Low
+Borno,Maiduguri,11.824088,13.167023,wet,47.2,324.78,45.969,sandy,basic,0.1316,Low
+Borno,Maiduguri,11.826445,13.172644,wet,48.1,324.5,45.527,sandy,basic,0.132,Low
+Borno,Maiduguri,11.827822,13.165184,wet,38.2,325.59,46.326,sandy,basic,0.1272,Low
+Borno,Maiduguri,11.825511,13.144917,wet,31.9,326.76,47.693,sandy,basic,0.1241,Low
+Borno,Maiduguri,11.839288,13.132317,dry,13.2,322.8,49.4,sandy,basic,0.115,Low
+Borno,Maiduguri,11.833793,13.142274,dry,14.3,325.76,48.644,sandy,none,0.168,Medium
+Borno,Maiduguri,11.816941,13.135849,dry,12.9,327.88,46.885,sandy,basic,0.1148,Low
+Borno,Maiduguri,11.813939,13.155052,wet,40.5,324.15,46.288,sandy,basic,0.1283,Low
+Borno,Maiduguri,11.869954,13.155919,dry,13.0,326.94,49.382,sandy,basic,0.1149,Low
+Borno,Maiduguri,11.840747,13.160545,wet,35.4,327.6,47.408,sandy,basic,0.1258,Low
+Borno,Maiduguri,11.828519,13.134883,dry,16.6,324.16,48.174,sandy,basic,0.1166,Low
+Borno,Maiduguri,11.814858,13.133819,dry,9.9,322.53,46.69,sandy,basic,0.1133,Low
+Borno,Maiduguri,11.822293,13.183219,wet,38.7,326.11,44.289,sandy,basic,0.1274,Low
+Borno,Maiduguri,11.821011,13.152067,wet,59.2,322.84,47.104,sandy,basic,0.1374,Low
+Borno,Maiduguri,11.823988,13.144434,wet,58.4,322.37,47.532,sandy,basic,0.1371,Low
+Borno,Maiduguri,11.814631,13.14285,wet,48.0,325.41,46.523,sandy,basic,0.132,Low
+Borno,Maiduguri,11.820201,13.149301,wet,37.2,321.91,47.049,sandy,basic,0.1267,Low
+Borno,Maiduguri,11.832483,13.157608,wet,43.8,326.07,47.293,sandy,basic,0.1299,Low
+Borno,Maiduguri,11.856721,13.148271,dry,13.6,324.03,49.407,sandy,basic,0.1151,Low
+Borno,Maiduguri,11.839017,13.164065,wet,50.3,325.51,46.979,sandy,basic,0.1331,Low
+Borno,Maiduguri,11.833712,13.145635,dry,13.0,329.0,48.531,sandy,basic,0.1149,Low
