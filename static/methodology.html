@@ -91,17 +91,17 @@
     <div class="grid grid-cols-2 md:grid-cols-4 gap-3 bg-white border border-[#d5c3b8] rounded-2xl p-4 shadow-sm text-center">
       <div class="space-y-0.5">
         <span class="text-[9px] font-bold text-[#805533] uppercase tracking-wider">Overall Accuracy</span>
-        <div class="text-xl sm:text-2xl font-black text-[#6f4627]">91.2%</div>
+        <div class="text-xl sm:text-2xl font-black text-[#6f4627]">82.4%</div>
         <span class="text-[9px] text-[#51443c]">5-fold cross-validated</span>
       </div>
       <div class="space-y-0.5">
         <span class="text-[9px] font-bold text-[#805533] uppercase tracking-wider">Macro F1 Score</span>
-        <div class="text-xl sm:text-2xl font-black text-[#6f4627]">0.908</div>
+        <div class="text-xl sm:text-2xl font-black text-[#6f4627]">0.809</div>
         <span class="text-[9px] text-[#51443c]">Balanced evaluation</span>
       </div>
       <div class="space-y-0.5">
         <span class="text-[9px] font-bold text-[#805533] uppercase tracking-wider">Ensemble</span>
-        <div class="text-xl sm:text-2xl font-black text-[#6f4627]">100 Trees</div>
+        <div class="text-xl sm:text-2xl font-black text-[#6f4627]">300 Trees</div>
         <span class="text-[9px] text-[#51443c]">Random Forest</span>
       </div>
       <div class="space-y-0.5">
@@ -210,50 +210,50 @@
           <div class="space-y-0.5">
             <div class="flex justify-between text-[#51443c]">
               <span>Terrain Elevation (elevation_m)</span>
-              <span class="text-[#6f4627] font-black">33.9% (0.3389)</span>
+              <span class="text-[#6f4627] font-black">34.4% (0.3437)</span>
             </div>
             <div class="w-full bg-[#e9e1dc] h-2 rounded-full overflow-hidden">
-              <div class="bg-[#6f4627] h-full rounded-full" style="width: 33.9%;"></div>
+              <div class="bg-[#6f4627] h-full rounded-full" style="width: 34.4%;"></div>
             </div>
           </div>
 
           <div class="space-y-0.5">
             <div class="flex justify-between text-[#51443c]">
               <span>River Proximity (river_distance_km)</span>
-              <span class="text-[#6f4627] font-black">23.6% (0.2364)</span>
+              <span class="text-[#6f4627] font-black">22.7% (0.2270)</span>
             </div>
             <div class="w-full bg-[#e9e1dc] h-2 rounded-full overflow-hidden">
-              <div class="bg-[#6f4627] h-full rounded-full" style="width: 23.6%;"></div>
+              <div class="bg-[#6f4627] h-full rounded-full" style="width: 22.7%;"></div>
             </div>
           </div>
 
           <div class="space-y-0.5">
             <div class="flex justify-between text-[#51443c]">
               <span>Monthly Rainfall (rainfall_mm)</span>
-              <span class="text-[#6f4627] font-black">22.1% (0.2206)</span>
+              <span class="text-[#6f4627] font-black">21.1% (0.2112)</span>
             </div>
             <div class="w-full bg-[#e9e1dc] h-2 rounded-full overflow-hidden">
-              <div class="bg-[#6f4627] h-full rounded-full" style="width: 22.1%;"></div>
+              <div class="bg-[#6f4627] h-full rounded-full" style="width: 21.1%;"></div>
             </div>
           </div>
 
           <div class="space-y-0.5">
             <div class="flex justify-between text-[#51443c]">
               <span>Soil Composition (soil_type_enc)</span>
-              <span class="text-[#6f4627] font-black">12.8% (0.1277)</span>
+              <span class="text-[#6f4627] font-black">13.5% (0.1350)</span>
             </div>
             <div class="w-full bg-[#e9e1dc] h-2 rounded-full overflow-hidden">
-              <div class="bg-[#6f4627] h-full rounded-full" style="width: 12.8%;"></div>
+              <div class="bg-[#6f4627] h-full rounded-full" style="width: 13.5%;"></div>
             </div>
           </div>
 
           <div class="space-y-0.5">
             <div class="flex justify-between text-[#51443c]">
               <span>Drainage Quality (drainage_enc)</span>
-              <span class="text-[#6f4627] font-black">7.6% (0.0764)</span>
+              <span class="text-[#6f4627] font-black">8.3% (0.0832)</span>
             </div>
             <div class="w-full bg-[#e9e1dc] h-2 rounded-full overflow-hidden">
-              <div class="bg-[#6f4627] h-full rounded-full" style="width: 7.6%;"></div>
+              <div class="bg-[#6f4627] h-full rounded-full" style="width: 8.3%;"></div>
             </div>
           </div>
         </div>
@@ -278,26 +278,26 @@
             <tbody class="divide-y divide-[#d5c3b8] text-[#51443c] font-medium">
               <tr>
                 <td class="py-1.5 px-2.5 font-bold text-emerald-800">Low Risk</td>
-                <td class="py-1.5 px-2.5">0.76</td>
-                <td class="py-1.5 px-2.5">0.80</td>
+                <td class="py-1.5 px-2.5">0.78</td>
+                <td class="py-1.5 px-2.5">0.78</td>
                 <td class="py-1.5 px-2.5">0.78</td>
               </tr>
               <tr>
                 <td class="py-1.5 px-2.5 font-bold text-amber-800">Medium Risk</td>
-                <td class="py-1.5 px-2.5">0.82</td>
-                <td class="py-1.5 px-2.5">0.76</td>
-                <td class="py-1.5 px-2.5">0.79</td>
+                <td class="py-1.5 px-2.5">0.81</td>
+                <td class="py-1.5 px-2.5">0.80</td>
+                <td class="py-1.5 px-2.5">0.80</td>
               </tr>
               <tr>
                 <td class="py-1.5 px-2.5 font-bold text-orange-800">High Risk</td>
-                <td class="py-1.5 px-2.5">0.84</td>
-                <td class="py-1.5 px-2.5">0.88</td>
-                <td class="py-1.5 px-2.5">0.86</td>
+                <td class="py-1.5 px-2.5">0.85</td>
+                <td class="py-1.5 px-2.5">0.89</td>
+                <td class="py-1.5 px-2.5">0.87</td>
               </tr>
               <tr>
                 <td class="py-1.5 px-2.5 font-bold text-red-800">Critical Risk</td>
-                <td class="py-1.5 px-2.5">0.78</td>
-                <td class="py-1.5 px-2.5">0.78</td>
+                <td class="py-1.5 px-2.5">0.89</td>
+                <td class="py-1.5 px-2.5">0.70</td>
                 <td class="py-1.5 px-2.5">0.78</td>
               </tr>
             </tbody>
