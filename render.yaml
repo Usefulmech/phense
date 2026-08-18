@@ -12,10 +12,11 @@ services:
       - key: ALLOWED_ORIGINS
         value: "*"
 
-  - type: site
+  - type: web
     name: phense
+    env: static
     buildCommand: ""
-    publishDir: static
+    staticPublishPath: ./static
     routes:
       - type: rewrite
         source: /assess
@@ -29,4 +30,5 @@ services:
       - type: rewrite
         source: /about
         destination: /about.html
+
 
