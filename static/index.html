@@ -41,19 +41,24 @@
     body { font-family: 'Plus Jakarta Sans', sans-serif; background: #fff8f5; color: #1e1b18; }
     .material-symbols-outlined { font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24; vertical-align: middle; }
 
-    /* Real-Life Flood Hero Background - Full Viewport Cover */
+    /* Real-Life Flood Hero Background */
     #hero {
       min-height: calc(100vh - 3.5rem);
       background: linear-gradient(180deg, rgba(15, 23, 42, 0.30) 0%, rgba(10, 15, 29, 0.65) 100%), url('/images/flood_hero_bg.png') center/cover no-repeat;
       position: relative;
       overflow: hidden;
       display: flex; flex-direction: column;
-      align-items: center; justify-content: center;
+      align-items: center; justify-content: flex-start;
       border-bottom: 3px solid #8b5e3c;
+      padding-top: 1rem;
+      padding-bottom: 2.5rem;
     }
     @media (min-width: 768px) {
       #hero {
         min-height: calc(100vh - 3.5rem);
+        justify-content: center;
+        padding-top: 3rem;
+        padding-bottom: 3rem;
       }
     }
     .hero-text-shadow {
@@ -127,7 +132,7 @@
   <!-- ════════════════════════════════════
     HERO SECTION WITH REAL FLOOD BG
   ════════════════════════════════════ -->
-  <header id="hero" class="relative text-white pt-6 pb-10 md:py-20 px-4 md:px-12">
+  <header id="hero" class="relative text-white px-4 md:px-12">
     <div class="topo-canvas">
       <svg class="topo-svg" viewBox="0 0 1440 800" fill="none" xmlns="http://www.w3.org/2000/svg">
         <g class="topo-group" stroke="#f4bb92" stroke-width="1.2">
@@ -139,10 +144,10 @@
       </svg>
     </div>
 
-    <div class="max-w-5xl mx-auto text-center space-y-6 relative z-10 w-full">
+    <div class="max-w-5xl mx-auto text-center space-y-4 sm:space-y-6 relative z-10 w-full">
 
       <!-- Top Badge -->
-      <div class="inline-flex items-center gap-2 bg-slate-900/80 backdrop-blur-md border border-[#ffe3d1]/30 px-3.5 py-1.5 rounded-full shadow-lg">
+      <div class="inline-flex items-center gap-2 bg-slate-900/85 backdrop-blur-md border border-[#ffe3d1]/30 px-3.5 py-1.5 rounded-full shadow-lg">
         <span class="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
         <span class="text-[10px] sm:text-xs font-bold text-[#ffe3d1] uppercase tracking-widest">
           Live NiMet & Topo GIS Intelligence
@@ -150,7 +155,7 @@
       </div>
 
       <!-- Headline -->
-      <div class="space-y-2.5 max-w-3xl mx-auto">
+      <div class="space-y-2 max-w-3xl mx-auto">
         <h1 class="text-2xl sm:text-4xl md:text-5xl font-extrabold tracking-tight hero-text-shadow leading-tight text-white">
           Predictive Flood Intelligence for Nigerian Communities
         </h1>
@@ -160,26 +165,26 @@
       </div>
 
       <!-- 4 Stats / Feature Cards Grid -->
-      <div class="grid grid-cols-2 md:grid-cols-4 gap-2.5 sm:gap-4 max-w-4xl mx-auto text-left pt-2">
-        <div class="bg-slate-900/60 backdrop-blur-md border border-[#ffe3d1]/20 p-3 sm:p-4 rounded-xl sm:rounded-2xl shadow-xl hover:bg-slate-900/80 transition-all">
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-2.5 sm:gap-4 max-w-4xl mx-auto text-left pt-1">
+        <div class="bg-slate-900/65 backdrop-blur-md border border-[#ffe3d1]/20 p-3 sm:p-4 rounded-xl sm:rounded-2xl shadow-xl hover:bg-slate-900/80 transition-all">
           <p class="text-[9px] sm:text-[10px] uppercase tracking-wider text-[#f4bb92] font-bold flex items-center gap-1">
             <span class="material-symbols-outlined text-xs">verified</span> Model Accuracy
           </p>
           <p class="text-lg sm:text-2xl font-black text-white mt-0.5 sm:mt-1">82.4%</p>
         </div>
-        <div class="bg-slate-900/60 backdrop-blur-md border border-[#ffe3d1]/20 p-3 sm:p-4 rounded-xl sm:rounded-2xl shadow-xl hover:bg-slate-900/80 transition-all">
+        <div class="bg-slate-900/65 backdrop-blur-md border border-[#ffe3d1]/20 p-3 sm:p-4 rounded-xl sm:rounded-2xl shadow-xl hover:bg-slate-900/80 transition-all">
           <p class="text-[9px] sm:text-[10px] uppercase tracking-wider text-[#f4bb92] font-bold flex items-center gap-1">
             <span class="material-symbols-outlined text-xs">analytics</span> Risk Factors
           </p>
           <p class="text-lg sm:text-2xl font-black text-white mt-0.5 sm:mt-1 whitespace-nowrap">5 Composite</p>
         </div>
-        <div class="bg-slate-900/60 backdrop-blur-md border border-[#ffe3d1]/20 p-3 sm:p-4 rounded-xl sm:rounded-2xl shadow-xl hover:bg-slate-900/80 transition-all">
+        <div class="bg-slate-900/65 backdrop-blur-md border border-[#ffe3d1]/20 p-3 sm:p-4 rounded-xl sm:rounded-2xl shadow-xl hover:bg-slate-900/80 transition-all">
           <p class="text-[9px] sm:text-[10px] uppercase tracking-wider text-[#f4bb92] font-bold flex items-center gap-1">
             <span class="material-symbols-outlined text-xs">database</span> Data Baselines
           </p>
           <p class="text-lg sm:text-2xl font-black text-white mt-0.5 sm:mt-1">NiMet / SRTM</p>
         </div>
-        <div class="bg-slate-900/60 backdrop-blur-md border border-[#ffe3d1]/20 p-3 sm:p-4 rounded-xl sm:rounded-2xl shadow-xl hover:bg-slate-900/80 transition-all">
+        <div class="bg-slate-900/65 backdrop-blur-md border border-[#ffe3d1]/20 p-3 sm:p-4 rounded-xl sm:rounded-2xl shadow-xl hover:bg-slate-900/80 transition-all">
           <p class="text-[9px] sm:text-[10px] uppercase tracking-wider text-[#f4bb92] font-bold flex items-center gap-1">
             <span class="material-symbols-outlined text-xs">map</span> GIS Coverage
           </p>
@@ -188,7 +193,7 @@
       </div>
 
       <!-- SLEEK COMPACT START ASSESSMENT BUTTON (NO ARROW) -->
-      <div class="flex flex-col items-center justify-center pt-5 sm:pt-6 w-full">
+      <div class="flex flex-col items-center justify-center pt-4 sm:pt-6 w-full">
         <a href="/assess" class="group relative inline-flex items-center justify-center gap-2.5 bg-gradient-to-r from-[#6f4627] via-[#8b5e3c] to-[#7c5639] hover:from-[#8b5e3c] hover:to-[#6f4627] text-white px-7 py-3 sm:px-9 sm:py-3.5 rounded-xl font-extrabold text-sm sm:text-base shadow-xl shadow-black/60 hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-0.5 border border-[#ffe3d1]/40">
           <span class="relative flex h-2.5 w-2.5">
             <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-[#f4bb92] opacity-75"></span>
@@ -197,9 +202,6 @@
           <span class="tracking-wide">Start Assessment</span>
         </a>
       </div>
-
-    </div>
-  </header>
 
     </div>
   </header>
