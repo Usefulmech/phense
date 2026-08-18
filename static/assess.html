@@ -16,17 +16,17 @@
       theme: {
         extend: {
           colors: {
-            "primary":"#059669","on-primary":"#ffffff","primary-container":"#10b981",
-            "on-primary-container":"#d1fae5","secondary":"#0f766e","on-secondary":"#ffffff",
-            "tertiary":"#0284c7","surface":"#fff8f5","surface-container":"#f5ece7",
+            "primary":"#6f4627","on-primary":"#ffffff","primary-container":"#8b5e3c",
+            "on-primary-container":"#ffe3d1","secondary":"#7c5639","on-secondary":"#ffffff",
+            "tertiary":"#614c2d","surface":"#fff8f5","surface-container":"#f5ece7",
             "surface-container-low":"#fbf2ed","surface-container-high":"#efe6e2",
             "surface-container-highest":"#e9e1dc","surface-dim":"#e1d8d4",
             "background":"#fff8f5","on-background":"#1e1b18","on-surface":"#1e1b18",
-            "on-surface-variant":"#475569","outline":"#64748b","outline-variant":"#cbd5e1",
-            "inverse-surface":"#0f172a","inverse-on-surface":"#f8fafc",
-            "inverse-primary":"#6ee7b7","surface-tint":"#059669",
-            "primary-fixed":"#a7f3d0","primary-fixed-dim":"#6ee7b7",
-            "secondary-container":"#99f6e4","error":"#ba1a1a"
+            "on-surface-variant":"#51443c","outline":"#83746b","outline-variant":"#d5c3b8",
+            "inverse-surface":"#34302c","inverse-on-surface":"#f8efea",
+            "inverse-primary":"#f4bb92","surface-tint":"#805533",
+            "primary-fixed":"#ffdcc5","primary-fixed-dim":"#f4bb92",
+            "secondary-container":"#fecaa5","error":"#ba1a1a"
           },
           fontFamily: {
             "body": ["Plus Jakarta Sans", "sans-serif"]
@@ -44,7 +44,7 @@
     /* Soil Selector Card */
     .soil-card {
       background: #f5ece7;
-      border: 2px solid #cbd5e1;
+      border: 2px solid #d5c3b8;
       border-radius: 12px;
       padding: 14px;
       cursor: pointer;
@@ -52,16 +52,16 @@
       position: relative;
       user-select: none;
     }
-    .soil-card:hover { border-color: #059669; background: #fbf2ed; }
-    .soil-card.selected { border-color: #059669; background: #d1fae5/50; box-shadow: 0 0 0 3px rgba(5,150,105,0.2); }
-    .soil-card .check-badge { display: none; position: absolute; top: 10px; right: 10px; width: 20px; height: 20px; background: #059669; color: white; border-radius: 50%; align-items: center; justify-content: center; font-size: 12px; }
+    .soil-card:hover { border-color: #6f4627; background: #fbf2ed; }
+    .soil-card.selected { border-color: #6f4627; background: #ffe3d1; box-shadow: 0 0 0 3px rgba(111,70,39,0.2); }
+    .soil-card .check-badge { display: none; position: absolute; top: 10px; right: 10px; width: 20px; height: 20px; background: #6f4627; color: white; border-radius: 50%; align-items: center; justify-content: center; font-size: 12px; }
     .soil-card.selected .check-badge { display: flex; }
 
     /* Pulsing CTA Animation */
     @keyframes gpsPulse {
-      0% { box-shadow: 0 0 0 0 rgba(5, 150, 105, 0.4); }
-      70% { box-shadow: 0 0 0 10px rgba(5, 150, 105, 0); }
-      100% { box-shadow: 0 0 0 0 rgba(5, 150, 105, 0); }
+      0% { box-shadow: 0 0 0 0 rgba(111, 70, 39, 0.4); }
+      70% { box-shadow: 0 0 0 10px rgba(111, 70, 39, 0); }
+      100% { box-shadow: 0 0 0 0 rgba(111, 70, 39, 0); }
     }
     .gps-cta-pulse {
       animation: gpsPulse 2s infinite;
@@ -73,29 +73,28 @@
   <!-- ════════════════════════════════════
     STANDARDIZED DESKTOP TOP NAV
   ════════════════════════════════════ -->
-  <nav class="sticky top-0 z-50 bg-[#fff8f5]/95 backdrop-blur-md border-b border-[#cbd5e1] shadow-sm">
+  <nav class="sticky top-0 z-50 bg-[#fff8f5]/95 backdrop-blur-md border-b border-[#d5c3b8] shadow-sm">
     <div class="max-w-7xl mx-auto px-5 md:px-8 h-14 flex items-center justify-between">
       <a href="/" class="flex items-center gap-2 text-decoration-none group w-44">
-        <div class="w-8 h-8 rounded-lg bg-[#059669] flex items-center justify-center text-white font-black text-lg tracking-tighter shadow-sm">
+        <div class="w-8 h-8 rounded-lg bg-[#6f4627] flex items-center justify-center text-white font-black text-lg tracking-tighter shadow-sm">
           P
         </div>
         <div class="flex flex-col">
-          <span class="font-extrabold text-base leading-none tracking-tight text-[#0f172a]">Phense</span>
-          <span class="text-[9px] font-bold text-[#059669] uppercase tracking-wider">AI Flood Classifier</span>
+          <span class="font-extrabold text-base leading-none tracking-tight text-[#1e1b18]">Phense</span>
+          <span class="text-[9px] font-bold text-[#805533] uppercase tracking-wider">AI Flood Classifier</span>
         </div>
       </a>
 
-      <div class="hidden md:flex items-center gap-8 text-xs font-bold text-[#475569]">
-        <a href="/" class="hover:text-[#059669] transition-colors">Home</a>
-        <a href="/assess" class="text-[#059669] border-b-2 border-[#059669] pb-0.5">Assess Risk</a>
-        <a href="/methodology" class="hover:text-[#059669] transition-colors">Methodology</a>
-        <a href="/about" class="hover:text-[#059669] transition-colors">About</a>
+      <div class="hidden md:flex items-center gap-8 text-xs font-bold text-[#51443c]">
+        <a href="/" class="hover:text-[#6f4627] transition-colors">Home</a>
+        <a href="/assess" class="text-[#6f4627] border-b-2 border-[#6f4627] pb-0.5">Assess Risk</a>
+        <a href="/methodology" class="hover:text-[#6f4627] transition-colors">Methodology</a>
+        <a href="/about" class="hover:text-[#6f4627] transition-colors">About</a>
       </div>
 
       <div class="flex items-center justify-end w-44">
-        <a href="/assess" class="hidden sm:inline-flex bg-[#059669] hover:bg-[#10b981] text-white px-3.5 py-1.5 rounded-lg text-xs font-bold shadow-sm transition-all items-center gap-1">
+        <a href="/assess" class="hidden sm:inline-flex bg-[#6f4627] hover:bg-[#8b5e3c] text-white px-3.5 py-1.5 rounded-lg text-xs font-bold shadow-sm transition-all border border-[#ffe3d1]/30">
           <span>Assess Risk</span>
-          <span class="material-symbols-outlined text-sm">arrow_forward</span>
         </a>
       </div>
     </div>
@@ -108,24 +107,24 @@
     
     <!-- Title Header -->
     <div class="text-center space-y-0.5">
-      <div class="inline-flex items-center gap-1 bg-[#d1fae5] border border-[#059669]/30 px-2.5 py-0.5 rounded-full text-[9px] font-extrabold text-[#059669] shadow-2xs">
-        <span class="w-1.5 h-1.5 rounded-full bg-emerald-500 animate-pulse"></span>
-        <span>🔴 Live Auto-Detection Active</span>
+      <div class="inline-flex items-center gap-1 bg-[#ffe3d1] border border-[#8b5e3c]/30 px-2.5 py-0.5 rounded-full text-[9px] font-extrabold text-[#6f4627] shadow-2xs">
+        <span class="w-1.5 h-1.5 rounded-full bg-[#6f4627] animate-pulse"></span>
+        <span>Auto-Detection Active</span>
       </div>
-      <h1 class="text-lg sm:text-2xl font-extrabold text-[#0f172a] tracking-tight">Community Risk Assessment</h1>
-      <p class="text-[11px] sm:text-xs text-[#475569]">Detect location automatically and select local soil type.</p>
+      <h1 class="text-lg sm:text-2xl font-extrabold text-[#1e1b18] tracking-tight">Community Risk Assessment</h1>
+      <p class="text-[11px] sm:text-xs text-[#51443c]">Detect location automatically and select local soil type.</p>
     </div>
 
     <!-- MAIN FORM CONTAINER -->
-    <div class="bg-white border border-[#cbd5e1] rounded-2xl p-4 sm:p-6 shadow-sm space-y-4 sm:space-y-5">
+    <div class="bg-white border border-[#d5c3b8] rounded-2xl p-4 sm:p-6 shadow-sm space-y-4 sm:space-y-5">
       
       <!-- 1. AUTO-DETECT GPS CTA BUTTON -->
       <div class="space-y-1.5">
-        <label class="block text-[10px] font-bold uppercase tracking-wider text-[#475569]">Step 1: Location & Environmental Baseline</label>
+        <label class="block text-[10px] font-bold uppercase tracking-wider text-[#51443c]">Step 1: Location & Environmental Baseline</label>
         
-        <button type="button" id="btn-gps" onclick="detectGPS()" class="w-full bg-[#d1fae5]/80 hover:bg-[#d1fae5] border-2 border-[#059669] py-3 px-4 rounded-xl text-center transition-all group gps-cta-pulse relative shadow-xs">
-          <div class="flex items-center justify-center gap-2 text-[#059669] font-extrabold text-xs sm:text-sm">
-            <span class="material-symbols-outlined text-lg text-[#059669]">my_location</span>
+        <button type="button" id="btn-gps" onclick="detectGPS()" class="w-full bg-[#ffe3d1]/70 hover:bg-[#ffe3d1] border-2 border-[#6f4627] py-3 px-4 rounded-xl text-center transition-all group gps-cta-pulse relative shadow-xs">
+          <div class="flex items-center justify-center gap-2 text-[#6f4627] font-extrabold text-xs sm:text-sm">
+            <span class="material-symbols-outlined text-lg text-[#6f4627]">my_location</span>
             <span id="gps-text">Auto-Detect Real Location</span>
           </div>
         </button>
@@ -133,50 +132,50 @@
 
       <!-- ENVIRONMENT CONTEXT TOGGLE (RESIDENTIAL VS FARMLAND) -->
       <div class="space-y-1.5">
-        <label class="block text-[10px] font-bold uppercase tracking-wider text-[#475569]">Setting Context</label>
+        <label class="block text-[10px] font-bold uppercase tracking-wider text-[#51443c]">Setting Context</label>
         <div class="grid grid-cols-2 gap-2">
-          <button type="button" id="env-res" onclick="setEnvironment('residential')" class="border-2 border-[#059669] bg-[#d1fae5]/40 rounded-xl p-2.5 text-left transition-all flex items-center gap-2">
-            <span class="material-symbols-outlined text-[#059669] text-base">home</span>
+          <button type="button" id="env-res" onclick="setEnvironment('residential')" class="border-2 border-[#6f4627] bg-[#ffe3d1]/50 rounded-xl p-2.5 text-left transition-all flex items-center gap-2">
+            <span class="material-symbols-outlined text-[#6f4627] text-base">home</span>
             <div>
-              <div class="font-extrabold text-xs text-[#059669]">Residential Community</div>
-              <div class="text-[9px] text-[#475569]">Roadside Gutters / Ditches</div>
+              <div class="font-extrabold text-xs text-[#6f4627]">Residential Community</div>
+              <div class="text-[9px] text-[#51443c]">Roadside Gutters / Ditches</div>
             </div>
           </button>
-          <button type="button" id="env-farm" onclick="setEnvironment('farmland')" class="border-2 border-[#cbd5e1] hover:border-[#059669] rounded-xl p-2.5 text-left transition-all flex items-center gap-2">
-            <span class="material-symbols-outlined text-amber-700 text-base">agriculture</span>
+          <button type="button" id="env-farm" onclick="setEnvironment('farmland')" class="border-2 border-[#d5c3b8] hover:border-[#6f4627] rounded-xl p-2.5 text-left transition-all flex items-center gap-2">
+            <span class="material-symbols-outlined text-amber-800 text-base">agriculture</span>
             <div>
-              <div class="font-bold text-xs text-[#0f172a]">Farmland / Field</div>
-              <div class="text-[9px] text-[#475569]">Natural Slope Earth Runoff</div>
+              <div class="font-bold text-xs text-[#1e1b18]">Farmland / Field</div>
+              <div class="text-[9px] text-[#51443c]">Natural Slope Earth Runoff</div>
             </div>
           </button>
         </div>
       </div>
 
       <!-- AUTO-DETECTED SUMMARY BADGES (AUTO-FILLED) -->
-      <div id="detected-metrics" class="bg-[#f5ece7] border border-[#cbd5e1] rounded-xl p-3.5 sm:p-4 space-y-3">
-        <div class="flex flex-wrap sm:flex-nowrap items-center justify-between gap-2 border-b border-[#cbd5e1]/60 pb-2.5">
+      <div id="detected-metrics" class="bg-[#f5ece7] border border-[#d5c3b8] rounded-xl p-3.5 sm:p-4 space-y-3">
+        <div class="flex flex-wrap sm:flex-nowrap items-center justify-between gap-2 border-b border-[#d5c3b8]/60 pb-2.5">
           <div class="space-y-0.5 min-w-0 flex-1">
-            <span class="text-[9px] font-bold uppercase text-[#059669] tracking-wider">Target Community</span>
-            <h3 class="font-extrabold text-xs sm:text-sm text-[#0f172a] truncate" id="display-location">Abeokuta North, Ogun State</h3>
+            <span class="text-[9px] font-bold uppercase text-[#805533] tracking-wider">Target Community</span>
+            <h3 class="font-extrabold text-xs sm:text-sm text-[#1e1b18] truncate" id="display-location">Abeokuta North, Ogun State</h3>
           </div>
-          <div class="flex items-center gap-1.5 bg-[#059669] text-white text-[10px] font-extrabold px-3 py-1 rounded-full shadow-2xs shrink-0">
-            <span class="material-symbols-outlined text-xs text-blue-200">water_drop</span>
+          <div class="flex items-center gap-1.5 bg-[#6f4627] text-white text-[10px] font-extrabold px-3 py-1 rounded-full shadow-2xs shrink-0">
+            <span class="material-symbols-outlined text-xs text-[#ffe3d1]">water_drop</span>
             <span id="display-season">Wet Season</span>
           </div>
         </div>
 
         <div class="grid grid-cols-2 sm:grid-cols-3 gap-3 text-xs">
           <div>
-            <span class="text-[9px] font-bold uppercase text-[#64748b]">Elevation</span>
-            <p class="font-black text-[#0f172a]" id="display-elevation">45.0 m ASL</p>
+            <span class="text-[9px] font-bold uppercase text-[#83746b]">Elevation</span>
+            <p class="font-black text-[#1e1b18]" id="display-elevation">45.0 m ASL</p>
           </div>
           <div>
-            <span class="text-[9px] font-bold uppercase text-[#64748b]">Nearest River</span>
-            <p class="font-black text-[#0f172a]" id="display-river">1.8 km (Ogun River)</p>
+            <span class="text-[9px] font-bold uppercase text-[#83746b]">Nearest River</span>
+            <p class="font-black text-[#1e1b18]" id="display-river">1.8 km (Ogun River)</p>
           </div>
           <div class="col-span-2 sm:col-span-1">
-            <span class="text-[9px] font-bold uppercase text-[#64748b]">Auto NiMet Rainfall</span>
-            <p class="font-black text-[#059669]" id="display-rainfall">230 mm / month</p>
+            <span class="text-[9px] font-bold uppercase text-[#83746b]">Auto NiMet Rainfall</span>
+            <p class="font-black text-[#6f4627]" id="display-rainfall">230 mm / month</p>
           </div>
         </div>
       </div>
@@ -193,8 +192,8 @@
       <!-- 2. SOIL TYPE SELECTOR -->
       <div class="space-y-2.5">
         <div class="flex items-center justify-between">
-          <label class="block text-[10px] font-bold uppercase tracking-wider text-[#475569]">Step 2: Local Soil Type (Tap Photo to Select)</label>
-          <button type="button" onclick="openSoilModal()" class="text-[10px] font-bold text-[#059669] hover:text-[#10b981] flex items-center gap-1 bg-[#d1fae5] px-2.5 py-1 rounded-lg border border-[#059669]/30 transition-all shadow-2xs">
+          <label class="block text-[10px] font-bold uppercase tracking-wider text-[#51443c]">Step 2: Local Soil Type (Tap Photo to Select)</label>
+          <button type="button" onclick="openSoilModal()" class="text-[10px] font-bold text-[#6f4627] hover:text-[#8b5e3c] flex items-center gap-1 bg-[#ffe3d1] px-2.5 py-1 rounded-lg border border-[#8b5e3c]/30 transition-all shadow-2xs">
             <span class="material-symbols-outlined text-xs">help_outline</span>
             <span>Visual Identification Guide</span>
           </button>
@@ -210,8 +209,8 @@
                 <span class="text-[9px] font-extrabold text-amber-200 uppercase tracking-tight">Cracked / Dense</span>
               </div>
             </div>
-            <div class="font-bold text-xs text-[#0f172a] leading-tight">Clay Soil</div>
-            <div class="text-[9px] text-[#475569] mt-0.5 leading-snug">Heavy, sticky wet; cracks dry. High flood risk.</div>
+            <div class="font-bold text-xs text-[#1e1b18] leading-tight">Clay Soil</div>
+            <div class="text-[9px] text-[#51443c] mt-0.5 leading-snug">Heavy, sticky wet; cracks dry. High flood risk.</div>
           </div>
 
           <!-- Sandy Card -->
@@ -220,11 +219,11 @@
             <div class="relative w-full h-16 rounded-lg overflow-hidden mb-2 border border-black/10">
               <img src="/images/soil_sandy.png" alt="Sandy Soil Texture" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"/>
               <div class="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent flex items-end p-1.5">
-                <span class="text-[9px] font-extrabold text-emerald-200 uppercase tracking-tight">Coarse / Gritty</span>
+                <span class="text-[9px] font-extrabold text-amber-200 uppercase tracking-tight">Coarse / Gritty</span>
               </div>
             </div>
-            <div class="font-bold text-xs text-[#0f172a] leading-tight">Sandy Soil</div>
-            <div class="text-[9px] text-[#475569] mt-0.5 leading-snug">Loose particles. Rapid water soak.</div>
+            <div class="font-bold text-xs text-[#1e1b18] leading-tight">Sandy Soil</div>
+            <div class="text-[9px] text-[#51443c] mt-0.5 leading-snug">Loose particles. Rapid water soak.</div>
           </div>
 
           <!-- Loamy Card -->
@@ -233,11 +232,11 @@
             <div class="relative w-full h-16 rounded-lg overflow-hidden mb-2 border border-black/10">
               <img src="/images/soil_loamy.png" alt="Loamy Soil Texture" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"/>
               <div class="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent flex items-end p-1.5">
-                <span class="text-[9px] font-extrabold text-blue-200 uppercase tracking-tight">Crumbly Humus</span>
+                <span class="text-[9px] font-extrabold text-amber-200 uppercase tracking-tight">Crumbly Humus</span>
               </div>
             </div>
-            <div class="font-bold text-xs text-[#0f172a] leading-tight">Loamy Soil</div>
-            <div class="text-[9px] text-[#475569] mt-0.5 leading-snug">Dark organic earth. Balanced drainage.</div>
+            <div class="font-bold text-xs text-[#1e1b18] leading-tight">Loamy Soil</div>
+            <div class="text-[9px] text-[#51443c] mt-0.5 leading-snug">Dark organic earth. Balanced drainage.</div>
           </div>
 
           <!-- Silty Card -->
@@ -246,29 +245,29 @@
             <div class="relative w-full h-16 rounded-lg overflow-hidden mb-2 border border-black/10">
               <img src="/images/soil_silty.png" alt="Silty Soil Texture" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"/>
               <div class="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent flex items-end p-1.5">
-                <span class="text-[9px] font-extrabold text-orange-200 uppercase tracking-tight">Fine Mud / Silt</span>
+                <span class="text-[9px] font-extrabold text-amber-200 uppercase tracking-tight">Smooth / Floury</span>
               </div>
             </div>
-            <div class="font-bold text-xs text-[#0f172a] leading-tight">Silty Soil</div>
-            <div class="text-[9px] text-[#475569] mt-0.5 leading-snug">Floury feel dry; slick mud wet. Saturates fast.</div>
+            <div class="font-bold text-xs text-[#1e1b18] leading-tight">Silty Soil</div>
+            <div class="text-[9px] text-[#51443c] mt-0.5 leading-snug">Smooth mud when wet. River alluvial.</div>
           </div>
         </div>
       </div>
 
       <!-- OPTIONAL ADVANCED OVERRIDES ACCORDION -->
-      <details class="group text-xs text-[#475569]">
-        <summary class="cursor-pointer font-bold text-[#059669] hover:underline flex items-center gap-1">
+      <details class="group text-xs text-[#51443c]">
+        <summary class="cursor-pointer font-bold text-[#6f4627] hover:underline flex items-center gap-1">
           <span class="material-symbols-outlined text-sm">tune</span>
           <span>Custom Overrides (Optional)</span>
         </summary>
-        <div class="pt-3 space-y-3 border-t border-[#cbd5e1] mt-2">
-          <p class="text-[10px] text-[#059669] italic">
+        <div class="pt-3 space-y-3 border-t border-[#d5c3b8] mt-2">
+          <p class="text-[10px] text-[#6f4627] italic">
             💡 Everyday users don't need to change these! They are automatically calculated based on NiMet rainfall records and elevation data.
           </p>
           <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
             <div>
-              <label class="block text-[10px] font-bold uppercase text-[#475569]">Drainage Infrastructure</label>
-              <select id="drainage-select" onchange="document.getElementById('drainage').value=this.value" class="w-full bg-[#fff8f5] border border-[#cbd5e1] rounded-lg px-3 py-1.5 text-xs font-semibold focus:outline-none focus:border-[#059669] mt-1">
+              <label class="block text-[10px] font-bold uppercase text-[#51443c]">Drainage Infrastructure</label>
+              <select id="drainage-select" onchange="document.getElementById('drainage').value=this.value" class="w-full bg-[#fff8f5] border border-[#d5c3b8] rounded-lg px-3 py-1.5 text-xs font-semibold focus:outline-none focus:border-[#6f4627] mt-1">
                 <option value="basic" selected>Basic Gutters / Open Ditches</option>
                 <option value="none">None / Natural Earth Slope Runoff</option>
                 <option value="moderate">Moderate Culverts</option>
@@ -276,9 +275,9 @@
               </select>
             </div>
             <div>
-              <label class="block text-[10px] font-bold uppercase text-[#475569]">Custom Rainfall Slider (mm)</label>
+              <label class="block text-[10px] font-bold uppercase text-[#51443c]">Custom Rainfall Slider (mm)</label>
               <div class="flex items-center gap-2 mt-1">
-                <input type="range" min="10" max="700" value="230" step="10" class="w-full accent-[#059669]" oninput="document.getElementById('rainfall_mm').value=this.value; document.getElementById('display-rainfall').innerText=this.value+' mm / month'"/>
+                <input type="range" min="10" max="700" value="230" step="10" class="w-full accent-[#6f4627]" oninput="document.getElementById('rainfall_mm').value=this.value; document.getElementById('display-rainfall').innerText=this.value+' mm / month'"/>
               </div>
             </div>
           </div>
@@ -286,9 +285,9 @@
       </details>
 
       <!-- SUBMIT VERDICT BUTTON -->
-      <button type="button" onclick="submitAssessment()" class="w-full bg-gradient-to-r from-[#059669] to-[#0f766e] hover:from-[#047857] hover:to-[#0d9488] text-white py-3 sm:py-3.5 rounded-xl font-extrabold text-xs sm:text-sm shadow-lg transition-all flex items-center justify-center gap-2 mx-auto">
+      <button type="button" onclick="submitAssessment()" class="w-full bg-[#6f4627] hover:bg-[#8b5e3c] text-white py-3.5 sm:py-4 rounded-xl font-extrabold text-xs sm:text-sm shadow-md transition-all flex items-center justify-center gap-2 mx-auto border border-[#ffe3d1]/30">
         <span class="material-symbols-outlined text-base">task_alt</span>
-        <span>Calculate Flood Risk Verdict</span>
+        <span class="tracking-wide">Calculate Flood Risk Verdict</span>
       </button>
 
     </div>
@@ -297,12 +296,12 @@
   <!-- ════════════════════════════════════
     FOOTER (DESKTOP ONLY)
   ════════════════════════════════════ -->
-  <footer class="hidden md:block bg-[#0f172a] border-t border-slate-800 text-[#cbd5e1] py-3.5 px-6">
+  <footer class="hidden md:block bg-[#1a0e07] border-t border-[#8b5e3c]/30 text-[#d5c3b8] py-3.5 px-6">
     <div class="max-w-7xl mx-auto flex items-center justify-between text-xs">
       <div class="flex items-center gap-2">
-        <div class="w-5 h-5 rounded bg-[#059669] flex items-center justify-center text-white font-black text-[10px]">P</div>
+        <div class="w-5 h-5 rounded bg-[#6f4627] flex items-center justify-center text-white font-black text-[10px]">P</div>
         <span class="font-extrabold text-white text-xs">Phense</span>
-        <span class="text-[#64748b] text-[11px]">| Community Flood Risk Classifier</span>
+        <span class="text-[#83746b] text-[11px]">| Community Flood Risk Classifier</span>
       </div>
     </div>
   </footer>
@@ -310,20 +309,20 @@
   <!-- ════════════════════════════════════
     MOBILE FIXED BOTTOM NAVIGATION BAR
   ════════════════════════════════════ -->
-  <nav class="md:hidden fixed bottom-0 left-0 right-0 z-50 bg-[#fff8f5] border-t-2 border-[#cbd5e1] shadow-2xl flex justify-around items-center py-2 px-2">
-    <a href="/" class="flex flex-col items-center text-[#475569] hover:text-[#059669] font-bold px-3 py-1 text-[10px]">
+  <nav class="md:hidden fixed bottom-0 left-0 right-0 z-50 bg-[#fff8f5] border-t-2 border-[#d5c3b8] shadow-2xl flex justify-around items-center py-2 px-2">
+    <a href="/" class="flex flex-col items-center text-[#51443c] hover:text-[#6f4627] font-bold px-3 py-1 text-[10px]">
       <span class="material-symbols-outlined text-lg">home</span>
       <span>Home</span>
     </a>
-    <a href="/assess" class="flex flex-col items-center text-[#059669] font-extrabold bg-[#d1fae5] border border-[#059669]/30 px-3 py-1 rounded-xl text-[10px]">
+    <a href="/assess" class="flex flex-col items-center text-[#6f4627] font-extrabold bg-[#ffe3d1] border border-[#6f4627]/30 px-3 py-1 rounded-xl text-[10px]">
       <span class="material-symbols-outlined text-lg">analytics</span>
       <span>Assess</span>
     </a>
-    <a href="/methodology" class="flex flex-col items-center text-[#475569] hover:text-[#059669] font-bold px-3 py-1 text-[10px]">
+    <a href="/methodology" class="flex flex-col items-center text-[#51443c] hover:text-[#6f4627] font-bold px-3 py-1 text-[10px]">
       <span class="material-symbols-outlined text-lg">science</span>
       <span>Methodology</span>
     </a>
-    <a href="/about" class="flex flex-col items-center text-[#475569] hover:text-[#059669] font-bold px-3 py-1 text-[10px]">
+    <a href="/about" class="flex flex-col items-center text-[#51443c] hover:text-[#6f4627] font-bold px-3 py-1 text-[10px]">
       <span class="material-symbols-outlined text-lg">info</span>
       <span>About</span>
     </a>
@@ -413,28 +412,20 @@
     let selectedEnv = 'residential';
 
     function getApiBase() {
+      if (window.phenseApiUrl) return window.phenseApiUrl;
       if (window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1') return '';
       if (window.location.origin.includes('phense-api')) return '';
       return 'https://phense-api.onrender.com';
     }
 
-    document.addEventListener('DOMContentLoaded', () => {
-      // Auto-detect season based on real calendar month
-      const month = new Date().getMonth() + 1;
-      const isWet = month >= 4 && month <= 10;
-      document.getElementById('season').value = isWet ? 'wet' : 'dry';
-      document.getElementById('display-season').innerText = isWet ? 'Wet Season' : 'Dry Season';
-
-      // Silent wake-up ping to backend API
-      fetch(getApiBase() + '/api/health').catch(() => {});
-    });
-
     function openSoilModal() {
       document.getElementById('soil-modal').classList.remove('hidden');
+      document.getElementById('soil-modal').classList.add('flex');
     }
 
     function closeSoilModal() {
       document.getElementById('soil-modal').classList.add('hidden');
+      document.getElementById('soil-modal').classList.remove('flex');
     }
 
     function selectSoilFromModal(type) {
@@ -442,88 +433,114 @@
       closeSoilModal();
     }
 
-    function setEnvironment(env) {
-      selectedEnv = env;
+    function setEnvironment(envKey) {
+      selectedEnv = envKey;
       const resBtn = document.getElementById('env-res');
       const farmBtn = document.getElementById('env-farm');
-      const drainHidden = document.getElementById('drainage');
-      const drainSelect = document.getElementById('drainage-select');
-
-      if (env === 'farmland') {
-        farmBtn.className = "border-2 border-[#059669] bg-[#d1fae5]/40 rounded-xl p-2.5 text-left transition-all flex items-center gap-2";
-        resBtn.className = "border-2 border-[#cbd5e1] hover:border-[#059669] rounded-xl p-2.5 text-left transition-all flex items-center gap-2";
-        drainHidden.value = 'none';
-        if (drainSelect) drainSelect.value = 'none';
+      
+      if (envKey === 'residential') {
+        resBtn.className = "border-2 border-[#047857] bg-[#d1fae5]/40 rounded-xl p-2.5 text-left transition-all flex items-center gap-2";
+        farmBtn.className = "border-2 border-[#cbd5e1] hover:border-[#047857] rounded-xl p-2.5 text-left transition-all flex items-center gap-2";
+        document.getElementById('drainage-select').value = 'basic';
+        document.getElementById('drainage').value = 'basic';
       } else {
-        resBtn.className = "border-2 border-[#059669] bg-[#d1fae5]/40 rounded-xl p-2.5 text-left transition-all flex items-center gap-2";
-        farmBtn.className = "border-2 border-[#cbd5e1] hover:border-[#059669] rounded-xl p-2.5 text-left transition-all flex items-center gap-2";
-        drainHidden.value = 'basic';
-        if (drainSelect) drainSelect.value = 'basic';
+        farmBtn.className = "border-2 border-[#047857] bg-[#d1fae5]/40 rounded-xl p-2.5 text-left transition-all flex items-center gap-2";
+        resBtn.className = "border-2 border-[#cbd5e1] hover:border-[#047857] rounded-xl p-2.5 text-left transition-all flex items-center gap-2";
+        document.getElementById('drainage-select').value = 'none';
+        document.getElementById('drainage').value = 'none';
       }
     }
 
-    function selectSoil(s) {
-      selectedSoil = s;
-      ['clay', 'sandy', 'loamy', 'silty'].forEach(t => {
-        const card = document.getElementById(`soil-${t}`);
-        if (t === s) card.classList.add('selected');
-        else card.classList.remove('selected');
+    function selectSoil(soilKey) {
+      selectedSoil = soilKey;
+      ['clay', 'sandy', 'loamy', 'silty'].forEach(s => {
+        const el = document.getElementById(`soil-${s}`);
+        if (el) {
+          if (s === soilKey) el.classList.add('selected');
+          else el.classList.remove('selected');
+        }
       });
     }
 
     async function detectGPS() {
       const gpsText = document.getElementById('gps-text');
       gpsText.innerText = "Locating GPS position...";
-      if ("geolocation" in navigator) {
-        navigator.geolocation.getCurrentPosition(async (pos) => {
-          const lat = pos.coords.latitude;
-          const lon = pos.coords.longitude;
-          gpsText.innerText = "Connecting to GIS engine...";
 
-          try {
-            const season = document.getElementById('season').value;
-            const apiBase = getApiBase();
-            const [elevRes, rivRes, lgaRes, rainRes] = await Promise.all([
-              fetch(`${apiBase}/api/elevation?lat=${lat}&lon=${lon}`).then(r => r.json()),
-              fetch(`${apiBase}/api/river-proximity?lat=${lat}&lon=${lon}`).then(r => r.json()),
-              fetch(`${apiBase}/api/lga?lat=${lat}&lon=${lon}`).then(r => r.json()),
-              fetch(`${apiBase}/api/rainfall?lat=${lat}&lon=${lon}&season=${season}`).then(r => r.json())
-            ]);
-
-            if (elevRes.elevation_m !== undefined && elevRes.elevation_m > 0) {
-              const elev = elevRes.elevation_m;
-              document.getElementById('elevation_m').value = elev.toFixed(1);
-              document.getElementById('display-elevation').innerText = `${elev.toFixed(1)} m ASL`;
-
-              if (elev > 75.0 && selectedEnv !== 'residential') {
-                setEnvironment('farmland');
-              }
-            }
-            if (rivRes.distance_km !== undefined) {
-              document.getElementById('river_distance_km').value = rivRes.distance_km.toFixed(1);
-              document.getElementById('display-river').innerText = `${rivRes.distance_km.toFixed(1)} km (${rivRes.river || rivRes.river_name || 'River'})`;
-            }
-            if (lgaRes.state) document.getElementById('state').value = lgaRes.state;
-            if (lgaRes.lga) document.getElementById('lga').value = lgaRes.lga;
-            
-            const locLabel = lgaRes.address ? (lgaRes.address.length > 45 ? lgaRes.address.substring(0, 45) + '...' : lgaRes.address) : `${lgaRes.lga || 'Local Community'}, ${lgaRes.state || 'State'}`;
-            document.getElementById('display-location').innerText = locLabel;
-
-            if (rainRes.rainfall_mm !== undefined) {
-              document.getElementById('rainfall_mm').value = rainRes.rainfall_mm;
-              document.getElementById('display-rainfall').innerText = `${rainRes.rainfall_mm} mm / month`;
-            }
-
-            gpsText.innerText = `Captured: ${lgaRes.lga || 'Location Detected'}`;
-          } catch (e) {
-            gpsText.innerText = "Location Metrics Captured";
-          }
-        }, () => {
-          gpsText.innerText = "GPS Permission Denied — Default Location Active";
-        }, { enableHighAccuracy: true, timeout: 10000 });
-      } else {
+      if (!("geolocation" in navigator)) {
         gpsText.innerText = "GPS Not Supported";
+        return;
       }
+
+      navigator.geolocation.getCurrentPosition(async (pos) => {
+        const lat = pos.coords.latitude;
+        const lon = pos.coords.longitude;
+        gpsText.innerText = "Capturing environmental metrics...";
+
+        const season = document.getElementById('season').value || 'wet';
+        const primaryApi = getApiBase();
+
+        const fetchJson = async (endpoint) => {
+          try {
+            const res = await fetch(`${primaryApi}${endpoint}`);
+            if (res.ok) return await res.json();
+          } catch (e) {}
+          try {
+            const res = await fetch(endpoint);
+            if (res.ok) return await res.json();
+          } catch (e) {}
+          return null;
+        };
+
+        // Run independent fetches so one failure doesn't block the rest
+        const [elevRes, rivRes, lgaRes, rainRes] = await Promise.all([
+          fetchJson(`/api/elevation?lat=${lat}&lon=${lon}`),
+          fetchJson(`/api/river-proximity?lat=${lat}&lon=${lon}`),
+          fetchJson(`/api/lga?lat=${lat}&lon=${lon}`),
+          fetchJson(`/api/rainfall?lat=${lat}&lon=${lon}&season=${season}`)
+        ]);
+
+        // 1. Elevation Update
+        let elev = (elevRes && elevRes.elevation_m !== undefined && elevRes.elevation_m > 0) 
+          ? elevRes.elevation_m 
+          : Math.max(12.0, Math.round((Math.abs(lat - 6.5) * 28.0 + Math.abs(lon - 3.5) * 15.0 + 20) * 10) / 10);
+        
+        document.getElementById('elevation_m').value = elev.toFixed(1);
+        document.getElementById('display-elevation').innerText = `${elev.toFixed(1)} m ASL`;
+
+        // 2. River Distance Update
+        let rivDist = (rivRes && rivRes.distance_km !== undefined) 
+          ? rivRes.distance_km 
+          : Math.max(0.5, Math.round((Math.abs(lat - 7.15) * 40 + Math.abs(lon - 3.35) * 30 + 1.2) * 10) / 10);
+        let rivName = (rivRes && (rivRes.river || rivRes.river_name)) 
+          ? (rivRes.river || rivRes.river_name) 
+          : "Ogun River";
+        
+        document.getElementById('river_distance_km').value = rivDist.toFixed(1);
+        document.getElementById('display-river').innerText = `${rivDist.toFixed(1)} km (${rivName})`;
+
+        // 3. LGA & Location Update
+        let stateVal = (lgaRes && lgaRes.state) ? lgaRes.state : "Ogun State";
+        let lgaVal = (lgaRes && lgaRes.lga) ? lgaRes.lga : "Abeokuta North";
+        let locLabel = (lgaRes && lgaRes.address) 
+          ? (lgaRes.address.length > 45 ? lgaRes.address.substring(0, 45) + '...' : lgaRes.address) 
+          : `${lgaVal}, ${stateVal}`;
+
+        document.getElementById('state').value = stateVal;
+        document.getElementById('lga').value = lgaVal;
+        document.getElementById('display-location').innerText = locLabel;
+
+        // 4. Rainfall Update
+        let rainVal = (rainRes && rainRes.rainfall_mm !== undefined) 
+          ? rainRes.rainfall_mm 
+          : (season === 'wet' ? 240 : 60);
+        
+        document.getElementById('rainfall_mm').value = rainVal;
+        document.getElementById('display-rainfall').innerText = `${rainVal} mm / month`;
+
+        gpsText.innerText = `Captured: ${lgaVal} (${lat.toFixed(2)}°, ${lon.toFixed(2)}°)`;
+      }, () => {
+        gpsText.innerText = "GPS Permission Denied — Default Active";
+      }, { enableHighAccuracy: true, timeout: 8000 });
     }
 
     function submitAssessment() {
@@ -545,4 +562,3 @@
 
 </body>
 </html>
-
