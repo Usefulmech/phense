@@ -2,6 +2,7 @@ services:
   - type: web
     name: phense-api
     env: python
+    plan: free
     buildCommand: pip install -r requirements.txt && python train.py
     startCommand: uvicorn app:app --host 0.0.0.0 --port $PORT
     envVars:
@@ -15,6 +16,7 @@ services:
   - type: web
     name: phense
     env: static
+    plan: free
     buildCommand: ""
     staticPublishPath: ./static
     routes:
@@ -30,5 +32,6 @@ services:
       - type: rewrite
         source: /about
         destination: /about.html
+
 
 
