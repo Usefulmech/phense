@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: phense-flood-risk
+    name: phense-api
     env: python
     buildCommand: pip install -r requirements.txt && python train.py
     startCommand: uvicorn app:app --host 0.0.0.0 --port $PORT
@@ -11,3 +11,22 @@ services:
         value: https://api.opentopodata.org/v1/srtm30m
       - key: ALLOWED_ORIGINS
         value: "*"
+
+  - type: site
+    name: phense
+    buildCommand: ""
+    publishDir: static
+    routes:
+      - type: rewrite
+        source: /assess
+        destination: /assess.html
+      - type: rewrite
+        source: /results
+        destination: /results.html
+      - type: rewrite
+        source: /methodology
+        destination: /methodology.html
+      - type: rewrite
+        source: /about
+        destination: /about.html
+

@@ -235,12 +235,17 @@ docker build -t phense-app .
 docker run -p 8000:8000 phense-app
 ```
 
-### Deploying on Render.com
+### Deploying on Render.com (Blueprint / Dual Service)
 
-1. Connect your repository to Render.
-2. Select **Web Service**.
-3. **Build Command:** `pip install -r requirements.txt`
-4. **Start Command:** `uvicorn app:app --host 0.0.0.0 --port $PORT`
+Phense is pre-configured with a Render Blueprint (`render.yaml`) that splits the app into two free services:
+1. **`phense` (Static Site)**: Serves the HTML/CSS/JS frontend on a global CDN for **instant 0-second loading** with zero cold starts.
+2. **`phense-api` (Web Service)**: Python FastAPI backend for AI model inferences and GIS APIs.
+
+#### Steps to Deploy:
+1. Push this repository to GitHub / GitLab.
+2. Log into [Render Dashboard](https://dashboard.render.com/) and click **New +** -> **Blueprint**.
+3. Connect your repository. Render automatically reads `render.yaml` and sets up both the `phense` Static Site and `phense-api` Web Service.
+4. Click **Apply**. Your frontend website will load instantly at `phense.onrender.com`!
 
 ---
 

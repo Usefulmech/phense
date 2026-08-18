@@ -16,17 +16,17 @@
       theme: {
         extend: {
           colors: {
-            "primary":"#6f4627","on-primary":"#ffffff","primary-container":"#8b5e3c",
-            "on-primary-container":"#ffe3d1","secondary":"#7c5639","on-secondary":"#ffffff",
-            "tertiary":"#614c2d","surface":"#fff8f5","surface-container":"#f5ece7",
+            "primary":"#059669","on-primary":"#ffffff","primary-container":"#10b981",
+            "on-primary-container":"#d1fae5","secondary":"#0f766e","on-secondary":"#ffffff",
+            "tertiary":"#0284c7","surface":"#fff8f5","surface-container":"#f5ece7",
             "surface-container-low":"#fbf2ed","surface-container-high":"#efe6e2",
             "surface-container-highest":"#e9e1dc","surface-dim":"#e1d8d4",
             "background":"#fff8f5","on-background":"#1e1b18","on-surface":"#1e1b18",
-            "on-surface-variant":"#51443c","outline":"#83746b","outline-variant":"#d5c3b8",
-            "inverse-surface":"#34302c","inverse-on-surface":"#f8efea",
-            "inverse-primary":"#f4bb92","surface-tint":"#805533",
-            "primary-fixed":"#ffdcc5","primary-fixed-dim":"#f4bb92",
-            "secondary-container":"#fecaa5","error":"#ba1a1a"
+            "on-surface-variant":"#475569","outline":"#64748b","outline-variant":"#cbd5e1",
+            "inverse-surface":"#0f172a","inverse-on-surface":"#f8fafc",
+            "inverse-primary":"#6ee7b7","surface-tint":"#059669",
+            "primary-fixed":"#a7f3d0","primary-fixed-dim":"#6ee7b7",
+            "secondary-container":"#99f6e4","error":"#ba1a1a"
           },
           fontFamily: {
             "body": ["Plus Jakarta Sans", "sans-serif"]
@@ -44,17 +44,17 @@
 
     /* Real-Life Flood Hero Background */
     #hero {
-      min-height: 65vh;
-      background: linear-gradient(180deg, rgba(14, 8, 5, 0.38) 0%, rgba(24, 12, 6, 0.68) 100%), url('/images/flood_hero_bg.png') center/cover no-repeat;
+      min-height: 68vh;
+      background: linear-gradient(180deg, rgba(15, 23, 42, 0.55) 0%, rgba(10, 15, 29, 0.85) 100%), url('/images/flood_hero_bg.png') center/cover no-repeat;
       position: relative;
       overflow: hidden;
       display: flex; flex-direction: column;
       align-items: center; justify-content: center;
-      border-bottom: 3px solid #6f4627;
+      border-bottom: 3px solid #10b981;
     }
     @media (min-width: 768px) {
       #hero {
-        min-height: 76vh;
+        min-height: 78vh;
       }
     }
     .hero-text-shadow {
@@ -81,14 +81,14 @@
     /* Cards */
     .feat-card {
       background: #fff8f5;
-      border: 1.5px solid #d5c3b8;
+      border: 1.5px solid #cbd5e1;
       border-radius: 16px;
       padding: 20px;
       transition: border-color 0.2s, box-shadow 0.2s, transform 0.2s;
     }
     .feat-card:hover {
-      border-color: #6f4627;
-      box-shadow: 0 6px 20px rgba(111,70,39,0.1);
+      border-color: #059669;
+      box-shadow: 0 6px 20px rgba(5,150,105,0.12);
       transform: translateY(-2px);
     }
   </style>
@@ -98,27 +98,27 @@
   <!-- ════════════════════════════════════
     STANDARDIZED DESKTOP TOP NAV
   ════════════════════════════════════ -->
-  <nav class="sticky top-0 z-50 bg-[#fff8f5]/95 backdrop-blur-md border-b border-[#d5c3b8] shadow-sm">
+  <nav class="sticky top-0 z-50 bg-[#fff8f5]/95 backdrop-blur-md border-b border-[#cbd5e1] shadow-sm">
     <div class="max-w-7xl mx-auto px-5 md:px-8 h-14 flex items-center justify-between">
       <a href="/" class="flex items-center gap-2 text-decoration-none group w-44">
-        <div class="w-8 h-8 rounded-lg bg-[#6f4627] flex items-center justify-center text-white font-black text-lg tracking-tighter shadow-sm group-hover:bg-[#8b5e3c] transition-colors">
+        <div class="w-8 h-8 rounded-lg bg-[#059669] flex items-center justify-center text-white font-black text-lg tracking-tighter shadow-sm group-hover:bg-[#10b981] transition-colors">
           P
         </div>
         <div class="flex flex-col">
-          <span class="font-extrabold text-base leading-none tracking-tight text-[#1e1b18]">Phense</span>
-          <span class="text-[9px] font-bold text-[#805533] uppercase tracking-wider">AI Flood Classifier</span>
+          <span class="font-extrabold text-base leading-none tracking-tight text-[#0f172a]">Phense</span>
+          <span class="text-[9px] font-bold text-[#059669] uppercase tracking-wider">AI Flood Classifier</span>
         </div>
       </a>
 
-      <div class="hidden md:flex items-center gap-8 text-xs font-bold text-[#51443c]">
-        <a href="/" class="text-[#6f4627] border-b-2 border-[#6f4627] pb-0.5">Home</a>
-        <a href="/assess" class="hover:text-[#6f4627] transition-colors">Assess Risk</a>
-        <a href="/methodology" class="hover:text-[#6f4627] transition-colors">Methodology</a>
-        <a href="/about" class="hover:text-[#6f4627] transition-colors">About</a>
+      <div class="hidden md:flex items-center gap-8 text-xs font-bold text-[#475569]">
+        <a href="/" class="text-[#059669] border-b-2 border-[#059669] pb-0.5">Home</a>
+        <a href="/assess" class="hover:text-[#059669] transition-colors">Assess Risk</a>
+        <a href="/methodology" class="hover:text-[#059669] transition-colors">Methodology</a>
+        <a href="/about" class="hover:text-[#059669] transition-colors">About</a>
       </div>
 
       <div class="flex items-center justify-end w-44">
-        <a href="/assess" class="hidden sm:inline-flex bg-[#6f4627] hover:bg-[#8b5e3c] text-white px-3.5 py-1.5 rounded-lg text-xs font-bold shadow-sm transition-all items-center gap-1">
+        <a href="/assess" class="hidden sm:inline-flex bg-[#059669] hover:bg-[#10b981] text-white px-3.5 py-1.5 rounded-lg text-xs font-bold shadow-sm transition-all items-center gap-1">
           <span>Assess Risk</span>
           <span class="material-symbols-outlined text-sm">arrow_forward</span>
         </a>
@@ -129,22 +129,22 @@
   <!-- ════════════════════════════════════
     EXTENDED HERO SECTION (FLUSHED UP ON MOBILE)
   ════════════════════════════════════ -->
-  <header id="hero" class="relative text-white pt-4 pb-8 md:py-24 px-4 md:px-12">
+  <header id="hero" class="relative text-white pt-6 pb-10 md:py-20 px-4 md:px-12">
     <div class="topo-canvas">
       <svg class="topo-svg" viewBox="0 0 1440 800" fill="none" xmlns="http://www.w3.org/2000/svg">
-        <g class="topo-group" stroke="#8b5e3c" stroke-width="1.2">
+        <g class="topo-group" stroke="#10b981" stroke-width="1.2">
           <path d="M-100 200 C300 150, 600 350, 900 220 C1200 100, 1400 300, 1600 250" />
           <path d="M-100 300 C250 220, 550 420, 880 300 C1180 180, 1380 400, 1600 320" />
           <path d="M-100 400 C200 300, 500 500, 850 380 C1150 250, 1350 480, 1600 400" />
         </g>
-        <path class="river-path" d="M-50 650 C 350 600, 500 250, 850 400 C 1100 520, 1300 200, 1500 100" stroke="#f4bb92" stroke-width="3" fill="none" opacity="0.6"/>
+        <path class="river-path" d="M-50 650 C 350 600, 500 250, 850 400 C 1100 520, 1300 200, 1500 100" stroke="#34d399" stroke-width="3" fill="none" opacity="0.6"/>
       </svg>
     </div>
 
     <div class="relative z-10 max-w-5xl mx-auto text-center space-y-3.5 sm:space-y-5">
       
-      <!-- Top Live Badge Flushed Up -->
-      <div class="inline-flex items-center gap-1.5 bg-black/50 border border-amber-400/40 px-3 py-1 rounded-full backdrop-blur-md text-[10px] sm:text-[11px] font-extrabold text-amber-200 shadow-lg">
+      <!-- Top Live Badge -->
+      <div class="inline-flex items-center gap-1.5 bg-slate-900/80 border border-emerald-400/40 px-3.5 py-1.5 rounded-full backdrop-blur-md text-[10px] sm:text-[11px] font-extrabold text-emerald-300 shadow-xl">
         <span class="w-2 h-2 rounded-full bg-emerald-400 animate-ping"></span>
         <span class="uppercase tracking-wider">🔴 Live NiMet & Topo GIS Intelligence</span>
       </div>
@@ -153,44 +153,54 @@
         Predictive Flood Intelligence <br class="hidden sm:inline"/> for Nigerian Communities
       </h1>
 
-      <p class="text-xs sm:text-lg text-amber-100/90 max-w-3xl mx-auto leading-normal sm:leading-relaxed hero-sub-shadow font-medium">
+      <p class="text-xs sm:text-lg text-emerald-100/90 max-w-3xl mx-auto leading-normal sm:leading-relaxed hero-sub-shadow font-medium">
         Empowering riverine zones, LGAs, and emergency planners with real-time composite flood risk analysis.
       </p>
 
-      <div class="flex items-center justify-center pt-1 sm:pt-2">
-        <a href="/assess" class="w-[72%] max-w-[240px] sm:w-auto bg-[#6f4627] hover:bg-[#8b5e3c] text-white px-6 py-2.5 sm:px-8 sm:py-3.5 rounded-xl font-extrabold text-xs sm:text-sm shadow-2xl hover:shadow-amber-900/40 transition-all flex items-center justify-center gap-2 border border-white/20 mx-auto">
-          <span class="material-symbols-outlined text-base sm:text-lg">play_arrow</span>
-          <span>Start Assessment</span>
-        </a>
-      </div>
-
-      <!-- MOBILE & DESKTOP GLASSMORPHISM STAT CARDS -->
-      <div class="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-4 gap-2.5 sm:gap-4 pt-6 sm:pt-8 max-w-4xl mx-auto text-left">
-        <div class="bg-black/35 backdrop-blur-md border border-white/20 p-3 sm:p-4 rounded-xl sm:rounded-2xl shadow-xl hover:bg-black/45 transition-all">
-          <p class="text-[9px] sm:text-[10px] uppercase tracking-wider text-amber-200/90 font-bold flex items-center gap-1">
+      <!-- MOBILE & DESKTOP GLASSMORPHISM STAT CARDS (PLACED BEFORE CTA BUTTON) -->
+      <div class="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-4 gap-2.5 sm:gap-4 pt-4 sm:pt-6 max-w-4xl mx-auto text-left">
+        <div class="bg-slate-900/50 backdrop-blur-md border border-emerald-500/20 p-3 sm:p-4 rounded-xl sm:rounded-2xl shadow-xl hover:bg-slate-900/70 transition-all">
+          <p class="text-[9px] sm:text-[10px] uppercase tracking-wider text-emerald-300 font-bold flex items-center gap-1">
             <span class="material-symbols-outlined text-xs">verified</span> Model Accuracy
           </p>
           <p class="text-lg sm:text-2xl font-black text-white mt-0.5 sm:mt-1">82.4%</p>
         </div>
-        <div class="bg-black/35 backdrop-blur-md border border-white/20 p-3 sm:p-4 rounded-xl sm:rounded-2xl shadow-xl hover:bg-black/45 transition-all">
-          <p class="text-[9px] sm:text-[10px] uppercase tracking-wider text-amber-200/90 font-bold flex items-center gap-1">
+        <div class="bg-slate-900/50 backdrop-blur-md border border-emerald-500/20 p-3 sm:p-4 rounded-xl sm:rounded-2xl shadow-xl hover:bg-slate-900/70 transition-all">
+          <p class="text-[9px] sm:text-[10px] uppercase tracking-wider text-emerald-300 font-bold flex items-center gap-1">
             <span class="material-symbols-outlined text-xs">analytics</span> Risk Factors
           </p>
           <p class="text-lg sm:text-2xl font-black text-white mt-0.5 sm:mt-1 whitespace-nowrap">5 Composite</p>
         </div>
-        <div class="bg-black/35 backdrop-blur-md border border-white/20 p-3 sm:p-4 rounded-xl sm:rounded-2xl shadow-xl hover:bg-black/45 transition-all">
-          <p class="text-[9px] sm:text-[10px] uppercase tracking-wider text-amber-200/90 font-bold flex items-center gap-1">
+        <div class="bg-slate-900/50 backdrop-blur-md border border-emerald-500/20 p-3 sm:p-4 rounded-xl sm:rounded-2xl shadow-xl hover:bg-slate-900/70 transition-all">
+          <p class="text-[9px] sm:text-[10px] uppercase tracking-wider text-emerald-300 font-bold flex items-center gap-1">
             <span class="material-symbols-outlined text-xs">database</span> Data Baselines
           </p>
           <p class="text-lg sm:text-2xl font-black text-white mt-0.5 sm:mt-1">NiMet / SRTM</p>
         </div>
-        <div class="bg-black/35 backdrop-blur-md border border-white/20 p-3 sm:p-4 rounded-xl sm:rounded-2xl shadow-xl hover:bg-black/45 transition-all">
-          <p class="text-[9px] sm:text-[10px] uppercase tracking-wider text-amber-200/90 font-bold flex items-center gap-1">
+        <div class="bg-slate-900/50 backdrop-blur-md border border-emerald-500/20 p-3 sm:p-4 rounded-xl sm:rounded-2xl shadow-xl hover:bg-slate-900/70 transition-all">
+          <p class="text-[9px] sm:text-[10px] uppercase tracking-wider text-emerald-300 font-bold flex items-center gap-1">
             <span class="material-symbols-outlined text-xs">map</span> GIS Coverage
           </p>
           <p class="text-lg sm:text-2xl font-black text-white mt-0.5 sm:mt-1">36 States + FCT</p>
         </div>
       </div>
+
+      <!-- REDESIGNED START ASSESSMENT BUTTON (POSITIONED AFTER THE 4 FEATURE CARDS) -->
+      <div class="flex flex-col items-center justify-center pt-4 sm:pt-6 w-full">
+        <a href="/assess" class="group relative inline-flex items-center justify-center gap-3 bg-gradient-to-r from-emerald-600 via-teal-600 to-emerald-700 hover:from-emerald-500 hover:to-teal-500 text-white px-8 py-3.5 sm:px-10 sm:py-4 rounded-2xl font-black text-sm sm:text-base shadow-2xl shadow-emerald-950/60 hover:shadow-emerald-500/30 transition-all duration-300 transform hover:-translate-y-0.5 border border-emerald-300/30">
+          <span class="relative flex h-3 w-3">
+            <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-200 opacity-75"></span>
+            <span class="relative inline-flex rounded-full h-3 w-3 bg-white"></span>
+          </span>
+          <span>Start Assessment</span>
+          <span class="material-symbols-outlined text-lg sm:text-xl group-hover:translate-x-1 transition-transform">arrow_forward</span>
+        </a>
+        <p class="text-[11px] sm:text-xs text-emerald-200/85 mt-2 font-medium flex items-center gap-1.5">
+          <span class="material-symbols-outlined text-sm text-emerald-400">bolt</span>
+          <span>Instant GPS Auto-Detection & NiMet Environmental Baselines</span>
+        </p>
+      </div>
+
     </div>
   </header>
 
@@ -199,75 +209,75 @@
   ════════════════════════════════════ -->
   <main class="max-w-7xl mx-auto px-5 md:px-8 py-8 space-y-8">
     <div class="text-center max-w-2xl mx-auto space-y-1">
-      <span class="text-[11px] font-bold uppercase tracking-widest text-[#805533]">Composite Environmental Risk</span>
-      <h2 class="text-xl sm:text-2xl font-extrabold text-[#1e1b18]">Multi-Factor Analysis</h2>
-      <p class="text-xs text-[#51443c] leading-relaxed">
+      <span class="text-[11px] font-bold uppercase tracking-widest text-[#059669]">Composite Environmental Risk</span>
+      <h2 class="text-xl sm:text-2xl font-extrabold text-[#0f172a]">Multi-Factor Analysis</h2>
+      <p class="text-xs text-[#475569] leading-relaxed">
         Flooding occurs when rainfall triggers converge with topography, river distance, soil type, and drainage bottlenecks.
       </p>
     </div>
 
     <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
       <div class="feat-card space-y-2">
-        <div class="w-9 h-9 rounded-lg bg-[#ffe3d1] text-[#6f4627] flex items-center justify-center font-bold">
+        <div class="w-9 h-9 rounded-lg bg-[#d1fae5] text-[#059669] flex items-center justify-center font-bold">
           <span class="material-symbols-outlined text-lg">water_drop</span>
         </div>
-        <h3 class="text-sm font-bold text-[#1e1b18]">Monthly Rainfall</h3>
-        <p class="text-xs text-[#51443c] leading-relaxed">
+        <h3 class="text-sm font-bold text-[#0f172a]">Monthly Rainfall</h3>
+        <p class="text-xs text-[#475569] leading-relaxed">
           NiMet seasonal precipitation baseline (mm) serving as the meteorological trigger.
         </p>
       </div>
 
       <div class="feat-card space-y-2">
-        <div class="w-9 h-9 rounded-lg bg-[#ffe3d1] text-[#6f4627] flex items-center justify-center font-bold">
+        <div class="w-9 h-9 rounded-lg bg-[#d1fae5] text-[#059669] flex items-center justify-center font-bold">
           <span class="material-symbols-outlined text-lg">terrain</span>
         </div>
-        <h3 class="text-sm font-bold text-[#1e1b18]">Terrain Elevation</h3>
-        <p class="text-xs text-[#51443c] leading-relaxed">
+        <h3 class="text-sm font-bold text-[#0f172a]">Terrain Elevation</h3>
+        <p class="text-xs text-[#475569] leading-relaxed">
           SRTM DEM 30m resolution elevation modeling low-lying flood accumulation basins.
         </p>
       </div>
 
       <div class="feat-card space-y-2">
-        <div class="w-9 h-9 rounded-lg bg-[#ffe3d1] text-[#6f4627] flex items-center justify-center font-bold">
+        <div class="w-9 h-9 rounded-lg bg-[#d1fae5] text-[#059669] flex items-center justify-center font-bold">
           <span class="material-symbols-outlined text-lg">waves</span>
         </div>
-        <h3 class="text-sm font-bold text-[#1e1b18]">River Distance</h3>
-        <p class="text-xs text-[#51443c] leading-relaxed">
+        <h3 class="text-sm font-bold text-[#0f172a]">River Distance</h3>
+        <p class="text-xs text-[#475569] leading-relaxed">
           Geospatial proximity (km) to major rivers (Niger, Benue, Ogun) subject to overflow.
         </p>
       </div>
 
       <div class="feat-card space-y-2">
-        <div class="w-9 h-9 rounded-lg bg-[#ffe3d1] text-[#6f4627] flex items-center justify-center font-bold">
+        <div class="w-9 h-9 rounded-lg bg-[#d1fae5] text-[#059669] flex items-center justify-center font-bold">
           <span class="material-symbols-outlined text-lg">layers</span>
         </div>
-        <h3 class="text-sm font-bold text-[#1e1b18]">Soil Permeability</h3>
-        <p class="text-xs text-[#51443c] leading-relaxed">
+        <h3 class="text-sm font-bold text-[#0f172a]">Soil Permeability</h3>
+        <p class="text-xs text-[#475569] leading-relaxed">
           Soil classification (Clay, Sandy, Loamy, Silty) dictating ground water retention.
         </p>
       </div>
 
       <div class="feat-card space-y-2">
-        <div class="w-9 h-9 rounded-lg bg-[#ffe3d1] text-[#6f4627] flex items-center justify-center font-bold">
+        <div class="w-9 h-9 rounded-lg bg-[#d1fae5] text-[#059669] flex items-center justify-center font-bold">
           <span class="material-symbols-outlined text-lg">engineering</span>
         </div>
-        <h3 class="text-sm font-bold text-[#1e1b18]">Drainage Infrastructure</h3>
-        <p class="text-xs text-[#51443c] leading-relaxed">
+        <h3 class="text-sm font-bold text-[#0f172a]">Drainage Infrastructure</h3>
+        <p class="text-xs text-[#475569] leading-relaxed">
           Infrastructure rating (None, Basic, Moderate, Good) determining storm runoff capacity.
         </p>
       </div>
 
-      <div class="feat-card bg-[#1a0e07] text-white border-[#8b5e3c]/40 space-y-2 flex flex-col justify-between">
+      <div class="feat-card bg-[#0f172a] text-white border-slate-700 space-y-2 flex flex-col justify-between">
         <div>
-          <div class="w-9 h-9 rounded-lg bg-[#6f4627] text-white flex items-center justify-center mb-2">
+          <div class="w-9 h-9 rounded-lg bg-[#059669] text-white flex items-center justify-center mb-2">
             <span class="material-symbols-outlined text-lg">schedule</span>
           </div>
           <h3 class="text-sm font-bold text-white">Seasonal Context</h3>
-          <p class="text-xs text-[#d5c3b8] leading-relaxed">
+          <p class="text-xs text-[#cbd5e1] leading-relaxed">
             Ground saturation during the wet season amplifies medium rainfall levels into severe risks.
           </p>
         </div>
-        <a href="/assess" class="inline-flex items-center gap-1 text-xs font-bold text-[#f4bb92] hover:underline pt-1">
+        <a href="/assess" class="inline-flex items-center gap-1 text-xs font-bold text-emerald-400 hover:underline pt-1">
           <span>Evaluate Community</span>
           <span class="material-symbols-outlined text-sm">arrow_forward</span>
         </a>
@@ -278,12 +288,12 @@
   <!-- ════════════════════════════════════
     FOOTER (DESKTOP ONLY)
   ════════════════════════════════════ -->
-  <footer class="hidden md:block bg-[#1a0e07] border-t border-[#8b5e3c]/30 text-[#d5c3b8] py-3.5 px-6">
+  <footer class="hidden md:block bg-[#0f172a] border-t border-slate-800 text-[#cbd5e1] py-3.5 px-6">
     <div class="max-w-7xl mx-auto flex items-center justify-between text-xs">
       <div class="flex items-center gap-2">
-        <div class="w-5 h-5 rounded bg-[#6f4627] flex items-center justify-center text-white font-black text-[10px]">P</div>
+        <div class="w-5 h-5 rounded bg-[#059669] flex items-center justify-center text-white font-black text-[10px]">P</div>
         <span class="font-extrabold text-white text-xs">Phense</span>
-        <span class="text-[#83746b] text-[11px]">| AI Flood Risk Classifier</span>
+        <span class="text-[#64748b] text-[11px]">| AI Flood Risk Classifier</span>
       </div>
     </div>
   </footer>
@@ -291,24 +301,38 @@
   <!-- ════════════════════════════════════
     MOBILE FIXED BOTTOM NAVIGATION BAR
   ════════════════════════════════════ -->
-  <nav class="md:hidden fixed bottom-0 left-0 right-0 z-50 bg-[#fff8f5] border-t-2 border-[#d5c3b8] shadow-2xl flex justify-around items-center py-2 px-2">
-    <a href="/" class="flex flex-col items-center text-[#6f4627] font-extrabold bg-[#ffe3d1] border border-[#6f4627]/30 px-3 py-1 rounded-xl text-[10px]">
+  <nav class="md:hidden fixed bottom-0 left-0 right-0 z-50 bg-[#fff8f5] border-t-2 border-[#cbd5e1] shadow-2xl flex justify-around items-center py-2 px-2">
+    <a href="/" class="flex flex-col items-center text-[#059669] font-extrabold bg-[#d1fae5] border border-[#059669]/30 px-3 py-1 rounded-xl text-[10px]">
       <span class="material-symbols-outlined text-lg">home</span>
       <span>Home</span>
     </a>
-    <a href="/assess" class="flex flex-col items-center text-[#51443c] hover:text-[#6f4627] font-bold px-3 py-1 text-[10px]">
+    <a href="/assess" class="flex flex-col items-center text-[#475569] hover:text-[#059669] font-bold px-3 py-1 text-[10px]">
       <span class="material-symbols-outlined text-lg">analytics</span>
       <span>Assess</span>
     </a>
-    <a href="/methodology" class="flex flex-col items-center text-[#51443c] hover:text-[#6f4627] font-bold px-3 py-1 text-[10px]">
+    <a href="/methodology" class="flex flex-col items-center text-[#475569] hover:text-[#059669] font-bold px-3 py-1 text-[10px]">
       <span class="material-symbols-outlined text-lg">science</span>
       <span>Methodology</span>
     </a>
-    <a href="/about" class="flex flex-col items-center text-[#51443c] hover:text-[#6f4627] font-bold px-3 py-1 text-[10px]">
+    <a href="/about" class="flex flex-col items-center text-[#475569] hover:text-[#059669] font-bold px-3 py-1 text-[10px]">
       <span class="material-symbols-outlined text-lg">info</span>
       <span>About</span>
     </a>
   </nav>
 
+  <script>
+    function getApiBase() {
+      if (window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1') return '';
+      if (window.location.origin.includes('phense-api')) return '';
+      return 'https://phense-api.onrender.com';
+    }
+
+    document.addEventListener('DOMContentLoaded', () => {
+      // Fire silent background ping to wake up Python backend on Render
+      fetch(getApiBase() + '/api/health').catch(() => {});
+    });
+  </script>
+
 </body>
 </html>
+
