@@ -16,7 +16,6 @@ services:
   - type: web
     name: phense
     env: static
-    plan: free
     buildCommand: ""
     staticPublishPath: ./static
     routes:
@@ -32,6 +31,7 @@ services:
       - type: rewrite
         source: /about
         destination: /about.html
+
 
 
 
