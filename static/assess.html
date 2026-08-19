@@ -177,8 +177,8 @@
         </div>
 
         <!-- GPS AUTO-DETECT BUTTON WITH HIGH-IMPACT HOVER & VERIFIED STATE -->
-        <button type="button" id="btn-gps" onclick="detectGPS()" class="w-full bg-[#f5ece7] hover:bg-[#6e5849] border-2 border-[#6e5849] py-3.5 px-4 rounded-2xl transition-all duration-300 transform hover:-translate-y-0.5 hover:scale-[1.01] hover:shadow-xl hover:shadow-[#6e5849]/25 active:scale-[0.98] group gps-cta-pulse relative">
-          <div class="flex items-center justify-center gap-2.5 text-[#6e5849] group-hover:text-white font-extrabold text-xs sm:text-sm transition-colors duration-300">
+        <button type="button" id="btn-gps" onclick="detectGPS()" class="w-full bg-[#f5ece7] hover:bg-[#2c221e] border-2 border-[#2c221e] py-3.5 px-4 rounded-2xl transition-all duration-300 transform hover:-translate-y-0.5 hover:scale-[1.01] hover:shadow-xl hover:shadow-[#2c221e]/25 active:scale-[0.98] group gps-cta-pulse relative">
+          <div class="flex items-center justify-center gap-2.5 text-[#2c221e] group-hover:text-white font-extrabold text-xs sm:text-sm transition-colors duration-300">
             <span id="gps-icon" class="material-symbols-outlined text-lg sm:text-xl shrink-0 group-hover:scale-110 transition-transform duration-300">my_location</span>
             <span id="gps-text">Auto-Detect Real Location</span>
           </div>
@@ -191,7 +191,7 @@
               <span class="text-[9px] font-bold uppercase text-[#83746b] tracking-wider">Community Site</span>
               <h3 class="font-extrabold text-xs sm:text-sm text-[#1e1b18]" id="display-location">Abeokuta North, Ogun State</h3>
             </div>
-            <span id="display-season" class="bg-[#6e5849] text-white text-[10px] font-bold px-2.5 py-0.5 rounded-full">Wet Season</span>
+            <span id="display-season" class="bg-[#2c221e] text-white text-[10px] font-bold px-2.5 py-0.5 rounded-full">Wet Season</span>
           </div>
 
           <div class="grid grid-cols-3 gap-2 text-center text-xs">
@@ -205,14 +205,14 @@
             </div>
             <div class="bg-white/80 p-2 rounded-xl border border-[#dcd0c7]/50">
               <span class="text-[9px] font-bold uppercase text-[#83746b] block">NiMet Rain</span>
-              <span class="font-black text-[#6e5849]" id="display-rainfall">230 mm/mo</span>
+              <span class="font-black text-[#2c221e]" id="display-rainfall">230 mm/mo</span>
             </div>
           </div>
         </div>
 
         <!-- STEP 1 ACTION -->
         <div class="pt-2 flex justify-end">
-          <button type="button" onclick="goToCard(2)" class="w-full bg-[#6e5849] hover:bg-[#5c493c] text-white py-3.5 rounded-full font-bold text-xs sm:text-sm shadow-md transition-all flex items-center justify-center">
+          <button type="button" onclick="goToCard(2)" class="w-full bg-[#2c221e] hover:bg-[#1f1815] text-[#f7f1ee] py-3.5 rounded-full font-extrabold text-xs sm:text-sm shadow-md hover:shadow-lg transition-all flex items-center justify-center">
             <span>Continue to Setting Context</span>
           </button>
         </div>
@@ -250,14 +250,14 @@
           </button>
         </div>
 
-        <!-- STEP 2 ACTIONS (NO ARROW ICONS) -->
-        <div class="pt-3 flex items-center justify-between gap-3">
-          <button type="button" onclick="goToCard(1)" class="bg-[#f5ece7] hover:bg-[#f2e8e1] text-[#51443c] px-5 py-3 rounded-full font-bold text-xs transition-all border border-[#dcd0c7]">
+        <!-- STEP 2 ACTIONS (BALANCED ALIGNED MOBILE GRID) -->
+        <div class="pt-3 flex items-center gap-2.5 w-full">
+          <button type="button" onclick="goToCard(1)" class="w-1/3 bg-[#f5ece7] hover:bg-[#f2e8e1] text-[#51443c] py-3 rounded-full font-extrabold text-xs transition-all border border-[#dcd0c7] text-center">
             <span>Back</span>
           </button>
 
-          <button type="button" onclick="goToCard(3)" class="bg-[#6e5849] hover:bg-[#5c493c] text-white px-6 py-3 rounded-full font-bold text-xs sm:text-sm shadow-md transition-all">
-            <span>Continue to Soil Selection</span>
+          <button type="button" onclick="goToCard(3)" class="w-2/3 bg-[#2c221e] hover:bg-[#1f1815] text-[#f7f1ee] py-3 rounded-full font-extrabold text-xs sm:text-sm shadow-md transition-all text-center">
+            <span>Continue to Soil</span>
           </button>
         </div>
       </div>
@@ -266,14 +266,14 @@
         STEP 3: SOIL TEXTURE IDENTIFICATION
       ════════════════════════════════════ -->
       <div id="card-3" class="pop-card hidden space-y-4">
-        <div class="flex items-center justify-between">
-          <h2 class="text-base sm:text-lg font-extrabold text-[#1e1b18] flex items-center gap-2">
-            <span class="material-symbols-outlined text-[#6e5849]">layers</span>
-            <span>Select Local Soil Texture</span>
+        <div class="flex items-center justify-between gap-2">
+          <h2 class="text-sm sm:text-base font-extrabold text-[#1e1b18] flex items-center gap-1.5 leading-snug">
+            <span class="material-symbols-outlined text-[#2c221e] text-base sm:text-lg shrink-0">layers</span>
+            <span>Soil Texture</span>
           </h2>
-          <button type="button" onclick="openSoilModal()" class="text-[10px] font-bold text-[#6e5849] hover:underline flex items-center gap-1 bg-[#f5ece7] px-2.5 py-1 rounded-lg border border-[#dcd0c7]">
+          <button type="button" onclick="openSoilModal()" class="shrink-0 text-[10px] font-extrabold text-[#2c221e] bg-[#f5ece7] hover:bg-[#e8dbd2] px-2.5 py-1 rounded-xl border border-[#dcd0c7] flex items-center gap-1 transition-colors">
             <span class="material-symbols-outlined text-xs">help_outline</span>
-            <span>Visual Guide</span>
+            <span>Guide</span>
           </button>
         </div>
 
@@ -336,13 +336,13 @@
           </div>
         </div>
 
-        <!-- STEP 3 ACTIONS (NO ARROW ICONS) -->
-        <div class="pt-3 flex items-center justify-between gap-3">
-          <button type="button" onclick="goToCard(2)" class="bg-[#f5ece7] hover:bg-[#f2e8e1] text-[#51443c] px-5 py-3 rounded-full font-bold text-xs transition-all border border-[#dcd0c7]">
+        <!-- STEP 3 ACTIONS (BALANCED ALIGNED MOBILE GRID) -->
+        <div class="pt-3 flex items-center gap-2.5 w-full">
+          <button type="button" onclick="goToCard(2)" class="w-1/3 bg-[#f5ece7] hover:bg-[#f2e8e1] text-[#51443c] py-3 rounded-full font-extrabold text-xs transition-all border border-[#dcd0c7] text-center">
             <span>Back</span>
           </button>
 
-          <button type="button" onclick="goToCard(4)" class="bg-[#6e5849] hover:bg-[#5c493c] text-white px-6 py-3 rounded-full font-bold text-xs sm:text-sm shadow-md transition-all">
+          <button type="button" onclick="goToCard(4)" class="w-2/3 bg-[#2c221e] hover:bg-[#1f1815] text-[#f7f1ee] py-3 rounded-full font-extrabold text-xs sm:text-sm shadow-md transition-all text-center">
             <span>Continue to Review</span>
           </button>
         </div>
@@ -354,7 +354,7 @@
       <div id="card-4" class="pop-card hidden space-y-4">
         <div class="space-y-1 text-center sm:text-left">
           <h2 class="text-sm sm:text-base font-extrabold text-[#1e1b18] flex items-center justify-center sm:justify-start gap-1.5 leading-snug">
-            <span class="material-symbols-outlined text-[#6e5849] text-base sm:text-lg">task_alt</span>
+            <span class="material-symbols-outlined text-[#2c221e] text-base sm:text-lg">task_alt</span>
             <span>Review & Calculate Verdict</span>
           </h2>
           <p class="text-[11px] sm:text-xs text-[#51443c] leading-relaxed">
@@ -365,8 +365,8 @@
         <!-- SUMMARY CONFIRMATION BOX -->
         <div class="bg-[#f5ece7] border border-[#dcd0c7] rounded-2xl p-4 space-y-3">
           <div class="flex items-center justify-between border-b border-[#dcd0c7]/60 pb-2">
-            <span class="text-[10px] font-extrabold uppercase text-[#6e5849] tracking-wider">Assessment Baseline Summary</span>
-            <button type="button" onclick="goToCard(1)" class="text-[10px] font-bold text-[#6e5849] underline">Edit Baseline</button>
+            <span class="text-[10px] font-extrabold uppercase text-[#2c221e] tracking-wider">Assessment Baseline Summary</span>
+            <button type="button" onclick="goToCard(1)" class="text-[10px] font-extrabold text-[#2c221e] bg-white px-2.5 py-0.5 rounded-lg border border-[#dcd0c7] hover:bg-[#f2e8e1] transition-colors">Edit</button>
           </div>
 
           <div class="grid grid-cols-2 gap-3 text-xs">
@@ -380,29 +380,29 @@
             </div>
             <div>
               <span class="text-[9px] font-bold uppercase text-[#83746b]">Soil Texture</span>
-              <p class="font-extrabold text-[#6e5849] uppercase" id="sum-soil">CLAY SOIL</p>
+              <p class="font-extrabold text-[#2c221e] uppercase" id="sum-soil">CLAY SOIL</p>
             </div>
             <div>
               <span class="text-[9px] font-bold uppercase text-[#83746b]">NiMet Monthly Rain</span>
-              <p class="font-extrabold text-[#6e5849]" id="sum-rainfall">230 mm</p>
+              <p class="font-extrabold text-[#2c221e]" id="sum-rainfall">230 mm</p>
             </div>
           </div>
         </div>
 
         <!-- ADVANCED OVERRIDES ACCORDION -->
         <details class="group text-xs text-[#51443c] bg-white border border-[#dcd0c7] rounded-2xl p-3.5">
-          <summary class="cursor-pointer font-bold text-[#6e5849] hover:underline flex items-center gap-1.5">
-            <span class="material-symbols-outlined text-sm text-[#6e5849]">tune</span>
+          <summary class="cursor-pointer font-bold text-[#2c221e] hover:underline flex items-center gap-1.5">
+            <span class="material-symbols-outlined text-sm text-[#2c221e]">tune</span>
             <span>Custom Overrides (Optional)</span>
           </summary>
           <div class="pt-3 space-y-3 border-t border-[#dcd0c7]/60 mt-2">
-            <p class="text-[10px] text-[#6e5849] italic">
+            <p class="text-[10px] text-[#2c221e] italic">
               💡 Defaults are automatically computed from NiMet meteorological baselines and topographical GIS data.
             </p>
             <div class="space-y-3">
               <div>
                 <label class="block text-[10px] font-bold uppercase text-[#51443c]">Drainage Infrastructure</label>
-                <select id="drainage-select" onchange="document.getElementById('drainage').value=this.value; updateStepSummary();" class="w-full bg-[#fff8f5] border border-[#dcd0c7] rounded-xl px-3 py-2 text-xs font-semibold focus:outline-none focus:border-[#6e5849] mt-1">
+                <select id="drainage-select" onchange="document.getElementById('drainage').value=this.value; updateStepSummary();" class="w-full bg-[#fff8f5] border border-[#dcd0c7] rounded-xl px-3 py-2 text-xs font-semibold focus:outline-none focus:border-[#2c221e] mt-1">
                   <option value="basic" selected>Basic Gutters / Open Ditches</option>
                   <option value="none">None / Natural Earth Slope Runoff</option>
                   <option value="moderate">Moderate Culverts</option>
@@ -412,16 +412,16 @@
               <div>
                 <label class="block text-[10px] font-bold uppercase text-[#51443c]">Custom Rainfall Slider (mm)</label>
                 <div class="flex items-center gap-2 mt-1">
-                  <input type="range" min="10" max="700" value="230" step="10" class="w-full accent-[#6e5849]" oninput="document.getElementById('rainfall_mm').value=this.value; document.getElementById('display-rainfall').innerText=this.value+' mm / month'; updateStepSummary();"/>
+                  <input type="range" min="10" max="700" value="230" step="10" class="w-full accent-[#2c221e]" oninput="document.getElementById('rainfall_mm').value=this.value; document.getElementById('display-rainfall').innerText=this.value+' mm / month'; updateStepSummary();"/>
                 </div>
               </div>
             </div>
           </div>
         </details>
 
-        <!-- SUBMIT VERDICT BUTTON (NO ARROW ICON) -->
+        <!-- SUBMIT VERDICT BUTTON -->
         <div class="pt-2 space-y-2">
-          <button type="button" onclick="submitAssessment()" class="w-full bg-[#6e5849] hover:bg-[#5c493c] text-white py-4 rounded-full font-extrabold text-xs sm:text-sm shadow-lg hover:shadow-xl transition-all flex items-center justify-center gap-2 border border-[#dcd0c7]/30 tracking-wide">
+          <button type="button" onclick="submitAssessment()" class="w-full bg-gradient-to-r from-[#2c221e] to-[#3b2e28] hover:from-[#1f1815] hover:to-[#2c221e] text-[#f7f1ee] py-4 rounded-full font-extrabold text-xs sm:text-sm shadow-xl hover:shadow-2xl transition-all flex items-center justify-center gap-2 border border-[#dcd0c7]/30 tracking-wide">
             <span class="material-symbols-outlined text-base">task_alt</span>
             <span>Calculate Flood Risk Verdict</span>
           </button>
@@ -738,9 +738,9 @@
 
         // Mark as captured & transform to Green Verified state
         hasCapturedGPS = true;
-        gpsText.innerText = `✓ GPS Location Verified: ${lgaVal}`;
+        gpsText.innerText = `Verified: ${lgaVal}`;
         if (gpsIcon) gpsIcon.innerText = "check_circle";
-        gpsBtn.className = "w-full bg-emerald-700 hover:bg-emerald-800 border-2 border-emerald-700 text-white py-3 px-4 rounded-2xl transition-all shadow-md flex items-center justify-center gap-2 font-extrabold text-xs sm:text-sm";
+        gpsBtn.className = "w-full bg-emerald-700 hover:bg-emerald-800 border-2 border-emerald-700 text-white py-3.5 px-3 rounded-2xl transition-all shadow-md flex items-center justify-center gap-2 font-extrabold text-xs sm:text-sm";
         
         if (reqBadge) {
           reqBadge.innerHTML = `<span class="w-2 h-2 rounded-full bg-emerald-500"></span><span class="text-emerald-700 font-extrabold">✓ Location Verified</span>`;
