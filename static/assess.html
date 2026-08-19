@@ -1,35 +1,32 @@
 <!DOCTYPE html>
-<html class="light" lang="en">
+<html lang="en">
 <head>
-  <meta charset="utf-8"/>
-  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-  <title>Phense - Assess Flood Risk</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Community Risk Assessment — Phense AI</title>
   
-  <!-- Tailwind CSS & Google Fonts -->
-  <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
-  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400&display=swap" rel="stylesheet"/>
-  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
+  <!-- Modern Typography & Icons -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 
-  <script id="tailwind-config">
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <script>
     tailwind.config = {
-      darkMode: "class",
       theme: {
         extend: {
           colors: {
-            "primary":"#6f4627","on-primary":"#ffffff","primary-container":"#8b5e3c",
-            "on-primary-container":"#ffe3d1","secondary":"#7c5639","on-secondary":"#ffffff",
-            "tertiary":"#614c2d","surface":"#fff8f5","surface-container":"#f5ece7",
-            "surface-container-low":"#fbf2ed","surface-container-high":"#efe6e2",
-            "surface-container-highest":"#e9e1dc","surface-dim":"#e1d8d4",
-            "background":"#fff8f5","on-background":"#1e1b18","on-surface":"#1e1b18",
-            "on-surface-variant":"#51443c","outline":"#83746b","outline-variant":"#d5c3b8",
-            "inverse-surface":"#34302c","inverse-on-surface":"#f8efea",
-            "inverse-primary":"#f4bb92","surface-tint":"#805533",
-            "primary-fixed":"#ffdcc5","primary-fixed-dim":"#f4bb92",
-            "secondary-container":"#fecaa5","error":"#ba1a1a"
-          },
-          fontFamily: {
-            "body": ["Plus Jakarta Sans", "sans-serif"]
+            brand: {
+              50: '#f5ece7',
+              100: '#f2e8e1',
+              200: '#dcd0c7',
+              700: '#735c4c',
+              800: '#6e5849',
+              900: '#5c493c',
+            }
           }
         }
       }
@@ -44,56 +41,71 @@
     /* Soil Selector Card */
     .soil-card {
       background: #f5ece7;
-      border: 2px solid #d5c3b8;
-      border-radius: 12px;
-      padding: 14px;
+      border: 2px solid #dcd0c7;
+      border-radius: 14px;
+      padding: 12px;
       cursor: pointer;
       transition: all 0.2s ease;
       position: relative;
       user-select: none;
     }
-    .soil-card:hover { border-color: #6f4627; background: #fbf2ed; }
-    .soil-card.selected { border-color: #6f4627; background: #ffe3d1; box-shadow: 0 0 0 3px rgba(111,70,39,0.2); }
-    .soil-card .check-badge { display: none; position: absolute; top: 10px; right: 10px; width: 20px; height: 20px; background: #6f4627; color: white; border-radius: 50%; align-items: center; justify-content: center; font-size: 12px; }
+    .soil-card:hover { border-color: #6e5849; background: #ede3dc; }
+    .soil-card.selected { border-color: #6e5849; background: #e8dbd2; box-shadow: 0 0 0 3px rgba(110,88,73,0.18); }
+    .soil-card .check-badge { display: none; position: absolute; top: 8px; right: 8px; width: 20px; height: 20px; background: #6e5849; color: white; border-radius: 50%; align-items: center; justify-content: center; font-size: 12px; }
     .soil-card.selected .check-badge { display: flex; }
 
-    /* Pulsing CTA Animation */
+    /* Card Modal Reveal Animations */
+    .pop-card {
+      transition: opacity 0.3s cubic-bezier(0.16, 1, 0.3, 1), transform 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+    }
+    .pop-card.hidden {
+      display: none;
+      opacity: 0;
+      transform: scale(0.96) translateY(10px);
+    }
+    .pop-card.active {
+      display: block;
+      opacity: 1;
+      transform: scale(1) translateY(0);
+    }
+
+    /* Pulsing GPS indicator */
     @keyframes gpsPulse {
-      0% { box-shadow: 0 0 0 0 rgba(111, 70, 39, 0.4); }
-      70% { box-shadow: 0 0 0 10px rgba(111, 70, 39, 0); }
-      100% { box-shadow: 0 0 0 0 rgba(111, 70, 39, 0); }
+      0% { box-shadow: 0 0 0 0 rgba(110, 88, 73, 0.3); }
+      70% { box-shadow: 0 0 0 8px rgba(110, 88, 73, 0); }
+      100% { box-shadow: 0 0 0 0 rgba(110, 88, 73, 0); }
     }
     .gps-cta-pulse {
-      animation: gpsPulse 2s infinite;
+      animation: gpsPulse 2.5s infinite;
     }
   </style>
 </head>
-<body class="bg-background text-on-background min-h-screen flex flex-col justify-between pb-16 md:pb-0">
+<body class="bg-[#fff8f5] text-[#1e1b18] min-h-screen flex flex-col justify-between pb-12 md:pb-0">
 
   <!-- ════════════════════════════════════
     STANDARDIZED DESKTOP TOP NAV
   ════════════════════════════════════ -->
-  <nav class="sticky top-0 z-50 bg-[#fff8f5]/95 backdrop-blur-md border-b border-[#d5c3b8] shadow-sm">
+  <nav class="sticky top-0 z-50 bg-[#fff8f5]/95 backdrop-blur-md border-b border-[#dcd0c7] shadow-sm">
     <div class="max-w-7xl mx-auto px-5 md:px-8 h-14 flex items-center justify-between">
       <a href="/" class="flex items-center gap-2 text-decoration-none group w-44">
-        <div class="w-8 h-8 rounded-lg bg-[#6f4627] flex items-center justify-center text-white font-black text-lg tracking-tighter shadow-sm">
+        <div class="w-8 h-8 rounded-lg bg-[#6e5849] flex items-center justify-center text-white font-black text-lg tracking-tighter shadow-sm">
           P
         </div>
         <div class="flex flex-col">
           <span class="font-extrabold text-base leading-none tracking-tight text-[#1e1b18]">Phense</span>
-          <span class="text-[9px] font-bold text-[#805533] uppercase tracking-wider">AI Flood Classifier</span>
+          <span class="text-[9px] font-bold text-[#6e5849] uppercase tracking-wider">AI Flood Classifier</span>
         </div>
       </a>
 
       <div class="hidden md:flex items-center gap-8 text-xs font-bold text-[#51443c]">
-        <a href="/" class="hover:text-[#6f4627] transition-colors">Home</a>
-        <a href="/assess" class="text-[#6f4627] border-b-2 border-[#6f4627] pb-0.5">Assess Risk</a>
-        <a href="/methodology" class="hover:text-[#6f4627] transition-colors">Methodology</a>
-        <a href="/about" class="hover:text-[#6f4627] transition-colors">About</a>
+        <a href="/" class="hover:text-[#6e5849] transition-colors">Home</a>
+        <a href="/assess" class="text-[#6e5849] border-b-2 border-[#6e5849] pb-0.5">Assess Risk</a>
+        <a href="/methodology" class="hover:text-[#6e5849] transition-colors">Methodology</a>
+        <a href="/about" class="hover:text-[#6e5849] transition-colors">About</a>
       </div>
 
       <div class="flex items-center justify-end w-44">
-        <a href="/assess" class="hidden sm:inline-flex bg-[#6f4627] hover:bg-[#8b5e3c] text-white px-3.5 py-1.5 rounded-lg text-xs font-bold shadow-sm transition-all border border-[#ffe3d1]/30">
+        <a href="/assess" class="hidden sm:inline-flex bg-[#6e5849] hover:bg-[#5c493c] text-white px-4 py-2 rounded-full text-xs font-bold shadow-sm transition-all border border-[#dcd0c7]/30">
           <span>Assess Risk</span>
         </a>
       </div>
@@ -101,83 +113,35 @@
   </nav>
 
   <!-- ════════════════════════════════════
-    STREAMLINED LOW-FRICTION ASSESSMENT
+    CARD-BASED POP-UP ASSESSMENT SEQUENCE
   ════════════════════════════════════ -->
-  <main class="max-w-3xl mx-auto px-3 sm:px-6 pt-2 pb-6 sm:py-6 w-full space-y-3 sm:space-y-5 flex-1">
+  <main class="max-w-xl mx-auto px-4 pt-4 pb-8 sm:py-8 w-full flex-1 flex flex-col justify-center items-center">
     
-    <!-- Title Header -->
-    <div class="text-center space-y-0.5">
-      <div class="inline-flex items-center gap-1 bg-[#ffe3d1] border border-[#8b5e3c]/30 px-2.5 py-0.5 rounded-full text-[9px] font-extrabold text-[#6f4627] shadow-2xs">
-        <span class="w-1.5 h-1.5 rounded-full bg-[#6f4627] animate-pulse"></span>
-        <span>Auto-Detection Active</span>
+    <!-- Header Title -->
+    <div class="text-center space-y-1 mb-4">
+      <div class="inline-flex items-center gap-1.5 bg-[#f2e8e1] border border-[#dcd0c7] px-3 py-0.5 rounded-full text-[10px] font-extrabold text-[#6e5849]">
+        <span class="w-1.5 h-1.5 rounded-full bg-[#6e5849] animate-pulse"></span>
+        <span>Guided Assessment Flow</span>
       </div>
-      <h1 class="text-lg sm:text-2xl font-extrabold text-[#1e1b18] tracking-tight">Community Risk Assessment</h1>
-      <p class="text-[11px] sm:text-xs text-[#51443c]">Detect location automatically and select local soil type.</p>
+      <h1 class="text-xl sm:text-2xl font-extrabold text-[#1e1b18] tracking-tight">Community Flood Risk Assessment</h1>
+      <p class="text-xs text-[#51443c]">Complete each step below to compute your environmental verdict.</p>
     </div>
 
-    <!-- MAIN FORM CONTAINER -->
-    <div class="bg-white border border-[#d5c3b8] rounded-2xl p-4 sm:p-6 shadow-sm space-y-4 sm:space-y-5">
+    <!-- MAIN CARD POP-UP CONTAINER -->
+    <div class="w-full bg-white border border-[#dcd0c7] rounded-3xl p-5 sm:p-7 shadow-xl relative overflow-hidden" id="pop-card-wrapper">
       
-      <!-- 1. AUTO-DETECT GPS CTA BUTTON -->
-      <div class="space-y-1.5">
-        <label class="block text-[10px] font-bold uppercase tracking-wider text-[#51443c]">Step 1: Location & Environmental Baseline</label>
-        
-        <button type="button" id="btn-gps" onclick="detectGPS()" class="w-full bg-[#ffe3d1]/70 hover:bg-[#ffe3d1] border-2 border-[#6f4627] py-3 px-4 rounded-xl text-center transition-all group gps-cta-pulse relative shadow-xs">
-          <div class="flex items-center justify-center gap-2 text-[#6f4627] font-extrabold text-xs sm:text-sm">
-            <span class="material-symbols-outlined text-lg text-[#6f4627]">my_location</span>
-            <span id="gps-text">Auto-Detect Real Location</span>
-          </div>
-        </button>
-      </div>
-
-      <!-- ENVIRONMENT CONTEXT TOGGLE (RESIDENTIAL VS FARMLAND) -->
-      <div class="space-y-1.5">
-        <label class="block text-[10px] font-bold uppercase tracking-wider text-[#51443c]">Setting Context</label>
-        <div class="grid grid-cols-2 gap-2">
-          <button type="button" id="env-res" onclick="setEnvironment('residential')" class="border-2 border-[#6f4627] bg-[#ffe3d1]/50 rounded-xl p-2.5 text-left transition-all flex items-center gap-2">
-            <span class="material-symbols-outlined text-[#6f4627] text-base">home</span>
-            <div>
-              <div class="font-extrabold text-xs text-[#6f4627]">Residential Community</div>
-              <div class="text-[9px] text-[#51443c]">Roadside Gutters / Ditches</div>
-            </div>
-          </button>
-          <button type="button" id="env-farm" onclick="setEnvironment('farmland')" class="border-2 border-[#d5c3b8] hover:border-[#6f4627] rounded-xl p-2.5 text-left transition-all flex items-center gap-2">
-            <span class="material-symbols-outlined text-amber-800 text-base">agriculture</span>
-            <div>
-              <div class="font-bold text-xs text-[#1e1b18]">Farmland / Field</div>
-              <div class="text-[9px] text-[#51443c]">Natural Slope Earth Runoff</div>
-            </div>
-          </button>
-        </div>
-      </div>
-
-      <!-- AUTO-DETECTED SUMMARY BADGES (AUTO-FILLED) -->
-      <div id="detected-metrics" class="bg-[#f5ece7] border border-[#d5c3b8] rounded-xl p-3.5 sm:p-4 space-y-3">
-        <div class="flex flex-wrap sm:flex-nowrap items-center justify-between gap-2 border-b border-[#d5c3b8]/60 pb-2.5">
-          <div class="space-y-0.5 min-w-0 flex-1">
-            <span class="text-[9px] font-bold uppercase text-[#805533] tracking-wider">Target Community</span>
-            <h3 class="font-extrabold text-xs sm:text-sm text-[#1e1b18] truncate" id="display-location">Abeokuta North, Ogun State</h3>
-          </div>
-          <div class="flex items-center gap-1.5 bg-[#6f4627] text-white text-[10px] font-extrabold px-3 py-1 rounded-full shadow-2xs shrink-0">
-            <span class="material-symbols-outlined text-xs text-[#ffe3d1]">water_drop</span>
-            <span id="display-season">Wet Season</span>
-          </div>
+      <!-- STEP DOTS / PROGRESS BADGE -->
+      <div class="flex items-center justify-between mb-5">
+        <div class="flex items-center gap-1.5">
+          <span id="dot-1" class="w-2.5 h-2.5 rounded-full bg-[#6e5849]"></span>
+          <span id="dot-2" class="w-2.5 h-2.5 rounded-full bg-[#f2e8e1]"></span>
+          <span id="dot-3" class="w-2.5 h-2.5 rounded-full bg-[#f2e8e1]"></span>
+          <span id="dot-4" class="w-2.5 h-2.5 rounded-full bg-[#f2e8e1]"></span>
         </div>
 
-        <div class="grid grid-cols-2 sm:grid-cols-3 gap-3 text-xs">
-          <div>
-            <span class="text-[9px] font-bold uppercase text-[#83746b]">Elevation</span>
-            <p class="font-black text-[#1e1b18]" id="display-elevation">45.0 m ASL</p>
-          </div>
-          <div>
-            <span class="text-[9px] font-bold uppercase text-[#83746b]">Nearest River</span>
-            <p class="font-black text-[#1e1b18]" id="display-river">1.8 km (Ogun River)</p>
-          </div>
-          <div class="col-span-2 sm:col-span-1">
-            <span class="text-[9px] font-bold uppercase text-[#83746b]">Auto NiMet Rainfall</span>
-            <p class="font-black text-[#6f4627]" id="display-rainfall">230 mm / month</p>
-          </div>
-        </div>
+        <span id="card-step-badge" class="text-[10px] font-extrabold text-[#6e5849] bg-[#f5ece7] px-3 py-1 rounded-full border border-[#dcd0c7]">
+          Step 1 of 4
+        </span>
       </div>
 
       <!-- Hidden form state inputs -->
@@ -189,17 +153,136 @@
       <input type="hidden" id="season" value="wet"/>
       <input type="hidden" id="drainage" value="basic"/>
 
-      <!-- 2. SOIL TYPE SELECTOR -->
-      <div class="space-y-2.5">
-        <div class="flex items-center justify-between">
-          <label class="block text-[10px] font-bold uppercase tracking-wider text-[#51443c]">Step 2: Local Soil Type (Tap Photo to Select)</label>
-          <button type="button" onclick="openSoilModal()" class="text-[10px] font-bold text-[#6f4627] hover:text-[#8b5e3c] flex items-center gap-1 bg-[#ffe3d1] px-2.5 py-1 rounded-lg border border-[#8b5e3c]/30 transition-all shadow-2xs">
-            <span class="material-symbols-outlined text-xs">help_outline</span>
-            <span>Visual Identification Guide</span>
+      <!-- ════════════════════════════════════
+        STEP 1: DETECT LOCATION & GIS BASELINE
+      ════════════════════════════════════ -->
+      <div id="card-1" class="pop-card active space-y-3.5">
+        <div class="space-y-1 text-center sm:text-left">
+          <h2 class="text-sm sm:text-base font-extrabold text-[#1e1b18] flex items-center justify-center sm:justify-start gap-1.5 leading-snug">
+            <span class="material-symbols-outlined text-[#6e5849] text-base sm:text-lg">location_on</span>
+            <span>Site Location & Baseline</span>
+          </h2>
+          <p class="text-[11px] sm:text-xs text-[#51443c] leading-relaxed">
+            Capture real-time GPS elevation, river proximity, and NiMet rainfall.
+          </p>
+        </div>
+
+        <!-- REQUIRED FIRST ACTION INDICATOR BANNER -->
+        <div class="flex items-center justify-between px-1">
+          <span id="gps-required-badge" class="inline-flex items-center gap-1.5 text-[10px] font-extrabold uppercase tracking-wider text-[#6e5849]">
+            <span class="w-2 h-2 rounded-full bg-amber-500 animate-ping"></span>
+            <span>Required Action</span>
+          </span>
+          <span class="text-[10px] font-bold text-[#83746b]">Tap button below</span>
+        </div>
+
+        <!-- GPS AUTO-DETECT BUTTON WITH HIGH-IMPACT HOVER & VERIFIED STATE -->
+        <button type="button" id="btn-gps" onclick="detectGPS()" class="w-full bg-[#f5ece7] hover:bg-[#6e5849] border-2 border-[#6e5849] py-3.5 px-4 rounded-2xl transition-all duration-300 transform hover:-translate-y-0.5 hover:scale-[1.01] hover:shadow-xl hover:shadow-[#6e5849]/25 active:scale-[0.98] group gps-cta-pulse relative">
+          <div class="flex items-center justify-center gap-2.5 text-[#6e5849] group-hover:text-white font-extrabold text-xs sm:text-sm transition-colors duration-300">
+            <span id="gps-icon" class="material-symbols-outlined text-lg sm:text-xl shrink-0 group-hover:scale-110 transition-transform duration-300">my_location</span>
+            <span id="gps-text">Auto-Detect Real Location</span>
+          </div>
+        </button>
+
+        <!-- DETECTED METRICS BOX -->
+        <div id="detected-metrics" class="bg-[#f5ece7] border border-[#dcd0c7] rounded-2xl p-4 space-y-3">
+          <div class="flex items-center justify-between border-b border-[#dcd0c7]/60 pb-2">
+            <div>
+              <span class="text-[9px] font-bold uppercase text-[#83746b] tracking-wider">Community Site</span>
+              <h3 class="font-extrabold text-xs sm:text-sm text-[#1e1b18]" id="display-location">Abeokuta North, Ogun State</h3>
+            </div>
+            <span id="display-season" class="bg-[#6e5849] text-white text-[10px] font-bold px-2.5 py-0.5 rounded-full">Wet Season</span>
+          </div>
+
+          <div class="grid grid-cols-3 gap-2 text-center text-xs">
+            <div class="bg-white/80 p-2 rounded-xl border border-[#dcd0c7]/50">
+              <span class="text-[9px] font-bold uppercase text-[#83746b] block">Elevation</span>
+              <span class="font-black text-[#1e1b18]" id="display-elevation">45.0 m ASL</span>
+            </div>
+            <div class="bg-white/80 p-2 rounded-xl border border-[#dcd0c7]/50">
+              <span class="text-[9px] font-bold uppercase text-[#83746b] block">Nearest River</span>
+              <span class="font-black text-[#1e1b18]" id="display-river">1.8 km</span>
+            </div>
+            <div class="bg-white/80 p-2 rounded-xl border border-[#dcd0c7]/50">
+              <span class="text-[9px] font-bold uppercase text-[#83746b] block">NiMet Rain</span>
+              <span class="font-black text-[#6e5849]" id="display-rainfall">230 mm/mo</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- STEP 1 ACTION -->
+        <div class="pt-2 flex justify-end">
+          <button type="button" onclick="goToCard(2)" class="w-full bg-[#6e5849] hover:bg-[#5c493c] text-white py-3.5 rounded-full font-bold text-xs sm:text-sm shadow-md transition-all flex items-center justify-center">
+            <span>Continue to Setting Context</span>
+          </button>
+        </div>
+      </div>
+
+      <!-- ════════════════════════════════════
+        STEP 2: SETTING CONTEXT
+      ════════════════════════════════════ -->
+      <div id="card-2" class="pop-card hidden space-y-4">
+        <div class="space-y-1 text-center sm:text-left">
+          <h2 class="text-sm sm:text-base font-extrabold text-[#1e1b18] flex items-center justify-center sm:justify-start gap-1.5 leading-snug">
+            <span class="material-symbols-outlined text-[#6e5849] text-base sm:text-lg">landscape</span>
+            <span>Setting Context</span>
+          </h2>
+          <p class="text-[11px] sm:text-xs text-[#51443c] leading-relaxed">
+            Select residential area or farmland field.
+          </p>
+        </div>
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 pt-1">
+          <button type="button" id="env-res" onclick="setEnvironment('residential')" class="border-2 border-[#6e5849] bg-[#e8dbd2] rounded-2xl p-4 text-left transition-all flex items-center gap-3">
+            <span class="material-symbols-outlined text-[#6e5849] text-2xl p-2 bg-white rounded-xl shadow-2xs">home</span>
+            <div>
+              <div class="font-extrabold text-sm text-[#6e5849]">Residential Area</div>
+              <div class="text-[10px] text-[#51443c] mt-0.5">Roadside Gutters & Drainage Ditches</div>
+            </div>
+          </button>
+
+          <button type="button" id="env-farm" onclick="setEnvironment('farmland')" class="border-2 border-[#dcd0c7] hover:border-[#6e5849] rounded-2xl p-4 text-left transition-all flex items-center gap-3">
+            <span class="material-symbols-outlined text-[#6e5849] text-2xl p-2 bg-[#f5ece7] rounded-xl">agriculture</span>
+            <div>
+              <div class="font-bold text-sm text-[#1e1b18]">Farmland / Field</div>
+              <div class="text-[10px] text-[#51443c] mt-0.5">Natural Slope Earth Runoff</div>
+            </div>
           </button>
         </div>
 
-        <div class="grid grid-cols-2 sm:grid-cols-4 gap-3">
+        <!-- STEP 2 ACTIONS (NO ARROW ICONS) -->
+        <div class="pt-3 flex items-center justify-between gap-3">
+          <button type="button" onclick="goToCard(1)" class="bg-[#f5ece7] hover:bg-[#f2e8e1] text-[#51443c] px-5 py-3 rounded-full font-bold text-xs transition-all border border-[#dcd0c7]">
+            <span>Back</span>
+          </button>
+
+          <button type="button" onclick="goToCard(3)" class="bg-[#6e5849] hover:bg-[#5c493c] text-white px-6 py-3 rounded-full font-bold text-xs sm:text-sm shadow-md transition-all">
+            <span>Continue to Soil Selection</span>
+          </button>
+        </div>
+      </div>
+
+      <!-- ════════════════════════════════════
+        STEP 3: SOIL TEXTURE IDENTIFICATION
+      ════════════════════════════════════ -->
+      <div id="card-3" class="pop-card hidden space-y-4">
+        <div class="flex items-center justify-between">
+          <h2 class="text-base sm:text-lg font-extrabold text-[#1e1b18] flex items-center gap-2">
+            <span class="material-symbols-outlined text-[#6e5849]">layers</span>
+            <span>Select Local Soil Texture</span>
+          </h2>
+          <button type="button" onclick="openSoilModal()" class="text-[10px] font-bold text-[#6e5849] hover:underline flex items-center gap-1 bg-[#f5ece7] px-2.5 py-1 rounded-lg border border-[#dcd0c7]">
+            <span class="material-symbols-outlined text-xs">help_outline</span>
+            <span>Visual Guide</span>
+          </button>
+        </div>
+
+        <p class="text-xs text-[#51443c]">
+          Tap the photo that matches your ground surface texture:
+        </p>
+
+        <!-- SOIL TYPE SELECTOR CARDS GRID -->
+        <div class="grid grid-cols-2 gap-3">
           <!-- Clay Card -->
           <div class="soil-card selected group overflow-hidden" id="soil-clay" onclick="selectSoil('clay')">
             <div class="check-badge">✓</div>
@@ -252,43 +335,103 @@
             <div class="text-[9px] text-[#51443c] mt-0.5 leading-snug">Smooth mud when wet. River alluvial.</div>
           </div>
         </div>
+
+        <!-- STEP 3 ACTIONS (NO ARROW ICONS) -->
+        <div class="pt-3 flex items-center justify-between gap-3">
+          <button type="button" onclick="goToCard(2)" class="bg-[#f5ece7] hover:bg-[#f2e8e1] text-[#51443c] px-5 py-3 rounded-full font-bold text-xs transition-all border border-[#dcd0c7]">
+            <span>Back</span>
+          </button>
+
+          <button type="button" onclick="goToCard(4)" class="bg-[#6e5849] hover:bg-[#5c493c] text-white px-6 py-3 rounded-full font-bold text-xs sm:text-sm shadow-md transition-all">
+            <span>Continue to Review</span>
+          </button>
+        </div>
       </div>
 
-      <!-- OPTIONAL ADVANCED OVERRIDES ACCORDION -->
-      <details class="group text-xs text-[#51443c]">
-        <summary class="cursor-pointer font-bold text-[#6f4627] hover:underline flex items-center gap-1">
-          <span class="material-symbols-outlined text-sm">tune</span>
-          <span>Custom Overrides (Optional)</span>
-        </summary>
-        <div class="pt-3 space-y-3 border-t border-[#d5c3b8] mt-2">
-          <p class="text-[10px] text-[#6f4627] italic">
-            💡 Everyday users don't need to change these! They are automatically calculated based on NiMet rainfall records and elevation data.
+      <!-- ════════════════════════════════════
+        STEP 4: REVIEW & CALCULATE VERDICT
+      ════════════════════════════════════ -->
+      <div id="card-4" class="pop-card hidden space-y-4">
+        <div class="space-y-1 text-center sm:text-left">
+          <h2 class="text-sm sm:text-base font-extrabold text-[#1e1b18] flex items-center justify-center sm:justify-start gap-1.5 leading-snug">
+            <span class="material-symbols-outlined text-[#6e5849] text-base sm:text-lg">task_alt</span>
+            <span>Review & Calculate Verdict</span>
+          </h2>
+          <p class="text-[11px] sm:text-xs text-[#51443c] leading-relaxed">
+            Verify baseline metrics before running the model engine.
           </p>
-          <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
+        </div>
+
+        <!-- SUMMARY CONFIRMATION BOX -->
+        <div class="bg-[#f5ece7] border border-[#dcd0c7] rounded-2xl p-4 space-y-3">
+          <div class="flex items-center justify-between border-b border-[#dcd0c7]/60 pb-2">
+            <span class="text-[10px] font-extrabold uppercase text-[#6e5849] tracking-wider">Assessment Baseline Summary</span>
+            <button type="button" onclick="goToCard(1)" class="text-[10px] font-bold text-[#6e5849] underline">Edit Baseline</button>
+          </div>
+
+          <div class="grid grid-cols-2 gap-3 text-xs">
             <div>
-              <label class="block text-[10px] font-bold uppercase text-[#51443c]">Drainage Infrastructure</label>
-              <select id="drainage-select" onchange="document.getElementById('drainage').value=this.value" class="w-full bg-[#fff8f5] border border-[#d5c3b8] rounded-lg px-3 py-1.5 text-xs font-semibold focus:outline-none focus:border-[#6f4627] mt-1">
-                <option value="basic" selected>Basic Gutters / Open Ditches</option>
-                <option value="none">None / Natural Earth Slope Runoff</option>
-                <option value="moderate">Moderate Culverts</option>
-                <option value="good">Engineered Canal Network</option>
-              </select>
+              <span class="text-[9px] font-bold uppercase text-[#83746b]">Location</span>
+              <p class="font-extrabold text-[#1e1b18]" id="sum-location">Abeokuta North</p>
             </div>
             <div>
-              <label class="block text-[10px] font-bold uppercase text-[#51443c]">Custom Rainfall Slider (mm)</label>
-              <div class="flex items-center gap-2 mt-1">
-                <input type="range" min="10" max="700" value="230" step="10" class="w-full accent-[#6f4627]" oninput="document.getElementById('rainfall_mm').value=this.value; document.getElementById('display-rainfall').innerText=this.value+' mm / month'"/>
-              </div>
+              <span class="text-[9px] font-bold uppercase text-[#83746b]">Setting</span>
+              <p class="font-extrabold text-[#1e1b18]" id="sum-setting">Residential Area</p>
+            </div>
+            <div>
+              <span class="text-[9px] font-bold uppercase text-[#83746b]">Soil Texture</span>
+              <p class="font-extrabold text-[#6e5849] uppercase" id="sum-soil">CLAY SOIL</p>
+            </div>
+            <div>
+              <span class="text-[9px] font-bold uppercase text-[#83746b]">NiMet Monthly Rain</span>
+              <p class="font-extrabold text-[#6e5849]" id="sum-rainfall">230 mm</p>
             </div>
           </div>
         </div>
-      </details>
 
-      <!-- SUBMIT VERDICT BUTTON -->
-      <button type="button" onclick="submitAssessment()" class="w-full bg-[#6f4627] hover:bg-[#8b5e3c] text-white py-3.5 sm:py-4 rounded-xl font-extrabold text-xs sm:text-sm shadow-md transition-all flex items-center justify-center gap-2 mx-auto border border-[#ffe3d1]/30">
-        <span class="material-symbols-outlined text-base">task_alt</span>
-        <span class="tracking-wide">Calculate Flood Risk Verdict</span>
-      </button>
+        <!-- ADVANCED OVERRIDES ACCORDION -->
+        <details class="group text-xs text-[#51443c] bg-white border border-[#dcd0c7] rounded-2xl p-3.5">
+          <summary class="cursor-pointer font-bold text-[#6e5849] hover:underline flex items-center gap-1.5">
+            <span class="material-symbols-outlined text-sm text-[#6e5849]">tune</span>
+            <span>Custom Overrides (Optional)</span>
+          </summary>
+          <div class="pt-3 space-y-3 border-t border-[#dcd0c7]/60 mt-2">
+            <p class="text-[10px] text-[#6e5849] italic">
+              💡 Defaults are automatically computed from NiMet meteorological baselines and topographical GIS data.
+            </p>
+            <div class="space-y-3">
+              <div>
+                <label class="block text-[10px] font-bold uppercase text-[#51443c]">Drainage Infrastructure</label>
+                <select id="drainage-select" onchange="document.getElementById('drainage').value=this.value; updateStepSummary();" class="w-full bg-[#fff8f5] border border-[#dcd0c7] rounded-xl px-3 py-2 text-xs font-semibold focus:outline-none focus:border-[#6e5849] mt-1">
+                  <option value="basic" selected>Basic Gutters / Open Ditches</option>
+                  <option value="none">None / Natural Earth Slope Runoff</option>
+                  <option value="moderate">Moderate Culverts</option>
+                  <option value="good">Engineered Canal Network</option>
+                </select>
+              </div>
+              <div>
+                <label class="block text-[10px] font-bold uppercase text-[#51443c]">Custom Rainfall Slider (mm)</label>
+                <div class="flex items-center gap-2 mt-1">
+                  <input type="range" min="10" max="700" value="230" step="10" class="w-full accent-[#6e5849]" oninput="document.getElementById('rainfall_mm').value=this.value; document.getElementById('display-rainfall').innerText=this.value+' mm / month'; updateStepSummary();"/>
+                </div>
+              </div>
+            </div>
+          </div>
+        </details>
+
+        <!-- SUBMIT VERDICT BUTTON (NO ARROW ICON) -->
+        <div class="pt-2 space-y-2">
+          <button type="button" onclick="submitAssessment()" class="w-full bg-[#6e5849] hover:bg-[#5c493c] text-white py-4 rounded-full font-extrabold text-xs sm:text-sm shadow-lg hover:shadow-xl transition-all flex items-center justify-center gap-2 border border-[#dcd0c7]/30 tracking-wide">
+            <span class="material-symbols-outlined text-base">task_alt</span>
+            <span>Calculate Flood Risk Verdict</span>
+          </button>
+
+          <button type="button" onclick="goToCard(3)" class="w-full bg-transparent hover:bg-[#f5ece7] text-[#51443c] py-2 rounded-full font-semibold text-xs transition-all flex items-center justify-center">
+            <span>Back to Soil Selection</span>
+          </button>
+        </div>
+
+      </div>
 
     </div>
   </main>
@@ -296,12 +439,12 @@
   <!-- ════════════════════════════════════
     FOOTER (DESKTOP ONLY)
   ════════════════════════════════════ -->
-  <footer class="hidden md:block bg-[#1a0e07] border-t border-[#8b5e3c]/30 text-[#d5c3b8] py-3.5 px-6">
+  <footer class="hidden md:block bg-[#1f1a17] border-t border-[#6e5849]/40 text-[#dcd0c7] py-3.5 px-6">
     <div class="max-w-7xl mx-auto flex items-center justify-between text-xs">
       <div class="flex items-center gap-2">
-        <div class="w-5 h-5 rounded bg-[#6f4627] flex items-center justify-center text-white font-black text-[10px]">P</div>
+        <div class="w-5 h-5 rounded bg-[#6e5849] flex items-center justify-center text-white font-black text-[10px]">P</div>
         <span class="font-extrabold text-white text-xs">Phense</span>
-        <span class="text-[#83746b] text-[11px]">| Community Flood Risk Classifier</span>
+        <span class="text-[#a3948b] text-[11px]">| Community Flood Risk Classifier</span>
       </div>
     </div>
   </footer>
@@ -309,22 +452,22 @@
   <!-- ════════════════════════════════════
     MOBILE FIXED BOTTOM NAVIGATION BAR
   ════════════════════════════════════ -->
-  <nav class="md:hidden fixed bottom-0 left-0 right-0 z-50 bg-[#fff8f5] border-t-2 border-[#d5c3b8] shadow-2xl flex justify-around items-center py-2 px-2">
-    <a href="/" class="flex flex-col items-center text-[#51443c] hover:text-[#6f4627] font-bold px-3 py-1 text-[10px]">
-      <span class="material-symbols-outlined text-lg">home</span>
-      <span>Home</span>
+  <nav class="md:hidden fixed bottom-0 left-0 right-0 z-50 bg-[#fff8f5]/95 backdrop-blur-md border-t border-[#d5c3b8] shadow-lg flex justify-around items-center py-1.5 px-3">
+    <a href="/" class="flex flex-col items-center justify-center text-[#51443c] hover:text-[#6e5849] font-semibold px-2.5 py-1 transition-colors gap-0.5">
+      <span class="material-symbols-outlined text-[19px]">home</span>
+      <span class="text-[10px] tracking-tight">Home</span>
     </a>
-    <a href="/assess" class="flex flex-col items-center text-[#6f4627] font-extrabold bg-[#ffe3d1] border border-[#6f4627]/30 px-3 py-1 rounded-xl text-[10px]">
-      <span class="material-symbols-outlined text-lg">analytics</span>
-      <span>Assess</span>
+    <a href="/assess" class="flex flex-col items-center justify-center text-[#6e5849] font-extrabold bg-[#f2e8e1] border border-[#6e5849]/30 px-3 py-1 rounded-xl gap-0.5 shadow-2xs">
+      <span class="material-symbols-outlined text-[19px]">analytics</span>
+      <span class="text-[10px] tracking-tight">Assess</span>
     </a>
-    <a href="/methodology" class="flex flex-col items-center text-[#51443c] hover:text-[#6f4627] font-bold px-3 py-1 text-[10px]">
-      <span class="material-symbols-outlined text-lg">science</span>
-      <span>Methodology</span>
+    <a href="/methodology" class="flex flex-col items-center justify-center text-[#51443c] hover:text-[#6e5849] font-semibold px-2.5 py-1 transition-colors gap-0.5">
+      <span class="material-symbols-outlined text-[19px]">science</span>
+      <span class="text-[10px] tracking-tight">Methodology</span>
     </a>
-    <a href="/about" class="flex flex-col items-center text-[#51443c] hover:text-[#6f4627] font-bold px-3 py-1 text-[10px]">
-      <span class="material-symbols-outlined text-lg">info</span>
-      <span>About</span>
+    <a href="/about" class="flex flex-col items-center justify-center text-[#51443c] hover:text-[#6e5849] font-semibold px-2.5 py-1 transition-colors gap-0.5">
+      <span class="material-symbols-outlined text-[19px]">info</span>
+      <span class="text-[10px] tracking-tight">About</span>
     </a>
   </nav>
 
@@ -332,10 +475,10 @@
     VISUAL SOIL IDENTIFICATION MODAL DIALOG
   ════════════════════════════════════ -->
   <div id="soil-modal" class="fixed inset-0 z-50 bg-black/60 backdrop-blur-xs flex items-center justify-center p-4 hidden">
-    <div class="bg-white rounded-2xl max-w-lg w-full p-5 sm:p-6 space-y-4 shadow-2xl border border-[#cbd5e1] max-h-[90vh] overflow-y-auto">
+    <div class="bg-white rounded-3xl max-w-lg w-full p-5 sm:p-6 space-y-4 shadow-2xl border border-[#cbd5e1] max-h-[90vh] overflow-y-auto">
       <div class="flex items-center justify-between border-b border-[#cbd5e1] pb-3">
         <div class="flex items-center gap-2">
-          <span class="material-symbols-outlined text-[#059669] text-xl">landscape</span>
+          <span class="material-symbols-outlined text-[#6e5849] text-xl">landscape</span>
           <h3 class="font-extrabold text-base text-[#0f172a]">Visual Soil Identification Guide</h3>
         </div>
         <button type="button" onclick="closeSoilModal()" class="text-slate-400 hover:text-slate-700 font-bold p-1">
@@ -348,7 +491,7 @@
       </p>
 
       <div class="space-y-3">
-        <div onclick="selectSoilFromModal('clay')" class="border-2 border-[#cbd5e1] hover:border-[#059669] rounded-xl p-3 flex gap-3 cursor-pointer hover:bg-[#d1fae5]/30 transition-all items-center">
+        <div onclick="selectSoilFromModal('clay')" class="border-2 border-[#cbd5e1] hover:border-[#6e5849] rounded-2xl p-3 flex gap-3 cursor-pointer hover:bg-[#f5ece7] transition-all items-center">
           <div class="w-16 h-16 rounded-xl overflow-hidden shrink-0 border border-black/10 shadow-xs relative">
             <img src="/images/soil_clay.png" alt="Clay Soil Structure" class="w-full h-full object-cover"/>
           </div>
@@ -361,7 +504,7 @@
           </div>
         </div>
 
-        <div onclick="selectSoilFromModal('sandy')" class="border-2 border-[#cbd5e1] hover:border-[#059669] rounded-xl p-3 flex gap-3 cursor-pointer hover:bg-[#d1fae5]/30 transition-all items-center">
+        <div onclick="selectSoilFromModal('sandy')" class="border-2 border-[#cbd5e1] hover:border-[#6e5849] rounded-2xl p-3 flex gap-3 cursor-pointer hover:bg-[#f5ece7] transition-all items-center">
           <div class="w-16 h-16 rounded-xl overflow-hidden shrink-0 border border-black/10 shadow-xs relative">
             <img src="/images/soil_sandy.png" alt="Sandy Soil Structure" class="w-full h-full object-cover"/>
           </div>
@@ -374,7 +517,7 @@
           </div>
         </div>
 
-        <div onclick="selectSoilFromModal('loamy')" class="border-2 border-[#cbd5e1] hover:border-[#059669] rounded-xl p-3 flex gap-3 cursor-pointer hover:bg-[#d1fae5]/30 transition-all items-center">
+        <div onclick="selectSoilFromModal('loamy')" class="border-2 border-[#cbd5e1] hover:border-[#6e5849] rounded-2xl p-3 flex gap-3 cursor-pointer hover:bg-[#f5ece7] transition-all items-center">
           <div class="w-16 h-16 rounded-xl overflow-hidden shrink-0 border border-black/10 shadow-xs relative">
             <img src="/images/soil_loamy.png" alt="Loamy Soil Structure" class="w-full h-full object-cover"/>
           </div>
@@ -387,7 +530,7 @@
           </div>
         </div>
 
-        <div onclick="selectSoilFromModal('silty')" class="border-2 border-[#cbd5e1] hover:border-[#059669] rounded-xl p-3 flex gap-3 cursor-pointer hover:bg-[#d1fae5]/30 transition-all items-center">
+        <div onclick="selectSoilFromModal('silty')" class="border-2 border-[#cbd5e1] hover:border-[#6e5849] rounded-2xl p-3 flex gap-3 cursor-pointer hover:bg-[#f5ece7] transition-all items-center">
           <div class="w-16 h-16 rounded-xl overflow-hidden shrink-0 border border-black/10 shadow-xs relative">
             <img src="/images/soil_silty.png" alt="Silty Soil Structure" class="w-full h-full object-cover"/>
           </div>
@@ -401,21 +544,75 @@
         </div>
       </div>
 
-      <button type="button" onclick="closeSoilModal()" class="w-full bg-[#f5ece7] hover:bg-[#e9e1dc] text-[#0f172a] py-2 rounded-xl text-xs font-extrabold transition-all">
+      <button type="button" onclick="closeSoilModal()" class="w-full bg-[#f5ece7] hover:bg-[#f2e8e1] text-[#0f172a] py-2.5 rounded-full text-xs font-extrabold transition-all">
         Close Guide
       </button>
     </div>
   </div>
 
   <script>
+    let currentCard = 1;
     let selectedSoil = 'clay';
     let selectedEnv = 'residential';
+    let hasCapturedGPS = false;
 
     function getApiBase() {
       if (window.phenseApiUrl) return window.phenseApiUrl;
       if (window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1') return '';
       if (window.location.origin.includes('phense-api')) return '';
       return 'https://phense-api.onrender.com';
+    }
+
+    function goToCard(cardNum) {
+      if (cardNum < 1 || cardNum > 4) return;
+
+      // Smart safeguard: Auto-trigger GPS capture if user clicks Continue on Card 1 before manually clicking Auto-Detect
+      if (currentCard === 1 && cardNum === 2 && !hasCapturedGPS) {
+        detectGPS();
+      }
+
+      currentCard = cardNum;
+
+      // Update Card visibility with pop animation
+      for (let i = 1; i <= 4; i++) {
+        const card = document.getElementById(`card-${i}`);
+        if (i === cardNum) {
+          card.classList.remove('hidden');
+          card.classList.add('active');
+        } else {
+          card.classList.add('hidden');
+          card.classList.remove('active');
+        }
+      }
+
+      // Update dots & step badge
+      for (let i = 1; i <= 4; i++) {
+        const dot = document.getElementById(`dot-${i}`);
+        if (i <= cardNum) {
+          dot.className = "w-2.5 h-2.5 rounded-full bg-[#6e5849]";
+        } else {
+          dot.className = "w-2.5 h-2.5 rounded-full bg-[#f2e8e1]";
+        }
+      }
+
+      document.getElementById('card-step-badge').innerText = `Step ${cardNum} of 4`;
+
+      if (cardNum === 4) {
+        updateStepSummary();
+      }
+
+      // Scroll smoothly to top of card container
+      document.getElementById('pop-card-wrapper').scrollIntoView({ behavior: 'smooth', block: 'center' });
+    }
+
+    function updateStepSummary() {
+      const locText = document.getElementById('display-location').innerText || 'Abeokuta North';
+      const rainVal = document.getElementById('rainfall_mm').value || '230';
+      
+      document.getElementById('sum-location').innerText = locText;
+      document.getElementById('sum-setting').innerText = selectedEnv === 'residential' ? 'Residential Area' : 'Farmland / Field';
+      document.getElementById('sum-soil').innerText = `${selectedSoil.toUpperCase()} SOIL`;
+      document.getElementById('sum-rainfall').innerText = `${rainVal} mm`;
     }
 
     function openSoilModal() {
@@ -439,16 +636,17 @@
       const farmBtn = document.getElementById('env-farm');
       
       if (envKey === 'residential') {
-        resBtn.className = "border-2 border-[#047857] bg-[#d1fae5]/40 rounded-xl p-2.5 text-left transition-all flex items-center gap-2";
-        farmBtn.className = "border-2 border-[#cbd5e1] hover:border-[#047857] rounded-xl p-2.5 text-left transition-all flex items-center gap-2";
+        resBtn.className = "border-2 border-[#6e5849] bg-[#e8dbd2] rounded-2xl p-4 text-left transition-all flex items-center gap-3";
+        farmBtn.className = "border-2 border-[#dcd0c7] hover:border-[#6e5849] rounded-2xl p-4 text-left transition-all flex items-center gap-3";
         document.getElementById('drainage-select').value = 'basic';
         document.getElementById('drainage').value = 'basic';
       } else {
-        farmBtn.className = "border-2 border-[#047857] bg-[#d1fae5]/40 rounded-xl p-2.5 text-left transition-all flex items-center gap-2";
-        resBtn.className = "border-2 border-[#cbd5e1] hover:border-[#047857] rounded-xl p-2.5 text-left transition-all flex items-center gap-2";
+        farmBtn.className = "border-2 border-[#6e5849] bg-[#e8dbd2] rounded-2xl p-4 text-left transition-all flex items-center gap-3";
+        resBtn.className = "border-2 border-[#dcd0c7] hover:border-[#6e5849] rounded-2xl p-4 text-left transition-all flex items-center gap-3";
         document.getElementById('drainage-select').value = 'none';
         document.getElementById('drainage').value = 'none';
       }
+      updateStepSummary();
     }
 
     function selectSoil(soilKey) {
@@ -460,11 +658,17 @@
           else el.classList.remove('selected');
         }
       });
+      updateStepSummary();
     }
 
     async function detectGPS() {
+      const gpsBtn = document.getElementById('btn-gps');
       const gpsText = document.getElementById('gps-text');
+      const gpsIcon = document.getElementById('gps-icon');
+      const reqBadge = document.getElementById('gps-required-badge');
+      
       gpsText.innerText = "Locating GPS position...";
+      gpsBtn.classList.remove('gps-cta-pulse');
 
       if (!("geolocation" in navigator)) {
         gpsText.innerText = "GPS Not Supported";
@@ -491,7 +695,6 @@
           return null;
         };
 
-        // Run independent fetches so one failure doesn't block the rest
         const [elevRes, rivRes, lgaRes, rainRes] = await Promise.all([
           fetchJson(`/api/elevation?lat=${lat}&lon=${lon}`),
           fetchJson(`/api/river-proximity?lat=${lat}&lon=${lon}`),
@@ -499,7 +702,6 @@
           fetchJson(`/api/rainfall?lat=${lat}&lon=${lon}&season=${season}`)
         ]);
 
-        // 1. Elevation Update
         let elev = (elevRes && elevRes.elevation_m !== undefined && elevRes.elevation_m > 0) 
           ? elevRes.elevation_m 
           : Math.max(12.0, Math.round((Math.abs(lat - 6.5) * 28.0 + Math.abs(lon - 3.5) * 15.0 + 20) * 10) / 10);
@@ -507,7 +709,6 @@
         document.getElementById('elevation_m').value = elev.toFixed(1);
         document.getElementById('display-elevation').innerText = `${elev.toFixed(1)} m ASL`;
 
-        // 2. River Distance Update
         let rivDist = (rivRes && rivRes.distance_km !== undefined) 
           ? rivRes.distance_km 
           : Math.max(0.5, Math.round((Math.abs(lat - 7.15) * 40 + Math.abs(lon - 3.35) * 30 + 1.2) * 10) / 10);
@@ -516,9 +717,8 @@
           : "Ogun River";
         
         document.getElementById('river_distance_km').value = rivDist.toFixed(1);
-        document.getElementById('display-river').innerText = `${rivDist.toFixed(1)} km (${rivName})`;
+        document.getElementById('display-river').innerText = `${rivDist.toFixed(1)} km`;
 
-        // 3. LGA & Location Update
         let stateVal = (lgaRes && lgaRes.state) ? lgaRes.state : "Ogun State";
         let lgaVal = (lgaRes && lgaRes.lga) ? lgaRes.lga : "Abeokuta North";
         let locLabel = (lgaRes && lgaRes.address) 
@@ -529,15 +729,24 @@
         document.getElementById('lga').value = lgaVal;
         document.getElementById('display-location').innerText = locLabel;
 
-        // 4. Rainfall Update
         let rainVal = (rainRes && rainRes.rainfall_mm !== undefined) 
           ? rainRes.rainfall_mm 
           : (season === 'wet' ? 240 : 60);
         
         document.getElementById('rainfall_mm').value = rainVal;
-        document.getElementById('display-rainfall').innerText = `${rainVal} mm / month`;
+        document.getElementById('display-rainfall').innerText = `${rainVal} mm/mo`;
 
-        gpsText.innerText = `Captured: ${lgaVal} (${lat.toFixed(2)}°, ${lon.toFixed(2)}°)`;
+        // Mark as captured & transform to Green Verified state
+        hasCapturedGPS = true;
+        gpsText.innerText = `✓ GPS Location Verified: ${lgaVal}`;
+        if (gpsIcon) gpsIcon.innerText = "check_circle";
+        gpsBtn.className = "w-full bg-emerald-700 hover:bg-emerald-800 border-2 border-emerald-700 text-white py-3 px-4 rounded-2xl transition-all shadow-md flex items-center justify-center gap-2 font-extrabold text-xs sm:text-sm";
+        
+        if (reqBadge) {
+          reqBadge.innerHTML = `<span class="w-2 h-2 rounded-full bg-emerald-500"></span><span class="text-emerald-700 font-extrabold">✓ Location Verified</span>`;
+        }
+
+        updateStepSummary();
       }, () => {
         gpsText.innerText = "GPS Permission Denied — Default Active";
       }, { enableHighAccuracy: true, timeout: 8000 });

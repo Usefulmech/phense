@@ -16,15 +16,15 @@
       theme: {
         extend: {
           colors: {
-            "primary":"#6f4627","on-primary":"#ffffff","primary-container":"#8b5e3c",
-            "on-primary-container":"#ffe3d1","secondary":"#7c5639","on-secondary":"#ffffff",
+            "primary":"#6e5849","on-primary":"#ffffff","primary-container":"#5c493c",
+            "on-primary-container":"#f2e8e1","secondary":"#6e5849","on-secondary":"#ffffff",
             "tertiary":"#614c2d","surface":"#fff8f5","surface-container":"#f5ece7",
             "surface-container-low":"#fbf2ed","surface-container-high":"#efe6e2",
             "surface-container-highest":"#e9e1dc","surface-dim":"#e1d8d4",
             "background":"#fff8f5","on-background":"#1e1b18","on-surface":"#1e1b18",
             "on-surface-variant":"#51443c","outline":"#83746b","outline-variant":"#d5c3b8",
             "inverse-surface":"#34302c","inverse-on-surface":"#f8efea",
-            "inverse-primary":"#f4bb92","surface-tint":"#805533",
+            "inverse-primary":"#f4bb92","surface-tint":"#6e5849",
             "primary-fixed":"#ffdcc5","primary-fixed-dim":"#f4bb92",
             "secondary-container":"#fecaa5","error":"#ba1a1a"
           },
@@ -43,15 +43,15 @@
 
     /* Real-Life Flood Hero Background */
     #hero {
-      min-height: calc(100vh - 3.5rem);
-      background: linear-gradient(180deg, rgba(15, 23, 42, 0.30) 0%, rgba(10, 15, 29, 0.65) 100%), url('/images/flood_hero_bg.png') center/cover no-repeat;
+      min-height: calc(82vh - 3.5rem);
+      background: linear-gradient(180deg, rgba(15, 23, 42, 0.40) 0%, rgba(10, 15, 29, 0.75) 100%), url('/images/flood_hero_bg.png') center/cover no-repeat;
       position: relative;
       overflow: hidden;
       display: flex; flex-direction: column;
-      align-items: center; justify-content: flex-start;
-      border-bottom: 3px solid #8b5e3c;
-      padding-top: 1rem;
-      padding-bottom: 2.5rem;
+      align-items: center; justify-content: center;
+      border-bottom: 3px solid #5c493c;
+      padding-top: 1.75rem;
+      padding-bottom: 2.25rem;
     }
     @media (min-width: 768px) {
       #hero {
@@ -91,13 +91,13 @@
       transition: border-color 0.2s, box-shadow 0.2s, transform 0.2s;
     }
     .feat-card:hover {
-      border-color: #6f4627;
-      box-shadow: 0 6px 20px rgba(111,70,39,0.15);
+      border-color: #6e5849;
+      box-shadow: 0 6px 20px rgba(110,88,73,0.15);
       transform: translateY(-2px);
     }
   </style>
 </head>
-<body class="bg-background text-on-background min-h-screen flex flex-col justify-between pb-16 md:pb-0">
+<body class="bg-background text-on-background min-h-screen flex flex-col justify-between pb-12 md:pb-0">
 
   <!-- ════════════════════════════════════
     STANDARDIZED DESKTOP TOP NAV
@@ -105,24 +105,24 @@
   <nav class="sticky top-0 z-50 bg-[#fff8f5]/95 backdrop-blur-md border-b border-[#d5c3b8] shadow-sm">
     <div class="max-w-7xl mx-auto px-5 md:px-8 h-14 flex items-center justify-between">
       <a href="/" class="flex items-center gap-2 text-decoration-none group w-44">
-        <div class="w-8 h-8 rounded-lg bg-[#6f4627] flex items-center justify-center text-white font-black text-lg tracking-tighter shadow-sm group-hover:bg-[#8b5e3c] transition-colors">
+        <div class="w-8 h-8 rounded-lg bg-[#6e5849] flex items-center justify-center text-white font-black text-lg tracking-tighter shadow-sm group-hover:bg-[#5c493c] transition-colors">
           P
         </div>
         <div class="flex flex-col">
           <span class="font-extrabold text-base leading-none tracking-tight text-[#1e1b18]">Phense</span>
-          <span class="text-[9px] font-bold text-[#805533] uppercase tracking-wider">AI Flood Classifier</span>
+          <span class="text-[9px] font-bold text-[#6e5849] uppercase tracking-wider">AI Flood Classifier</span>
         </div>
       </a>
 
       <div class="hidden md:flex items-center gap-8 text-xs font-bold text-[#51443c]">
-        <a href="/" class="text-[#6f4627] border-b-2 border-[#6f4627] pb-0.5">Home</a>
-        <a href="/assess" class="hover:text-[#6f4627] transition-colors">Assess Risk</a>
-        <a href="/methodology" class="hover:text-[#6f4627] transition-colors">Methodology</a>
-        <a href="/about" class="hover:text-[#6f4627] transition-colors">About</a>
+        <a href="/" class="text-[#6e5849] border-b-2 border-[#6e5849] pb-0.5">Home</a>
+        <a href="/assess" class="hover:text-[#6e5849] transition-colors">Assess Risk</a>
+        <a href="/methodology" class="hover:text-[#6e5849] transition-colors">Methodology</a>
+        <a href="/about" class="hover:text-[#6e5849] transition-colors">About</a>
       </div>
 
       <div class="flex items-center justify-end w-44">
-        <a href="/assess" class="hidden sm:inline-flex bg-[#6f4627] hover:bg-[#8b5e3c] text-white px-4 py-2 rounded-xl text-xs font-extrabold shadow-md transition-all border border-[#ffe3d1]/30">
+        <a href="/assess" class="hidden sm:inline-flex bg-[#6e5849] hover:bg-[#5c493c] text-white px-4 py-2 rounded-full text-xs font-extrabold shadow-md transition-all border border-[#d5c3b8]/30">
           <span>Assess Risk</span>
         </a>
       </div>
@@ -144,12 +144,12 @@
       </svg>
     </div>
 
-    <div class="max-w-5xl mx-auto text-center space-y-4 sm:space-y-6 relative z-10 w-full">
+    <div class="max-w-5xl mx-auto text-center space-y-5 sm:space-y-6 relative z-10 w-full">
 
       <!-- Top Badge -->
-      <div class="inline-flex items-center gap-2 bg-slate-900/85 backdrop-blur-md border border-[#ffe3d1]/30 px-3.5 py-1.5 rounded-full shadow-lg">
+      <div class="inline-flex items-center gap-2 bg-slate-900/85 backdrop-blur-md border border-[#f2e8e1]/30 px-3.5 py-1.5 rounded-full shadow-lg">
         <span class="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
-        <span class="text-[10px] sm:text-xs font-bold text-[#ffe3d1] uppercase tracking-widest">
+        <span class="text-[10px] sm:text-xs font-bold text-[#f2e8e1] uppercase tracking-widest">
           Live NiMet & Topo GIS Intelligence
         </span>
       </div>
@@ -166,25 +166,25 @@
 
       <!-- 4 Stats / Feature Cards Grid -->
       <div class="grid grid-cols-2 md:grid-cols-4 gap-2.5 sm:gap-4 max-w-4xl mx-auto text-left pt-1">
-        <div class="bg-slate-900/65 backdrop-blur-md border border-[#ffe3d1]/20 p-3 sm:p-4 rounded-xl sm:rounded-2xl shadow-xl hover:bg-slate-900/80 transition-all">
+        <div class="bg-slate-900/65 backdrop-blur-md border border-[#f2e8e1]/20 p-3 sm:p-4 rounded-xl sm:rounded-2xl shadow-xl hover:bg-slate-900/80 transition-all">
           <p class="text-[9px] sm:text-[10px] uppercase tracking-wider text-[#f4bb92] font-bold flex items-center gap-1">
             <span class="material-symbols-outlined text-xs">verified</span> Model Accuracy
           </p>
           <p class="text-lg sm:text-2xl font-black text-white mt-0.5 sm:mt-1">82.4%</p>
         </div>
-        <div class="bg-slate-900/65 backdrop-blur-md border border-[#ffe3d1]/20 p-3 sm:p-4 rounded-xl sm:rounded-2xl shadow-xl hover:bg-slate-900/80 transition-all">
+        <div class="bg-slate-900/65 backdrop-blur-md border border-[#f2e8e1]/20 p-3 sm:p-4 rounded-xl sm:rounded-2xl shadow-xl hover:bg-slate-900/80 transition-all">
           <p class="text-[9px] sm:text-[10px] uppercase tracking-wider text-[#f4bb92] font-bold flex items-center gap-1">
             <span class="material-symbols-outlined text-xs">analytics</span> Risk Factors
           </p>
           <p class="text-lg sm:text-2xl font-black text-white mt-0.5 sm:mt-1 whitespace-nowrap">5 Composite</p>
         </div>
-        <div class="bg-slate-900/65 backdrop-blur-md border border-[#ffe3d1]/20 p-3 sm:p-4 rounded-xl sm:rounded-2xl shadow-xl hover:bg-slate-900/80 transition-all">
+        <div class="bg-slate-900/65 backdrop-blur-md border border-[#f2e8e1]/20 p-3 sm:p-4 rounded-xl sm:rounded-2xl shadow-xl hover:bg-slate-900/80 transition-all">
           <p class="text-[9px] sm:text-[10px] uppercase tracking-wider text-[#f4bb92] font-bold flex items-center gap-1">
             <span class="material-symbols-outlined text-xs">database</span> Data Baselines
           </p>
           <p class="text-lg sm:text-2xl font-black text-white mt-0.5 sm:mt-1">NiMet / SRTM</p>
         </div>
-        <div class="bg-slate-900/65 backdrop-blur-md border border-[#ffe3d1]/20 p-3 sm:p-4 rounded-xl sm:rounded-2xl shadow-xl hover:bg-slate-900/80 transition-all">
+        <div class="bg-slate-900/65 backdrop-blur-md border border-[#f2e8e1]/20 p-3 sm:p-4 rounded-xl sm:rounded-2xl shadow-xl hover:bg-slate-900/80 transition-all">
           <p class="text-[9px] sm:text-[10px] uppercase tracking-wider text-[#f4bb92] font-bold flex items-center gap-1">
             <span class="material-symbols-outlined text-xs">map</span> GIS Coverage
           </p>
@@ -192,14 +192,10 @@
         </div>
       </div>
 
-      <!-- SLEEK COMPACT START ASSESSMENT BUTTON (NO ARROW) -->
-      <div class="flex flex-col items-center justify-center pt-4 sm:pt-6 w-full">
-        <a href="/assess" class="group relative inline-flex items-center justify-center gap-2.5 bg-gradient-to-r from-[#6f4627] via-[#8b5e3c] to-[#7c5639] hover:from-[#8b5e3c] hover:to-[#6f4627] text-white px-7 py-3 sm:px-9 sm:py-3.5 rounded-xl font-extrabold text-sm sm:text-base shadow-xl shadow-black/60 hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-0.5 border border-[#ffe3d1]/40">
-          <span class="relative flex h-2.5 w-2.5">
-            <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-[#f4bb92] opacity-75"></span>
-            <span class="relative inline-flex rounded-full h-2.5 w-2.5 bg-[#ffe3d1]"></span>
-          </span>
-          <span class="tracking-wide">Start Assessment</span>
+      <!-- ROUND STYLED START ASSESSMENT BUTTON -->
+      <div class="flex flex-col items-center justify-center pt-2 sm:pt-4 w-full">
+        <a href="/assess" class="inline-flex items-center justify-center bg-[#6e5849] hover:bg-[#5c493c] text-white px-8 py-3.5 sm:px-10 sm:py-4 rounded-full font-extrabold text-sm sm:text-base shadow-lg hover:shadow-xl transition-all duration-200 border border-[#d5c3b8]/30 tracking-wide">
+          Start Assessment
         </a>
       </div>
 
@@ -211,7 +207,7 @@
   ════════════════════════════════════ -->
   <main class="max-w-7xl mx-auto px-5 md:px-8 py-8 space-y-8">
     <div class="text-center max-w-2xl mx-auto space-y-1">
-      <span class="text-[11px] font-bold uppercase tracking-widest text-[#805533]">Composite Environmental Risk</span>
+      <span class="text-[11px] font-bold uppercase tracking-widest text-[#6e5849]">Composite Environmental Risk</span>
       <h2 class="text-xl sm:text-2xl font-extrabold text-[#1e1b18]">Multi-Factor Analysis</h2>
       <p class="text-xs text-[#51443c] leading-relaxed">
         Flooding occurs when rainfall triggers converge with topography, river distance, soil type, and drainage bottlenecks.
@@ -220,7 +216,7 @@
 
     <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
       <div class="feat-card space-y-2">
-        <div class="w-9 h-9 rounded-xl bg-[#ffe3d1] flex items-center justify-center text-[#6f4627] font-bold">
+        <div class="w-9 h-9 rounded-xl bg-[#f2e8e1] flex items-center justify-center text-[#6e5849] font-bold">
           <span class="material-symbols-outlined text-xl">rainy</span>
         </div>
         <h3 class="text-sm font-bold text-[#1e1b18]">Monthly Rainfall</h3>
@@ -230,7 +226,7 @@
       </div>
 
       <div class="feat-card space-y-2">
-        <div class="w-9 h-9 rounded-xl bg-[#ffe3d1] flex items-center justify-center text-[#6f4627] font-bold">
+        <div class="w-9 h-9 rounded-xl bg-[#f2e8e1] flex items-center justify-center text-[#6e5849] font-bold">
           <span class="material-symbols-outlined text-xl">landscape</span>
         </div>
         <h3 class="text-sm font-bold text-[#1e1b18]">Terrain Elevation</h3>
@@ -240,7 +236,7 @@
       </div>
 
       <div class="feat-card space-y-2">
-        <div class="w-9 h-9 rounded-xl bg-[#ffe3d1] flex items-center justify-center text-[#6f4627] font-bold">
+        <div class="w-9 h-9 rounded-xl bg-[#f2e8e1] flex items-center justify-center text-[#6e5849] font-bold">
           <span class="material-symbols-outlined text-xl">water_drop</span>
         </div>
         <h3 class="text-sm font-bold text-[#1e1b18]">River Proximity</h3>
@@ -250,7 +246,7 @@
       </div>
 
       <div class="feat-card space-y-2">
-        <div class="w-9 h-9 rounded-xl bg-[#ffe3d1] flex items-center justify-center text-[#6f4627] font-bold">
+        <div class="w-9 h-9 rounded-xl bg-[#f2e8e1] flex items-center justify-center text-[#6e5849] font-bold">
           <span class="material-symbols-outlined text-xl">grass</span>
         </div>
         <h3 class="text-sm font-bold text-[#1e1b18]">Soil Retention</h3>
@@ -260,7 +256,7 @@
       </div>
 
       <div class="feat-card space-y-2">
-        <div class="w-9 h-9 rounded-xl bg-[#ffe3d1] flex items-center justify-center text-[#6f4627] font-bold">
+        <div class="w-9 h-9 rounded-xl bg-[#f2e8e1] flex items-center justify-center text-[#6e5849] font-bold">
           <span class="material-symbols-outlined text-xl">foundation</span>
         </div>
         <h3 class="text-sm font-bold text-[#1e1b18]">Drainage Infrastructure</h3>
@@ -270,7 +266,7 @@
       </div>
 
       <div class="feat-card space-y-2">
-        <div class="w-9 h-9 rounded-xl bg-[#ffe3d1] flex items-center justify-center text-[#6f4627] font-bold">
+        <div class="w-9 h-9 rounded-xl bg-[#f2e8e1] flex items-center justify-center text-[#6e5849] font-bold">
           <span class="material-symbols-outlined text-xl">psychology</span>
         </div>
         <h3 class="text-sm font-bold text-[#1e1b18]">Random Forest ML</h3>
@@ -284,10 +280,10 @@
   <!-- ════════════════════════════════════
     FOOTER (DESKTOP ONLY)
   ════════════════════════════════════ -->
-  <footer class="hidden md:block bg-[#1a0e07] border-t border-[#8b5e3c]/30 text-[#d5c3b8] py-3.5 px-6">
+  <footer class="hidden md:block bg-[#1a0e07] border-t border-[#5c493c]/30 text-[#d5c3b8] py-3.5 px-6">
     <div class="max-w-7xl mx-auto flex items-center justify-between text-xs">
       <div class="flex items-center gap-2">
-        <div class="w-5 h-5 rounded bg-[#6f4627] flex items-center justify-center text-white font-black text-[10px]">P</div>
+        <div class="w-5 h-5 rounded bg-[#6e5849] flex items-center justify-center text-white font-black text-[10px]">P</div>
         <span class="font-extrabold text-white text-xs">Phense</span>
         <span class="text-[#83746b] text-[11px]">| AI Flood Risk Classifier</span>
       </div>
@@ -299,25 +295,25 @@
     </div>
   </footer>
 
-  <!-- ════════════════════════════════════
+    <!-- ════════════════════════════════════
     MOBILE FIXED BOTTOM NAVIGATION BAR
   ════════════════════════════════════ -->
-  <nav class="md:hidden fixed bottom-0 left-0 right-0 z-50 bg-[#fff8f5] border-t-2 border-[#d5c3b8] shadow-2xl flex justify-around items-center py-2 px-2">
-    <a href="/" class="flex flex-col items-center text-[#6f4627] font-extrabold bg-[#ffe3d1] border border-[#6f4627]/30 px-3 py-1 rounded-xl text-[10px]">
-      <span class="material-symbols-outlined text-lg">home</span>
-      <span>Home</span>
+  <nav class="md:hidden fixed bottom-0 left-0 right-0 z-50 bg-[#fff8f5]/95 backdrop-blur-md border-t border-[#d5c3b8] shadow-lg flex justify-around items-center py-1.5 px-3">
+    <a href="/" class="flex flex-col items-center justify-center text-[#6e5849] font-extrabold bg-[#f2e8e1] border border-[#6e5849]/30 px-3 py-1 rounded-xl gap-0.5 shadow-2xs">
+      <span class="material-symbols-outlined text-[19px]">home</span>
+      <span class="text-[10px] tracking-tight">Home</span>
     </a>
-    <a href="/assess" class="flex flex-col items-center text-[#51443c] hover:text-[#6f4627] font-bold px-3 py-1 text-[10px]">
-      <span class="material-symbols-outlined text-lg">analytics</span>
-      <span>Assess</span>
+    <a href="/assess" class="flex flex-col items-center justify-center text-[#51443c] hover:text-[#6e5849] font-semibold px-2.5 py-1 transition-colors gap-0.5">
+      <span class="material-symbols-outlined text-[19px]">analytics</span>
+      <span class="text-[10px] tracking-tight">Assess</span>
     </a>
-    <a href="/methodology" class="flex flex-col items-center text-[#51443c] hover:text-[#6f4627] font-bold px-3 py-1 text-[10px]">
-      <span class="material-symbols-outlined text-lg">science</span>
-      <span>Methodology</span>
+    <a href="/methodology" class="flex flex-col items-center justify-center text-[#51443c] hover:text-[#6e5849] font-semibold px-2.5 py-1 transition-colors gap-0.5">
+      <span class="material-symbols-outlined text-[19px]">science</span>
+      <span class="text-[10px] tracking-tight">Methodology</span>
     </a>
-    <a href="/about" class="flex flex-col items-center text-[#51443c] hover:text-[#6f4627] font-bold px-3 py-1 text-[10px]">
-      <span class="material-symbols-outlined text-lg">info</span>
-      <span>About</span>
+    <a href="/about" class="flex flex-col items-center justify-center text-[#51443c] hover:text-[#6e5849] font-semibold px-2.5 py-1 transition-colors gap-0.5">
+      <span class="material-symbols-outlined text-[19px]">info</span>
+      <span class="text-[10px] tracking-tight">About</span>
     </a>
   </nav>
 
